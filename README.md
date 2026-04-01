@@ -8,7 +8,7 @@ This repo is a living collection of insights, deep dives, and practical wisdom o
 
 | Topic | Description |
 |-------|-------------|
-| [Claude Code Open Source](./claude-code-open-source/) | Architecture analysis and source code insights from the Claude Code codebase |
+| [Claude Code Open Source](./claude-code-open-source/) | Architecture analysis, complete prompt extraction, and source code insights from the Claude Code codebase |
 
 ## Why This Exists
 

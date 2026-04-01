@@ -4,6 +4,20 @@
 
 ![](https://pbs.twimg.com/media/HEuxqN-aQAAYjQJ?format=jpg&name=large)
 
+## Table of Contents
+
+1. [CLAUDE.md is loaded every single turn](#1-claudemd-is-loaded-every-single-turn-every-single-turn)
+2. [Subagents share the prompt cache](#2-subagents-share-the-prompt-cache-parallelism-is-basically-free)
+3. [The permission system is designed to be configured](#3-the-permission-system-is-designed-to-be-configured-not-clicked-through)
+4. [There are 5 compaction strategies](#4-there-are-5-compaction-strategies-context-pressure-is-a-real-problem)
+5. [The hook system is the real extension API](#5-the-hook-system-is-the-real-extension-api-25-lifecycle-events)
+6. [Sessions are persistent and resumable](#6-sessions-are-persistent-and-resumable-stop-starting-fresh)
+7. [The tool system runs 60+ tools with smart batching](#7-the-tool-system-runs-60-tools-with-smart-batching)
+8. [The streaming architecture means interruption is cheap](#8-the-streaming-architecture-means-interruption-is-cheap)
+9. [The retry system is more sophisticated than u think](#9-the-retry-system-is-more-sophisticated-than-u-think)
+
+---
+
 ## i read through the claude code source code so u dont have to.
 
 most people open claude code, type a prompt, wait for the response, type another prompt.

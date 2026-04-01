@@ -4,6 +4,22 @@
 
 ![](https://pbs.twimg.com/media/HEywLGCakAAp_rQ?format=jpg&name=large)
 
+## Table of Contents
+
+1. [The entry point is ruthlessly optimized for speed](#1-the-entry-point-is-ruthlessly-optimized-for-speed)
+2. [They built a custom terminal renderer from scratch](#2-they-built-a-custom-terminal-renderer-from-scratch)
+3. [The conversation loop is an async generator state machine](#3-the-conversation-loop-is-an-async-generator-state-machine)
+4. [Tool execution has smart concurrency](#4-tool-execution-has-smart-concurrency)
+5. [The permission system is a multi-layer race](#5-the-permission-system-is-a-multi-layer-race)
+6. [Context management has 5 compression strategies](#6-context-management-has-5-compression-strategies)
+7. [The system prompt is split into cacheable and dynamic sections](#7-the-system-prompt-is-split-into-cacheable-and-dynamic-sections)
+8. [Subagents are designed for cache sharing](#8-subagents-are-designed-for-cache-sharing)
+9. [The hook system makes it extensible without forking](#9-the-hook-system-makes-it-extensible-without-forking)
+10. [Everything is persistent and resumable](#10-everything-is-persistent-and-resumable)
+11. [The bigger picture](#the-bigger-picture)
+
+---
+
 ## i studied the architecture of claude code so u dont have to
 
 not how to USE it. how its BUILT.
@@ -97,6 +113,8 @@ serial batch — mutating tools (edits, writes, bash) run sequentially
 each tool goes through: input validation (Zod) → pre-hooks → permission check → execution → post-hooks → result truncation
 
 what u can steal: if ur AI product uses tools, think about concurrency. read operations can parallelize safely. write operations need ordering. most AI products run everything serially and its unnecessarily slow. also: validate inputs with a schema. truncate outputs. ur model doesnt need a 50KB file in its context when 8KB would do.
+
+# 
 
 5\. the permission system is a multi-layer race
 

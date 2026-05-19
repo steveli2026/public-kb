@@ -175,21 +175,35 @@
 }
 .imgslot-v.on { border-color:var(--cinnabar); box-shadow:0 0 0 2px rgba(178,58,47,.3); }
 
-/* 左侧画面 —— 图位与编辑器靠左下 */
+/* 左侧画面：三段节奏（缩略图｜header｜图位）—— 图位左下，但留出呼吸 */
+.map-header {
+  flex: 0 0 auto;
+  display:flex; align-items:baseline; justify-content:space-between; gap:1rem;
+  padding: .65rem 1.2rem .75rem;
+  border-bottom: 1px solid rgba(60,48,30,.14);
+  font-family: var(--font-sans); color: var(--ink-soft);
+}
+.map-header .era { font-family: var(--font-serif); font-size: var(--step-1); color: var(--ink); letter-spacing:.05em; }
+.map-header .yr  { color: var(--cinnabar); font-variant-numeric:tabular-nums; font-size: var(--step--1); letter-spacing:.06em; }
+.map-header .powers { font-size: var(--step--1); text-align:right; line-height:1.45; max-width:60%; color: var(--ink-soft); }
+
 .mapstage {
   flex:1 1 auto; min-height:0;
-  display:flex; align-items:flex-end; justify-content:flex-start;
-  padding:.8rem 1.2rem 4.5rem;     /* 底部留位给 .map-caption */
+  display:flex; align-items:flex-start; justify-content:flex-start;
+  padding: 1.4rem 1.4rem 1.6rem;
   overflow-y:auto;
 }
-.mapstage-slot { max-width:100%; width:min(420px, 100%); margin:0; }
-.mapstage-slot .imgslot-fig { box-shadow:var(--shadow-soft); }
-.mapstage-slot .imgslot-ed { max-width:420px; }
+.mapstage-slot {
+  width: 100%;
+  max-width: min(100%, 600px);
+  margin: 0;          /* 左对齐 */
+}
+.mapstage-slot .imgslot-fig { box-shadow: var(--shadow-soft); }
 @media (max-width:860px){ .mapstage{ padding:.6rem; } .mapstage-slot .imgslot-ed{ display:none; } }
 
 /* —— 缩略图导航（Sublime "你在这里"） —— */
 .minimap {
-  flex: 0 0 38vh; min-height: 0;
+  flex: 0 0 30vh; min-height: 0;
   display:flex; flex-direction:column;
   padding: .6rem .8rem .4rem;
   border-bottom: 1px solid rgba(60,48,30,.18);

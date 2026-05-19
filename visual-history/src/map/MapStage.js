@@ -11,14 +11,15 @@ export class MapStage {
   }
 
   render() {
+    // 顺序：Minimap(已由 app.js 在前面挂上) → header → 图位（左下大块）
+    const cap = document.createElement("div");
+    cap.className = "map-header";
+    cap.innerHTML = `<div><div class="era" id="cap-era">中国历史长卷</div><div class="yr" id="cap-yr">三皇五帝 → 1949</div></div><div class="powers" id="cap-powers">向下滚动，长卷展开</div>`;
     this.stage = document.createElement("div");
     this.stage.className = "mapstage";
-    const cap = document.createElement("div");
-    cap.className = "map-caption";
-    cap.innerHTML = `<div><div class="era" id="cap-era">中国历史长卷</div><div class="yr" id="cap-yr">三皇五帝 → 1949</div></div><div class="powers" id="cap-powers">向下滚动，长卷展开</div>`;
-    this.container.append(this.stage, cap);
+    this.container.append(cap, this.stage);
     this.cap = cap;
-    this._mount("map"); // 初始：整体底图
+    this._mount("map");
   }
 
   _mount(slotId) {

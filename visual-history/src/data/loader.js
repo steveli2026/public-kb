@@ -8,15 +8,16 @@ async function j(path) {
 }
 
 export async function loadAll() {
-  const [erasD, regimesD, peopleD, eventsD, baseGeo, snaps] = await Promise.all([
+  const [erasD, regimesD, peopleD, eventsD, mapsD, baseGeo, snaps] = await Promise.all([
     j("eras.json"), j("regimes.json"), j("people.json"),
-    j("events.json"), j("geo/base-china.json"), j("geo/snapshots.json"),
+    j("events.json"), j("maps.json"), j("geo/base-china.json"), j("geo/snapshots.json"),
   ]);
 
   const eras = erasD.eras;
   const regimes = index(regimesD.regimes);
   const people = index(peopleD.people);
   const events = index(eventsD.events);
+  const maps = index(mapsD.maps, "eraId");
   const snapshots = snaps.snapshots;
 
   // 双向人物关系图
@@ -33,10 +34,11 @@ export async function loadAll() {
 
   const db = {
     eras, snapshots, baseGeo,
-    regimes, people, events,
+    regimes, people, events, maps,
     regime: (id) => regimes.get(id),
     person: (id) => people.get(id),
     event: (id) => events.get(id),
+    eraMap: (id) => maps.get(id),
     entity(id) { return people.get(id) || events.get(id) || regimes.get(id) || null; },
     entityKind(id) {
       if (people.has(id)) return "person";
@@ -58,9 +60,9 @@ export async function loadAll() {
   return db;
 }
 
-function index(arr) {
+function index(arr, key = "id") {
   const m = new Map();
-  for (const it of arr) m.set(it.id, it);
+  for (const it of arr) m.set(it[key], it);
   return m;
 }
 
@@ -106,6 +108,13 @@ function validate(db) {
     (era.keyPersonIds || []).forEach((p) => !has("person", p) && out.push(`era「${era.id}」引用未知人物 person:${p}`));
     (era.keyEventIds || []).forEach((e) => !has("event", e) && out.push(`era「${era.id}」引用未知事件 event:${e}`));
     if (era.snapshot && !db.snapshots[era.snapshot]) out.push(`era「${era.id}」引用未知快照 snapshot:${era.snapshot}`);
+  }
+  for (const map of db.maps.values()) {
+    if (!db.eras.some((e) => e.id === map.eraId)) out.push(`地图「${map.title || map.src}」引用未知 era:${map.eraId}`);
+    if (!map.src) out.push(`地图「${map.eraId}」缺少 src`);
+    if (!map.sourceUrl) out.push(`地图「${map.eraId}」缺少 sourceUrl`);
+    if (!map.license) out.push(`地图「${map.eraId}」缺少 license`);
+    if (!map.attribution) out.push(`地图「${map.eraId}」缺少 attribution`);
   }
   for (const [sid, list] of Object.entries(db.snapshots)) {
     const cellIds = new Set(db.baseGeo.cells.map((c) => c.id));

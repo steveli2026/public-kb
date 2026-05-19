@@ -9,12 +9,14 @@ const [eras, regimes, people, events, base, snaps] = await Promise.all([
   rd("eras.json"), rd("regimes.json"), rd("people.json"),
   rd("events.json"), rd("geo/base-china.json"), rd("geo/snapshots.json"),
 ]);
+const maps = await rd("maps.json");
 
 const R = new Set(regimes.regimes.map((x) => x.id));
 const P = new Set(people.people.map((x) => x.id));
 const E = new Set(events.events.map((x) => x.id));
 const C = new Set(base.cells.map((x) => x.id));
 const S = new Set(Object.keys(snaps.snapshots));
+const A = new Set(eras.eras.map((x) => x.id));
 const problems = [];
 const chk = (cond, msg) => !cond && problems.push(msg);
 
@@ -38,10 +40,17 @@ for (const r of regimes.regimes) {
   (r.relatedEventIds || []).forEach((v) => chk(E.has(v), `regime ${r.id} → 未知 event:${v}`));
   chk(!r.founderPersonId || P.has(r.founderPersonId), `regime ${r.id} → 未知 founder:${r.founderPersonId}`);
 }
+for (const m of maps.maps) {
+  chk(A.has(m.eraId), `map ${m.title || m.src} → 未知 era:${m.eraId}`);
+  chk(!!m.src, `map ${m.eraId} → 缺少 src`);
+  chk(!!m.sourceUrl, `map ${m.eraId} → 缺少 sourceUrl`);
+  chk(!!m.license, `map ${m.eraId} → 缺少 license`);
+  chk(!!m.attribution, `map ${m.eraId} → 缺少 attribution`);
+}
 
 // 覆盖度报告
 const noSnap = eras.eras.filter((e) => !e.snapshot);
-console.log(`时期 ${eras.eras.length} · 政权 ${R.size} · 人物 ${P.size} · 事件 ${E.size} · 快照 ${S.size} · cell ${C.size}`);
+console.log(`时期 ${eras.eras.length} · 政权 ${R.size} · 人物 ${P.size} · 事件 ${E.size} · 地图 ${maps.maps.length} · 快照 ${S.size} · cell ${C.size}`);
 if (noSnap.length) console.log("（无快照，将回退默认）:", noSnap.map((e) => e.id).join(", ") || "无");
 
 if (problems.length) {

@@ -65,6 +65,9 @@ export class RightRail {
 
   _renderEraBody(era) {
     this.body.innerHTML = "";
+    const map = era ? this.db.eraMap(era.id) : null;
+    if (map) this.body.append(this._mapCard(map));
+
     const slotId = era ? `era:${era.id}` : "map";
     this.body.append(ImageSlot(slotId, { aspect: "3 / 2", className: "rr-art" }));
     if (era?.tags?.length) {
@@ -73,6 +76,31 @@ export class RightRail {
       row.innerHTML = era.tags.map((t) => `<span class="era-tag">${t}</span>`).join("");
       this.body.append(row);
     }
+  }
+
+  _mapCard(map) {
+    const fig = document.createElement("figure");
+    fig.className = "era-map";
+
+    const img = document.createElement("img");
+    img.src = map.src;
+    img.alt = map.title || "朝代地图";
+    img.loading = "lazy";
+    fig.append(img);
+
+    const cap = document.createElement("figcaption");
+    const title = document.createElement("b");
+    title.textContent = map.title || "朝代地图";
+    const text = document.createElement("span");
+    text.textContent = map.caption ? ` ${map.caption}` : "";
+    const source = document.createElement("a");
+    source.href = map.sourceUrl;
+    source.target = "_blank";
+    source.rel = "noreferrer";
+    source.textContent = `${map.attribution || "Source"} · ${map.license || "license"}`;
+    cap.append(title, text, source);
+    fig.append(cap);
+    return fig;
   }
 
   _renderEntityHead(id) {

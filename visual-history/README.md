@@ -21,6 +21,7 @@ npm run validate     # 数据交叉引用完整性校验
 | `src/timeline/Spine.js` | 滚动脊柱 + IntersectionObserver 联动地图 |
 | `src/detail/DetailPanel.js` | 详情抽屉，交叉链可点跳转 |
 | `data/*.json` | 内容数据（见下） |
+| `data/maps.json` `assets/maps/` | 朝代独立地图、本地文件、来源与 license attribution |
 | `tools/geo-author.html` | 描多边形/导出 cell，渐进精修地图 |
 
 ## 数据模型（渐进填充）
@@ -29,6 +30,7 @@ npm run validate     # 数据交叉引用完整性校验
 - `regimes.json` `people.json` `events.json` — 政权 / 人物 / 事件；`people.relations` 即人物互链图（双向解析）
 - `geo/base-china.json` — 风格化区域 `cell`（非精确地理）
 - `geo/snapshots.json` — 每时期把 `cell` 指派给政权 → 着色渐变即「疆域演变」
+- `maps.json` — 每个时期可绑定独立地图，必须保留 `sourceUrl` / `attribution` / `license`
 - `art-manifest.json` — AI 配图占位（填 `src` 即自动显示）
 
 **加内容**：编辑对应 JSON；id 交叉引用自动成链。`npm run validate` 守护完整性。

@@ -1,0 +1,55 @@
+{
+  "_note": "Era map registry. src is relative to the site root. Keep attribution/license/sourceUrl with every downloaded map.",
+  "maps": [
+    {
+      "eraId": "xia",
+      "title": "夏朝活动区域示意",
+      "caption": "维基共享资源上的夏朝活动区域图，适合作为早期国家范围的暂用参考。",
+      "src": "assets/maps/xia-dynasty.svg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xia_dynasty.svg",
+      "attribution": "Lamassu Design / Gurdjieff, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "eraId": "shang",
+      "title": "商朝范围示意",
+      "caption": "基于《竹书纪年》相关传统绘制的商朝地图，先作为商代右栏地图。",
+      "src": "assets/maps/shang-dynasty.svg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shang_dynasty.svg",
+      "attribution": "Lamassu Design / Gurdjieff, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "eraId": "western-zhou",
+      "title": "西周地理与封国",
+      "caption": "西周时期华北平原、王畿、封国和考古点示意。",
+      "src": "assets/maps/western-zhou-geography.svg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Zhou_geography.svg",
+      "attribution": "Kanguole, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0 / GFDL",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "eraId": "chunqiu",
+      "title": "春秋末期中原格局",
+      "caption": "约前 5 世纪的中原诸侯分布，位于春秋末与战国初的转换点。",
+      "src": "assets/maps/spring-autumn-5c-bc.svg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_plain_5c._BC-en.svg",
+      "attribution": "Hugo Lopez / Yug, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "eraId": "zhanguo",
+      "title": "战国七雄地图",
+      "caption": "约前 260 年战国七雄政治地图，中文标注版。",
+      "src": "assets/maps/warring-states-zh.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ZH-%E6%88%98%E5%9B%BD%E4%B8%83%E9%9B%84%E5%9C%B0%E5%9B%BE.jpg",
+      "attribution": "Philg88, via Wikimedia Commons",
+      "license": "CC BY 3.0 / GFDL",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ]
+}

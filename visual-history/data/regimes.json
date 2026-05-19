@@ -2,7 +2,7 @@
   "_note": "政权/国/势力。color 为地图填色；capital[x,y] 在 base-china viewBox 坐标系内。snapshots.json 通过把 cell 指派给 regimeId 来表现疆域。",
   "regimes": [
     { "id": "legend-huaxia", "name": "华夏部族", "color": "#9a8b66", "capital": [600, 450], "summary": "这里的『华夏部族』不是一个有边界、官僚和都城的国家，而是后世把黄河中游诸多传说记忆折叠成的文明源头。它的疆域只是想象中的『天下之中』，核心价值却很清楚：共同祖先、共同礼俗、共同的治水与农耕经验。全卷从这里开始，是为了提示读者：历史在成为档案之前，先是人们解释自身来处的故事。", "relatedPersonIds": ["huangdi", "yao", "shun", "yu"], "relatedEventIds": ["zhuolu", "dayu-zhishui"] },
-    { "id": "xia", "name": "夏", "color": "var(--c-xia)", "capital": [595, 455], "founderPersonId": "qi", "summary": "中国第一个世袭王朝，势力局促于中原一隅。", "relatedEventIds": ["dayu-zhishui", "mingtiao"] },
+    { "id": "xia", "name": "夏", "color": "var(--c-xia)", "capital": [595, 455], "founderPersonId": "qi", "summary": "夏是文献中的第一个世袭王朝，也是本项目从传说走向早期国家的桥。它大致被放在黄河中游，以二里头文化作为常被讨论的考古参照；政权形态仍带有部族联盟痕迹，却已经出现都邑、礼器、等级和王室继承。夏的兴亡给后世提供了两个模板：家天下如何开始，以及暴君失德如何被新王朝取代。", "relatedPersonIds": ["qi", "jie", "tang"], "relatedEventIds": ["dayu-zhishui", "mingtiao"] },
     { "id": "shang", "name": "商", "color": "var(--c-shang)", "capital": [615, 425], "founderPersonId": "tang", "summary": "青铜与甲骨文的王朝，崇鬼好战，疆域及于黄河中下游。", "relatedEventIds": ["pangeng-qianyin", "muye"] },
     { "id": "western-zhou", "name": "西周", "color": "var(--c-zhou)", "capital": [488, 430], "founderPersonId": "zhou-wu", "summary": "分封宗法礼乐之邦，以血缘维系松散的天下之网。", "relatedEventIds": ["muye", "quanrong-poxihao"] },
 

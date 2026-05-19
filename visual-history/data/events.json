@@ -3,7 +3,7 @@
   "events": [
     { "id": "zhuolu", "title": "涿鹿之战", "year": -2600, "narrative": "涿鹿之战属于传说史层面的记忆：黄帝与炎帝部族联合，对抗以蚩尤为首的东方势力。故事里有风后、指南车、浓雾与兵器神话，真正重要的不是战场细节，而是它解释了『华夏』如何从多部族竞争走向共同祖先叙事。胜利后的黄帝被推为联盟中心，文明开篇由此有了一个可被讲述的主角。", "involvedPersonIds": ["huangdi"] },
     { "id": "dayu-zhishui", "title": "大禹治水", "year": -2100, "narrative": "大禹治水把洪水神话、早期水利经验和政治合法性缝在一起。鲧用堵塞失败，禹改用疏导，沿山川入海开通水路，十三年奔走在外，『三过家门而不入』成为公义压倒私情的原型。治水成功使禹拥有超越部族的威望，也让权力从贤能推举逐渐转向家族继承，为夏的出现铺路。", "involvedPersonIds": ["yu"] },
-    { "id": "mingtiao", "title": "鸣条之战", "year": -1600, "narrative": "商汤伐桀，夏亡商兴——王朝更替剧本的首演。", "involvedPersonIds": ["tang", "jie"] },
+    { "id": "mingtiao", "title": "鸣条之战", "year": -1600, "narrative": "鸣条之战是夏商更替的核心场景。传统说法中，夏桀失去民心与诸侯，商汤以讨暴救民为名进攻，最终击溃夏军。它未必能还原为一场清晰可考的战役，却确立了中国王朝政治最重要的叙事公式：末代君主失德，天命转移，新兴势力用军事胜利证明自己有资格重建秩序。", "involvedPersonIds": ["tang", "jie"] },
     { "id": "pangeng-qianyin", "title": "盘庚迁殷", "year": -1300, "narrative": "屡迁之后定都于殷，商由动荡转入鼎盛，甲骨文大兴。" },
     { "id": "muye", "title": "牧野之战", "year": -1046, "narrative": "商军前徒倒戈，纣王自焚，周代商——『天命』观由此而生。", "involvedPersonIds": ["zhou-wu", "zhouwang", "jiangziya"] },
     { "id": "zhougong-zhili", "title": "周公制礼作乐", "year": -1040, "narrative": "一套礼乐宗法，规定了中国此后三千年的伦理秩序。", "involvedPersonIds": ["zhougong"] },

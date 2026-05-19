@@ -3,6 +3,7 @@
 
 # Local agent/runtime state
 .omx/
+.playwright-mcp/
 
 # Media files
 *.mp4

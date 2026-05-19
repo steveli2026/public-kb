@@ -1,44 +1,32 @@
-// 详情抽屉：人物 / 事件 / 政权；交叉链可点跳转（黄巢 ↔ 朱温）
+// 实体详情渲染：人物 / 事件 / 政权。
+// 由 RightRail 等容器宿主，自身不再管开关/抽屉。交叉链（黄巢↔朱温）保留。
 import { linkify } from "../data/loader.js";
 import { ImageSlot } from "../imageslot/ImageSlot.js";
 
 export class DetailPanel {
-  constructor(db, hooks) {
+  constructor(db, target, hooks = {}) {
     this.db = db;
-    this.hooks = hooks; // { onNavigate(id), onClose() }
-    this.drawer = document.getElementById("drawer");
-    this.scrim = document.getElementById("scrim");
-    this.scrim.addEventListener("click", () => this.close());
-    document.addEventListener("keydown", (e) => { if (e.key === "Escape") this.close(); });
+    this.target = target;            // 任意 host 容器；由调用方提供
+    this.hooks = hooks;              // { onNavigate(id), onClose() }
+    this.current = null;
   }
 
-  open(id) {
+  render(id) {
     const kind = this.db.entityKind(id);
     if (!kind) return;
-    this.drawer.innerHTML = "";
-    this.drawer.append(this._closeBtn());
+    this.target.innerHTML = "";
     if (kind === "person") this._person(id);
     else if (kind === "event") this._event(id);
     else if (kind === "regime") this._regime(id);
-    this.drawer.classList.add("open");
-    this.scrim.classList.add("open");
-    this.drawer.scrollTop = 0;
+    this.target.scrollTop = 0;
     this.current = id;
     this.hooks.onNavigate?.(id);
   }
 
-  close() {
-    this.drawer.classList.remove("open");
-    this.scrim.classList.remove("open");
+  clear() {
+    this.target.innerHTML = "";
     this.current = null;
     this.hooks.onClose?.();
-  }
-
-  _closeBtn() {
-    const b = document.createElement("button");
-    b.className = "close"; b.textContent = "✕"; b.setAttribute("aria-label", "关闭");
-    b.addEventListener("click", () => this.close());
-    return b;
   }
 
   _head(kicker, title, meta) {
@@ -61,13 +49,13 @@ export class DetailPanel {
   }
 
   _art(id) {
-    const kind = this.db.entityKind(id); // person | event | regime
+    const kind = this.db.entityKind(id);
     const aspect = kind === "person" ? "3 / 4" : "3 / 2";
     return ImageSlot(`${kind}:${id}`, { aspect, className: "detail-art" });
   }
 
   go(id) {
-    if (this.db.entityKind(id)) this.open(id);
+    if (this.db.entityKind(id)) this.render(id);
   }
 
   _relList(items) {
@@ -94,10 +82,10 @@ export class DetailPanel {
 
   _person(id) {
     const p = this.db.person(id);
-    this.drawer.append(this._head("人物", p.name, [p.life, p.role].filter(Boolean).join(" · ")));
-    this.drawer.append(this._art(id));
-    this.drawer.append(this._section("生平"));
-    this.drawer.append(this._para(p.bio || "（详情待补充）"));
+    this.target.append(this._head("人物", p.name, [p.life, p.role].filter(Boolean).join(" · ")));
+    this.target.append(this._art(id));
+    this.target.append(this._section("生平"));
+    this.target.append(this._para(p.bio || "（详情待补充）"));
 
     const rels = [];
     for (const r of p.relations || []) {
@@ -109,37 +97,36 @@ export class DetailPanel {
       if (o) rels.push({ id: o.id, name: o.name, type: "↩ " + r.type, note: r.note });
     }
     if (rels.length) {
-      this.drawer.append(this._section("人物关联"));
-      this.drawer.append(this._relList(rels));
+      this.target.append(this._section("人物关联"));
+      this.target.append(this._relList(rels));
     }
 
-    // 相关事件
     const evs = [...this.db.events.values()].filter((e) => (e.involvedPersonIds || []).includes(id));
     if (evs.length) {
-      this.drawer.append(this._section("相关事件"));
-      this.drawer.append(this._relList(evs.map((e) => ({ id: e.id, name: e.title, type: fmtYear(e.year) }))));
+      this.target.append(this._section("相关事件"));
+      this.target.append(this._relList(evs.map((e) => ({ id: e.id, name: e.title, type: fmtYear(e.year) }))));
     }
   }
 
   _event(id) {
     const e = this.db.event(id);
-    this.drawer.append(this._head("事件", e.title, fmtYear(e.year)));
-    this.drawer.append(this._art(id));
-    this.drawer.append(this._section("始末"));
-    this.drawer.append(this._para(e.narrative || "（详情待补充）"));
+    this.target.append(this._head("事件", e.title, fmtYear(e.year)));
+    this.target.append(this._art(id));
+    this.target.append(this._section("始末"));
+    this.target.append(this._para(e.narrative || "（详情待补充）"));
     const ppl = (e.involvedPersonIds || []).map((pid) => this.db.person(pid)).filter(Boolean);
     if (ppl.length) {
-      this.drawer.append(this._section("关涉人物"));
-      this.drawer.append(this._relList(ppl.map((p) => ({ id: p.id, name: p.name, type: p.role || "" }))));
+      this.target.append(this._section("关涉人物"));
+      this.target.append(this._relList(ppl.map((p) => ({ id: p.id, name: p.name, type: p.role || "" }))));
     }
   }
 
   _regime(id) {
     const r = this.db.regime(id);
-    this.drawer.append(this._head("政权 / 国", r.name, ""));
-    this.drawer.append(this._art(id));
-    this.drawer.append(this._section("概述"));
-    this.drawer.append(this._para(r.summary || "（详情待补充）"));
+    this.target.append(this._head("政权 / 国", r.name, ""));
+    this.target.append(this._art(id));
+    this.target.append(this._section("概述"));
+    this.target.append(this._para(r.summary || "（详情待补充）"));
     const links = [];
     if (r.founderPersonId) {
       const f = this.db.person(r.founderPersonId);
@@ -150,13 +137,13 @@ export class DetailPanel {
       if (p) links.push({ id: p.id, name: p.name, type: "关键人物" });
     }
     if (links.length) {
-      this.drawer.append(this._section("关键人物"));
-      this.drawer.append(this._relList(links));
+      this.target.append(this._section("关键人物"));
+      this.target.append(this._relList(links));
     }
     const evs = (r.relatedEventIds || []).map((eid) => this.db.event(eid)).filter(Boolean);
     if (evs.length) {
-      this.drawer.append(this._section("相关事件"));
-      this.drawer.append(this._relList(evs.map((e) => ({ id: e.id, name: e.title, type: fmtYear(e.year) }))));
+      this.target.append(this._section("相关事件"));
+      this.target.append(this._relList(evs.map((e) => ({ id: e.id, name: e.title, type: fmtYear(e.year) }))));
     }
   }
 }

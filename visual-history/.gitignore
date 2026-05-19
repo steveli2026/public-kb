@@ -2,7 +2,7 @@
 .env
 .env.*
 node_modules/
-vh-*.jpeg
+vh*.jpeg
 *.log
 .playwright-mcp/
 .vercel/

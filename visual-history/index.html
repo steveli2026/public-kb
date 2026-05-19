@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>中国历史长卷 · 三皇五帝 → 1949</title>
 <meta name="description" content="一卷可滚动的中国通史：地图随时代演变，人物与事件以故事相连。">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="8" fill="%23b23a2f"/><text x="32" y="43" font-size="34" text-anchor="middle" fill="%23fff">史</text></svg>'>
 <link rel="stylesheet" href="styles/tokens.css">
 <link rel="stylesheet" href="styles/layout.css">
 <link rel="stylesheet" href="styles/components.css">
@@ -13,13 +14,12 @@
   <div class="progress" aria-hidden="true"><i></i></div>
 
   <main class="stage">
-    <aside class="map-pane" id="map-pane" aria-label="历史疆域地图"></aside>
-    <section class="spine" id="spine" aria-label="中国历史时间线"></section>
+    <aside class="left-rail"  id="left-rail"  aria-label="时间线缩略图"></aside>
+    <section class="spine"    id="spine"      aria-label="中国历史叙事"></section>
+    <aside class="right-rail" id="right-rail" aria-label="配图与详情"></aside>
   </main>
 
   <div class="tooltip" id="tooltip" role="status" aria-live="polite"></div>
-  <div class="drawer-scrim" id="scrim"></div>
-  <aside class="drawer" id="drawer" aria-label="详情" role="dialog" aria-modal="true"></aside>
 
   <script src="vendor/flubber.min.js"></script>
   <script type="module" src="src/app.js"></script>

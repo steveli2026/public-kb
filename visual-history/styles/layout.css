@@ -1,5 +1,5 @@
 /* ============================================================
-   布局 — 左侧常驻地图 + 右侧滚动叙事脊柱
+   布局 — 三栏：缩略时间线 · 叙事脊柱 · 配图/详情
    ============================================================ */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -16,32 +16,30 @@ body {
 
 .stage {
   display: grid;
-  grid-template-columns: 46fr 54fr;
+  grid-template-columns: 220px 1fr 380px;
   min-height: 100vh;
 }
 
-/* 左：地图面板（Minimap 在上、字幕居中、图位与编辑器在左下） */
-.map-pane {
+.left-rail,
+.right-rail {
   position: sticky;
   top: 0;
   height: 100vh;
   overflow: hidden;
-  border-right: 1px solid rgba(60, 48, 30, .25);
   display: flex;
   flex-direction: column;
   background:
-    radial-gradient(120% 90% at 50% 45%, #e7d9bb 0%, #d8c6a1 60%, #c8b489 100%);
-  box-shadow: inset 0 0 140px rgba(60, 44, 24, .4);
+    radial-gradient(120% 90% at 50% 0%, #f0e5cb 0%, #e3d4af 65%, #d1bf91 100%);
 }
-.map-pane .map-svg { max-height: 100vh; }
+.left-rail  { border-right: 1px solid rgba(60, 48, 30, .22); }
+.right-rail { border-left:  1px solid rgba(60, 48, 30, .22); overflow-y: auto; }
 
-/* 右：叙事脊柱 */
 .spine {
   position: relative;
-  padding: 0 clamp(1.2rem, 4vw, 5rem);
+  padding: 0 clamp(1.4rem, 2.6vw, 3.2rem);
 }
 
-/* 入场长卷封面 */
+/* 入场封面 */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -60,7 +58,7 @@ body {
   scroll-margin-top: 0;
 }
 
-/* 进度 / 朝代浮标 */
+/* 进度浮标 */
 .progress {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -76,14 +74,11 @@ body {
   transition: width 120ms linear;
 }
 
-/* 移动端：地图收为可切换顶栏 */
-@media (max-width: 860px) {
+/* < 1100px：单列堆叠（左栏顶部短缩略图，中叙事，右栏跟随其后） */
+@media (max-width: 1100px) {
   .stage { grid-template-columns: 1fr; }
-  .map-pane {
-    position: sticky; top: 0; height: 42vh;
-    border-right: none; border-bottom: 1px solid rgba(60,48,30,.25);
-    z-index: 30;
-  }
-  .spine { padding: 0 1.1rem; }
+  .left-rail  { position: sticky; top: 0; height: 32vh; }
+  .right-rail { position: relative; height: auto; border-left: 0; border-top: 1px solid rgba(60,48,30,.22); }
+  .spine { padding: 0 clamp(1rem, 4vw, 2rem); }
   .era-section { min-height: 80vh; }
 }

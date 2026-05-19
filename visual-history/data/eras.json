@@ -1,0 +1,245 @@
+{
+  "_note": "按维基『中国历史系列条目』层级编码的完整时间轴。每个 era 是一个滚动区块；summary 故事化，story 用 [[id]] 串联实体（loader 解析为可点链接）。年代为公元，公元前取负。",
+  "eras": [
+    {
+      "id": "sanhuang", "name": "三皇五帝 · 传说时代", "kicker": "史前 · 神话与信史之间",
+      "start": -2700, "end": -2070, "years": "约前 27 世纪 — 前 2070",
+      "color": "var(--c-other)", "snapshot": "sanhuang",
+      "tags": ["燧人·伏羲·神农", "黄帝·颛顼·帝喾·尧·舜", "禅让"],
+      "summary": "文字未兴，记忆靠口耳与传说。燧人取火、伏羲画卦、神农尝百草；黄帝战蚩尤于涿鹿，被尊为人文初祖。尧舜以贤相让，禅让是后世一再回望的政治理想——直到大禹治水成功，权力第一次没有让给贤者，而是传给了儿子。",
+      "story": "故事的扣环已经埋下：[[shun]] 把天下让给治水的 [[yu]]，[[yu]] 却把天下传给了儿子 [[qi]]——传说时代就此终结，『家天下』开始。",
+      "regimeIds": ["legend-huaxia"], "keyPersonIds": ["huangdi", "yao", "shun", "yu"], "keyEventIds": ["zhuolu", "dayu-zhishui"]
+    },
+    {
+      "id": "xia", "name": "夏", "kicker": "上古 · 家天下之始",
+      "start": -2070, "end": -1600, "years": "约前 2070 — 前 1600",
+      "color": "var(--c-xia)", "snapshot": "xia",
+      "tags": ["二里头文化", "家天下", "太康失国", "夏桀亡国"],
+      "summary": "禹传子启，公天下变为家天下，中国第一个世袭王朝由此而立。夏盘踞中原一隅，势力出不了今天的河南、晋南。末代夏桀荒暴，商汤起于东方，鸣条一战，夏亡——王朝更替的剧本第一次上演，往后三千年不断重演。",
+      "story": "[[qi]] 开世袭之先，[[jie]] 收亡国之局。商人首领 [[tang]] 在 [[mingtiao]] 击溃夏桀——『汤武革命』成为后世一切改朝换代的最高辩词。",
+      "regimeIds": ["xia"], "keyPersonIds": ["qi", "jie", "tang"], "keyEventIds": ["mingtiao"]
+    },
+    {
+      "id": "shang", "name": "商", "kicker": "上古 · 青铜与甲骨",
+      "start": -1600, "end": -1046, "years": "约前 1600 — 前 1046",
+      "color": "var(--c-shang)", "snapshot": "shang",
+      "tags": ["甲骨文", "青铜礼器", "盘庚迁殷", "武丁中兴", "牧野之战"],
+      "summary": "商是第一个有同时代文字（甲骨文）可证的王朝。它崇鬼好战，频繁迁都，盘庚定殷后稳定下来，武丁时国势鼎盛。末王帝辛（纣）酗酒用刑、远征东夷耗尽国力，西方小邦周趁虚而入。",
+      "story": "牧野阵前，商军倒戈。[[zhouwang]] 自焚于鹿台，[[zhou-wu]] 取而代之——又一次天命转移。周人需要一套说法解释自己为何配得天下，于是有了影响中国两千年的观念：『天命』。",
+      "regimeIds": ["shang"], "keyPersonIds": ["wuding", "zhouwang", "zhou-wu", "jiangziya"], "keyEventIds": ["pangeng-qianyin", "muye"]
+    },
+    {
+      "id": "western-zhou", "name": "西周", "kicker": "周 · 封建与礼乐",
+      "start": -1046, "end": -771, "years": "前 1046 — 前 771",
+      "color": "var(--c-zhou)", "snapshot": "western-zhou",
+      "tags": ["分封制", "宗法·礼乐", "周公制礼", "国人暴动", "烽火戏诸侯"],
+      "summary": "周武王克商后，把同姓子弟与功臣分封各地，以血缘和礼乐维系一张松散的天下之网。周公东征、制礼作乐，奠定了此后三千年的伦理底色。但分封的代价是离心：诸侯日强，王室日衰。",
+      "story": "周幽王为博褒姒一笑，[[fenghuo-xinuo]]，烽火戏诸侯，狼来时再无人赴援。犬戎破镐京，幽王死，平王东迁洛邑——天下还在『周』，但周天子从此只是名义上的共主。",
+      "regimeIds": ["western-zhou"], "keyPersonIds": ["zhou-wu", "zhougong", "youwang"], "keyEventIds": ["zhougong-zhili", "guoren-baodong", "quanrong-poxihao"]
+    },
+    {
+      "id": "chunqiu", "name": "春秋", "kicker": "东周 · 礼崩乐坏",
+      "start": -770, "end": -476, "years": "前 770 — 前 476",
+      "color": "var(--c-zhou)", "snapshot": "chunqiu",
+      "tags": ["五霸", "尊王攘夷", "百家先声", "孔子"],
+      "summary": "周室东迁后名存实亡，诸侯各自为政。齐桓、晋文打出『尊王攘夷』的旗号轮流称霸，礼乐还在嘴上，刀兵已在手中。孔子周游列国，想用『仁』把崩坏的秩序重新缝起来——他没成功，却为中国人立下了一套做人的标尺。",
+      "story": "霸主们仍要假借周天子之名——名分还值钱。但当 [[confucius]] 慨叹『八佾舞于庭，是可忍孰不可忍』时，旧秩序其实已无可挽回。",
+      "regimeIds": ["state-jin", "state-qi", "state-chu", "state-qin", "state-yan", "state-wuyue"],
+      "keyPersonIds": ["qihuan", "jinwen", "confucius", "laozi"], "keyEventIds": ["zunwang-rangyi"]
+    },
+    {
+      "id": "zhanguo", "name": "战国", "kicker": "东周 · 七雄逐鹿",
+      "start": -475, "end": -221, "years": "前 475 — 前 221",
+      "color": "var(--c-zhou)", "snapshot": "zhanguo",
+      "tags": ["战国七雄", "百家争鸣", "商鞅变法", "合纵连横", "长平之战"],
+      "summary": "礼的遮羞布彻底撕掉，七国比的是耕战与吏治。秦用商鞅变法，把整个国家改造成一架战争机器；东方六国合纵抗秦、又被连横拆散。长平一战赵卒四十万被坑，天平彻底倒向秦。",
+      "story": "[[shangyang]] 立木为信、严刑峻法，把秦变成最高效的战争国家——他本人最终被自己设计的酷法车裂。一百年后，他打造的机器碾过六国。变法者死，变法不死。",
+      "regimeIds": ["state-qin", "state-chu", "state-qi", "state-zhao", "state-wei", "state-han", "state-yan"],
+      "keyPersonIds": ["shangyang", "sumin-zhang", "baiqi", "zhao-kuo"], "keyEventIds": ["shangyang-bianfa", "changping"]
+    },
+    {
+      "id": "qin", "name": "秦", "kicker": "大一统 · 第一帝国",
+      "start": -221, "end": -207, "years": "前 221 — 前 207",
+      "color": "var(--c-qin)", "snapshot": "qin",
+      "tags": ["皇帝", "郡县制", "书同文·车同轨", "焚书坑儒", "陈胜吴广"],
+      "summary": "秦王政十年灭六国，自称『始皇帝』，废分封行郡县，统一文字、度量、车轨。这套中央集权的制度框架，此后两千年只换皇帝不换骨架。但严刑厚赋激起民变，二世而亡——它建立了帝国，却没学会维持帝国。",
+      "story": "『天下苦秦久矣。』戍卒 [[chensheng]] 大泽乡振臂，喊出那句『王侯将相宁有种乎』。最强的帝国，亡于最底层的一句反问。",
+      "regimeIds": ["qin"], "keyPersonIds": ["qinshihuang", "lisi", "chensheng", "xiangyu", "liubang"], "keyEventIds": ["qin-tongyi", "fenshu-kengru", "daze-qiyi"]
+    },
+    {
+      "id": "chuhan", "name": "楚汉相争", "kicker": "秦汉之际 · 四年逐鹿",
+      "start": -206, "end": -202, "years": "前 206 — 前 202",
+      "color": "var(--c-wu)", "snapshot": "chuhan",
+      "tags": ["鸿门宴", "暗度陈仓", "垓下之围", "霸王别姬"],
+      "summary": "秦亡，西楚霸王项羽与汉王刘邦相争四年。项羽勇冠天下却刚愎，刘邦无赖却能用人——韩信、张良、萧何皆为其所用。垓下一战，四面楚歌，项羽自刎乌江，刘邦得天下。这是『将将之才胜过将兵之勇』的千古教材。",
+      "story": "鸿门宴上 [[xiangyu]] 不忍杀 [[liubang]]，一念之差，放虎归山；[[hanxin]] 暗度陈仓、十面埋伏，把战神逼到乌江边。『力拔山兮气盖世』，敌不过『大风起兮云飞扬』。",
+      "regimeIds": ["xichu", "han-wang"], "keyPersonIds": ["xiangyu", "liubang", "hanxin", "zhangliang", "xiaohe", "yuji"], "keyEventIds": ["hongmen-yan", "gaixia"]
+    },
+    {
+      "id": "western-han", "name": "西汉 · 新莽", "kicker": "汉 · 帝国成型",
+      "start": -202, "end": 25, "years": "前 202 — 公元 25",
+      "color": "var(--c-han)", "snapshot": "western-han",
+      "tags": ["文景之治", "汉武盛世", "张骞凿空", "罢黜百家", "王莽篡汉"],
+      "summary": "刘邦立汉，与民休息；文景之治积累国力，汉武帝一朝外击匈奴、内罢百家独尊儒术、张骞通西域，把『汉』铸成一个民族的名字。盛极而衰，外戚王莽代汉建『新』，托古改制全面失败，赤眉绿林并起。",
+      "story": "[[zhangqian]] 十三年凿空，丝路自此而通。而 [[wangmang]] 想用周礼治天下，结果天下大乱——『复古』第一次被证明也是一种激进。",
+      "regimeIds": ["western-han", "xin"], "keyPersonIds": ["liubang", "hanwu", "zhangqian", "simaqian", "wangmang"], "keyEventIds": ["wenjing-zhizhi", "zhangqian-tongxiyu", "wangmang-cuanhan"]
+    },
+    {
+      "id": "eastern-han", "name": "东汉", "kicker": "汉 · 中兴与崩解",
+      "start": 25, "end": 220, "years": "公元 25 — 220",
+      "color": "var(--c-han)", "snapshot": "eastern-han",
+      "tags": ["光武中兴", "外戚宦官", "党锢之祸", "黄巾起义", "群雄割据"],
+      "summary": "刘秀重建汉室，光武中兴，蔡伦造纸、班超经营西域。然而东汉中后期外戚与宦官轮流专权，士人遭党锢之祸。黄巾一呼天下乱，朝廷令地方自募兵讨贼——豪强坐大，帝国名存实亡，三国的火种已经点燃。",
+      "story": "为平 [[huangjin-qiyi]]，朝廷放权地方。曹操、刘备、孙坚皆借此起家——中央为续命而饮鸩，喝下的正是分裂的毒酒。",
+      "regimeIds": ["eastern-han"], "keyPersonIds": ["liuxiu", "caiLun", "banchao", "caocao", "liubei", "sunjian"], "keyEventIds": ["guangwu-zhongxing", "huangjin-qiyi"]
+    },
+    {
+      "id": "sanguo", "name": "三国", "kicker": "分裂 · 魏蜀吴鼎立",
+      "start": 220, "end": 280, "years": "220 — 280",
+      "color": "var(--c-wei)", "snapshot": "sanguo",
+      "tags": ["官渡之战", "赤壁之战", "三分天下", "出师未捷", "三家归晋"],
+      "summary": "曹操官渡破袁绍统一北方，赤壁一炬被孙刘联军逼回江北，天下三分之势就此定型：曹魏据中原、蜀汉守巴蜀、孙吴有江东。诸葛亮六出祁山而星落五丈原，最终魏权臣司马氏渔翁得利，三家归晋。",
+      "story": "[[zhugeliang]]『鞠躬尽瘁』也补不了国力的差距；[[caocao]] 挟天子，[[simayi]] 学曹操——魏代汉的剧本，被司马氏原样用来代魏。算尽天下，算不过制度的惯性。",
+      "regimeIds": ["caowei", "shuhan", "sunwu"], "keyPersonIds": ["caocao", "liubei", "sunquan", "zhugeliang", "simayi", "guanyu"], "keyEventIds": ["guandu", "chibi", "wuzhangyuan"]
+    },
+    {
+      "id": "western-jin", "name": "西晋", "kicker": "短暂一统 · 旋即崩塌",
+      "start": 266, "end": 316, "years": "266 — 316",
+      "color": "var(--c-jin)", "snapshot": "western-jin",
+      "tags": ["三家归晋", "八王之乱", "五胡内迁", "永嘉之乱", "衣冠南渡"],
+      "summary": "司马炎代魏立晋，280 年灭吴，天下重归一统——可惜只有三十余年。宗室『八王之乱』自相残杀，内迁的匈奴、鲜卑、羯、氐、羌趁势而起，永嘉之乱中洛阳、长安相继陷落，西晋亡，士族纷纷南渡。",
+      "story": "晋武帝大封宗室以为屏藩，结果屏藩自相残杀（[[bawang-zhiluan]]）；惠帝『何不食肉糜』。盛世的种子，竟亲手种下乱世。",
+      "regimeIds": ["western-jin"], "keyPersonIds": ["simayan", "huidi", "liuyuan"], "keyEventIds": ["sanjia-guijin", "bawang-zhiluan", "yongjia-zhiluan"]
+    },
+    {
+      "id": "shiliuguo", "name": "东晋 · 十六国", "kicker": "大分裂 · 南渡与北乱（描述较少的乱世）",
+      "start": 317, "end": 420, "years": "317 — 420",
+      "color": "var(--c-jin)", "snapshot": "shiliuguo",
+      "tags": ["衣冠南渡", "十六国", "王与马共天下", "淝水之战", "祖逖北伐"],
+      "summary": "司马睿在江南重建晋室（东晋），靠的是侨姓士族，『王与马，共天下』。北方则是匈奴、鲜卑、羯、氐、羌轮番建国的『五胡十六国』——百年间二十余个政权走马灯。前秦苻坚一度统一北方，欲一举吞晋。",
+      "story": "淝水之战，[[fujian]] 八十万大军被东晋八万北府兵击溃，『风声鹤唳、草木皆兵』。一场仗，决定了南北朝对峙的格局——也是『描述较少』却分量极重的转折。",
+      "regimeIds": ["eastern-jin", "qianqin", "shiliu-misc"], "keyPersonIds": ["simarui", "wangdao", "fujian", "xiexuan", "zuti"], "keyEventIds": ["yiguan-nandu", "feishui"]
+    },
+    {
+      "id": "nanbeichao", "name": "南北朝", "kicker": "大分裂 · 南北对峙",
+      "start": 420, "end": 589, "years": "420 — 589",
+      "color": "var(--c-jin)", "snapshot": "nanbeichao",
+      "tags": ["宋齐梁陈", "北魏·东西魏·北齐北周", "孝文帝汉化", "侯景之乱", "民族融合"],
+      "summary": "南朝宋齐梁陈四代更替，门阀政治由盛转衰；北朝由鲜卑北魏统一北方，孝文帝迁都洛阳、全面汉化，胡汉在血与火中交融。北魏分裂为东西魏，再演为北齐北周。看似分裂的一百七十年，其实是隋唐盛世的熔炉。",
+      "story": "孝文帝改汉姓、禁胡服，把征服者主动融进被征服者的文明里。后来的隋文帝杨坚、唐高祖李渊，血脉里都流着这场融合——分裂，反而酿出了更大的统一。",
+      "regimeIds": ["nanchao", "beiwei", "beizhou-qi"], "keyPersonIds": ["liuyu", "xiaowendi", "houjing", "yangjian-pre"], "keyEventIds": ["xiaowen-hanhua", "houjing-zhiluan"]
+    },
+    {
+      "id": "sui", "name": "隋", "kicker": "再一统 · 速兴速亡",
+      "start": 581, "end": 619, "years": "581 — 619",
+      "color": "var(--c-sui)", "snapshot": "sui",
+      "tags": ["统一南北", "科举之始", "大运河", "三征高句丽", "瓦岗群雄"],
+      "summary": "杨坚代周建隋，589 年灭陈，结束近三百年分裂。开皇之治、创科举、修运河，制度上承前启后。但隋炀帝三征高句丽、滥用民力，盛极而崩，与秦惊人地相似：奠基者富强，挥霍者亡国。",
+      "story": "[[suiyang]] 修的大运河，骂他的人用了一千年，受益的人也用了一千年。功在千秋，罪在当代——他亡于自己最大的功绩。",
+      "regimeIds": ["sui"], "keyPersonIds": ["yangjian", "suiyang", "ligong-pre"], "keyEventIds": ["sui-tongyi", "kaike-yunhe", "sanzheng-gaogouli"]
+    },
+    {
+      "id": "tang", "name": "唐", "kicker": "盛世 · 天可汗的时代",
+      "start": 618, "end": 907, "years": "618 — 907",
+      "color": "var(--c-tang)", "snapshot": "tang",
+      "tags": ["贞观之治", "武周", "开元盛世", "安史之乱", "藩镇·宦官"],
+      "summary": "李渊建唐，太宗贞观之治、被尊为『天可汗』，长安成为世界都会。武则天称帝建周，玄宗开元盛世达到顶点。然而安史之乱（755）从云端一刀斩下，藩镇割据、宦官专权、牛李党争，盛唐的下半场是一条长长的下坡路。",
+      "story": "渔阳鼙鼓动地来，[[anshi-zhiluan]] 把盛世拦腰斩断。此后一百五十年，唐朝是『带着伤口活着』——直到一个落第书生写下『我花开后百花杀』。",
+      "regimeIds": ["tang"], "keyPersonIds": ["litang", "litaizong", "wuzetian", "tangxuanzong", "anlushan", "libai"], "keyEventIds": ["zhenguan-zhizhi", "kaiyuan-shengshi", "anshi-zhiluan"]
+    },
+    {
+      "id": "tang-late", "name": "唐末 · 黄巢之乱", "kicker": "唐 · 帝国的最后二十年（关键伏笔）",
+      "start": 874, "end": 907, "years": "874 — 907",
+      "color": "var(--c-tang)", "snapshot": "tang-late",
+      "tags": ["黄巢起义", "冲天香阵透长安", "降将朱温", "白马驿之祸", "唐亡"],
+      "summary": "盐贩出身、屡试不第的黄巢，挥军纵横半个中国，攻入长安称帝（大齐）。唐廷靠藩镇与沙陀骑兵勉强镇压。讽刺的是，葬送大唐的不是黄巢本人，而是他的降将——朱温（朱全忠）。",
+      "story": "落第后，[[huangchao]] 写下《不第后赋菊》：『待到秋来九月八，我花开后百花杀；冲天香阵透长安，满城尽带黄金甲。』一语成谶——他真的打进了长安。但更大的反讽在后面：他的降将 [[zhuwen]]，最终篡唐建 [[houliang]]，亲手为大唐盖棺。写下『百花杀』的人没能杀尽百花，杀尽大唐的，是他自己招降的那个人。",
+      "regimeIds": ["tang", "daqi"], "keyPersonIds": ["huangchao", "zhuwen", "likeyong", "tang-zhaozong"], "keyEventIds": ["huangchao-rujing", "baima-yi", "tang-wang"]
+    },
+    {
+      "id": "wudai-front", "name": "五代十国 · 前期", "kicker": "大分裂 · 907–923（描述极少的七十年·上）",
+      "start": 907, "end": 936, "years": "907 — 936",
+      "color": "var(--c-other)", "snapshot": "wudai-front",
+      "tags": ["后梁·后唐", "十国并立", "晋王李克用·李存勖", "契丹崛起", "幽云之争"],
+      "summary": "朱温篡唐建后梁，中原进入五十三年间五个短命王朝（梁唐晋汉周）走马灯的时代；南方则有前蜀、杨吴、吴越、楚、闽、南汉、荆南等十余国并立。这近七十年通常被一笔带过，却是中国从门阀贵族社会滑向平民官僚社会的关键裂变期。",
+      "story": "朱温与沙陀人 [[likeyong]] 是死敌。朱温建 [[houliang]]，李克用之子 [[licunxu]] 终 [[houtang-mieliang]]、建后唐——为大唐复仇的旗号下，谁也不是唐。武人立国、骄兵悍将，『天子，兵强马壮者当为之』成了这个时代赤裸的真理。",
+      "regimeIds": ["houliang", "jin-licunxu", "qi-state", "qianshu", "yangwu", "wuyue", "chu-ma", "min-state", "nanhan", "jingnan", "qidan-liao"],
+      "keyPersonIds": ["zhuwen", "likeyong", "licunxu", "yelvabaoji"], "keyEventIds": ["zhuwen-jianliang", "houtang-mieliang"]
+    },
+    {
+      "id": "wudai-late", "name": "五代十国 · 后期", "kicker": "大分裂 · 947–960（描述极少的七十年·下）",
+      "start": 947, "end": 960, "years": "947 — 960",
+      "color": "var(--c-other)", "snapshot": "wudai-late",
+      "tags": ["后晋割燕云", "后汉·后周", "周世宗改革", "陈桥兵变", "南唐·后蜀"],
+      "summary": "后晋石敬瑭认契丹为父、割让幽云十六州——这一刀的后果，北宋、南宋背了三百年。后汉短促，后周郭威、柴荣励精图治：周世宗整军经武、南征北伐，几乎要终结乱世。可惜天不假年，孤儿寡母，被殿前都点检赵匡胤一夜黄袍加身。",
+      "story": "[[shijingtang]] 为求帝位，[[geyun-yunzhou]]，把幽云十六州送给契丹——华北门户洞开，此后中原王朝四百年无险可守。[[zhouhshizong]] 本可补天，却英年早逝；[[zhaokuangyin]] 陈桥兵变，几乎兵不血刃地接收了周世宗攒下的家底。前人栽树，后人乘凉，五代的最后一棒交到了宋。",
+      "regimeIds": ["houjin", "houhan", "houzhou", "nantang", "wuyue", "houshu", "nanhan", "qidan-liao", "beihan"],
+      "keyPersonIds": ["shijingtang", "guowei", "zhouhshizong", "zhaokuangyin"], "keyEventIds": ["geyun-yunzhou", "chenqiao-bingbian"]
+    },
+    {
+      "id": "northern-song", "name": "北宋 · 辽 · 西夏", "kicker": "三国并立 · 重文轻武",
+      "start": 960, "end": 1127, "years": "960 — 1127",
+      "color": "var(--c-song)", "snapshot": "northern-song",
+      "tags": ["杯酒释兵权", "澶渊之盟", "庆历·熙宁变法", "靖康之耻"],
+      "summary": "赵匡胤『杯酒释兵权』，结束武人乱政，却也开启『重文轻武』的国策。北宋经济文化登峰造极，军事上却对辽、西夏长期守势，以岁币买和平（澶渊之盟）。王安石变法图强未竟，党争内耗。终于在女真金国铁骑下，演出『靖康之耻』。",
+      "story": "[[zhaokuangyin]] 怕武将再演陈桥，于是 [[beijiu-shibingquan]]——病根除了，新病也来了：将不知兵，对外百年积弱。文明的巅峰与武备的低谷，同时降临。",
+      "regimeIds": ["northern-song", "liao", "xixia", "dali", "jin-jurchen"],
+      "keyPersonIds": ["zhaokuangyin", "songshenzong", "wanganshi", "songhuizong"], "keyEventIds": ["beijiu-shibingquan", "chanyuan-zhimeng", "xining-bianfa", "jingkang-zhibian"]
+    },
+    {
+      "id": "southern-song", "name": "南宋 · 金", "kicker": "偏安 · 半壁江山",
+      "start": 1127, "end": 1279, "years": "1127 — 1279",
+      "color": "var(--c-song)", "snapshot": "southern-song",
+      "tags": ["岳飞北伐", "绍兴和议", "莫须有", "蒙古崛起", "崖山之后"],
+      "summary": "高宗赵构南渡，定都临安，与金以淮水大散关为界。岳飞十年之功几复中原，却被『莫须有』三字赐死风波亭。此后宋金对峙百年，蒙古崛起后联宋灭金、再灭宋。1279 年崖山海战，陆秀夫负幼帝蹈海，十万军民殉国——『崖山之后』，是一代人的悲歌。",
+      "story": "[[yuefei]]『直捣黄龙』在望，十二道金牌召回，[[qinhui]] 以『莫须有』杀之于风波亭。自毁长城者，从不是敌人。一百五十年后，[[luxiufu]] 抱着八岁的小皇帝跳进崖山的怒涛——南宋以最惨烈的方式谢幕。",
+      "regimeIds": ["southern-song", "jin-jurchen", "xixia", "dali", "mongol-rising"],
+      "keyPersonIds": ["zhaogou", "yuefei", "qinhui", "wentianxiang", "luxiufu"], "keyEventIds": ["yuefei-beifa", "shaoxing-heyi", "yashan"]
+    },
+    {
+      "id": "yuan", "name": "元", "kicker": "大一统 · 草原帝国入主",
+      "start": 1271, "end": 1368, "years": "1271 — 1368（蒙古帝国 1206 起）",
+      "color": "var(--c-yuan)", "snapshot": "yuan",
+      "tags": ["蒙古帝国", "忽必烈", "行省制", "四等人制", "红巾起义"],
+      "summary": "成吉思汗起于漠北，铁骑横扫欧亚；忽必烈定国号『大元』，建大都，灭南宋，第一次由草原民族统一全中国。行省制影响至今。但民族等级分明、财政紊乱，不到百年，黄河泛滥与白莲教点燃红巾起义，群雄逐鹿。",
+      "story": "蒙古马蹄踏破欧亚，[[kublai]] 却选择在中原坐天下、行汉法。征服可以靠骑兵，治理却躲不过那套郡县官僚——草原最终还是被它征服的土地『同化』了一半。",
+      "regimeIds": ["yuan"], "keyPersonIds": ["chinggis", "kublai", "zhuyuanzhang-pre"], "keyEventIds": ["mongol-mienansong", "hongjin-qiyi"]
+    },
+    {
+      "id": "ming", "name": "明", "kicker": "大一统 · 布衣天子",
+      "start": 1368, "end": 1644, "years": "1368 — 1644（南明至 1662）",
+      "color": "var(--c-ming)", "snapshot": "ming",
+      "tags": ["驱逐胡虏", "靖难之役", "郑和下西洋", "土木堡之变", "甲申之变"],
+      "summary": "乞丐、和尚出身的朱元璋驱元立明，废丞相、设锦衣卫，皇权空前集中。永乐迁都北京、郑和七下西洋、修《永乐大典》。中后期土木堡之变、宦官专权、党争与流寇并发。1644 年李自成破北京，崇祯自缢煤山，清军入关。",
+      "story": "[[zhuyuanzhang]] 从碗里讨饭到坐拥天下，废丞相把权力全收进皇帝一人之手——强主尚可，庸主则国事系于宦官。两百年后，[[chongzhen]] 吊死煤山，临终叹『君非亡国之君，臣皆亡国之臣』。制度的债，最后总有人来还。",
+      "regimeIds": ["ming"], "keyPersonIds": ["zhuyuanzhang", "yongle", "zhenghe", "chongzhen", "lizicheng"], "keyEventIds": ["jingnan-zhiyi", "zhenghe-xixiyang", "tumubao", "jiashen-zhibian"]
+    },
+    {
+      "id": "qing", "name": "清", "kicker": "大一统 · 末代王朝",
+      "start": 1636, "end": 1912, "years": "1636 — 1912（后金 1616 起）",
+      "color": "var(--c-qing)", "snapshot": "qing",
+      "tags": ["满洲入关", "康乾盛世", "鸦片战争", "太平天国", "辛亥革命"],
+      "summary": "努尔哈赤后金、皇太极改号大清，1644 入关。康雍乾百余年盛世，疆域奠定今日中国之基。但闭关自守，鸦片战争后被列强凿穿国门，太平天国、洋务、戊戌、庚子接踵。1911 武昌起义，1912 清帝退位——两千年帝制就此终结。",
+      "story": "康乾盛世的自信，撞上工业文明的坚船利炮。[[yapian-zhanzheng]] 之后，这个王朝用七十年学一个道理：天朝上国，已成旧梦。[[xinhai]] 一声枪响，皇帝退场——但中国向何处去，问题才刚开始。",
+      "regimeIds": ["qing"], "keyPersonIds": ["nuerhachi", "kangxi", "qianlong", "cixi", "linzexu", "sunyatsen-pre"], "keyEventIds": ["qing-ruguan", "kangqian-shengshi", "yapian-zhanzheng", "taiping", "xinhai"]
+    },
+    {
+      "id": "roc", "name": "中华民国 · 大陆时期", "kicker": "近代 · 共和与烽火",
+      "start": 1912, "end": 1949, "years": "1912 — 1949",
+      "color": "var(--c-roc)", "snapshot": "roc",
+      "tags": ["辛亥共和", "军阀混战", "北伐", "抗日战争", "国共内战"],
+      "summary": "帝制终结，共和初立却旋即陷入军阀混战。孙中山倡三民主义，国民革命军北伐名义统一。日本全面侵华，八年抗战山河泣血、终获惨胜。战后国共决战，三大战役定局。1949 年，一个旧时代结束。",
+      "story": "从 [[sunyatsen]] 的『天下为公』，到八年 [[kangri-zhanzheng]] 的焦土与不屈——这是中国最痛、也最硬的一段。旧邦新命，就在血火中孕育。",
+      "regimeIds": ["roc"], "keyPersonIds": ["sunyatsen", "yuanshikai", "junfa", "kangri-junmin"], "keyEventIds": ["xinhai-gonghe", "beifa", "kangri-zhanzheng", "guogong-neizhan"]
+    },
+    {
+      "id": "prc", "name": "中华人民共和国", "kicker": "1949 · 新中国成立",
+      "start": 1949, "end": 1949, "years": "1949 —",
+      "color": "var(--c-prc)", "snapshot": "prc",
+      "tags": ["开国大典", "百年回望"],
+      "summary": "1949 年 10 月 1 日，新中国成立。这卷自三皇五帝铺展开来的长卷，在此收束于一个新的起点——四千年治乱兴衰、分合无常，所有的故事，都汇向这一刻；而新的故事，从这一刻起，又是另一卷长卷。",
+      "story": "从 [[yu]] 的『家天下』到此刻，四千年。每一次分裂都孕育更大的统一，每一个盛世都埋着衰亡的伏笔——历史不会重复，但它押韵。",
+      "regimeIds": ["prc"], "keyPersonIds": [], "keyEventIds": ["kaiguo-dadian"]
+    }
+  ]
+}

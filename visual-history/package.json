@@ -1,0 +1,12 @@
+{
+  "name": "visual-history",
+  "version": "0.1.0",
+  "private": true,
+  "description": "中国历史长卷 — 三皇五帝到新中国成立的故事化动态可视化",
+  "scripts": {
+    "dev": "node scripts/server.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "art:manifest": "node scripts/build-art-manifest.mjs",
+    "art:refs": "node scripts/fetch-refs.mjs"
+  }
+}

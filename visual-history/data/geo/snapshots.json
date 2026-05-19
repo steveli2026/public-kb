@@ -1,0 +1,88 @@
+{
+  "_note": "每个快照 = 一时期的天下格局。把 base-china 的 cell 指派给 regimeId；未列出的 cell 视为『化外/未统』，淡显。一个时期可有多个快照（前期/后期）。granularity 为 v1 近似，可经 tools/geo-author.html 细分精修。",
+  "snapshots": {
+    "sanhuang":      [ { "r": "legend-huaxia", "cells": ["zhongyuan"] } ],
+    "xia":           [ { "r": "xia", "cells": ["zhongyuan"] } ],
+    "shang":         [ { "r": "shang", "cells": ["zhongyuan", "shandong", "hebei"] } ],
+    "western-zhou":  [ { "r": "western-zhou", "cells": ["guanzhong", "zhongyuan", "hebei", "shandong"] } ],
+    "chunqiu": [
+      { "r": "state-jin",   "cells": ["hebei"] },
+      { "r": "state-qin",   "cells": ["guanzhong"] },
+      { "r": "state-qi",    "cells": ["shandong"] },
+      { "r": "state-chu",   "cells": ["jingchu", "huainan"] },
+      { "r": "state-yan",   "cells": ["liaodong"] },
+      { "r": "state-wuyue", "cells": ["jiangnan"] }
+    ],
+    "zhanguo": [
+      { "r": "state-qin",  "cells": ["guanzhong", "hexi", "bashu"] },
+      { "r": "state-zhao", "cells": ["hebei", "monan"] },
+      { "r": "state-qi",   "cells": ["shandong"] },
+      { "r": "state-chu",  "cells": ["jingchu", "huainan", "jiangnan", "lingnan"] },
+      { "r": "state-yan",  "cells": ["liaodong"] },
+      { "r": "state-wei",  "cells": ["zhongyuan"] }
+    ],
+    "qin": [ { "r": "qin", "cells": ["guanzhong", "zhongyuan", "hebei", "shandong", "hexi", "bashu", "jingchu", "huainan", "jiangnan", "lingnan", "monan", "jiaozhi"] } ],
+    "chuhan": [
+      { "r": "xichu",    "cells": ["zhongyuan", "shandong", "huainan", "jiangnan", "jingchu", "hebei"] },
+      { "r": "han-wang", "cells": ["bashu", "guanzhong", "hexi"] }
+    ],
+    "western-han":  [ { "r": "western-han", "cells": ["guanzhong", "zhongyuan", "hebei", "shandong", "hexi", "bashu", "jingchu", "huainan", "jiangnan", "lingnan", "monan", "xiyu", "liaodong", "jiaozhi", "dian"] } ],
+    "eastern-han":  [ { "r": "eastern-han", "cells": ["guanzhong", "zhongyuan", "hebei", "shandong", "hexi", "bashu", "jingchu", "huainan", "jiangnan", "lingnan", "monan", "xiyu", "liaodong", "jiaozhi", "dian"] } ],
+    "sanguo": [
+      { "r": "caowei", "cells": ["guanzhong", "zhongyuan", "hebei", "shandong", "hexi", "monan", "liaodong", "xiyu"] },
+      { "r": "shuhan", "cells": ["bashu", "dian"] },
+      { "r": "sunwu",  "cells": ["jingchu", "huainan", "jiangnan", "lingnan", "minyue", "jiaozhi"] }
+    ],
+    "western-jin":  [ { "r": "western-jin", "cells": ["guanzhong", "zhongyuan", "hebei", "shandong", "hexi", "bashu", "jingchu", "huainan", "jiangnan", "lingnan", "monan", "xiyu", "liaodong", "jiaozhi", "dian"] } ],
+    "shiliuguo": [
+      { "r": "qianqin",      "cells": ["guanzhong", "zhongyuan", "hebei", "shandong", "hexi", "monan", "liaodong", "bashu", "xiyu"] },
+      { "r": "eastern-jin",  "cells": ["jingchu", "huainan", "jiangnan", "lingnan", "minyue", "jiaozhi", "dian"] }
+    ],
+    "nanbeichao": [
+      { "r": "beiwei",   "cells": ["guanzhong", "zhongyuan", "hebei", "shandong", "hexi", "monan", "liaodong", "bashu", "xiyu"] },
+      { "r": "nanchao",  "cells": ["jingchu", "huainan", "jiangnan", "lingnan", "minyue", "jiaozhi", "dian"] }
+    ],
+    "sui":          [ { "r": "sui", "cells": ["guanzhong", "zhongyuan", "hebei", "shandong", "hexi", "bashu", "jingchu", "huainan", "jiangnan", "lingnan", "minyue", "jiaozhi", "dian", "liaodong", "monan"] } ],
+    "tang":         [ { "r": "tang", "cells": ["guanzhong", "zhongyuan", "hebei", "shandong", "hexi", "bashu", "jingchu", "huainan", "jiangnan", "lingnan", "minyue", "jiaozhi", "dian", "liaodong", "monan", "xiyu", "mobei"] } ],
+    "tang-late": [
+      { "r": "daqi", "cells": ["guanzhong"] },
+      { "r": "tang", "cells": ["zhongyuan", "hebei", "shandong", "bashu", "jingchu", "huainan", "jiangnan", "lingnan", "minyue", "jiaozhi", "dian", "liaodong"] }
+    ],
+    "wudai-front": [
+      { "r": "houliang",     "cells": ["zhongyuan", "shandong", "guanzhong"] },
+      { "r": "jin-licunxu",  "cells": ["hebei", "monan"] },
+      { "r": "qianshu",      "cells": ["bashu"] },
+      { "r": "yangwu",       "cells": ["huainan", "jiangnan"] },
+      { "r": "chu-ma",       "cells": ["jingchu"] },
+      { "r": "min-state",    "cells": ["minyue"] },
+      { "r": "nanhan",       "cells": ["lingnan"] },
+      { "r": "qidan-liao",   "cells": ["mobei", "liaodong"] }
+    ],
+    "wudai-late": [
+      { "r": "houzhou",     "cells": ["zhongyuan", "shandong", "guanzhong", "hebei"] },
+      { "r": "beihan",      "cells": ["monan"] },
+      { "r": "qidan-liao",  "cells": ["mobei", "liaodong"] },
+      { "r": "nantang",     "cells": ["huainan", "jiangnan", "jingchu"] },
+      { "r": "houshu",      "cells": ["bashu"] },
+      { "r": "nanhan",      "cells": ["lingnan", "minyue"] }
+    ],
+    "northern-song": [
+      { "r": "northern-song", "cells": ["guanzhong", "zhongyuan", "shandong", "hebei", "bashu", "jingchu", "huainan", "jiangnan", "lingnan", "minyue", "jiaozhi"] },
+      { "r": "liao",          "cells": ["mobei", "liaodong", "monan"] },
+      { "r": "xixia",         "cells": ["hexi"] },
+      { "r": "dali",          "cells": ["dian"] }
+    ],
+    "southern-song": [
+      { "r": "southern-song", "cells": ["bashu", "jingchu", "huainan", "jiangnan", "lingnan", "minyue", "jiaozhi"] },
+      { "r": "jin-jurchen",   "cells": ["zhongyuan", "shandong", "hebei", "guanzhong", "monan"] },
+      { "r": "xixia",         "cells": ["hexi"] },
+      { "r": "dali",          "cells": ["dian"] },
+      { "r": "mongol-rising", "cells": ["mobei", "liaodong"] }
+    ],
+    "yuan":         [ { "r": "yuan", "cells": ["mobei", "monan", "xiyu", "liaodong", "hexi", "hebei", "guanzhong", "zhongyuan", "shandong", "qingzang", "bashu", "jingchu", "huainan", "jiangnan", "minyue", "lingnan", "dian", "jiaozhi"] } ],
+    "ming":         [ { "r": "ming", "cells": ["hebei", "guanzhong", "zhongyuan", "shandong", "hexi", "bashu", "jingchu", "huainan", "jiangnan", "minyue", "lingnan", "dian", "liaodong", "jiaozhi"] } ],
+    "qing":         [ { "r": "qing", "cells": ["mobei", "monan", "xiyu", "liaodong", "hexi", "hebei", "guanzhong", "zhongyuan", "shandong", "qingzang", "bashu", "jingchu", "huainan", "jiangnan", "minyue", "lingnan", "dian", "jiaozhi"] } ],
+    "roc":          [ { "r": "roc", "cells": ["mobei", "monan", "xiyu", "liaodong", "hexi", "hebei", "guanzhong", "zhongyuan", "shandong", "qingzang", "bashu", "jingchu", "huainan", "jiangnan", "minyue", "lingnan", "dian", "jiaozhi"] } ],
+    "prc":          [ { "r": "prc", "cells": ["mobei", "monan", "xiyu", "liaodong", "hexi", "hebei", "guanzhong", "zhongyuan", "shandong", "qingzang", "bashu", "jingchu", "huainan", "jiangnan", "minyue", "lingnan", "dian", "jiaozhi"] } ]
+  }
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<title>geo-author · 疆域单元描绘工具</title>
+<style>
+  body { margin:0; font:14px/1.5 system-ui; background:#1c1610; color:#ece3d2; display:flex; }
+  #wrap { flex:1; }
+  svg { width:100vw; height:100vh; background:#c9d4cc; display:block; cursor:crosshair; }
+  .cell { fill:#ddd0b6; stroke:#5a4a30; stroke-width:.8; }
+  .cell:hover { fill:#cdbf9c; }
+  .draft { fill:rgba(178,58,47,.35); stroke:#b23a2f; stroke-width:1.5; }
+  .pt { fill:#b23a2f; }
+  #panel { position:fixed; top:12px; left:12px; background:rgba(28,22,15,.92);
+           padding:14px 16px; border-radius:8px; width:320px; }
+  #panel h1 { font-size:15px; margin:0 0 8px; color:#cf5640; }
+  button { background:#b23a2f; color:#fff; border:0; padding:6px 12px; border-radius:5px; cursor:pointer; margin:3px 0; }
+  button.ghost { background:#3a3026; }
+  input { width:100%; padding:5px; border-radius:4px; border:0; margin:4px 0; }
+  textarea { width:100%; height:160px; background:#0f0c08; color:#9fdf9f; border:0;
+             font:12px/1.4 monospace; padding:8px; border-radius:5px; }
+  .hint { color:#cbb994; font-size:12px; }
+</style>
+</head>
+<body>
+<div id="panel">
+  <h1>疆域单元描绘工具</h1>
+  <p class="hint">点击地图加点 · 双击/回车闭合 · 命名后『加入』· 复制 JSON 覆盖
+  <code>data/geo/base-china.json</code> 的 cell 或细分。仅 v1 渐进精修用。</p>
+  <input id="cid" placeholder="cell id（如 guanzhong-west）">
+  <input id="cname" placeholder="名称（如 关中·西）">
+  <button id="add">加入当前多边形</button>
+  <button id="undo" class="ghost">撤销点</button>
+  <button id="reset" class="ghost">清空草稿</button>
+  <p class="hint">已收集 cell：<span id="count">0</span></p>
+  <textarea id="out" readonly></textarea>
+  <button id="copy">复制 JSON</button>
+</div>
+<div id="wrap"></div>
+<script type="module">
+const NS="http://www.w3.org/2000/svg";
+const wrap=document.getElementById("wrap");
+const base=await (await fetch("../data/geo/base-china.json")).json();
+const svg=document.createElementNS(NS,"svg");
+svg.setAttribute("viewBox",base.viewBox);
+wrap.append(svg);
+for(const c of base.cells){
+  const p=document.createElementNS(NS,"path");
+  p.setAttribute("class","cell");
+  p.setAttribute("d","M"+c.poly.map(a=>a.join(",")).join("L")+"Z");
+  svg.append(p);
+}
+const draftG=document.createElementNS(NS,"g"); svg.append(draftG);
+let pts=[]; const cells=[];
+function vb(){return base.viewBox.split(" ").map(Number);}
+function toUser(e){
+  const [ ,, w,h]=vb(); const r=svg.getBoundingClientRect();
+  return [Math.round((e.clientX-r.left)/r.width*w), Math.round((e.clientY-r.top)/r.height*h)];
+}
+function redraw(){
+  draftG.replaceChildren();
+  if(pts.length){
+    const path=document.createElementNS(NS,"path");
+    path.setAttribute("class","draft");
+    path.setAttribute("d","M"+pts.map(a=>a.join(",")).join("L")+(pts.length>2?"Z":""));
+    draftG.append(path);
+    for(const [x,y] of pts){const c=document.createElementNS(NS,"circle");
+      c.setAttribute("class","pt");c.setAttribute("cx",x);c.setAttribute("cy",y);c.setAttribute("r",4);draftG.append(c);}
+  }
+}
+svg.addEventListener("click",e=>{pts.push(toUser(e));redraw();});
+svg.addEventListener("dblclick",()=>{});
+document.getElementById("undo").onclick=()=>{pts.pop();redraw();};
+document.getElementById("reset").onclick=()=>{pts=[];redraw();};
+document.getElementById("add").onclick=()=>{
+  const id=cid.value.trim(),name=cname.value.trim();
+  if(pts.length<3||!id){alert("至少 3 点并填 id");return;}
+  cells.push({id,name,poly:pts.slice()});
+  pts=[];redraw();cid.value=cname.value="";
+  count.textContent=cells.length;
+  out.value=JSON.stringify({cells},null,2);
+};
+document.getElementById("copy").onclick=()=>{navigator.clipboard.writeText(out.value);};
+</script>
+</body>
+</html>

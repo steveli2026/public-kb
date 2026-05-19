@@ -1,0 +1,73 @@
+/* ============================================================
+   设计系统 token — 水墨 / 绢本长卷
+   ============================================================ */
+:root {
+  /* 纸 / 墨 */
+  --paper:        #ece3d2;
+  --paper-2:      #e3d7bf;
+  --paper-edge:   #d8c8a6;
+  --ink:          #211a12;
+  --ink-soft:     #4a3f30;
+  --ink-faint:    #8a7a5e;
+  --cinnabar:     #b23a2f;   /* 朱砂 — 印章 / 强调 */
+  --cinnabar-2:   #cf5640;
+  --gold:         #b9892f;
+  --jade:         #5d7a63;
+
+  /* 地图：未统 / 海 */
+  --sea:          #c9d4cc;
+  --void:         #ddd0b6;
+  --grid-line:    rgba(60, 48, 30, 0.16);
+
+  /* 朝代色板（暖、低饱和、彼此可辨） */
+  --c-xia:        #7a8b6f;
+  --c-shang:      #8a6f4a;
+  --c-zhou:       #9c7b3f;
+  --c-qin:        #3f4a5a;
+  --c-han:        #b23a2f;
+  --c-wei:        #4b6b8a;
+  --c-shu:        #4f7a55;
+  --c-wu:         #9c6b3f;
+  --c-jin:        #6a5a8a;
+  --c-sui:        #8a7a3f;
+  --c-tang:       #c0392b;
+  --c-song:       #2f6b6b;
+  --c-liao:       #6b6f8a;
+  --c-xixia:      #a8853f;
+  --c-jinn:       #b58a2f;
+  --c-yuan:       #3f5a7a;
+  --c-ming:       #b23a4a;
+  --c-qing:       #5a7a8a;
+  --c-roc:        #7a6b9a;
+  --c-prc:        #b22f2f;
+  --c-other:      #97876a;
+
+  /* 字体 */
+  --font-serif: "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC", "SimSun", serif;
+  --font-sans:  "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+
+  /* 节奏 */
+  --step--1: clamp(.78rem, .74rem + .2vw, .9rem);
+  --step-0:  clamp(.95rem, .9rem + .25vw, 1.05rem);
+  --step-1:  clamp(1.2rem, 1.1rem + .6vw, 1.6rem);
+  --step-2:  clamp(1.7rem, 1.4rem + 1.6vw, 2.8rem);
+  --step-3:  clamp(2.4rem, 1.8rem + 3.4vw, 4.6rem);
+
+  --space-s: .5rem;
+  --space-m: 1rem;
+  --space-l: 2rem;
+  --space-xl: 4rem;
+
+  --radius: 4px;
+  --shadow-soft: 0 10px 40px -12px rgba(33, 26, 18, .45);
+  --rule: 1px solid rgba(60, 48, 30, .22);
+
+  /* 动效 */
+  --ease: cubic-bezier(.22, 1, .36, 1);
+  --dur-map: 900ms;
+  --dur-ui: 320ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur-map: 0ms; --dur-ui: 0ms; }
+}

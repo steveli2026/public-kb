@@ -1,0 +1,78 @@
+{
+  "_note": "政权/国/势力。color 为地图填色；capital[x,y] 在 base-china viewBox 坐标系内。snapshots.json 通过把 cell 指派给 regimeId 来表现疆域。",
+  "regimes": [
+    { "id": "legend-huaxia", "name": "华夏部族", "color": "#9a8b66", "capital": [600, 450], "summary": "炎黄部族联盟，文明的源头，疆域只是传说中的『天下之中』。" },
+    { "id": "xia", "name": "夏", "color": "var(--c-xia)", "capital": [595, 455], "founderPersonId": "qi", "summary": "中国第一个世袭王朝，势力局促于中原一隅。", "relatedEventIds": ["dayu-zhishui", "mingtiao"] },
+    { "id": "shang", "name": "商", "color": "var(--c-shang)", "capital": [615, 425], "founderPersonId": "tang", "summary": "青铜与甲骨文的王朝，崇鬼好战，疆域及于黄河中下游。", "relatedEventIds": ["pangeng-qianyin", "muye"] },
+    { "id": "western-zhou", "name": "西周", "color": "var(--c-zhou)", "capital": [488, 430], "founderPersonId": "zhou-wu", "summary": "分封宗法礼乐之邦，以血缘维系松散的天下之网。", "relatedEventIds": ["muye", "quanrong-poxihao"] },
+
+    { "id": "state-jin", "name": "晋", "color": "#7a6a4a", "capital": [560, 375], "summary": "春秋最强诸侯，长期称霸，后三家分晋开战国。" },
+    { "id": "state-qi", "name": "齐", "color": "#5d7a63", "capital": [740, 470], "summary": "东方大国，齐桓首霸，富鱼盐之利。" },
+    { "id": "state-chu", "name": "楚", "color": "#8a5a8a", "capital": [615, 615], "summary": "南方蛮夷之雄，问鼎中原，地最广。" },
+    { "id": "state-qin", "name": "秦", "color": "var(--c-qin)", "capital": [490, 430], "founderPersonId": "shangyang", "summary": "西陲后起，商鞅变法后化为战争机器。", "relatedEventIds": ["shangyang-bianfa", "changping", "qin-tongyi"] },
+    { "id": "state-yan", "name": "燕", "color": "#4b6b8a", "capital": [715, 378], "summary": "北方苦寒之国，七雄中最弱，荆轲刺秦出于此。" },
+    { "id": "state-wuyue", "name": "吴·越", "color": "#3f7a6a", "capital": [840, 690], "summary": "春秋末江南争雄，卧薪尝胆出于此。" },
+    { "id": "state-zhao", "name": "赵", "color": "#6b6f8a", "capital": [660, 400], "summary": "胡服骑射之国，长平一败元气尽丧。", "relatedEventIds": ["changping"] },
+    { "id": "state-wei", "name": "魏", "color": "#9c6b3f", "capital": [600, 452], "summary": "战国初霸，李悝变法最早，后渐衰。" },
+    { "id": "state-han", "name": "韩", "color": "#a8853f", "capital": [600, 478], "summary": "七雄最小，劲弩天下闻名，首被秦灭。" },
+
+    { "id": "qin", "name": "秦", "color": "var(--c-qin)", "capital": [482, 425], "founderPersonId": "qinshihuang", "summary": "第一个大一统帝国，二世而亡，留下两千年帝制骨架。", "relatedEventIds": ["qin-tongyi", "fenshu-kengru", "daze-qiyi"] },
+    { "id": "xichu", "name": "西楚（项羽）", "color": "#8a5a8a", "capital": [770, 600], "founderPersonId": "xiangyu", "summary": "霸王分封天下，自王西楚，四年而亡于垓下。", "relatedEventIds": ["hongmen-yan", "gaixia"] },
+    { "id": "han-wang", "name": "汉（刘邦）", "color": "var(--c-han)", "capital": [470, 620], "founderPersonId": "liubang", "summary": "受封汉中巴蜀，明修栈道暗度陈仓，终得天下。", "relatedEventIds": ["gaixia"] },
+    { "id": "western-han", "name": "西汉", "color": "var(--c-han)", "capital": [488, 430], "founderPersonId": "liubang", "summary": "把『汉』铸成民族之名，武帝时疆域北逐匈奴、西通西域。", "relatedEventIds": ["wenjing-zhizhi", "zhangqian-tongxiyu"] },
+    { "id": "xin", "name": "新（王莽）", "color": "#8a7a5a", "capital": [488, 430], "founderPersonId": "wangmang", "summary": "外戚代汉，托古改制十四年而亡。", "relatedEventIds": ["wangmang-cuanhan"] },
+    { "id": "eastern-han", "name": "东汉", "color": "var(--c-han)", "capital": [590, 440], "founderPersonId": "liuxiu", "summary": "光武中兴重建汉室，末年豪强割据，三国火种已燃。", "relatedEventIds": ["guangwu-zhongxing", "huangjin-qiyi"] },
+
+    { "id": "caowei", "name": "曹魏", "color": "var(--c-wei)", "capital": [590, 440], "founderPersonId": "caocao", "summary": "据有中原与北方，最强；终被司马氏所代。", "relatedEventIds": ["guandu", "chibi", "sanjia-guijin"] },
+    { "id": "shuhan", "name": "蜀汉", "color": "var(--c-shu)", "capital": [470, 620], "founderPersonId": "liubei", "summary": "偏安巴蜀，以汉室正统自居，诸葛六出祁山而亡。", "relatedEventIds": ["chibi", "wuzhangyuan"] },
+    { "id": "sunwu", "name": "孙吴", "color": "var(--c-wu)", "capital": [815, 695], "founderPersonId": "sunquan", "summary": "据江东，赤壁联刘抗曹，三国中存续最久。", "relatedEventIds": ["chibi"] },
+
+    { "id": "western-jin", "name": "西晋", "color": "var(--c-jin)", "capital": [590, 440], "founderPersonId": "simayan", "summary": "短暂一统三十余年，八王之乱后崩塌。", "relatedEventIds": ["sanjia-guijin", "bawang-zhiluan", "yongjia-zhiluan"] },
+    { "id": "eastern-jin", "name": "东晋", "color": "var(--c-jin)", "capital": [815, 700], "founderPersonId": "simarui", "summary": "衣冠南渡，门阀与皇权『共天下』，淝水保住半壁。", "relatedEventIds": ["yiguan-nandu", "feishui"] },
+    { "id": "qianqin", "name": "前秦", "color": "#9c7b3f", "capital": [488, 430], "founderPersonId": "fujian", "summary": "氐人苻坚用王猛一度统一北方，淝水一败土崩。", "relatedEventIds": ["feishui"] },
+    { "id": "shiliu-misc", "name": "十六国（诸胡）", "color": "#977a5a", "capital": [560, 360], "summary": "匈奴鲜卑羯氐羌轮番建国，百年间二十余政权走马灯。" },
+
+    { "id": "nanchao", "name": "南朝（宋齐梁陈）", "color": "#5a7a6a", "capital": [815, 700], "founderPersonId": "liuyu", "summary": "汉人正朔偏安江南，四代更替，门阀由盛转衰。", "relatedEventIds": ["houjing-zhiluan"] },
+    { "id": "beiwei", "name": "北魏", "color": "#7a6f8a", "capital": [600, 330], "founderPersonId": "xiaowendi", "summary": "鲜卑统一北方，孝文帝迁洛汉化，胡汉交融。", "relatedEventIds": ["xiaowen-hanhua"] },
+    { "id": "beizhou-qi", "name": "北周·北齐", "color": "#6b5f8a", "capital": [488, 430], "summary": "北魏分裂后东西对峙，北周渐强，为隋统一蓄势。" },
+
+    { "id": "sui", "name": "隋", "color": "var(--c-sui)", "capital": [590, 440], "founderPersonId": "yangjian", "summary": "再造一统，创科举修运河，速兴速亡如秦。", "relatedEventIds": ["sui-tongyi", "kaike-yunhe", "sanzheng-gaogouli"] },
+
+    { "id": "tang", "name": "唐", "color": "var(--c-tang)", "capital": [488, 430], "founderPersonId": "litang", "summary": "盛世帝国，长安为世界都会；安史之后长期带伤而行。", "relatedEventIds": ["zhenguan-zhizhi", "kaiyuan-shengshi", "anshi-zhiluan"] },
+    { "id": "daqi", "name": "大齐（黄巢）", "color": "#b9892f", "capital": [490, 430], "founderPersonId": "huangchao", "summary": "黄巢攻入长安所建，『满城尽带黄金甲』一语成谶，旋灭。", "relatedEventIds": ["huangchao-rujing"], "relatedPersonIds": ["huangchao", "zhuwen"] },
+
+    { "id": "houliang", "name": "后梁", "color": "#a85a3f", "capital": [610, 465], "founderPersonId": "zhuwen", "summary": "朱温篡唐所建，五代第一朝，与晋（李克用父子）死战。", "relatedEventIds": ["tang-wang", "zhuwen-jianliang", "houtang-mieliang"], "relatedPersonIds": ["zhuwen", "huangchao", "likeyong"] },
+    { "id": "jin-licunxu", "name": "晋（李克用·李存勖）", "color": "#6a5a8a", "capital": [560, 372], "founderPersonId": "likeyong", "summary": "沙陀河东集团，以为唐复仇为旗，灭后梁建后唐。", "relatedEventIds": ["houtang-mieliang"], "relatedPersonIds": ["likeyong", "licunxu", "zhuwen"] },
+    { "id": "qi-state", "name": "岐（李茂贞）", "color": "#8a7a4a", "capital": [450, 440], "summary": "盘踞凤翔关中西部的割据藩镇，介于梁晋之间。" },
+    { "id": "qianshu", "name": "前蜀", "color": "#4f7a55", "capital": [470, 620], "summary": "王建据巴蜀称帝，富庶偏安，后为后唐所灭。" },
+    { "id": "yangwu", "name": "杨吴", "color": "#3f6b7a", "capital": [790, 650], "summary": "杨行密据淮南江东，十国中实力雄厚，后为南唐所代。" },
+    { "id": "wuyue", "name": "吴越", "color": "#3f7a6a", "capital": [850, 725], "summary": "钱氏据两浙，保境安民、纳贡中原，免战火百年。" },
+    { "id": "chu-ma", "name": "楚（马殷）", "color": "#8a5a6a", "capital": [640, 665], "summary": "马殷据湖南，以茶马通商致富的偏霸。" },
+    { "id": "min-state", "name": "闽", "color": "#9c6b3f", "capital": [845, 832], "summary": "王审知据福建，开发海港，内乱而亡。" },
+    { "id": "nanhan", "name": "南汉", "color": "#7a5a8a", "capital": [700, 862], "summary": "刘氏据岭南称帝，富而暴虐，海贸繁盛。" },
+    { "id": "jingnan", "name": "荆南（南平）", "color": "#9c8b4a", "capital": [610, 610], "summary": "高氏据江陵弹丸之地，事大求存，号『高赖子』。" },
+    { "id": "qidan-liao", "name": "契丹（辽）", "color": "var(--c-liao)", "capital": [760, 210], "founderPersonId": "yelvabaoji", "summary": "耶律阿保机统一契丹，趁五代之乱坐大北疆。", "relatedEventIds": ["geyun-yunzhou"] },
+
+    { "id": "houjin", "name": "后晋", "color": "#8a7a4a", "capital": [610, 465], "founderPersonId": "shijingtang", "summary": "石敬瑭认契丹为父、割幽云十六州换来的王朝。", "relatedEventIds": ["geyun-yunzhou"] },
+    { "id": "houhan", "name": "后汉", "color": "#a85a4f", "capital": [610, 465], "summary": "五代最短促的王朝，仅四年。" },
+    { "id": "houzhou", "name": "后周", "color": "#5a7a5a", "capital": [610, 465], "founderPersonId": "guowei", "summary": "郭威柴荣励精图治，几乎终结乱世，惜世宗早逝。", "relatedEventIds": ["chenqiao-bingbian"] },
+    { "id": "nantang", "name": "南唐", "color": "#3f6b7a", "capital": [815, 700], "summary": "代杨吴而立，文化最盛（李煜），十国中最强，终降宋。" },
+    { "id": "houshu", "name": "后蜀", "color": "#4f7a55", "capital": [470, 620], "summary": "孟氏续据巴蜀，承平富庶，后降宋。" },
+    { "id": "beihan", "name": "北汉", "color": "#8a6a8a", "capital": [555, 350], "summary": "依附契丹的河东残政，十国中最后被宋所灭。" },
+
+    { "id": "northern-song", "name": "北宋", "color": "var(--c-song)", "capital": [610, 468], "founderPersonId": "zhaokuangyin", "summary": "重文轻武，经济文化登峰，军事守势，终亡于靖康。", "relatedEventIds": ["beijiu-shibingquan", "chanyuan-zhimeng", "xining-bianfa", "jingkang-zhibian"] },
+    { "id": "liao", "name": "辽", "color": "var(--c-liao)", "capital": [740, 230], "summary": "契丹大帝国，据燕云与北宋南北对峙百年。", "relatedEventIds": ["chanyuan-zhimeng"] },
+    { "id": "xixia", "name": "西夏", "color": "var(--c-xixia)", "capital": [360, 380], "summary": "党项李元昊立国河西，宋辽金之间的第三角。" },
+    { "id": "dali", "name": "大理", "color": "#5d7a73", "capital": [490, 790], "summary": "段氏据云南，承南诏，奉中原而独立两百年。" },
+    { "id": "jin-jurchen", "name": "金", "color": "var(--c-jinn)", "capital": [705, 415], "summary": "女真完颜部灭辽灭北宋，与南宋对峙，终亡于蒙古。", "relatedEventIds": ["jingkang-zhibian", "shaoxing-heyi"] },
+
+    { "id": "southern-song", "name": "南宋", "color": "var(--c-song)", "capital": [845, 720], "founderPersonId": "zhaogou", "summary": "南渡偏安临安，以淮水大散关为界，崖山而终。", "relatedEventIds": ["yuefei-beifa", "shaoxing-heyi", "yashan"] },
+    { "id": "mongol-rising", "name": "蒙古（崛起）", "color": "var(--c-yuan)", "capital": [539, 178], "founderPersonId": "chinggis", "summary": "成吉思汗统一漠北，铁骑将吞金灭夏、终灭南宋。" },
+
+    { "id": "yuan", "name": "元", "color": "var(--c-yuan)", "capital": [705, 415], "founderPersonId": "kublai", "summary": "首个由草原民族统一全国的王朝，行省制延用至今。", "relatedEventIds": ["mongol-mienansong", "hongjin-qiyi"] },
+    { "id": "ming", "name": "明", "color": "var(--c-ming)", "capital": [705, 420], "founderPersonId": "zhuyuanzhang", "summary": "布衣天子立国，皇权空前集中，海禁与内缩中由盛转衰。", "relatedEventIds": ["jingnan-zhiyi", "zhenghe-xixiyang", "tumubao", "jiashen-zhibian"] },
+    { "id": "qing", "name": "清", "color": "var(--c-qing)", "capital": [705, 418], "founderPersonId": "nuerhachi", "summary": "最后一个王朝，康乾奠定疆域，近代被列强凿穿国门。", "relatedEventIds": ["qing-ruguan", "kangqian-shengshi", "yapian-zhanzheng", "xinhai"] },
+    { "id": "roc", "name": "中华民国（大陆时期）", "color": "var(--c-roc)", "capital": [815, 700], "founderPersonId": "sunyatsen", "summary": "帝制终结后的共和，军阀混战、抗日烽火贯穿其大陆三十七年。", "relatedEventIds": ["xinhai-gonghe", "beifa", "kangri-zhanzheng", "guogong-neizhan"] },
+    { "id": "prc", "name": "中华人民共和国", "color": "var(--c-prc)", "capital": [705, 420], "summary": "1949 年 10 月 1 日成立——长卷在此收束，新卷由此展开。", "relatedEventIds": ["kaiguo-dadian"] }
+  ]
+}

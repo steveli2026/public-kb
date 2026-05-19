@@ -1,0 +1,2372 @@
+{
+  "_note": "每个需要图的位置一个 slot。prompt 为可编辑的‘主体’，生成时服务端按 type 追加统一风格后缀。ref=垫图(可空，UI 可开关)。versions=本地多版本，selected=当前采用。由 build-art-manifest.mjs 生成，保留已有成果。",
+  "styleByType": {
+    "portrait": "，中国传统绢本工笔结合水墨，暖褐色调，半身肖像，神态传神，背景为当时场景或留白，博物馆藏品级，无文字无边框",
+    "scene": "，水墨史诗长卷，电影感构图，苍劲大气，暖墨与朱砂点染，做旧绢本质感，无文字",
+    "map": "。将其改绘为水墨绢本古地图：严格保留参考图的海岸线/陆地轮廓/水系与构图，去除所有文字、经纬网格、现代行政与国界线；山为水墨皴染，海为淡青古波纹，陆地为均匀做旧米色（不要妨碍后续叠色），雅致留白，无标题无指北针",
+    "hero": "，徐徐展开的绢本山河长卷，黄河长江贯穿，朱砂印章，苍劲大气，电影级开篇画面，无文字"
+  },
+  "slots": {
+    "hero": {
+      "type": "hero",
+      "prompt": "中国历史长卷开篇：黄河长江贯穿的辽阔山河，群山如龙，云气翻涌，朝代如潮起潮落",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [
+        {
+          "file": "assets/art/hero/v1-1779225530190.png",
+          "engine": "openai",
+          "usedRef": false,
+          "ts": 1779225530192
+        }
+      ],
+      "selected": "assets/art/hero/v1-1779225530190.png"
+    },
+    "map": {
+      "type": "map",
+      "prompt": "中国全图：完整的海岸线、山脉与江河水系",
+      "userEdited": false,
+      "ref": "assets/ref/china-relief.jpg",
+      "engine": "openai",
+      "versions": [
+        {
+          "file": "assets/art/_basemap.png",
+          "engine": "legacy",
+          "ts": 0
+        }
+      ],
+      "selected": "assets/art/_basemap.png"
+    },
+    "era:sanhuang": {
+      "type": "scene",
+      "prompt": "三皇五帝 · 传说时代（约前 27 世纪 — 前 2070）天下大势。文字未兴，记忆靠口耳与传说。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:xia": {
+      "type": "scene",
+      "prompt": "夏（约前 2070 — 前 1600）天下大势。禹传子启，公天下变为家天下，中国第一个世袭王朝由此而立。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:shang": {
+      "type": "scene",
+      "prompt": "商（约前 1600 — 前 1046）天下大势。商是第一个有同时代文字（甲骨文）可证的王朝。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:western-zhou": {
+      "type": "scene",
+      "prompt": "西周（前 1046 — 前 771）天下大势。周武王克商后，把同姓子弟与功臣分封各地，以血缘和礼乐维系一张松散的天下之网。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:chunqiu": {
+      "type": "scene",
+      "prompt": "春秋（前 770 — 前 476）天下大势。周室东迁后名存实亡，诸侯各自为政。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:zhanguo": {
+      "type": "scene",
+      "prompt": "战国（前 475 — 前 221）天下大势。礼的遮羞布彻底撕掉，七国比的是耕战与吏治。",
+      "userEdited": false,
+      "ref": "assets/ref/era__zhanguo.jpg",
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:qin": {
+      "type": "scene",
+      "prompt": "秦（前 221 — 前 207）天下大势。秦王政十年灭六国，自称『始皇帝』，废分封行郡县，统一文字、度量、车轨。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:chuhan": {
+      "type": "scene",
+      "prompt": "楚汉相争（前 206 — 前 202）天下大势。秦亡，西楚霸王项羽与汉王刘邦相争四年。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:western-han": {
+      "type": "scene",
+      "prompt": "西汉 · 新莽（前 202 — 公元 25）天下大势。刘邦立汉，与民休息。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:eastern-han": {
+      "type": "scene",
+      "prompt": "东汉（公元 25 — 220）天下大势。刘秀重建汉室，光武中兴，蔡伦造纸、班超经营西域。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:sanguo": {
+      "type": "scene",
+      "prompt": "三国（220 — 280）天下大势。曹操官渡破袁绍统一北方，赤壁一炬被孙刘联军逼回江北，天下三分之势就此定型：曹魏据中原、蜀汉守巴蜀、孙吴有江东。",
+      "userEdited": false,
+      "ref": "assets/ref/era__sanguo.jpg",
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:western-jin": {
+      "type": "scene",
+      "prompt": "西晋（266 — 316）天下大势。司马炎代魏立晋，280 年灭吴，天下重归一统——可惜只有三十余年。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:shiliuguo": {
+      "type": "scene",
+      "prompt": "东晋 · 十六国（317 — 420）天下大势。司马睿在江南重建晋室（东晋），靠的是侨姓士族，『王与马，共天下』。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:nanbeichao": {
+      "type": "scene",
+      "prompt": "南北朝（420 — 589）天下大势。南朝宋齐梁陈四代更替，门阀政治由盛转衰。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:sui": {
+      "type": "scene",
+      "prompt": "隋（581 — 619）天下大势。杨坚代周建隋，589 年灭陈，结束近三百年分裂。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:tang": {
+      "type": "scene",
+      "prompt": "唐（618 — 907）天下大势。李渊建唐，太宗贞观之治、被尊为『天可汗』，长安成为世界都会。",
+      "userEdited": false,
+      "ref": "assets/ref/era__tang.jpg",
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:tang-late": {
+      "type": "scene",
+      "prompt": "唐末 · 黄巢之乱（874 — 907）天下大势。盐贩出身、屡试不第的黄巢，挥军纵横半个中国，攻入长安称帝（大齐）。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [
+        {
+          "file": "assets/art/era__tang-late/v1-1779219291366.png",
+          "engine": "gemini",
+          "usedRef": false,
+          "ts": 1779219291372
+        }
+      ],
+      "selected": "assets/art/era__tang-late/v1-1779219291366.png"
+    },
+    "era:wudai-front": {
+      "type": "scene",
+      "prompt": "五代十国 · 前期（907 — 936）天下大势。朱温篡唐建后梁，中原进入五十三年间五个短命王朝（梁唐晋汉周）走马灯的时代。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:wudai-late": {
+      "type": "scene",
+      "prompt": "五代十国 · 后期（947 — 960）天下大势。后晋石敬瑭认契丹为父、割让幽云十六州——这一刀的后果，北宋、南宋背了三百年。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:northern-song": {
+      "type": "scene",
+      "prompt": "北宋 · 辽 · 西夏（960 — 1127）天下大势。赵匡胤『杯酒释兵权』，结束武人乱政，却也开启『重文轻武』的国策。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:southern-song": {
+      "type": "scene",
+      "prompt": "南宋 · 金（1127 — 1279）天下大势。高宗赵构南渡，定都临安，与金以淮水大散关为界。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:yuan": {
+      "type": "scene",
+      "prompt": "元（1271 — 1368（蒙古帝国 1206 起））天下大势。成吉思汗起于漠北，铁骑横扫欧亚。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:ming": {
+      "type": "scene",
+      "prompt": "明（1368 — 1644（南明至 1662））天下大势。乞丐、和尚出身的朱元璋驱元立明，废丞相、设锦衣卫，皇权空前集中。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:qing": {
+      "type": "scene",
+      "prompt": "清（1636 — 1912（后金 1616 起））天下大势。努尔哈赤后金、皇太极改号大清，1644 入关。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:roc": {
+      "type": "scene",
+      "prompt": "中华民国 · 大陆时期（1912 — 1949）天下大势。帝制终结，共和初立却旋即陷入军阀混战。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "era:prc": {
+      "type": "scene",
+      "prompt": "中华人民共和国（1949 —）天下大势。1949 年 10 月 1 日，新中国成立。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "person:huangdi": {
+      "type": "portrait",
+      "prompt": "黄帝，人文初祖（传说）。涿鹿之战败蚩尤、阪泉之战服炎帝，被后世共尊为华夏始祖。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:yao": {
+      "type": "portrait",
+      "prompt": "尧，五帝（传说）。以德治世，不传子而禅位于舜，成为『禅让』典范。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:shun": {
+      "type": "portrait",
+      "prompt": "舜，五帝（传说）。孝感动天，受尧禅让，又择贤禅位于治水的禹。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:yu": {
+      "type": "portrait",
+      "prompt": "禹，夏的奠基者（传说）。三过家门而不入，治水成功。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:qi": {
+      "type": "portrait",
+      "prompt": "启，夏第二任君主（夏初）。继禹之位，世袭制由此确立，开四千年王朝更替之先河。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:jie": {
+      "type": "portrait",
+      "prompt": "夏桀，夏末代君主（夏末）。暴虐失德，宠妹喜，为商汤所灭——亡国之君的第一个原型。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:tang": {
+      "type": "portrait",
+      "prompt": "商汤，商的开国君主（商初）。鸣条之战灭夏，以『吊民伐罪』立国，确立改朝换代的合法性话术。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:wuding": {
+      "type": "portrait",
+      "prompt": "武丁，商王（商中期）。妇好为其后、亦为名将。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhouwang": {
+      "type": "portrait",
+      "prompt": "商纣王（帝辛），商末代君主（商末）。材力过人却酗酒用刑、远征东夷耗国力，牧野兵败自焚鹿台。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhou-wu": {
+      "type": "portrait",
+      "prompt": "周武王，西周开国君主（前 11 世纪）。牧野誓师灭商，分封诸侯，以『天命』为新王朝立论。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:jiangziya": {
+      "type": "portrait",
+      "prompt": "姜子牙，周之太师（前 11 世纪）。渭水垂钓遇文王，辅武王灭商，封于齐——后世谋士的祖师爷。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhougong": {
+      "type": "portrait",
+      "prompt": "周公旦，摄政·制礼作乐（前 11 世纪）。东征平叛、还政成王、制礼作乐，奠定中国伦理与政治的底色。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:youwang": {
+      "type": "portrait",
+      "prompt": "周幽王，西周末代君主（前 8 世纪）。烽火戏诸侯博褒姒一笑，犬戎破镐京而身死，西周亡。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:qihuan": {
+      "type": "portrait",
+      "prompt": "齐桓公，春秋首霸（?—前 643）。用管仲改革，『尊王攘夷』九合诸侯，霸业之始。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:jinwen": {
+      "type": "portrait",
+      "prompt": "晋文公，春秋霸主（前 697—前 628）。流亡十九年而归国称霸，城濮之战退避三舍而胜楚。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:confucius": {
+      "type": "portrait",
+      "prompt": "孔子，儒家创始人（前 551—前 479）。周游列国推行仁政未果，删述六经，立中国人两千年的道德标尺。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:laozi": {
+      "type": "portrait",
+      "prompt": "老子，道家创始人（春秋）。《道德经》五千言，言『道法自然』，与儒家并为中华思想两大源流。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:shangyang": {
+      "type": "portrait",
+      "prompt": "商鞅，秦变法者（前 390—前 338）。立木为信、奖耕战、行连坐，把秦改造成战争机器。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:sumin-zhang": {
+      "type": "portrait",
+      "prompt": "苏秦·张仪，纵横家（战国）。合纵连横，一张嘴搅动七国格局——『一怒而诸侯惧』。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:baiqi": {
+      "type": "portrait",
+      "prompt": "白起，秦之战神（?—前 257）。长平之战坑赵卒四十万，杀伐过盛，终被赐死杜邮。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhao-kuo": {
+      "type": "portrait",
+      "prompt": "赵括，赵将（?—前 260）。『纸上谈兵』的主角，长平易将冒进，全军覆没。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:qinshihuang": {
+      "type": "portrait",
+      "prompt": "秦始皇，始皇帝（前 259—前 210）。灭六国、称皇帝、废分封行郡县、书同文，铸就两千年帝制骨架。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:lisi": {
+      "type": "portrait",
+      "prompt": "李斯，秦丞相（?—前 208）。助统一、定郡县、主焚书。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:chensheng": {
+      "type": "portrait",
+      "prompt": "陈胜，反秦首义（?—前 208）。大泽乡振臂，喊出『王侯将相宁有种乎』——最强帝国亡于最底层一问。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:xiangyu": {
+      "type": "portrait",
+      "prompt": "项羽，西楚霸王（前 232—前 202）。力拔山兮气盖世，破釜沉舟、巨鹿破秦。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:liubang": {
+      "type": "portrait",
+      "prompt": "刘邦，汉高祖（前 256—前 195）。亭长出身，善用人——韩信将兵、张良运筹、萧何镇国。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:hanxin": {
+      "type": "portrait",
+      "prompt": "韩信，汉初名将（?—前 196）。胯下之辱、背水一战、十面埋伏。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhangliang": {
+      "type": "portrait",
+      "prompt": "张良，汉初谋圣（?—前 186）。圯上受书，运筹帷幄决胜千里，功成身退得善终。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:xiaohe": {
+      "type": "portrait",
+      "prompt": "萧何，汉初丞相（?—前 193）。镇国家、抚百姓、给馈饷，月下追韩信，定汉家制度。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:yuji": {
+      "type": "portrait",
+      "prompt": "虞姬，项羽爱姬（?—前 202）。垓下四面楚歌，自刎以绝霸王后顾——『虞兮虞兮奈若何』。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:hanwu": {
+      "type": "portrait",
+      "prompt": "汉武帝，西汉盛世之君（前 156—前 87）。北击匈奴、罢黜百家独尊儒术、通西域，把『汉』铸成民族之名。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhangqian": {
+      "type": "portrait",
+      "prompt": "张骞，凿空西域（?—前 114）。两使西域，十三年九死一生，丝绸之路由此而通。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:simaqian": {
+      "type": "portrait",
+      "prompt": "司马迁，史家（前 145—?）。受腐刑而著《史记》，『究天人之际，通古今之变』，史家绝唱。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:wangmang": {
+      "type": "portrait",
+      "prompt": "王莽，新朝皇帝（前 45—公元 23）。外戚代汉建『新』，托古改制全面失败——『复古』也是一种激进。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:liuxiu": {
+      "type": "portrait",
+      "prompt": "汉光武帝，东汉开国君主（前 5—公元 57）。昆阳之战以少胜多，重建汉室，光武中兴，柔道治国。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:caiLun": {
+      "type": "portrait",
+      "prompt": "蔡伦，改进造纸术（?—121）。改良造纸，文明的载体从此轻贱普及——影响千年的技术革命。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:banchao": {
+      "type": "portrait",
+      "prompt": "班超，经营西域（32—102）。投笔从戎，『不入虎穴焉得虎子』，三十年镇抚西域五十余国。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:caocao": {
+      "type": "portrait",
+      "prompt": "曹操，魏武王（155—220）。挟天子以令诸侯，官渡破袁绍统一北方。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:liubei": {
+      "type": "portrait",
+      "prompt": "刘备，蜀汉昭烈帝（161—223）。织席贩履起家，三顾茅庐，以仁义聚人，白帝托孤。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:sunjian": {
+      "type": "portrait",
+      "prompt": "孙坚，孙吴奠基者（155—191）。江东猛虎，讨董先锋，为孙策孙权基业开路。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:sunquan": {
+      "type": "portrait",
+      "prompt": "孙权，孙吴大帝（182—252）。据江东三世，赤壁联刘抗曹，鼎足江南，老而多疑。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhugeliang": {
+      "type": "portrait",
+      "prompt": "诸葛亮，蜀汉丞相（181—234）。隆中对、联吴抗曹、六出祁山，鞠躬尽瘁死而后已，星落五丈原。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:simayi": {
+      "type": "portrait",
+      "prompt": "司马懿，魏权臣·晋之奠基（179—251）。隐忍数十年，高平陵之变夺曹魏大权，孙司马炎代魏。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:guanyu": {
+      "type": "portrait",
+      "prompt": "关羽，蜀汉名将（?—220）。过五关斩六将、水淹七军，败走麦城。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:simayan": {
+      "type": "portrait",
+      "prompt": "司马炎，西晋开国君主（236—290）。代魏立晋、灭吴一统，却大封宗室、奢靡纵欲，埋下八王之乱。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:huidi": {
+      "type": "portrait",
+      "prompt": "晋惠帝，西晋第二任君主（259—307）。『何不食肉糜』的痴帝，皇后贾南风乱政，八王之乱起。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:liuyuan": {
+      "type": "portrait",
+      "prompt": "刘渊，汉赵开国者（?—310）。匈奴贵族，借汉之名起兵，揭开五胡十六国的序幕。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:simarui": {
+      "type": "portrait",
+      "prompt": "晋元帝司马睿，东晋开国君主（276—323）。衣冠南渡，赖王导拥立于江南，『王与马，共天下』。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:wangdao": {
+      "type": "portrait",
+      "prompt": "王导，东晋名相（276—339）。琅琊王氏，调和南北士族，东晋立国实赖其手。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:fujian": {
+      "type": "portrait",
+      "prompt": "前秦苻坚，前秦天王（338—385）。用王猛统一北方，欲投鞭断流一举吞晋，淝水大败身死国分。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:xiexuan": {
+      "type": "portrait",
+      "prompt": "谢玄，东晋名将（343—388）。组建北府兵，淝水之战以八万破前秦八十万，再造东晋。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zuti": {
+      "type": "portrait",
+      "prompt": "祖逖，东晋北伐将（266—321）。闻鸡起舞、中流击楫，矢志北伐恢复中原，壮志未酬而终。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:liuyu": {
+      "type": "portrait",
+      "prompt": "刘裕，南朝宋开国君主（363—422）。寒门武人，气吞万里如虎，代晋立宋，开南朝。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:xiaowendi": {
+      "type": "portrait",
+      "prompt": "北魏孝文帝，北魏改革之君（467—499）。迁都洛阳、改汉姓、禁胡服，主动把征服者融入华夏文明。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:houjing": {
+      "type": "portrait",
+      "prompt": "侯景，叛将（503—552）。侯景之乱攻破建康，饿死梁武帝，南朝门阀经此致命一击。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:yangjian-pre": {
+      "type": "portrait",
+      "prompt": "杨坚（北周时），北周外戚（541—604）。北周重臣，承北朝融合之果，蓄势待发。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:yangjian": {
+      "type": "portrait",
+      "prompt": "隋文帝杨坚，隋开国君主（541—604）。代周建隋、灭陈一统，开皇之治，创科举雏形。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:suiyang": {
+      "type": "portrait",
+      "prompt": "隋炀帝杨广，隋第二任君主（569—618）。修运河、征高句丽，功在千秋、罪在当代，亡于自己最大的功绩。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:ligong-pre": {
+      "type": "portrait",
+      "prompt": "李渊（隋末），太原留守（566—635）。隋末晋阳起兵，乱世中最大的受益者。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:litang": {
+      "type": "portrait",
+      "prompt": "唐高祖李渊，唐开国君主（566—635）。晋阳起兵入长安建唐，血脉承北朝胡汉融合之果。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:litaizong": {
+      "type": "portrait",
+      "prompt": "唐太宗李世民，贞观之治（598—649）。玄武门之变即位，纳谏任贤，贞观之治，被尊『天可汗』。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:wuzetian": {
+      "type": "portrait",
+      "prompt": "武则天，中国唯一女皇（624—705）。改唐为周，知人善任，承贞观启开元，毁誉两千年。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:tangxuanzong": {
+      "type": "portrait",
+      "prompt": "唐玄宗李隆基，开元盛世之君（685—762）。前半生开元盛世，后半生宠杨妃信安禄山，亲手把盛唐推下悬崖。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:anlushan": {
+      "type": "portrait",
+      "prompt": "安禄山，安史之乱祸首（703—757）。身兼三镇节度使，渔阳鼙鼓动地来，一刀斩断盛唐。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:libai": {
+      "type": "portrait",
+      "prompt": "李白，诗仙（701—762）。『天生我材必有用』，盛唐气象的人格化身，也照见其由盛转衰。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:huangchao": {
+      "type": "portrait",
+      "prompt": "黄巢，唐末民变领袖·大齐皇帝（835—884）。盐贩出身、屡试不第，《不第后赋菊》写下『我花开后百花杀』。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [
+        {
+          "file": "assets/art/huangchao.png",
+          "engine": "legacy",
+          "ts": 0
+        }
+      ],
+      "selected": "assets/art/huangchao.png"
+    },
+    "person:zhuwen": {
+      "type": "portrait",
+      "prompt": "朱温（朱全忠），后梁太祖（852—912）。本为黄巢部将，降唐获赐名『全忠』，反成唐之掘墓人——白马驿尽杀朝臣，篡唐建后梁。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [
+        {
+          "file": "assets/art/zhuwen.png",
+          "engine": "legacy",
+          "ts": 0
+        }
+      ],
+      "selected": "assets/art/zhuwen.png"
+    },
+    "person:likeyong": {
+      "type": "portrait",
+      "prompt": "李克用，晋王·沙陀首领（856—908）。独眼龙，率沙陀劲旅镇黄巢之乱，与朱温结死仇，临终遗三矢于子存勖。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:tang-zhaozong": {
+      "type": "portrait",
+      "prompt": "唐昭宗，唐末帝（867—904）。有志中兴而无力回天，沦为藩镇玩物，终被朱温弑杀。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:licunxu": {
+      "type": "portrait",
+      "prompt": "李存勖（后唐庄宗），后唐开国君主（885—926）。承父三矢之志灭后梁建后唐，却宠伶人而身死兵乱——能马上得之，不能马上守之。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:yelvabaoji": {
+      "type": "portrait",
+      "prompt": "耶律阿保机，辽太祖（872—926）。统一契丹建立辽，趁中原五代之乱坐大北疆，为割燕云埋伏笔。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:shijingtang": {
+      "type": "portrait",
+      "prompt": "石敬瑭，后晋高祖（892—942）。认契丹为父、割幽云十六州以求帝位——一刀让中原四百年无险可守。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:guowei": {
+      "type": "portrait",
+      "prompt": "郭威（后周太祖），后周开国君主（904—954）。黄旗加身建后周，澄清吏治，为周世宗改革奠基。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhouhshizong": {
+      "type": "portrait",
+      "prompt": "周世宗柴荣，五代第一明君（921—959）。整军经武、南征北伐，立『十年开拓天下』之志，惜三十九岁早逝。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhaokuangyin": {
+      "type": "portrait",
+      "prompt": "宋太祖赵匡胤，北宋开国君主（927—976）。周世宗爱将，陈桥兵变黄袍加身代周建宋，杯酒释兵权终结武人乱政。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:songshenzong": {
+      "type": "portrait",
+      "prompt": "宋神宗，北宋变法之君（1048—1085）。锐意图强，全力支持王安石熙宁变法，新旧党争由此而炽。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:wanganshi": {
+      "type": "portrait",
+      "prompt": "王安石，改革家（1021—1086）。『天变不足畏，祖宗不足法，人言不足恤』，熙宁变法图强未竟。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:songhuizong": {
+      "type": "portrait",
+      "prompt": "宋徽宗，亡国之君·艺术家（1082—1135）。瘦金体、花石纲，艺术造诣极高、治国一塌糊涂，靖康北狩客死五国城。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhaogou": {
+      "type": "portrait",
+      "prompt": "宋高宗赵构，南宋开国君主（1107—1187）。泥马渡江南渡称帝，重用秦桧、自毁岳飞，偏安一隅。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:yuefei": {
+      "type": "portrait",
+      "prompt": "岳飞，南宋名将（1103—1142）。『精忠报国』，郾城大捷直捣黄龙在望，十二道金牌召回，『莫须有』死于风波亭。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:qinhui": {
+      "type": "portrait",
+      "prompt": "秦桧，南宋权相（1090—1155）。主和误国，以『莫须有』害岳飞，跪像千年。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:wentianxiang": {
+      "type": "portrait",
+      "prompt": "文天祥，南宋忠臣（1236—1283）。『人生自古谁无死，留取丹心照汗青』，兵败被俘宁死不降。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:luxiufu": {
+      "type": "portrait",
+      "prompt": "陆秀夫，南宋丞相（1236—1279）。崖山兵败，背八岁幼帝赵昺投海，十万军民殉国——南宋以最惨烈方式谢幕。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:chinggis": {
+      "type": "portrait",
+      "prompt": "成吉思汗，蒙古帝国奠基者（1162—1227）。统一蒙古诸部，铁骑横扫欧亚，建立人类史上最大陆地帝国。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:kublai": {
+      "type": "portrait",
+      "prompt": "忽必烈，元世祖（1215—1294）。定国号大元、建大都、灭南宋，首次以草原民族统一全中国，行省制延用至今。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhuyuanzhang-pre": {
+      "type": "portrait",
+      "prompt": "朱元璋（元末），红巾军领袖（1328—1398）。乞丐和尚出身，元末群雄中笑到最后的人。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhuyuanzhang": {
+      "type": "portrait",
+      "prompt": "明太祖朱元璋，明开国君主（1328—1398）。驱元立明，废丞相、设锦衣卫，皇权空前集中——强主之福，庸主之祸。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:yongle": {
+      "type": "portrait",
+      "prompt": "明成祖朱棣，永乐大帝（1360—1424）。靖难夺位，迁都北京，遣郑和下西洋，修《永乐大典》，五征漠北。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:zhenghe": {
+      "type": "portrait",
+      "prompt": "郑和，航海家（1371—1433）。七下西洋，宝船远抵东非，比哥伦布早八十余年——却因国策内缩而绝响。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:chongzhen": {
+      "type": "portrait",
+      "prompt": "崇祯帝，明末代君主（1611—1644）。勤政而多疑，内有流寇外有后金，吊死煤山，叹『臣皆亡国之臣』。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:lizicheng": {
+      "type": "portrait",
+      "prompt": "李自成，大顺政权领袖（1606—1645）。『闯王来了不纳粮』，破北京逼死崇祯，旋即败于清军，昙花一现。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:nuerhachi": {
+      "type": "portrait",
+      "prompt": "努尔哈赤，后金奠基者（1559—1626）。以十三副遗甲起兵，统一女真建后金，立八旗制，为清入主奠基。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:kangxi": {
+      "type": "portrait",
+      "prompt": "康熙帝，清盛世之君（1654—1722）。擒鳌拜、平三藩、收台湾、定边疆，开康乾盛世。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:qianlong": {
+      "type": "portrait",
+      "prompt": "乾隆帝，清盛世之君（1711—1799）。十全武功、疆域奠定，自诩天朝上国——盛世的自信将撞上工业文明。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:cixi": {
+      "type": "portrait",
+      "prompt": "慈禧太后，晚清实际统治者（1835—1908）。垂帘听政近半世纪，戊戌、庚子接踵，王朝在其手中走向终点。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:linzexu": {
+      "type": "portrait",
+      "prompt": "林则徐，禁烟英雄（1785—1850）。虎门销烟，『苟利国家生死以』，鸦片战争的引线与近代的起点。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:sunyatsen-pre": {
+      "type": "portrait",
+      "prompt": "孙中山（清末），革命先行者（1866—1925）。屡败屡起的革命者，清王朝最坚定的掘墓人。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:sunyatsen": {
+      "type": "portrait",
+      "prompt": "孙中山，中华民国国父（1866—1925）。倡三民主义，领导辛亥，结束两千年帝制，『革命尚未成功』。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:yuanshikai": {
+      "type": "portrait",
+      "prompt": "袁世凯，民国首任大总统（1859—1916）。窃国称帝八十三天而亡，开军阀混战之乱局。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:junfa": {
+      "type": "portrait",
+      "prompt": "北洋·军阀，割据群雄（1916—1928）。北洋分裂为皖直奉诸系，连年混战，民不聊生，盼统一而不得。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "person:kangri-junmin": {
+      "type": "portrait",
+      "prompt": "抗战军民，全民族抗战（1937—1945）。八年焦土、山河泣血而不屈，中国近代最痛也最硬的一段。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "gemini",
+      "versions": [],
+      "selected": null
+    },
+    "event:zhuolu": {
+      "type": "scene",
+      "prompt": "涿鹿之战。黄帝擒杀蚩尤，华夏部族联盟成形——文明的第一块基石。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:dayu-zhishui": {
+      "type": "scene",
+      "prompt": "大禹治水。三过家门而不入，疏川导滞十三年，治水的威望转化为权力。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:mingtiao": {
+      "type": "scene",
+      "prompt": "鸣条之战。商汤伐桀，夏亡商兴——王朝更替剧本的首演。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:pangeng-qianyin": {
+      "type": "scene",
+      "prompt": "盘庚迁殷。屡迁之后定都于殷，商由动荡转入鼎盛，甲骨文大兴。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:muye": {
+      "type": "scene",
+      "prompt": "牧野之战。商军前徒倒戈，纣王自焚，周代商——『天命』观由此而生。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:zhougong-zhili": {
+      "type": "scene",
+      "prompt": "周公制礼作乐。一套礼乐宗法，规定了中国此后三千年的伦理秩序。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:guoren-baodong": {
+      "type": "scene",
+      "prompt": "国人暴动。周厉王专利暴政，国人逐王、共和行政——中国信史纪年之始。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:quanrong-poxihao": {
+      "type": "scene",
+      "prompt": "犬戎破镐京。幽王身死，平王东迁，西周亡，周天子从此名存实亡。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:fenghuo-xinuo": {
+      "type": "scene",
+      "prompt": "烽火戏诸侯。为博褒姒一笑而戏弄诸侯，狼真来时无人赴援——失信者亡。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:zunwang-rangyi": {
+      "type": "scene",
+      "prompt": "尊王攘夷。齐桓晋文借周天子之名行霸主之实——名分仍值钱，秩序已动摇。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:shangyang-bianfa": {
+      "type": "scene",
+      "prompt": "商鞅变法。立木为信、奖耕战、行县制，把秦改造成最高效的战争国家。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:changping": {
+      "type": "scene",
+      "prompt": "长平之战。赵括代廉颇冒进，白起坑赵卒四十万，天下大势倒向秦。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:qin-tongyi": {
+      "type": "scene",
+      "prompt": "秦灭六国·一统天下。十年并吞六国，称皇帝、行郡县、书同文，帝制骨架成型。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:fenshu-kengru": {
+      "type": "scene",
+      "prompt": "焚书坑儒。禁私学、坑术士，思想一统的代价是文明的灼伤。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:daze-qiyi": {
+      "type": "scene",
+      "prompt": "大泽乡起义。陈胜吴广振臂，『王侯将相宁有种乎』——最强帝国亡于最底层一问。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:hongmen-yan": {
+      "type": "scene",
+      "prompt": "鸿门宴。项羽一念之仁不杀刘邦，放虎归山，四年后自食其果。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:gaixia": {
+      "type": "scene",
+      "prompt": "垓下之围。四面楚歌，霸王别姬，乌江自刎——『力拔山』败给『会用人』。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:wenjing-zhizhi": {
+      "type": "scene",
+      "prompt": "文景之治。黄老无为、与民休息，为汉武鼎盛攒下家底。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:zhangqian-tongxiyu": {
+      "type": "scene",
+      "prompt": "张骞通西域。十三年凿空，丝绸之路自此而通，文明的动脉打开。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:wangmang-cuanhan": {
+      "type": "scene",
+      "prompt": "王莽篡汉·新朝。外戚代汉，托古改制全面失败——『复古』也是一种激进。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:guangwu-zhongxing": {
+      "type": "scene",
+      "prompt": "光武中兴。刘秀昆阳奇胜、重建汉室，以柔道治天下。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:huangjin-qiyi": {
+      "type": "scene",
+      "prompt": "黄巾起义。『苍天已死』，朝廷放权地方平乱——中央饮鸩，豪强坐大。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:guandu": {
+      "type": "scene",
+      "prompt": "官渡之战。曹操以少胜多破袁绍，奠定统一北方之基。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:chibi": {
+      "type": "scene",
+      "prompt": "赤壁之战。孙刘联军火烧曹军，天下三分之势就此定型。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:wuzhangyuan": {
+      "type": "scene",
+      "prompt": "星落五丈原。诸葛亮鞠躬尽瘁，六出祁山而殁——智计敌不过国力与寿数。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:sanjia-guijin": {
+      "type": "scene",
+      "prompt": "三家归晋。司马氏代魏、灭蜀吴一统——曹操开的头，司马家收的尾。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:bawang-zhiluan": {
+      "type": "scene",
+      "prompt": "八王之乱。宗室屏藩自相残杀十六年，掏空西晋，引五胡入局。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:yongjia-zhiluan": {
+      "type": "scene",
+      "prompt": "永嘉之乱。匈奴攻陷洛阳掳怀帝，西晋将亡，士族南渡在即。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:yiguan-nandu": {
+      "type": "scene",
+      "prompt": "衣冠南渡。司马睿赖王导立于江南，『王与马共天下』，华夏文明南移。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:feishui": {
+      "type": "scene",
+      "prompt": "淝水之战。前秦八十万溃于东晋八万，风声鹤唳——决定南北朝对峙格局。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:xiaowen-hanhua": {
+      "type": "scene",
+      "prompt": "孝文帝汉化。迁都洛阳、改汉姓禁胡服——征服者主动融入被征服的文明。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:houjing-zhiluan": {
+      "type": "scene",
+      "prompt": "侯景之乱。建康陷落，梁武帝饿死台城，南朝门阀经此致命一击。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:sui-tongyi": {
+      "type": "scene",
+      "prompt": "隋灭陈·南北一统。结束近三百年分裂，制度上承前启后。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:kaike-yunhe": {
+      "type": "scene",
+      "prompt": "开凿大运河。贯通南北经济命脉——功在千秋，罪在当代。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:sanzheng-gaogouli": {
+      "type": "scene",
+      "prompt": "三征高句丽。滥用民力，盛隋骤崩，瓦岗群雄并起。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:zhenguan-zhizhi": {
+      "type": "scene",
+      "prompt": "贞观之治。纳谏任贤、轻徭薄赋，太宗被尊『天可汗』。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:kaiyuan-shengshi": {
+      "type": "scene",
+      "prompt": "开元盛世。盛唐顶点，长安为世界都会——而衰亡的伏笔已埋。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:anshi-zhiluan": {
+      "type": "scene",
+      "prompt": "安史之乱。渔阳鼙鼓动地来，盛唐拦腰被斩，藩镇宦官之祸自此而起。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:huangchao-rujing": {
+      "type": "scene",
+      "prompt": "黄巢入长安·大齐。『满城尽带黄金甲』一语成谶，黄巢攻入长安称帝。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [
+        {
+          "file": "assets/art/event__huangchao-rujing/v1-1779225645249.png",
+          "engine": "openai",
+          "usedRef": false,
+          "ts": 1779225645250
+        }
+      ],
+      "selected": "assets/art/event__huangchao-rujing/v1-1779225645249.png"
+    },
+    "event:baima-yi": {
+      "type": "scene",
+      "prompt": "白马驿之祸。朱温尽杀朝臣投尸黄河，『此辈清流，可投浊流』——唐之脊梁断绝。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:tang-wang": {
+      "type": "scene",
+      "prompt": "朱温篡唐·唐亡。招降黄巢的那个人，亲手为大唐盖棺——三百年大唐终。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:zhuwen-jianliang": {
+      "type": "scene",
+      "prompt": "后梁建立。朱温建后梁，五代开场，武人立国的赤裸时代。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:houtang-mieliang": {
+      "type": "scene",
+      "prompt": "后唐灭后梁。李存勖承父三矢之志灭后梁——为唐『复仇』，但后唐终非大唐。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:geyun-yunzhou": {
+      "type": "scene",
+      "prompt": "石敬瑭割幽云十六州。认契丹为父割燕云——中原四百年无险可守，宋两朝背此债。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:chenqiao-bingbian": {
+      "type": "scene",
+      "prompt": "陈桥兵变·黄袍加身。赵匡胤代周建宋，几乎兵不血刃接收周世宗的家底。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:beijiu-shibingquan": {
+      "type": "scene",
+      "prompt": "杯酒释兵权。一杯酒解武将兵柄，终结武人乱政，也种下百年积弱之根。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:chanyuan-zhimeng": {
+      "type": "scene",
+      "prompt": "澶渊之盟。宋辽约为兄弟、岁币买和平——百年无大战，也百年失锐气。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:xining-bianfa": {
+      "type": "scene",
+      "prompt": "熙宁变法。王安石图强变法，新旧党争撕裂朝堂数十年。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:jingkang-zhibian": {
+      "type": "scene",
+      "prompt": "靖康之耻。金破汴京，徽钦二帝北狩，北宋亡——文明巅峰的至暗时刻。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:yuefei-beifa": {
+      "type": "scene",
+      "prompt": "岳飞北伐。郾城大捷直捣黄龙在望，十二道金牌召回——功亏一篑。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:shaoxing-heyi": {
+      "type": "scene",
+      "prompt": "绍兴和议·风波亭。宋向金称臣，岳飞以『莫须有』死——自毁长城者非敌人。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:yashan": {
+      "type": "scene",
+      "prompt": "崖山海战。陆秀夫负幼帝蹈海，十万军民殉国，南宋以最惨烈方式谢幕。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:mongol-mienansong": {
+      "type": "scene",
+      "prompt": "蒙古灭南宋·元一统。首次由草原民族统一全中国，行省制延用至今。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:hongjin-qiyi": {
+      "type": "scene",
+      "prompt": "红巾起义。黄河泛滥、白莲教起，群雄逐鹿，元统治不足百年而崩。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:jingnan-zhiyi": {
+      "type": "scene",
+      "prompt": "靖难之役。燕王朱棣以『清君侧』夺侄之位，迁都北京。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:zhenghe-xixiyang": {
+      "type": "scene",
+      "prompt": "郑和下西洋。宝船七下西洋远抵东非，旋因国策内缩而绝响。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:tumubao": {
+      "type": "scene",
+      "prompt": "土木堡之变。宦官王振误国，英宗被瓦剌所俘，明由盛转衰。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:jiashen-zhibian": {
+      "type": "scene",
+      "prompt": "甲申之变。李自成破北京，崇祯自缢煤山，清军随即入关——天崩地裂的一年。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:qing-ruguan": {
+      "type": "scene",
+      "prompt": "清军入关。山海关一开，满洲入主，最后一个王朝登场。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:kangqian-shengshi": {
+      "type": "scene",
+      "prompt": "康乾盛世。疆域奠定今日之基，自信的天朝即将撞上工业文明。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:yapian-zhanzheng": {
+      "type": "scene",
+      "prompt": "鸦片战争。坚船利炮凿穿国门，天朝上国梦碎，近代百年屈辱起点。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:taiping": {
+      "type": "scene",
+      "prompt": "太平天国。金田起义席卷半个中国十四年，内外交困加速王朝衰朽。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:xinhai": {
+      "type": "scene",
+      "prompt": "辛亥革命。武昌一声枪响，两千年帝制终结——但中国向何处去，问题才开始。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:xinhai-gonghe": {
+      "type": "scene",
+      "prompt": "民国肇建。清帝退位，中华民国立——共和初生即陷军阀混战。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:beifa": {
+      "type": "scene",
+      "prompt": "国民革命军北伐。名义统一全国，军阀时代落幕，新的裂痕又起。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:kangri-zhanzheng": {
+      "type": "scene",
+      "prompt": "抗日战争。八年焦土山河泣血而不屈，中华民族近代最痛也最硬的一段。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:guogong-neizhan": {
+      "type": "scene",
+      "prompt": "国共内战·三大战役。战后决战定局，一个旧时代走向终点。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "event:kaiguo-dadian": {
+      "type": "scene",
+      "prompt": "新中国成立。1949 年 10 月 1 日——四千年长卷在此收束，又在此重新铺开。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:legend-huaxia": {
+      "type": "scene",
+      "prompt": "华夏部族：炎黄部族联盟，文明的源头，疆域只是传说中的『天下之中』。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:xia": {
+      "type": "scene",
+      "prompt": "夏：中国第一个世袭王朝，势力局促于中原一隅。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:shang": {
+      "type": "scene",
+      "prompt": "商：青铜与甲骨文的王朝，崇鬼好战，疆域及于黄河中下游。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:western-zhou": {
+      "type": "scene",
+      "prompt": "西周：分封宗法礼乐之邦，以血缘维系松散的天下之网。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:state-jin": {
+      "type": "scene",
+      "prompt": "晋：春秋最强诸侯，长期称霸，后三家分晋开战国。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:state-qi": {
+      "type": "scene",
+      "prompt": "齐：东方大国，齐桓首霸，富鱼盐之利。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:state-chu": {
+      "type": "scene",
+      "prompt": "楚：南方蛮夷之雄，问鼎中原，地最广。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:state-qin": {
+      "type": "scene",
+      "prompt": "秦：西陲后起，商鞅变法后化为战争机器。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:state-yan": {
+      "type": "scene",
+      "prompt": "燕：北方苦寒之国，七雄中最弱，荆轲刺秦出于此。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:state-wuyue": {
+      "type": "scene",
+      "prompt": "吴·越：春秋末江南争雄，卧薪尝胆出于此。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:state-zhao": {
+      "type": "scene",
+      "prompt": "赵：胡服骑射之国，长平一败元气尽丧。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:state-wei": {
+      "type": "scene",
+      "prompt": "魏：战国初霸，李悝变法最早，后渐衰。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:state-han": {
+      "type": "scene",
+      "prompt": "韩：七雄最小，劲弩天下闻名，首被秦灭。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:qin": {
+      "type": "scene",
+      "prompt": "秦：第一个大一统帝国，二世而亡，留下两千年帝制骨架。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:xichu": {
+      "type": "scene",
+      "prompt": "西楚（项羽）：霸王分封天下，自王西楚，四年而亡于垓下。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:han-wang": {
+      "type": "scene",
+      "prompt": "汉（刘邦）：受封汉中巴蜀，明修栈道暗度陈仓，终得天下。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:western-han": {
+      "type": "scene",
+      "prompt": "西汉：把『汉』铸成民族之名，武帝时疆域北逐匈奴、西通西域。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:xin": {
+      "type": "scene",
+      "prompt": "新（王莽）：外戚代汉，托古改制十四年而亡。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:eastern-han": {
+      "type": "scene",
+      "prompt": "东汉：光武中兴重建汉室，末年豪强割据，三国火种已燃。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:caowei": {
+      "type": "scene",
+      "prompt": "曹魏：据有中原与北方，最强。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:shuhan": {
+      "type": "scene",
+      "prompt": "蜀汉：偏安巴蜀，以汉室正统自居，诸葛六出祁山而亡。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:sunwu": {
+      "type": "scene",
+      "prompt": "孙吴：据江东，赤壁联刘抗曹，三国中存续最久。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:western-jin": {
+      "type": "scene",
+      "prompt": "西晋：短暂一统三十余年，八王之乱后崩塌。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:eastern-jin": {
+      "type": "scene",
+      "prompt": "东晋：衣冠南渡，门阀与皇权『共天下』，淝水保住半壁。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:qianqin": {
+      "type": "scene",
+      "prompt": "前秦：氐人苻坚用王猛一度统一北方，淝水一败土崩。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:shiliu-misc": {
+      "type": "scene",
+      "prompt": "十六国（诸胡）：匈奴鲜卑羯氐羌轮番建国，百年间二十余政权走马灯。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:nanchao": {
+      "type": "scene",
+      "prompt": "南朝（宋齐梁陈）：汉人正朔偏安江南，四代更替，门阀由盛转衰。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:beiwei": {
+      "type": "scene",
+      "prompt": "北魏：鲜卑统一北方，孝文帝迁洛汉化，胡汉交融。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:beizhou-qi": {
+      "type": "scene",
+      "prompt": "北周·北齐：北魏分裂后东西对峙，北周渐强，为隋统一蓄势。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:sui": {
+      "type": "scene",
+      "prompt": "隋：再造一统，创科举修运河，速兴速亡如秦。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:tang": {
+      "type": "scene",
+      "prompt": "唐：盛世帝国，长安为世界都会。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:daqi": {
+      "type": "scene",
+      "prompt": "大齐（黄巢）：黄巢攻入长安所建，『满城尽带黄金甲』一语成谶，旋灭。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:houliang": {
+      "type": "scene",
+      "prompt": "后梁：朱温篡唐所建，五代第一朝，与晋（李克用父子）死战。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:jin-licunxu": {
+      "type": "scene",
+      "prompt": "晋（李克用·李存勖）：沙陀河东集团，以为唐复仇为旗，灭后梁建后唐。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:qi-state": {
+      "type": "scene",
+      "prompt": "岐（李茂贞）：盘踞凤翔关中西部的割据藩镇，介于梁晋之间。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:qianshu": {
+      "type": "scene",
+      "prompt": "前蜀：王建据巴蜀称帝，富庶偏安，后为后唐所灭。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:yangwu": {
+      "type": "scene",
+      "prompt": "杨吴：杨行密据淮南江东，十国中实力雄厚，后为南唐所代。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:wuyue": {
+      "type": "scene",
+      "prompt": "吴越：钱氏据两浙，保境安民、纳贡中原，免战火百年。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:chu-ma": {
+      "type": "scene",
+      "prompt": "楚（马殷）：马殷据湖南，以茶马通商致富的偏霸。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:min-state": {
+      "type": "scene",
+      "prompt": "闽：王审知据福建，开发海港，内乱而亡。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:nanhan": {
+      "type": "scene",
+      "prompt": "南汉：刘氏据岭南称帝，富而暴虐，海贸繁盛。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:jingnan": {
+      "type": "scene",
+      "prompt": "荆南（南平）：高氏据江陵弹丸之地，事大求存，号『高赖子』。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:qidan-liao": {
+      "type": "scene",
+      "prompt": "契丹（辽）：耶律阿保机统一契丹，趁五代之乱坐大北疆。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:houjin": {
+      "type": "scene",
+      "prompt": "后晋：石敬瑭认契丹为父、割幽云十六州换来的王朝。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:houhan": {
+      "type": "scene",
+      "prompt": "后汉：五代最短促的王朝，仅四年。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:houzhou": {
+      "type": "scene",
+      "prompt": "后周：郭威柴荣励精图治，几乎终结乱世，惜世宗早逝。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:nantang": {
+      "type": "scene",
+      "prompt": "南唐：代杨吴而立，文化最盛（李煜），十国中最强，终降宋。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:houshu": {
+      "type": "scene",
+      "prompt": "后蜀：孟氏续据巴蜀，承平富庶，后降宋。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:beihan": {
+      "type": "scene",
+      "prompt": "北汉：依附契丹的河东残政，十国中最后被宋所灭。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:northern-song": {
+      "type": "scene",
+      "prompt": "北宋：重文轻武，经济文化登峰，军事守势，终亡于靖康。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:liao": {
+      "type": "scene",
+      "prompt": "辽：契丹大帝国，据燕云与北宋南北对峙百年。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:xixia": {
+      "type": "scene",
+      "prompt": "西夏：党项李元昊立国河西，宋辽金之间的第三角。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:dali": {
+      "type": "scene",
+      "prompt": "大理：段氏据云南，承南诏，奉中原而独立两百年。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:jin-jurchen": {
+      "type": "scene",
+      "prompt": "金：女真完颜部灭辽灭北宋，与南宋对峙，终亡于蒙古。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:southern-song": {
+      "type": "scene",
+      "prompt": "南宋：南渡偏安临安，以淮水大散关为界，崖山而终。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:mongol-rising": {
+      "type": "scene",
+      "prompt": "蒙古（崛起）：成吉思汗统一漠北，铁骑将吞金灭夏、终灭南宋。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:yuan": {
+      "type": "scene",
+      "prompt": "元：首个由草原民族统一全国的王朝，行省制延用至今。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:ming": {
+      "type": "scene",
+      "prompt": "明：布衣天子立国，皇权空前集中，海禁与内缩中由盛转衰。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:qing": {
+      "type": "scene",
+      "prompt": "清：最后一个王朝，康乾奠定疆域，近代被列强凿穿国门。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:roc": {
+      "type": "scene",
+      "prompt": "中华民国（大陆时期）：帝制终结后的共和，军阀混战、抗日烽火贯穿其大陆三十七年。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    },
+    "regime:prc": {
+      "type": "scene",
+      "prompt": "中华人民共和国：1949 年 10 月 1 日成立——长卷在此收束，新卷由此展开。",
+      "userEdited": false,
+      "ref": null,
+      "engine": "openai",
+      "versions": [],
+      "selected": null
+    }
+  }
+}

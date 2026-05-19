@@ -1,0 +1,89 @@
+/* ============================================================
+   布局 — 左侧常驻地图 + 右侧滚动叙事脊柱
+   ============================================================ */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  font-family: var(--font-serif);
+  color: var(--ink);
+  background:
+    radial-gradient(120% 80% at 50% 0%, var(--paper) 0%, var(--paper-2) 55%, var(--paper-edge) 100%) fixed;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.75;
+}
+
+.stage {
+  display: grid;
+  grid-template-columns: 46fr 54fr;
+  min-height: 100vh;
+}
+
+/* 左：地图面板（Minimap 在上、字幕居中、图位与编辑器在左下） */
+.map-pane {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+  border-right: 1px solid rgba(60, 48, 30, .25);
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(120% 90% at 50% 45%, #e7d9bb 0%, #d8c6a1 60%, #c8b489 100%);
+  box-shadow: inset 0 0 140px rgba(60, 44, 24, .4);
+}
+.map-pane .map-svg { max-height: 100vh; }
+
+/* 右：叙事脊柱 */
+.spine {
+  position: relative;
+  padding: 0 clamp(1.2rem, 4vw, 5rem);
+}
+
+/* 入场长卷封面 */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-m);
+  padding: var(--space-xl) 0;
+}
+
+.era-section {
+  min-height: 92vh;
+  padding: var(--space-xl) 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scroll-margin-top: 0;
+}
+
+/* 进度 / 朝代浮标 */
+.progress {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: transparent;
+  z-index: 40;
+  pointer-events: none;
+}
+.progress > i {
+  display: block; height: 100%;
+  width: var(--p, 0%);
+  background: linear-gradient(90deg, var(--cinnabar), var(--gold));
+  transition: width 120ms linear;
+}
+
+/* 移动端：地图收为可切换顶栏 */
+@media (max-width: 860px) {
+  .stage { grid-template-columns: 1fr; }
+  .map-pane {
+    position: sticky; top: 0; height: 42vh;
+    border-right: none; border-bottom: 1px solid rgba(60,48,30,.25);
+    z-index: 30;
+  }
+  .spine { padding: 0 1.1rem; }
+  .era-section { min-height: 80vh; }
+}

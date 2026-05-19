@@ -1,6 +1,8 @@
-// 装配：左缩略图 · 中叙事脊柱 · 右图位/详情；进度条；深链；全局图片预览。
+// 装配：左缩略图（简略 / 详尽两态）· 中叙事脊柱 · 右图位/详情；进度条；深链；全局图片预览。
 import { loadAll } from "./data/loader.js";
 import { Spine } from "./timeline/Spine.js";
+import { DetailedRail } from "./timeline/DetailedRail.js";
+import { RailModeStore } from "./timeline/RailModeStore.js";
 import { artStore } from "./imageslot/store.js";
 import { Minimap } from "./ui/Minimap.js";
 import { lightbox } from "./ui/Lightbox.js";
@@ -59,18 +61,49 @@ const ERA_THEMES = {
 
   lightbox.init();
 
+  let activeEra = null;
+
+  // —— 左栏两态：简略 Minimap / 详尽 DetailedRail —— 由 RailModeStore 控制可见 + 宽度
+  // DOM 顺序：DetailedRail (head 永远可见) → Minimap (作为简略态的列表 body)
+  const railStore = new RailModeStore();
+
+  const detailedRail = new DetailedRail($("#left-rail"), db, railStore, {
+    onJumpToEra: (id) => spine.scrollToEra(id),
+  });
+
   const minimap = new Minimap($("#left-rail"), db, {
     onJump: (id) => spine.scrollToEra(id),
   });
   minimap.render();
+
+  // 同步 DOM 可见性 + grid 列宽 + 拖拽手柄状态
+  function syncRailMode() {
+    const eff = railStore.effective;
+    document.body.dataset.railMode = eff;
+    document.documentElement.style.setProperty("--rail-full-width", railStore.width + "px");
+    minimap.setVisible(eff === "light");
+    detailedRail.setVisible(eff === "full");
+    // 详尽态首次进入时把当前 era 滚到 center
+    if (eff === "full" && activeEra) {
+      requestAnimationFrame(() => detailedRail.centerActive());
+    }
+  }
+  railStore.subscribe(() => syncRailMode());
+  syncRailMode();
+
+  // —— 左边界拖拽（仅 ≥ 1100px） ——
+  const railEl = $("#left-rail");
+  const handle = document.createElement("div");
+  handle.className = "rail-drag-handle";
+  handle.title = "拖拽调整宽度";
+  railEl.append(handle);
+  bindDrag(handle, railStore, railEl);
 
   const right = new RightRail($("#right-rail"), db, {
     onNavigate: (id) => setHash(db.entityKind(id), id),
     onReturnToEra: () => { if (activeEra) replaceHash("era", activeEra); },
   });
   right.render();
-
-  let activeEra = null;
 
   const spine = new Spine($("#spine"), db, {
     onActiveEra(eraId) {
@@ -80,6 +113,7 @@ const ERA_THEMES = {
       activeEra = eraId;
       applyEraTheme(era);
       minimap.setActive(eraId);
+      detailedRail.setActiveEra(eraId);
       right.setEra(era);
       if (right.mode === "era") replaceHash("era", eraId);
     },
@@ -124,6 +158,42 @@ const ERA_THEMES = {
   console.info("%c中国历史长卷 已就绪", "color:#b23a2f;font-weight:bold",
     `· ${db.eras.length} 个时期 · ${db.people.size} 人物 · ${db.events.size} 事件`);
 })();
+
+// 左栏右边界拖拽：实时 setWidthTransient，松手时 commitDrag 触发吸附 + 持久化
+function bindDrag(handle, store, railEl) {
+  let dragging = false;
+  let startX = 0;
+  let startW = 0;
+  const onPointerDown = (e) => {
+    if (innerWidth < 1100) return; // 移动端禁用
+    dragging = true;
+    startX = e.clientX;
+    startW = railEl.getBoundingClientRect().width;
+    handle.classList.add("on");
+    document.body.style.cursor = "ew-resize";
+    document.body.style.userSelect = "none";
+    handle.setPointerCapture?.(e.pointerId);
+  };
+  const onPointerMove = (e) => {
+    if (!dragging) return;
+    const w = startW + (e.clientX - startX);
+    store.setWidthTransient(w);
+    document.documentElement.style.setProperty("--rail-full-width", store.width + "px");
+  };
+  const onPointerUp = (e) => {
+    if (!dragging) return;
+    dragging = false;
+    handle.classList.remove("on");
+    document.body.style.cursor = "";
+    document.body.style.userSelect = "";
+    const w = startW + (e.clientX - startX);
+    store.commitDrag(w);
+  };
+  handle.addEventListener("pointerdown", onPointerDown);
+  handle.addEventListener("pointermove", onPointerMove);
+  handle.addEventListener("pointerup", onPointerUp);
+  handle.addEventListener("pointercancel", onPointerUp);
+}
 
 function applyEraTheme(era) {
   const [accent, paper, paper2, edge] = ERA_THEMES[era.id] || [era.color || "#b23a2f", "#ece3d2", "#e3d7bf", "#d8c8a6"];

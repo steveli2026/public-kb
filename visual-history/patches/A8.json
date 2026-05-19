@@ -1,0 +1,1048 @@
+{
+  "agentGroup": "A8",
+  "eras": ["qing", "roc", "prc"],
+  "eraPatches": {
+    "qing": {
+      "storyAppend": "前半场——多尔衮、康熙、雍正、乾隆把疆域与赋税都做到了极致；后半场——道光、咸丰、同治、光绪眼睁睁看着 [[qing-yuanmingyuan]]、[[qing-jiawu]]、[[qing-gengzi]] 一刀刀凿穿天朝旧梦。两个清朝之间，只隔一代人。",
+      "addedKeyPersonIds": [
+        "qing-huangtaiji", "qing-duergun", "qing-xiaozhuang", "qing-shunzhi",
+        "qing-aobai", "qing-shilang", "qing-galdan", "qing-yongzheng",
+        "qing-heshen", "qing-zengguofan", "qing-zuozongtang", "qing-lihongzhang",
+        "qing-hongxiuquan", "qing-dengshichang", "qing-tansitong",
+        "qing-guangxu", "qing-puyi", "qing-yixin", "qing-kangyouwei", "qing-liangqichao"
+      ],
+      "addedKeyEventIds": [
+        "qing-tifayifu", "qing-sanfan", "qing-shoutaiwan", "qing-jiuzi-duodi",
+        "qing-yongzheng-gaige", "qing-wenziyu", "qing-yuanmingyuan",
+        "qing-xinyou-zhengbian", "qing-shoufu-xinjiang", "qing-jiawu",
+        "qing-wuxu-bianfa", "qing-gengzi", "qing-tuiwei"
+      ],
+      "addedStorylets": [
+        {
+          "title": "剃发易服——身体上的征服",
+          "body": "1645 年 [[qing-duergun]] 一纸『留头不留发，留发不留头』下江南。江阴八十一日、嘉定三屠以此而起。一根辫子比八旗弓马更深地嵌进汉人身体，整整压了二百六十七年——直到 [[xinhai]] 之后才剪掉。"
+        },
+        {
+          "title": "三藩——吴三桂的二度反复",
+          "body": "山海关引清兵的吴三桂，三十年后又以『反清复明』起兵。但他既杀过永历帝，又称过周王——天下没人再信。[[kangxi]] 抓住这一点，八年平三藩，从此再无藩镇之忧。"
+        },
+        {
+          "title": "九子夺嫡——雍正的隐与忍",
+          "body": "[[kangxi]] 晚年九个皇子各拉一党，太子两立两废。最不张扬的四阿哥 [[qing-yongzheng]] 暗结 [[qing-longkeduo]]，凭一道遗诏一夜登基。胜者改名党人、贬囚兄弟——皇位之争从此不再走嫡长老路。"
+        },
+        {
+          "title": "文字狱——清风不识字",
+          "body": "雍正乾隆两朝兴大狱百余起。一句『清风不识字，何故乱翻书』可灭门，一部《明史》可株连七十余口。盛世的另一面，是士人把笔尖磨成了考据训诂——思想避险，避了一百年。"
+        },
+        {
+          "title": "乾隆与和珅",
+          "body": "[[qianlong]] 晚年最信 [[qing-heshen]]，二十余年专宠。嘉庆即位十五天即下旨抄家，得银八亿两，相当于清廷十年税入——『和珅跌倒，嘉庆吃饱』。盛世的账，原来一直挂在一个宠臣身上。"
+        },
+        {
+          "title": "火烧圆明园",
+          "body": "1860 年英法联军进京，咸丰逃热河。三天三夜大火把 [[qing-yuanmingyuan]] 烧成废墟。半个世纪后，残柱仍立在西郊——这是天朝上国神话最具体的灰烬。"
+        },
+        {
+          "title": "曾国藩与湘军",
+          "body": "[[qing-zengguofan]] 以一介书生回乡办团练，十二年平 [[taiping]]。但他也亲手开了『督抚领兵』的口子——汉臣崛起、地方坐大，半世纪后辛亥时各省一夜独立，根就埋在这里。"
+        },
+        {
+          "title": "左宗棠抬棺出征——收复新疆",
+          "body": "1876 年 [[qing-zuozongtang]] 六十四岁，抬棺西征。两年克复天山南北，从俄人手中讨回伊犁。这是晚清极少数让人挺直腰板的胜利——也是最后一次。"
+        },
+        {
+          "title": "甲午——亚洲第一海军的覆灭",
+          "body": "北洋水师吨位曾居亚洲第一。[[qing-jiawu]] 一战，丁汝昌自尽，[[qing-dengshichang]] 撞向吉野同归于尽。马关条约割台湾、赔二亿三千万两——这一败，比 [[yapian-zhanzheng]] 更彻底地告诉中国：连日本都打不过。"
+        },
+        {
+          "title": "戊戌六君子——『有心杀贼无力回天』",
+          "body": "1898 年百日维新，[[cixi]] 一夕政变。[[qing-tansitong]] 本可走，却选择留下：『各国变法无不从流血而成，今中国未闻有因变法而流血者，此国所以不昌也。请自嗣同始。』菜市口刑场，是清末最悲壮的一笔。"
+        },
+        {
+          "title": "庚子之耻——慈禧西狩",
+          "body": "1900 年 [[cixi]] 用义和团对八国宣战，转眼联军破京。她带光绪西逃西安一年，回京后下罪己诏、签 [[qing-xinchou-tiaoyue]]——四亿五千万两赔款，按人头一人一两。这之后，连她自己也只能讲『新政』了。"
+        },
+        {
+          "title": "立宪与革命的赛跑",
+          "body": "庚子之后，清廷推预备立宪、废科举、办新军、设资政院——动作不可谓不大。但 1908 年光绪、慈禧两日内相继驾崩，三岁 [[qing-puyi]] 即位。立宪还没到点，[[xinhai]] 已经响了——王朝输给了时间。"
+        },
+        {
+          "title": "溥仪三岁——末代皇帝",
+          "body": "1908 年 [[qing-puyi]] 即位时三岁，太和殿上哭闹不止。摄政王载沣哄他：『快完了，快完了。』三年后他真的退位。两百六十八年大清、两千一百三十二年帝制，在一个孩子手里收摊。"
+        },
+        {
+          "title": "李鸿章的『裱糊匠』",
+          "body": "[[qing-lihongzhang]] 自比『破屋裱糊匠』——办洋务、建北洋、谈和约，几乎所有丧权辱国的条约都由他签。马关条约谈判时挨日本人一枪，子弹留在脸上换回赔款减一亿。他签的字越多，骂他的人越多——但没人替得了他。"
+        }
+      ]
+    },
+    "roc": {
+      "storyAppend": "三十七年走完了别的国家几百年的剧情：[[roc-songjiaoren-an]] 一枪打死议会梦；[[roc-wusi]] 启蒙；北伐统一；[[xian-shibian]] 逼出抗战；八年浴血；[[roc-sandazhanyi]] 定鼎。每一步都不可逆，每一步都死了一代人。",
+      "addedKeyPersonIds": [
+        "roc-songjiaoren", "roc-caie", "roc-duanqirui", "roc-wupeifu",
+        "roc-zhangzuolin", "roc-zhangxueliang", "roc-fengyuxiang",
+        "roc-jiangjieshi", "roc-wangjingwei", "roc-songqingling", "roc-songmeiling",
+        "roc-libaibai", "roc-libingxi", "roc-maozedong", "roc-zhouenlai",
+        "roc-zhude", "roc-pengdehuai", "roc-lindabiao", "roc-dengxiaoping",
+        "roc-luxun", "roc-hushi", "roc-chenduxiu", "roc-lidazhao",
+        "roc-yangchucheng", "roc-zhangzizhong", "roc-xiejinyuan", "roc-daianlan"
+      ],
+      "addedKeyEventIds": [
+        "roc-songjiaoren-an", "roc-erci-geming", "roc-hugou-zhanzheng",
+        "roc-wusi", "roc-zhonggong-yida", "roc-siyier",
+        "roc-changzheng", "roc-jiuyiba", "xian-shibian",
+        "roc-lugouqiao", "roc-nanjing-datusha", "roc-sandazhanyi", "roc-chongqing-tanpan"
+      ],
+      "addedStorylets": [
+        {
+          "title": "宋教仁——议会政治第一个殉道者",
+          "body": "1913 年国民党大选胜出，[[roc-songjiaoren]] 准备北上组阁，在上海火车站被一枪打死，年三十一。子弹背后是 [[yuanshikai]] 的影子——民国唯一一次真正可能的议会内阁，到此为止。"
+        },
+        {
+          "title": "护国——蔡锷的偷渡",
+          "body": "1915 年 [[yuanshikai]] 称帝。[[roc-caie]] 在京装病、嫖小凤仙作掩护，悄然南下昆明举旗。八十三天，洪宪帝制崩。一个旧军人用一次出走，给共和续了半口气——次年蔡锷病逝日本，三十四岁。"
+        },
+        {
+          "title": "五四——一代人的觉醒",
+          "body": "1919 年巴黎和会把山东送给日本。北大学生火烧赵家楼。这是中国第一次有学生、有报纸、有罢工自觉地搅动政治。[[roc-chenduxiu]] [[roc-lidazhao]] 从这里走向 [[roc-zhonggong-yida]]，[[roc-maozedong]] 在长沙第一次办起报纸——一代新人。"
+        },
+        {
+          "title": "北伐——孙中山未见到的国民革命",
+          "body": "[[sunyatsen]] 1925 年病逝，遗嘱『革命尚未成功』。一年后 [[roc-jiangjieshi]] 率北伐军从广州出发，一年半打到长江——但走到上海，[[roc-siyier]] 一夜杀光左派同志。北伐成了，国民党却从此再也合不上。"
+        },
+        {
+          "title": "四一二的转折",
+          "body": "1927 年 4 月 12 日上海，[[roc-jiangjieshi]] 借青帮之手清党。[[roc-zhouenlai]] 险被处决脱身南昌，[[roc-maozedong]] 转向井冈山。从此国民党守城市、共产党下乡村——二十年后内战分胜负，棋局在这一天就铺好了。"
+        },
+        {
+          "title": "长征——『把革命的种子撒在路上』",
+          "body": "1934 年中央苏区第五次反围剿失败。八万红军西走，两年两万五千里。遵义会议 [[roc-maozedong]] 取得军权，到陕北只剩七千余人。一支垂死之军走出了一个未来执政党——历史不会重复，但它押韵。"
+        },
+        {
+          "title": "西安事变——张学良的赌局",
+          "body": "1936 年 [[roc-zhangxueliang]] 与 [[roc-yangchucheng]] 在临潼活捉 [[roc-jiangjieshi]]，逼其抗日。十四天后蒋获释，张随其去南京——此后软禁五十四年。一个少帅赌上自由换全国抗战，这一注下得很大，输赢一生未论清。"
+        },
+        {
+          "title": "南京大屠杀",
+          "body": "1937 年 12 月 13 日，日军入南京，六周屠杀三十万。[[roc-lugouqiao]] 之后短短半年，首都沦为人间地狱。这不是孤例——华北、武汉、长沙一路烧杀，但南京被记得最深，因为它是首都，因为它太快。"
+        },
+        {
+          "title": "八百壮士——四行仓库",
+          "body": "1937 年淞沪会战末，[[roc-xiejinyuan]] 率四百余人据守苏州河北四行仓库四昼夜。河南岸租界中国人在看，外国记者在拍——孤军等于在镜头前向世界证明：中国还在打。这是抗战极少有的『被看见』的一仗。"
+        },
+        {
+          "title": "远征军——野人山的归来",
+          "body": "1942 年中国远征军入缅作战，[[roc-daianlan]] 战死同古，[[roc-libingxi]] 部撤入野人山——三万人进，三千人出。瘴气、饥饿、蚂蟥比子弹更狠。这场域外远征，是近代以来中国军队第一次为他人而战。"
+        },
+        {
+          "title": "重庆谈判——和平的最后窗口",
+          "body": "1945 年 8 月日本投降，[[roc-jiangjieshi]] 三电邀 [[roc-maozedong]] 赴重庆。毛飞机一落机场即受举国关注。四十三天谈出《双十协定》——纸上同意和平建国，背后双方都在调兵。窗口开过，又关上了。"
+        },
+        {
+          "title": "三大战役",
+          "body": "1948 年 9 月到 1949 年 1 月，[[roc-sandazhanyi]] 辽沈、淮海、平津四个月歼国军一百五十四万。[[roc-jiangjieshi]] 嫡系尽失，从此再无翻盘之力。一场内战的胜负，原来可以这么快。"
+        }
+      ]
+    },
+    "prc": {
+      "storyAppend": "1949 年 10 月 1 日下午三时——这一卷的最后一个画面，也是新一卷的第一个画面。",
+      "addedKeyPersonIds": ["prc-mao-1949", "prc-zhou-1949", "prc-zhu-1949"],
+      "addedKeyEventIds": ["prc-zhengxie-1949"],
+      "addedStorylets": [
+        {
+          "title": "开国大典——四千年长卷的收束与重启",
+          "body": "1949 年 10 月 1 日下午三时，[[prc-mao-1949]] 在天安门城楼按下电钮，第一面五星红旗升起。城楼下三十万人，城楼上是从 [[roc-changzheng]] 一路走来的几个人。从 [[yu]] 治水到这一刻，四千年。"
+        },
+        {
+          "title": "新的卷轴展开",
+          "body": "这卷长卷到此收笔——但 [[prc-zhengxie-1949]] 决定的国号、国旗、国徽、国歌、首都，都只是下一卷的目录。1949 之后还有很长的故事，但那是另一卷该讲的事。"
+        }
+      ]
+    }
+  },
+  "people": [
+    {
+      "id": "qing-huangtaiji",
+      "name": "皇太极",
+      "life": "1592—1643",
+      "role": "清太宗·改国号大清",
+      "bio": "[[nuerhachi]] 第八子，1636 年改后金为大清、改族名女真为满洲。设六部、用汉臣、行汉制——清的政治骨架由他装上。可惜 1643 年暴卒盛京，未及入关。",
+      "relations": [
+        { "personId": "nuerhachi", "type": "其父", "note": "父亲打造的是部落联盟，他做的是国家——同一支八旗，两种政权。" },
+        { "personId": "qing-duergun", "type": "其弟", "note": "兄长奠基，弟弟摘果——多尔衮带着他改造好的清军走进山海关。" }
+      ]
+    },
+    {
+      "id": "qing-duergun",
+      "name": "多尔衮",
+      "life": "1612—1650",
+      "role": "睿亲王·摄政王",
+      "bio": "[[qing-huangtaiji]] 之弟。1644 年抓住 [[lizicheng]] 进京的窗口，与吴三桂在山海关合击大顺军，率清军入北京——清入主中原的实际操盘者。摄政六年，权倾天下。死后被 [[qing-shunzhi]] 追夺一切，毁墓掘尸。",
+      "relations": [
+        { "personId": "qing-xiaozhuang", "type": "传闻嫂叔之恋", "note": "『太后下嫁』四字传了三百年——史书未坐实，民间从未放过。" },
+        { "personId": "qing-shunzhi", "type": "其侄·名义之君", "note": "活着捧他登基，死后由他清算——少年皇帝心里这笔账记了七年。" }
+      ]
+    },
+    {
+      "id": "qing-xiaozhuang",
+      "name": "孝庄文皇后",
+      "life": "1613—1688",
+      "role": "蒙古博尔济吉特氏",
+      "bio": "[[qing-huangtaiji]] 之妃，[[qing-shunzhi]] 之母，[[kangxi]] 祖母。两朝幼主之背后掌舵者，扶起清初两个最危险的过渡。康熙一生最敬此人——盛世并非只有皇帝。",
+      "relations": [
+        { "personId": "kangxi", "type": "其孙·她一手带大", "note": "八岁登基、十六擒鳌拜，背后是这个蒙古老太太定的节奏。" },
+        { "personId": "qing-duergun", "type": "权力共舞者", "note": "她让多尔衮做了能做的一切，却保住了儿子的位子——清宫第一智者。" }
+      ]
+    },
+    {
+      "id": "qing-shunzhi",
+      "name": "顺治帝",
+      "life": "1638—1661",
+      "role": "清世祖·入关第一帝",
+      "bio": "六岁登基，由 [[qing-duergun]] 摄政。亲政后宠爱 [[qing-dongefei]]，董鄂死他大病，二十四岁死于天花（一说出家五台山）。清初最有故事的皇帝。",
+      "relations": [
+        { "personId": "qing-dongefei", "type": "挚爱", "note": "她死他丧志，他死她跟去——清宫里少有的纯粹爱情，但只活了几年。" },
+        { "personId": "kangxi", "type": "其子", "note": "他没看到的盛世，由这个八岁出过天花的儿子做出来。" }
+      ]
+    },
+    {
+      "id": "qing-dongefei",
+      "name": "董鄂妃",
+      "life": "1639—1660",
+      "role": "顺治宠妃",
+      "bio": "汉军旗出身（一说董小宛附会）。入宫数年即获 [[qing-shunzhi]] 专宠，立为皇贵妃。所生皇子百日夭折，自己也于次年病逝，年二十二。顺治哀痛欲绝，半年后亦崩。",
+      "relations": [
+        { "personId": "qing-shunzhi", "type": "其夫", "note": "她死他三个月内追随而去——清宫最短也最浓的一段。" }
+      ]
+    },
+    {
+      "id": "qing-aobai",
+      "name": "鳌拜",
+      "life": "?—1669",
+      "role": "辅政四大臣之首",
+      "bio": "[[qing-shunzhi]] 临终四辅政之一，少帝 [[kangxi]] 初年专横跋扈、圈地杀同僚。十六岁的康熙以少年布库为掩护，殿前一举擒之——清朝皇权回到皇帝手里的第一招。",
+      "relations": [
+        { "personId": "kangxi", "type": "被其智擒", "note": "他低估了那个看起来还在玩摔跤的少年——清朝六十年盛世从这一擒开始。" }
+      ]
+    },
+    {
+      "id": "qing-shilang",
+      "name": "施琅",
+      "life": "1621—1696",
+      "role": "靖海侯·收台湾",
+      "bio": "原郑成功部将，因父子被杀降清。1683 年率水师澎湖一战大破郑军，收台湾入版图，设台湾府。一个被父仇推到对岸的人，结束了郑氏三代抗清。",
+      "relations": [
+        { "personId": "kangxi", "type": "受其知人之用", "note": "群臣反对用降将，康熙一意孤行——结果一战收台。" }
+      ]
+    },
+    {
+      "id": "qing-galdan",
+      "name": "噶尔丹",
+      "life": "1644—1697",
+      "role": "准噶尔汗",
+      "bio": "蒙古准噶尔部首领，西征南下试图重建大蒙古帝国。[[kangxi]] 三次亲征，乌兰布通、昭莫多两役大破之，最终败死。康熙武功最硬一仗——也奠定了清对蒙古、新疆的格局。",
+      "relations": [
+        { "personId": "kangxi", "type": "宿敌", "note": "一个想做蒙古的成吉思汗，一个不许第二个成吉思汗出现——草原帝国的旧梦从此封箱。" }
+      ]
+    },
+    {
+      "id": "qing-yongzheng",
+      "name": "雍正帝",
+      "life": "1678—1735",
+      "role": "清世宗·改革之君",
+      "bio": "[[kangxi]] 第四子，[[qing-jiuzi-duodi]] 中最不显山露水者，最终胜出。在位十三年，行 [[qing-yongzheng-gaige]]：摊丁入亩、火耗归公、改土归流、设军机处。盛世的财政骨架由他装上——但他自己被骂得最狠。",
+      "relations": [
+        { "personId": "kangxi", "type": "其父", "note": "父亲留下宽厚之政与亏空国库，他留下严苛之名与充盈库银。" },
+        { "personId": "qianlong", "type": "其子", "note": "他攒下的银子，被儿子十全武功花了大半——子盛世，父背骂名。" },
+        { "personId": "qing-nianxgengyao", "type": "心腹也是弃子", "note": "登基靠他、稳位靠他，三年后赐死也是他——雍正用人极冷。" }
+      ]
+    },
+    {
+      "id": "qing-nianxgengyao",
+      "name": "年羹尧",
+      "life": "1679—1726",
+      "role": "川陕总督·抚远大将军",
+      "bio": "[[qing-yongzheng]] 心腹，平青海罗卜藏丹津之乱有大功，一度权倾朝野。三年后被罗织九十二大罪赐自尽。功狗与功臣之间，皇帝只允许有一种结局。",
+      "relations": [
+        { "personId": "qing-yongzheng", "type": "君臣翻脸", "note": "前一年还是『朕之恩人』，下一年就是九十二条死罪——伴君如伴虎，从来不只是说说。" }
+      ]
+    },
+    {
+      "id": "qing-longkeduo",
+      "name": "隆科多",
+      "life": "?—1728",
+      "role": "步军统领·顾命大臣",
+      "bio": "[[qing-yongzheng]] 即位之夜掌九门钥匙的关键人物——雍正自称『舅舅隆科多』，恩宠无人能比。六年后被罗织四十一大罪幽禁致死。开国之功，与杀身之罪，只隔六年。",
+      "relations": [
+        { "personId": "qing-yongzheng", "type": "拥立者与受害者", "note": "他知道太多——这是清初最危险的资本。" }
+      ]
+    },
+    {
+      "id": "qing-heshen",
+      "name": "和珅",
+      "life": "1750—1799",
+      "role": "权相·乾隆宠臣",
+      "bio": "满洲正红旗，二十多岁起得 [[qianlong]] 专宠二十余年，兼数十职、贪天下。嘉庆即位后十五天即赐自尽抄家，得银约八亿两——『和珅跌倒，嘉庆吃饱』。盛世账本最具体的一个名字。",
+      "relations": [
+        { "personId": "qianlong", "type": "晚年最宠", "note": "盛世的灯越亮，影子越长——这影子叫和珅。" },
+        { "personId": "qing-liuyong", "type": "朝堂对手", "note": "民间编了几百段相声，史上其实斗不过——但中国人乐意听刘罗锅赢。" }
+      ]
+    },
+    {
+      "id": "qing-liuyong",
+      "name": "刘墉",
+      "life": "1720—1804",
+      "role": "体仁阁大学士·『刘罗锅』",
+      "bio": "山东诸城刘氏后人，乾嘉两朝重臣，书法名世。民间把他塑成 [[qing-heshen]] 的克星——历史上未必，但人民总要有个清官好故事。",
+      "relations": [
+        { "personId": "qing-heshen", "type": "民间宿敌", "note": "正史里他斗不过和珅，戏台上他从未输过——民众用故事补史。" }
+      ]
+    },
+    {
+      "id": "qing-jixiaolan",
+      "name": "纪晓岚",
+      "life": "1724—1805",
+      "role": "礼部尚书·《四库全书》总纂",
+      "bio": "总纂《四库全书》、著《阅微草堂笔记》。修一部巨书也禁一批禁书——文治的另一面是文字狱。烟袋杆与皇帝面前的机锋，多半是后世戏说。",
+      "relations": [
+        { "personId": "qianlong", "type": "御用大儒", "note": "替皇帝整理天下书，也替皇帝挑出该烧的那一部分。" }
+      ]
+    },
+    {
+      "id": "qing-lin-zexu-pre",
+      "name": "林则徐（拓展）",
+      "life": "1785—1850",
+      "role": "钦差大臣·虎门销烟",
+      "bio": "湖广总督任上禁烟，奉旨赴粤主销烟二万箱。鸦片战败后被遣戍伊犁，途中仍著《海国图志》底稿——清廷睁眼看世界的第一人。新疆三年勘屯田、开坎儿井，未及还朝即病死赴粤途中。",
+      "relations": [
+        { "personId": "linzexu", "type": "同一人·补传", "note": "他不仅是『虎门销烟』四个字——他还是中国第一个认真想了解世界的官。" },
+        { "personId": "qing-zuozongtang", "type": "湘江夜谈·托付西北", "note": "1849 年长沙湘江舟中一谈，把西北边事托给后辈左宗棠——三十年后果然成真。" }
+      ]
+    },
+    {
+      "id": "qing-yixin",
+      "name": "奕䜣",
+      "life": "1833—1898",
+      "role": "恭亲王·总理衙门大臣",
+      "bio": "[[qing-xianfeng]] 之弟。1860 年留京与英法谈判、签北京条约。次年与 [[cixi]] [[qing-cian]] 联手发动 [[qing-xinyou-zhengbian]]，掌枢廷三十年。洋务运动的政治后台——『鬼子六』。",
+      "relations": [
+        { "personId": "cixi", "type": "共谋与被废", "note": "辛酉一起把肃顺扳倒，三十年后又被嫂子一脚踢开——共谋者从不会成为长期盟友。" },
+        { "personId": "qing-xianfeng", "type": "其兄", "note": "兄长留下烂摊子跑去热河，他留下来收拾——也因此抓到了下半场的政治权柄。" }
+      ]
+    },
+    {
+      "id": "qing-xianfeng",
+      "name": "咸丰帝",
+      "life": "1831—1861",
+      "role": "清文宗·内忧外患之君",
+      "bio": "在位十一年正撞上 [[taiping]] 与 [[qing-yuanmingyuan]]。1860 年逃热河，次年病死避暑山庄，年三十。留下八大臣顾命与 [[cixi]] 母子（同治帝）——清朝下半场的台子他亲手搭的。",
+      "relations": [
+        { "personId": "cixi", "type": "其妃·儿子之母", "note": "他选了肃顺辅政、却生了同治——一不留神，权柄落在妃子那一边。" },
+        { "personId": "qing-yixin", "type": "其弟·被排斥", "note": "热河顾命名单没他弟弟——这成了辛酉政变最直接的导火索。" }
+      ]
+    },
+    {
+      "id": "qing-cian",
+      "name": "慈安太后",
+      "life": "1837—1881",
+      "role": "东太后·咸丰皇后",
+      "bio": "[[qing-xianfeng]] 正宫，与 [[cixi]] 两宫并尊垂帘。性温和却分量重，是制约慈禧的最后一道砝码。1881 年突然暴亡——清宫第一谜案。她一死，慈禧再无掣肘。",
+      "relations": [
+        { "personId": "cixi", "type": "并尊也是制衡", "note": "她在一日，慈禧便不能独走；她一死，西太后才真正『一个人』。" }
+      ]
+    },
+    {
+      "id": "qing-susuns",
+      "name": "肃顺",
+      "life": "1816—1861",
+      "role": "顾命八大臣之首",
+      "bio": "[[qing-xianfeng]] 临终顾命之首，主张以汉臣治平 [[taiping]]——[[qing-zengguofan]] 等就是他破格用的。但他低估了 [[cixi]] 与 [[qing-yixin]] 的联手，[[qing-xinyou-zhengbian]] 中被处死菜市口。",
+      "relations": [
+        { "personId": "qing-zengguofan", "type": "破格提拔者", "note": "他用湘军平太平天国，没料到自己先被宫廷政变干掉——曾国藩反而成为下一时代的支柱。" }
+      ]
+    },
+    {
+      "id": "qing-zengguofan",
+      "name": "曾国藩",
+      "life": "1811—1872",
+      "role": "湘军统帅·两江总督",
+      "bio": "湖南湘乡人，以礼学治军，办湘军十二年平 [[taiping]]。打完即裁军自保——一个最讲『进退』二字的汉臣。但他开了督抚领兵的先例，[[xinhai]] 各省一夜独立的根，半世纪前就埋下了。",
+      "relations": [
+        { "personId": "qing-lihongzhang", "type": "门生·后继", "note": "他把军政之钥递给学生李鸿章，淮军接湘军——晚清政坛半个世纪的人事链。" },
+        { "personId": "qing-zuozongtang", "type": "盟友也彼此较劲", "note": "湘军左膀右臂，公谊深、私交常翻脸——两个湖南人撑着半个清廷。" }
+      ]
+    },
+    {
+      "id": "qing-zuozongtang",
+      "name": "左宗棠",
+      "life": "1812—1885",
+      "role": "陕甘总督·收复新疆",
+      "bio": "湖南湘阴人，与 [[qing-zengguofan]] 同出湘军。1876 年六十四岁抬棺西征，两年克复天山南北、迫俄归还伊犁。晚清极少的硬胜——也是中国最后一次对外扩张性的胜利。",
+      "relations": [
+        { "personId": "qing-lin-zexu-pre", "type": "受其托付", "note": "1849 年湘江夜谈一约，三十年后兑现——读书人也能立军功。" },
+        { "personId": "qing-lihongzhang", "type": "海防塞防之争", "note": "李主海防、左主塞防——两人吵了几年，朝廷各做一半，新疆收了。" }
+      ]
+    },
+    {
+      "id": "qing-lihongzhang",
+      "name": "李鸿章",
+      "life": "1823—1901",
+      "role": "直隶总督·北洋大臣",
+      "bio": "[[qing-zengguofan]] 门生，办淮军、建北洋水师、主洋务三十年。马关、辛丑两次去签卖国条约，自比『裱糊匠』。1896 年访欧美一圈回来叹：『大清这屋子，糊不住了。』",
+      "relations": [
+        { "personId": "qing-jiawu", "type": "其北洋败亡之役", "note": "他亲手建的舰队，亲手见它沉。" },
+        { "personId": "cixi", "type": "最得用的汉臣", "note": "慈禧最不放心又最离不开他——三十年的默契。" }
+      ]
+    },
+    {
+      "id": "qing-dengshichang",
+      "name": "邓世昌",
+      "life": "1849—1894",
+      "role": "致远舰管带",
+      "bio": "广东番禺人，1894 年黄海海战，致远舰中弹将沉，他下令全速撞向日舰吉野——未成，舰沉殉国。爱犬扑水救之，亦被他按入水中同归——这是 [[qing-jiawu]] 留下最悲壮的画面。",
+      "relations": [
+        { "personId": "qing-lihongzhang", "type": "其部下", "note": "李鸿章建北洋海军，他成北洋海军的招魂幡。" }
+      ]
+    },
+    {
+      "id": "qing-hongxiuquan",
+      "name": "洪秀全",
+      "life": "1814—1864",
+      "role": "太平天国天王",
+      "bio": "广东花县童生，屡试不第后自创拜上帝教。1851 年金田起义，三年建都南京，号 [[taiping]]。十四年间席卷半个中国、死人数千万。最终困死天京——一个落第书生的乌托邦，比清廷自己想的走得远得多。",
+      "relations": [
+        { "personId": "qing-yangxiuqing", "type": "其东王", "note": "杨秀清能借天父附体压他——洪秀全心里这根刺，最终化为天京事变。" },
+        { "personId": "qing-zengguofan", "type": "其终结者", "note": "一个汉人书生起兵，被另一个汉人书生灭——晚清的内战。" }
+      ]
+    },
+    {
+      "id": "qing-yangxiuqing",
+      "name": "杨秀清",
+      "life": "1823—1856",
+      "role": "太平天国东王",
+      "bio": "广西烧炭工出身，太平天国实际军政大脑。常以『天父下凡』附体训斥 [[qing-hongxiuquan]]——这套戏码是他权力的源头，也是死因。1856 年天京事变被韦昌辉灭门。",
+      "relations": [
+        { "personId": "qing-hongxiuquan", "type": "君臣也是宿敌", "note": "他用天父压天王，天王最后请人来割了他的头——天京事变，太平天国元气尽失。" }
+      ]
+    },
+    {
+      "id": "qing-shidakai",
+      "name": "石达开",
+      "life": "1831—1863",
+      "role": "太平天国翼王",
+      "bio": "广西贵县客家少年，十六岁随义、二十岁封王，太平天国最能打的统帅。天京事变后被洪秀全猜忌，率部远走西南。1863 年困大渡河，舍命求保全部下，凌迟于成都。年三十二。",
+      "relations": [
+        { "personId": "qing-hongxiuquan", "type": "被其疑忌而走", "note": "天京事变后留下的最后一面旗，被天王自己撵走——太平天国从此再无能打的将。" }
+      ]
+    },
+    {
+      "id": "qing-zuoxiucheng",
+      "name": "李秀成",
+      "life": "1823—1864",
+      "role": "太平天国忠王",
+      "bio": "广西藤县客家农民，太平天国后期支柱。三破江南大营、二攻苏南，被 [[qing-zengguofan]] 弟曾国荃围困天京一年余。城破被俘，写下数万字自述后被处决。这份自述是太平天国最重要的内部史料。",
+      "relations": [
+        { "personId": "qing-hongxiuquan", "type": "守其末路", "note": "天王不出宫、不听谏，他独力撑了几年——一个『忠』字到了头。" }
+      ]
+    },
+    {
+      "id": "qing-kangyouwei",
+      "name": "康有为",
+      "life": "1858—1927",
+      "role": "维新派·『南海先生』",
+      "bio": "广东南海人，公车上书、戊戌主谋。变法失败后流亡海外十六年。民国后却支持张勋复辟——一个曾经的『新派』，老了反成最旧的那一个。",
+      "relations": [
+        { "personId": "qing-guangxu", "type": "其谋主", "note": "君臣其实只见过一次面——他更多是远程操盘者。" },
+        { "personId": "qing-liangqichao", "type": "师徒后反目", "note": "学生最终向左，老师最终向右——民国初年师徒分道。" }
+      ]
+    },
+    {
+      "id": "qing-liangqichao",
+      "name": "梁启超",
+      "life": "1873—1929",
+      "role": "维新派·近代思想引路人",
+      "bio": "[[qing-kangyouwei]] 高足，戊戌后流亡日本主笔《新民丛报》，影响整整一代青年。他写的文字，[[roc-luxun]] [[roc-maozedong]] [[roc-hushi]] 少年时都读过。一个把『新民』二字写进中国近代的人。",
+      "relations": [
+        { "personId": "qing-kangyouwei", "type": "师而后异", "note": "老师退回保皇，学生走向共和——观念史上最有名的师徒分流。" },
+        { "personId": "qing-tansitong", "type": "戊戌同志", "note": "谭让他走、自己留——梁活下来写了《谭嗣同传》。" }
+      ]
+    },
+    {
+      "id": "qing-tansitong",
+      "name": "谭嗣同",
+      "life": "1865—1898",
+      "role": "戊戌六君子之一",
+      "bio": "湖南浏阳人，戊戌变法骨干。政变后本可逃，却选择留下：『各国变法无不从流血而成⋯⋯请自嗣同始。』菜市口刑场，年三十三。临刑题诗：『我自横刀向天笑，去留肝胆两昆仑。』",
+      "relations": [
+        { "personId": "qing-guangxu", "type": "为其而死", "note": "维新与皇帝绑在一起，他用命替这个绑定做了最后注脚。" },
+        { "personId": "qing-liangqichao", "type": "送其走自己留", "note": "他对梁说『去者为将来计，留者为今日计』——一句话定下两人各自的命。" }
+      ]
+    },
+    {
+      "id": "qing-guangxu",
+      "name": "光绪帝",
+      "life": "1871—1908",
+      "role": "清德宗·囚帝",
+      "bio": "[[cixi]] 妹之子，四岁入继咸丰一脉。亲政后用 [[qing-kangyouwei]] 行变法，百日而败，被囚瀛台十年。1908 年与慈禧前后一日驾崩——清宫最大谜案之一。",
+      "relations": [
+        { "personId": "cixi", "type": "其姨母·亦其囚禁者", "note": "她抱他登基，又把他锁了十年——这之间叫『母子』。" },
+        { "personId": "qing-tansitong", "type": "为其搭命", "note": "皇帝想救变法，变法者想救皇帝——结果只救出了一段诗。" }
+      ]
+    },
+    {
+      "id": "qing-puyi",
+      "name": "溥仪",
+      "life": "1906—1967",
+      "role": "宣统帝·末代皇帝",
+      "bio": "[[qing-guangxu]] 之侄，三岁登基，六岁退位。后被张勋拥立复辟十二天而败，再被日本扶为伪满皇帝。一生当过三次皇帝，每一次都不是自己的选择。两千一百三十二年帝制，在他手里收摊。",
+      "relations": [
+        { "personId": "qing-tuiwei", "type": "其退位即帝制终", "note": "三岁登基的孩子，六岁就被告诉『不用做皇帝了』——一个王朝的终结，对他只是一句大人的话。" }
+      ]
+    },
+    {
+      "id": "qing-longyu",
+      "name": "隆裕太后",
+      "life": "1868—1913",
+      "role": "光绪皇后·宣统嫡母",
+      "bio": "[[cixi]] 侄女，[[qing-guangxu]] 皇后。1912 年代 [[qing-puyi]] 颁布退位诏书——两千年帝制由这道诏书收尾。次年抑郁而终，年四十六。",
+      "relations": [
+        { "personId": "qing-puyi", "type": "代其退位", "note": "孩子还不懂什么叫国家，她替他签了这份遗书——清朝的最后一个动作。" }
+      ]
+    },
+    {
+      "id": "roc-songjiaoren",
+      "name": "宋教仁",
+      "life": "1882—1913",
+      "role": "国民党代理理事长",
+      "bio": "湖南桃源人，[[sunyatsen]] 后最坚定的议会派。1913 年大选国民党胜出，他北上准备组阁，在上海火车站中弹，两日后死，年三十一。子弹背后是 [[yuanshikai]] 的影子——民国唯一可能的议会政治到此结束。",
+      "relations": [
+        { "personId": "yuanshikai", "type": "被其暗杀", "note": "一个想做内阁总理，一个不许有内阁总理——民国第一年就把这道选择题答完了。" },
+        { "personId": "sunyatsen", "type": "革命同志", "note": "他主走议会路、孙主走党与军——宋一死，孙转向武装。" }
+      ]
+    },
+    {
+      "id": "roc-caie",
+      "name": "蔡锷",
+      "life": "1882—1916",
+      "role": "护国军总司令",
+      "bio": "湖南邵阳人，云南起兵反 [[yuanshikai]] 称帝。在京装病嫖小凤仙作掩护南下，护国战争八十三天逼袁帝制崩。次年病死日本，年三十四。一个旧军人用一次出走，给共和续了半口气。",
+      "relations": [
+        { "personId": "yuanshikai", "type": "护国讨袁", "note": "一个想称帝、一个不许称帝——洪宪八十三天的结束，从他南下那一夜起。" },
+        { "personId": "roc-liangqichao-late", "type": "师生密谋", "note": "学生在云南举旗，老师在京中策应——师徒合力打掉了称帝梦。" }
+      ]
+    },
+    {
+      "id": "roc-liangqichao-late",
+      "name": "梁启超（民国期）",
+      "life": "1873—1929",
+      "role": "进步党·宪政派",
+      "bio": "民国后从政从教，反袁称帝、反复辟，晚年在清华讲学。一个把『新民』讲了三十年的人，看着新民却把自己卷进军阀混战——失望地转身去做学问。",
+      "relations": [
+        { "personId": "qing-liangqichao", "type": "同一人·下半场", "note": "清末他是变法新星，民国他是学者归人——两段人生，同一只笔。" },
+        { "personId": "roc-caie", "type": "扶其反袁", "note": "学生举枪，他写文章——师徒同声护共和。" }
+      ]
+    },
+    {
+      "id": "roc-duanqirui",
+      "name": "段祺瑞",
+      "life": "1865—1936",
+      "role": "皖系首领·三造共和",
+      "bio": "北洋三杰之一。袁世凯死后掌北京政府，号称『三造共和』：反清、反帝制、反复辟。但 1926 年『三一八』段政府卫队枪杀请愿学生——『三造共和』的人，亲手做了民国最血的一夜。",
+      "relations": [
+        { "personId": "yuanshikai", "type": "其旧主", "note": "替袁逼清退位、又反袁称帝——同一个段祺瑞，做了民国头三年的两件大事。" }
+      ]
+    },
+    {
+      "id": "roc-wupeifu",
+      "name": "吴佩孚",
+      "life": "1874—1939",
+      "role": "直系军阀·『玉帅』",
+      "bio": "山东蓬莱秀才出身，直系核心战将。1924 年第二次直奉战争被冯玉祥倒戈而败。1939 年日伪诱降不就，传被日本牙医毒杀。一个旧军阀，最后一笔写得不错。",
+      "relations": [
+        { "personId": "roc-fengyuxiang", "type": "被其倒戈", "note": "前线打得正紧，后方部队反水——民国军阀混战最经典的一幕。" }
+      ]
+    },
+    {
+      "id": "roc-zhangzuolin",
+      "name": "张作霖",
+      "life": "1875—1928",
+      "role": "奉系首领·东北王",
+      "bio": "辽宁海城人，绿林起家做到东北王。三入关、两度入主北京。1928 年北伐军逼近，他撤兵出关——皇姑屯一颗炸弹，被日本关东军炸死。东北从此进入张学良时代。",
+      "relations": [
+        { "personId": "roc-zhangxueliang", "type": "其子", "note": "父亲被日本人炸死，儿子三年后宣布东北易帜——这笔血账，最终撞出 [[xian-shibian]]。" }
+      ]
+    },
+    {
+      "id": "roc-zhangxueliang",
+      "name": "张学良",
+      "life": "1901—2001",
+      "role": "东北军少帅",
+      "bio": "[[roc-zhangzuolin]] 长子，二十七岁继位、二十八岁东北易帜归南京。1931 [[roc-jiuyiba]] 一夜失东北背了一辈子骂名。1936 年与 [[roc-yangchucheng]] 在临潼活捉 [[roc-jiangjieshi]] 逼其抗日，事后被软禁五十四年。活到一百岁。",
+      "relations": [
+        { "personId": "roc-jiangjieshi", "type": "捉之又随之", "note": "捉了他十四天换全国抗战，从此自由换五十四年——一笔大账。" },
+        { "personId": "roc-yangchucheng", "type": "西安同盟", "note": "同捉蒋，下场天差地别：杨被秘密枪决于解放前夕，张被软禁到老死台北。" }
+      ]
+    },
+    {
+      "id": "roc-fengyuxiang",
+      "name": "冯玉祥",
+      "life": "1882—1948",
+      "role": "西北军首领·『倒戈将军』",
+      "bio": "安徽巢县人，一生倒过八次戈。北京政变赶溥仪出宫、又支援北伐、又中原大战反蒋。1948 年返国途中船上失火罹难。八次倒戈未必都是投机——但每一次都是民国的一次转折。",
+      "relations": [
+        { "personId": "qing-puyi", "type": "把其赶出紫禁城", "note": "1924 年一道命令，结束了清帝逊位后『仍居宫禁』的怪局——清宫真的成了博物馆。" }
+      ]
+    },
+    {
+      "id": "roc-jiangjieshi",
+      "name": "蒋介石",
+      "life": "1887—1975",
+      "role": "国民政府主席·军事委员会委员长",
+      "bio": "浙江奉化人，日本士官学校归，黄埔军校校长起家。北伐统一、清党反共、八年抗战、内战败退台湾——民国后半场的中心。一个对外能扛、对内不让的强人，最终输给了时间和民心。",
+      "relations": [
+        { "personId": "roc-songmeiling", "type": "其妻", "note": "她替他做国际宣传、谈援助——抗战中蒋的『另一只手』。" },
+        { "personId": "roc-maozedong", "type": "终身对手", "note": "[[roc-chongqing-tanpan]] 同桌喝酒、[[roc-sandazhanyi]] 四个月分胜负——同代两个最强对手。" },
+        { "personId": "roc-zhangxueliang", "type": "捉之者", "note": "被他逼着抗日，反过来把他软禁了五十四年——西安事变的回礼。" }
+      ]
+    },
+    {
+      "id": "roc-wangjingwei",
+      "name": "汪精卫",
+      "life": "1883—1944",
+      "role": "汪伪政府主席",
+      "bio": "广东三水人，年轻时刺摄政王留下『引刀成一快』的诗，是民国第一英雄。1938 年出走河内、1940 年在南京建伪政府。从最有担当的人变成头号汉奸——民国最大的人生反转。",
+      "relations": [
+        { "personId": "sunyatsen", "type": "曾其左右手", "note": "孙中山的临终之言由他笔录——三十年后他自己当了汉奸。" },
+        { "personId": "roc-jiangjieshi", "type": "党内宿敌", "note": "争位三十年，最后两人选了相反的方向——蒋抗战到底，他通敌建伪。" }
+      ]
+    },
+    {
+      "id": "roc-songqingling",
+      "name": "宋庆龄",
+      "life": "1893—1981",
+      "role": "孙中山遗孀",
+      "bio": "宋家二女，[[sunyatsen]] 之妻。孙死后与蒋汪皆分道，1927 后长期左倾、批国民党。她的姐姐宋霭龄嫁孔祥熙，妹妹 [[roc-songmeiling]] 嫁蒋——一家三姐妹分别站到中国上层最不同的三边。",
+      "relations": [
+        { "personId": "sunyatsen", "type": "其妻", "note": "嫁的时候孙已五十；他走后她替孙站住了『真正三民主义』那一边。" },
+        { "personId": "roc-songmeiling", "type": "亲姐妹·政治宿敌", "note": "姐姐站共产党，妹妹站国民党——民国最戏剧的家庭。" }
+      ]
+    },
+    {
+      "id": "roc-songmeiling",
+      "name": "宋美龄",
+      "life": "1898—2003",
+      "role": "蒋介石夫人·『第一夫人』",
+      "bio": "宋家三女，1927 嫁 [[roc-jiangjieshi]]。抗战中赴美国会演讲，募捐与援助——蒋介石的『另一只手』，也是中国第一个真正国际化的官夫人。活到一百零五岁。",
+      "relations": [
+        { "personId": "roc-jiangjieshi", "type": "其妻·国际代理人", "note": "国内她劝蒋、国外她替蒋——民国最得力的政治夫妻档。" },
+        { "personId": "roc-songqingling", "type": "亲姐妹·政治另一端", "note": "三姐妹各嫁一边，谁也说服不了谁。" }
+      ]
+    },
+    {
+      "id": "roc-libaibai",
+      "name": "李宗仁",
+      "life": "1891—1969",
+      "role": "桂系首领·代总统",
+      "bio": "广西桂林人，新桂系核心。台儿庄大捷指挥者。1949 年 [[roc-jiangjieshi]] 下野，他出任代总统，赴北京谈判失败、败退后流亡美国、1965 年返大陆。一个一生与蒋别苗头的人，最后选择了北归。",
+      "relations": [
+        { "personId": "roc-jiangjieshi", "type": "党内宿敌", "note": "中原大战、抗战、内战，处处掣肘——但台儿庄那一仗他真的赢了。" }
+      ]
+    },
+    {
+      "id": "roc-libingxi",
+      "name": "白崇禧",
+      "life": "1893—1966",
+      "role": "桂系将领·『小诸葛』",
+      "bio": "广西桂林人，与 [[roc-libaibai]] 并称『李白』。北伐、抗战、内战都是国民党第一线指挥。1949 后随蒋赴台，晚年遭冷遇病死台北——桂系最后一个有威望的人。",
+      "relations": [
+        { "personId": "roc-libaibai", "type": "桂系『李白』", "note": "一个外交一个用兵——桂系靠这两人撑了二十年。" },
+        { "personId": "roc-daianlan", "type": "远征军同袍", "note": "远征军入缅作战，他在后方调度——同袍战死异域。" }
+      ]
+    },
+    {
+      "id": "roc-maozedong",
+      "name": "毛泽东（民国期）",
+      "life": "1893—1976",
+      "role": "中共领导人",
+      "bio": "湖南湘潭人，[[roc-zhonggong-yida]] 代表之一。秋收起义上井冈山，[[roc-changzheng]] 中遵义会议握军权。延安十年练兵练干部，1945 重庆与 [[roc-jiangjieshi]] 同桌而谈、四年后定鼎北平。本卷收笔时他刚走上天安门。",
+      "relations": [
+        { "personId": "roc-jiangjieshi", "type": "终身对手", "note": "两人同代生、同代死前一年——一个赢了大陆，一个守住了台湾。" },
+        { "personId": "roc-zhouenlai", "type": "毕生搭档", "note": "毛主政、周外勤——这对组合从遵义到 1949 没换过班。" },
+        { "personId": "prc-mao-1949", "type": "同一人·登台一刻", "note": "民国期的他还是『毛先生』，1949 后才是『毛主席』。" }
+      ]
+    },
+    {
+      "id": "roc-zhouenlai",
+      "name": "周恩来（民国期）",
+      "life": "1898—1976",
+      "role": "中共谈判与组织核心",
+      "bio": "江苏淮安人，黄埔政治部主任。[[roc-siyier]] 险被处决、转南昌起义。长征中支持毛掌权，西安事变赴临潼调停——他是中共这二十年最能在国民党、苏联、各派之间穿梭的人。",
+      "relations": [
+        { "personId": "roc-jiangjieshi", "type": "黄埔旧识·谈判对家", "note": "他曾是蒋的政治部主任，二十多年后又坐到他对面——民国人事的奇妙。" },
+        { "personId": "xian-shibian", "type": "其调停者", "note": "西安一夜可能爆发内战，他飞临潼调停——抗战因此得以成形。" }
+      ]
+    },
+    {
+      "id": "roc-zhude",
+      "name": "朱德",
+      "life": "1886—1976",
+      "role": "红军总司令",
+      "bio": "四川仪陇人，旧滇军出身，南昌起义后上井冈山与 [[roc-maozedong]] 会师——『朱毛』之名传开。长征到陕北、抗战任八路军总司令、解放战争任解放军总司令。一个旧军人走完了新军队全程。",
+      "relations": [
+        { "personId": "roc-maozedong", "type": "朱毛", "note": "井冈山会师后二十多年，毛主政朱主军——一个组合走完整段。" }
+      ]
+    },
+    {
+      "id": "roc-pengdehuai",
+      "name": "彭德怀",
+      "life": "1898—1974",
+      "role": "红三军团长·八路军副总司令",
+      "bio": "湖南湘潭人，平江起义后上井冈。百团大战指挥者，抗战中打出中共军队最大规模一仗。一个直脾气的猛将，后来的故事不在本卷里讲。",
+      "relations": [
+        { "personId": "roc-zhude", "type": "朱彭", "note": "彭与朱搭档八路军——内战时一西北一华北，分头作战。" }
+      ]
+    },
+    {
+      "id": "roc-lindabiao",
+      "name": "林彪",
+      "life": "1907—1971",
+      "role": "四野司令员",
+      "bio": "湖北黄冈人，黄埔四期生。平型关初战立威、辽沈淮海平津主战四野席卷大半个中国。本卷收笔时他刚率部入关，三十出头已是开国元帅。后来的故事不在本卷里讲。",
+      "relations": [
+        { "personId": "roc-sandazhanyi", "type": "其主战场", "note": "辽沈、平津都是他打的——三大战役中他一人独占两场。" }
+      ]
+    },
+    {
+      "id": "roc-dengxiaoping",
+      "name": "邓小平",
+      "life": "1904—1997",
+      "role": "中共政工·二野政委",
+      "bio": "四川广安人，留法勤工俭学归。长征、抗战任一二九师政委，淮海战役任总前委书记。本卷里他是个总政委，二十多年后他将开启另一卷。",
+      "relations": [
+        { "personId": "roc-liubocheng", "type": "刘邓搭档", "note": "刘邓大军千里跃进大别山——内战中最大胆的一步棋。" }
+      ]
+    },
+    {
+      "id": "roc-liubocheng",
+      "name": "刘伯承",
+      "life": "1892—1986",
+      "role": "二野司令员·『军神』",
+      "bio": "四川开县人，南昌起义参谋长。八路军一二九师师长，抗战晋东南。1947 与 [[roc-dengxiaoping]] 千里跃进大别山——内战转折之笔。",
+      "relations": [
+        { "personId": "roc-dengxiaoping", "type": "刘邓", "note": "刘主军邓主政——二野从晋冀鲁豫一路打到西南。" }
+      ]
+    },
+    {
+      "id": "roc-luxun",
+      "name": "鲁迅",
+      "life": "1881—1936",
+      "role": "新文化运动·小说家",
+      "bio": "浙江绍兴人，日本仙台学医而归弃医从文。《狂人日记》《阿 Q 正传》写出旧中国的精神病灶。一个用笔做手术刀的人——他死时上海十万人送殡，棺上盖『民族魂』。",
+      "relations": [
+        { "personId": "roc-wusi", "type": "新文化运动主将", "note": "他不是那天上街的学生，但那一代学生读的就是他的书。" },
+        { "personId": "roc-hushi", "type": "同代而异路", "note": "鲁迅向左、胡适向右——新文化两面旗，分别飘了一辈子。" }
+      ]
+    },
+    {
+      "id": "roc-hushi",
+      "name": "胡适",
+      "life": "1891—1962",
+      "role": "新文化运动·『多研究些问题』",
+      "bio": "安徽绩溪人，留美归办白话文。一生主张『一点一滴的改良』，反对革命激进。后任驻美大使、北大校长。一个温和的自由派，左右两边都批他——但他没改主张。",
+      "relations": [
+        { "personId": "roc-luxun", "type": "同代异路", "note": "两人同饮新文化之泉，最后走向两极——一个铁笔、一个温笔。" },
+        { "personId": "roc-chenduxiu", "type": "新青年同人", "note": "新青年杂志同事，后来一个走向共产党、一个走向自由派。" }
+      ]
+    },
+    {
+      "id": "roc-chenduxiu",
+      "name": "陈独秀",
+      "life": "1879—1942",
+      "role": "中共首任总书记",
+      "bio": "安徽怀宁人，办《新青年》、主 [[roc-wusi]]、为 [[roc-zhonggong-yida]] 第一任总书记。1927 因右倾路线被免，后又被开除党籍。一个开启了运动也被运动开除的人，晚年贫病死于江津。",
+      "relations": [
+        { "personId": "roc-lidazhao", "type": "南陈北李", "note": "两个北大教授一南一北办出了一个党——后来一个被绞死、一个被开除。" }
+      ]
+    },
+    {
+      "id": "roc-lidazhao",
+      "name": "李大钊",
+      "life": "1889—1927",
+      "role": "中共早期领导人",
+      "bio": "河北乐亭人，北大图书馆主任——[[roc-maozedong]] 当年的上司。1927 年被 [[roc-zhangzuolin]] 抓捕、绞死北京，年三十八。中共的第一位烈士级人物。",
+      "relations": [
+        { "personId": "roc-chenduxiu", "type": "南陈北李", "note": "两人各在北大办《新青年》《晨钟报》——共产党就是从这两个书房里长出来的。" },
+        { "personId": "roc-zhangzuolin", "type": "被其杀", "note": "东北王进京、清理北京左派——他是被绞的二十人之一。" }
+      ]
+    },
+    {
+      "id": "roc-yangchucheng",
+      "name": "杨虎城",
+      "life": "1893—1949",
+      "role": "西北军·西安事变共谋",
+      "bio": "陕西蒲城人，与 [[roc-zhangxueliang]] 在临潼共捉 [[roc-jiangjieshi]]。事变后被迫出洋。1937 回国即被囚十二年。1949 年解放军兵临南京前夕，他与家人秘密处决于重庆——西安事变最惨的一笔。",
+      "relations": [
+        { "personId": "roc-zhangxueliang", "type": "西安同盟", "note": "同捉蒋，下场天差地别：少帅软禁到老死，他死于秘密枪决。" }
+      ]
+    },
+    {
+      "id": "roc-zhangzizhong",
+      "name": "张自忠",
+      "life": "1891—1940",
+      "role": "国民党第三十三集团军总司令",
+      "bio": "山东临清人，抗战中以集团军总司令亲赴前线，1940 年枣宜会战阵亡——国军在抗战中阵亡最高级将领。北平日占初期曾代理冀察政务，背过『汉奸』骂名——他用一条命洗了那个名字。",
+      "relations": [
+        { "personId": "roc-lugouqiao", "type": "其后赴死", "note": "卢沟桥之后他先背骂名，三年后用阵亡洗掉——一个旧军人最直接的回答。" }
+      ]
+    },
+    {
+      "id": "roc-xiejinyuan",
+      "name": "谢晋元",
+      "life": "1905—1941",
+      "role": "八百壮士营长",
+      "bio": "广东蕉岭人，1937 年 10 月率四百余人据守苏州河北四行仓库四昼夜。退入租界后被囚四年。1941 年被汪伪买通的部下刺杀于营内，年三十六。他没死在日本人手里——死在自己人手里。",
+      "relations": [
+        { "personId": "roc-lugouqiao", "type": "其后名扬一战", "note": "卢沟桥到淞沪一路败退，他守住了最后一面被世界看见的旗。" }
+      ]
+    },
+    {
+      "id": "roc-daianlan",
+      "name": "戴安澜",
+      "life": "1904—1942",
+      "role": "中国远征军第二〇〇师师长",
+      "bio": "安徽无为人，1942 年率二〇〇师赴缅作战，同古之战重创日军，撤退途中重伤殉国，年三十八。一个为他人国土战死的中国将军——抗战极少有的『出境作战』牺牲。",
+      "relations": [
+        { "personId": "roc-libingxi", "type": "远征军同袍", "note": "他战死同古，白崇禧在后方调度——远征军是国军罕有的出境一战。" }
+      ]
+    },
+    {
+      "id": "prc-mao-1949",
+      "name": "毛泽东（1949 登台一刻）",
+      "life": "1893—1976",
+      "role": "中央人民政府主席",
+      "bio": "1949 年 10 月 1 日下午三时，他在天安门城楼按下电钮，第一面五星红旗升起、宣告新中国成立。从韶山冲一介乡村青年到此刻，五十六年。本卷在他这句宣告里收束。",
+      "relations": [
+        { "personId": "roc-maozedong", "type": "同一人·上一卷", "note": "民国期的『毛先生』，到这一刻成了『毛主席』——身份转换，人未变。" },
+        { "personId": "prc-zhou-1949", "type": "搭档", "note": "毛主政、周组阁——遵义以来的组合走到了新中国。" }
+      ]
+    },
+    {
+      "id": "prc-zhou-1949",
+      "name": "周恩来（1949 登台一刻）",
+      "life": "1898—1976",
+      "role": "政务院总理兼外交部长",
+      "bio": "1949 年 10 月 1 日，他在天安门城楼上。一个从黄埔走出、从南昌起义走出、从重庆谈判走出的人，到此刻成了新中国第一任总理。",
+      "relations": [
+        { "personId": "roc-zhouenlai", "type": "同一人·上一卷", "note": "上卷他是『周代表』『周参谋』，这一刻起是『周总理』。" }
+      ]
+    },
+    {
+      "id": "prc-zhu-1949",
+      "name": "朱德（1949 登台一刻）",
+      "life": "1886—1976",
+      "role": "中国人民解放军总司令",
+      "bio": "1949 年 10 月 1 日，他在天安门城楼上。从云南讲武堂到南昌起义到井冈山到这一刻——一个旧滇军出身的人，走完了一支新军队的全程。",
+      "relations": [
+        { "personId": "roc-zhude", "type": "同一人·上一卷", "note": "井冈山的『朱军长』到天安门的『朱总司令』——一支军队，一个人，二十二年。" }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "qing-tifayifu",
+      "title": "剃发易服令",
+      "year": 1645,
+      "narrative": "[[qing-duergun]] 一纸『留头不留发』下江南——江阴八十一日、嘉定三屠由此而起。一根辫子压了二百六十七年。",
+      "involvedPersonIds": ["qing-duergun", "qing-shunzhi"]
+    },
+    {
+      "id": "qing-sanfan",
+      "title": "三藩之乱",
+      "year": 1673,
+      "narrative": "吴三桂等三藩起兵『反清复明』，[[kangxi]] 用八年平之——清廷从此再无藩镇之忧。",
+      "involvedPersonIds": ["kangxi"]
+    },
+    {
+      "id": "qing-shoutaiwan",
+      "title": "收台湾",
+      "year": 1683,
+      "narrative": "[[qing-shilang]] 澎湖一战大破郑军，台湾正式入清版图——结束郑氏三代抗清。",
+      "involvedPersonIds": ["kangxi", "qing-shilang"]
+    },
+    {
+      "id": "qing-jiuzi-duodi",
+      "title": "九子夺嫡",
+      "year": 1722,
+      "narrative": "[[kangxi]] 晚年九子结党，太子两立两废。最不张扬的四阿哥 [[qing-yongzheng]] 凭一道遗诏一夜登基。",
+      "involvedPersonIds": ["kangxi", "qing-yongzheng", "qing-longkeduo"]
+    },
+    {
+      "id": "qing-yongzheng-gaige",
+      "title": "雍正新政",
+      "year": 1724,
+      "narrative": "摊丁入亩、火耗归公、改土归流、设军机处——[[qing-yongzheng]] 十三年装上盛世的财政骨架，自己背骂名。",
+      "involvedPersonIds": ["qing-yongzheng", "qing-nianxgengyao", "qing-longkeduo"]
+    },
+    {
+      "id": "qing-wenziyu",
+      "title": "雍乾文字狱",
+      "year": 1755,
+      "narrative": "雍乾两朝大狱百余起——一句『清风不识字』可灭门。盛世的另一面，是士人把笔尖磨成了考据。",
+      "involvedPersonIds": ["qing-yongzheng", "qianlong"]
+    },
+    {
+      "id": "qing-yuanmingyuan",
+      "title": "火烧圆明园",
+      "year": 1860,
+      "narrative": "英法联军入北京，咸丰逃热河。三天三夜大火烧出天朝上国神话最具体的灰烬。",
+      "involvedPersonIds": ["qing-xianfeng", "qing-yixin"]
+    },
+    {
+      "id": "qing-xinyou-zhengbian",
+      "title": "辛酉政变",
+      "year": 1861,
+      "narrative": "[[cixi]] [[qing-cian]] 与 [[qing-yixin]] 联手扳倒 [[qing-susuns]] 等顾命八大臣——清后半场由这一夜定局。",
+      "involvedPersonIds": ["cixi", "qing-cian", "qing-yixin", "qing-susuns", "qing-xianfeng"]
+    },
+    {
+      "id": "qing-shoufu-xinjiang",
+      "title": "左宗棠收复新疆",
+      "year": 1878,
+      "narrative": "[[qing-zuozongtang]] 抬棺西征，两年克复天山南北、迫俄归还伊犁——晚清最硬的一仗。",
+      "involvedPersonIds": ["qing-zuozongtang", "qing-lihongzhang"]
+    },
+    {
+      "id": "qing-jiawu",
+      "title": "甲午战争",
+      "year": 1894,
+      "narrative": "北洋水师覆没黄海、[[qing-dengshichang]] 撞舰殉国。马关条约割台赔银二亿三千万——清廷与日本的牌底自此对调。",
+      "involvedPersonIds": ["qing-lihongzhang", "qing-dengshichang", "cixi"]
+    },
+    {
+      "id": "qing-wuxu-bianfa",
+      "title": "戊戌变法",
+      "year": 1898,
+      "narrative": "[[qing-guangxu]] 用 [[qing-kangyouwei]] 行新政百日，[[cixi]] 一夕政变。六君子血溅菜市口——『有心杀贼，无力回天』。",
+      "involvedPersonIds": ["qing-guangxu", "qing-kangyouwei", "qing-liangqichao", "qing-tansitong", "cixi"]
+    },
+    {
+      "id": "qing-gengzi",
+      "title": "庚子之乱",
+      "year": 1900,
+      "narrative": "[[cixi]] 借义和团对八国宣战，转眼联军破京。她带光绪西逃西安——回京只能签 [[qing-xinchou-tiaoyue]]。",
+      "involvedPersonIds": ["cixi", "qing-guangxu"]
+    },
+    {
+      "id": "qing-xinchou-tiaoyue",
+      "title": "辛丑条约",
+      "year": 1901,
+      "narrative": "[[qing-lihongzhang]] 代表清廷签字：四亿五千万两赔款，按人头一人一两——签完三个月后他病死。",
+      "involvedPersonIds": ["qing-lihongzhang", "cixi"]
+    },
+    {
+      "id": "qing-tuiwei",
+      "title": "清帝退位",
+      "year": 1912,
+      "narrative": "[[qing-longyu]] 代三岁 [[qing-puyi]] 颁布退位诏书——两千一百三十二年帝制由这道诏书收尾。",
+      "involvedPersonIds": ["qing-puyi", "qing-longyu", "yuanshikai"]
+    },
+    {
+      "id": "roc-songjiaoren-an",
+      "title": "宋教仁案",
+      "year": 1913,
+      "narrative": "国民党大选胜出，[[roc-songjiaoren]] 北上组阁前被刺于上海火车站——民国唯一可能的议会政治至此终结。",
+      "involvedPersonIds": ["roc-songjiaoren", "yuanshikai"]
+    },
+    {
+      "id": "roc-erci-geming",
+      "title": "二次革命",
+      "year": 1913,
+      "narrative": "[[sunyatsen]] 起兵讨袁，三月败亡日本——议会一败，革命派只能再次走武装。",
+      "involvedPersonIds": ["sunyatsen", "yuanshikai", "roc-songjiaoren"]
+    },
+    {
+      "id": "roc-hugou-zhanzheng",
+      "title": "护国战争",
+      "year": 1915,
+      "narrative": "[[roc-caie]] 自京装病南下昆明起义，八十三天逼 [[yuanshikai]] 帝制崩——共和续了半口气。",
+      "involvedPersonIds": ["roc-caie", "yuanshikai", "roc-liangqichao-late"]
+    },
+    {
+      "id": "roc-wusi",
+      "title": "五四运动",
+      "year": 1919,
+      "narrative": "巴黎和会把山东送给日本，北大学生火烧赵家楼——中国第一次学生、报纸、罢工自觉地搅动政治。",
+      "involvedPersonIds": ["roc-chenduxiu", "roc-lidazhao", "roc-hushi", "roc-luxun"]
+    },
+    {
+      "id": "roc-zhonggong-yida",
+      "title": "中共一大",
+      "year": 1921,
+      "narrative": "上海法租界一间小楼里十三个人开了三天会——后因密探转浙江嘉兴南湖船上闭幕。新的政治力量从此开张。",
+      "involvedPersonIds": ["roc-chenduxiu", "roc-lidazhao", "roc-maozedong"]
+    },
+    {
+      "id": "roc-siyier",
+      "title": "四一二政变",
+      "year": 1927,
+      "narrative": "[[roc-jiangjieshi]] 借青帮之手清党，一夜杀光左派同志。北伐还未结束，国共合作已经粉身。",
+      "involvedPersonIds": ["roc-jiangjieshi", "roc-zhouenlai", "roc-maozedong"]
+    },
+    {
+      "id": "roc-changzheng",
+      "title": "长征",
+      "year": 1934,
+      "narrative": "中央苏区第五次反围剿失败，八万红军西走两年两万五千里，遵义会议 [[roc-maozedong]] 取得军权，到陕北只剩七千余人。",
+      "involvedPersonIds": ["roc-maozedong", "roc-zhouenlai", "roc-zhude", "roc-pengdehuai"]
+    },
+    {
+      "id": "roc-jiuyiba",
+      "title": "九一八事变",
+      "year": 1931,
+      "narrative": "关东军炸柳条湖、突袭沈阳——一夜失东北。[[roc-zhangxueliang]] 背了一辈子骂名。",
+      "involvedPersonIds": ["roc-zhangxueliang", "roc-jiangjieshi"]
+    },
+    {
+      "id": "xian-shibian",
+      "title": "西安事变",
+      "year": 1936,
+      "narrative": "[[roc-zhangxueliang]] 与 [[roc-yangchucheng]] 在临潼活捉 [[roc-jiangjieshi]] 逼其抗日。[[roc-zhouenlai]] 飞临潼调停。十四天后蒋获释，全国抗战格局成形。",
+      "involvedPersonIds": ["roc-zhangxueliang", "roc-yangchucheng", "roc-jiangjieshi", "roc-zhouenlai"]
+    },
+    {
+      "id": "roc-lugouqiao",
+      "title": "卢沟桥事变",
+      "year": 1937,
+      "narrative": "1937 年 7 月 7 日宛平城外一声枪响，八年全面抗战由此而起——华北、华东战线一路烧。",
+      "involvedPersonIds": ["roc-jiangjieshi", "roc-zhangzizhong"]
+    },
+    {
+      "id": "roc-nanjing-datusha",
+      "title": "南京大屠杀",
+      "year": 1937,
+      "narrative": "1937 年 12 月 13 日，日军入南京六周屠杀三十万——[[roc-lugouqiao]] 之后短短半年，首都沦为人间地狱。",
+      "involvedPersonIds": ["roc-jiangjieshi"]
+    },
+    {
+      "id": "roc-chongqing-tanpan",
+      "title": "重庆谈判",
+      "year": 1945,
+      "narrative": "日本投降，[[roc-jiangjieshi]] 三电邀 [[roc-maozedong]] 赴重庆，四十三天谈出《双十协定》——纸上同意和平建国，背后双方都在调兵。",
+      "involvedPersonIds": ["roc-jiangjieshi", "roc-maozedong", "roc-zhouenlai"]
+    },
+    {
+      "id": "roc-sandazhanyi",
+      "title": "三大战役",
+      "year": 1948,
+      "narrative": "辽沈、淮海、平津四个月歼国军一百五十四万——[[roc-jiangjieshi]] 嫡系尽失，内战胜负至此而定。",
+      "involvedPersonIds": ["roc-lindabiao", "roc-liubocheng", "roc-dengxiaoping", "roc-jiangjieshi", "roc-maozedong"]
+    },
+    {
+      "id": "prc-zhengxie-1949",
+      "title": "中国人民政治协商会议",
+      "year": 1949,
+      "narrative": "1949 年 9 月北平，决定国号、国旗、国徽、国歌、首都——开国大典前十天，新国家的目录已经印好。",
+      "involvedPersonIds": ["prc-mao-1949", "prc-zhou-1949", "prc-zhu-1949"]
+    }
+  ]
+}

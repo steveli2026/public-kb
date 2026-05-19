@@ -1,73 +1,2811 @@
 {
   "_note": "事件。year 为公元（公元前取负），narrative 故事化一句话；involvedPersonIds 接入人物互链图。",
   "events": [
-    { "id": "zhuolu", "title": "涿鹿之战", "year": -2600, "narrative": "涿鹿之战属于传说史层面的记忆：黄帝与炎帝部族联合，对抗以蚩尤为首的东方势力。故事里有风后、指南车、浓雾与兵器神话，真正重要的不是战场细节，而是它解释了『华夏』如何从多部族竞争走向共同祖先叙事。胜利后的黄帝被推为联盟中心，文明开篇由此有了一个可被讲述的主角。", "involvedPersonIds": ["huangdi"] },
-    { "id": "dayu-zhishui", "title": "大禹治水", "year": -2100, "narrative": "大禹治水把洪水神话、早期水利经验和政治合法性缝在一起。鲧用堵塞失败，禹改用疏导，沿山川入海开通水路，十三年奔走在外，『三过家门而不入』成为公义压倒私情的原型。治水成功使禹拥有超越部族的威望，也让权力从贤能推举逐渐转向家族继承，为夏的出现铺路。", "involvedPersonIds": ["yu"] },
-    { "id": "mingtiao", "title": "鸣条之战", "year": -1600, "narrative": "鸣条之战是夏商更替的核心场景。传统说法中，夏桀失去民心与诸侯，商汤以讨暴救民为名进攻，最终击溃夏军。它未必能还原为一场清晰可考的战役，却确立了中国王朝政治最重要的叙事公式：末代君主失德，天命转移，新兴势力用军事胜利证明自己有资格重建秩序。", "involvedPersonIds": ["tang", "jie"] },
-    { "id": "pangeng-qianyin", "title": "盘庚迁殷", "year": -1300, "narrative": "盘庚迁殷标志着商从频繁迁徙走向相对稳定的政治中心。迁都并非简单搬家，而是重组贵族、祭祀与资源网络：王室需要把反对迁徙的势力重新纳入秩序，也需要一个更适合控制黄河中下游的都邑。殷墟甲骨、青铜器和宫殿遗址，让晚商第一次以较清晰的物质面貌出现在我们眼前。" },
-    { "id": "muye", "title": "牧野之战", "year": -1046, "narrative": "牧野之战是商周更替的决战。周武王会盟诸侯东进，商纣王仓促调兵迎战，传统说法称商军『前徒倒戈』，反映出末年统治已经失去内部支持。战后帝辛自焚，商亡周兴；更深远的影响是，周人用『天命』解释胜利，把军事征服转化为道德审判。", "involvedPersonIds": ["zhou-wu", "zhouwang", "jiangziya"] },
-    { "id": "zhougong-zhili", "title": "周公制礼作乐", "year": -1040, "narrative": "周公制礼作乐是西周把征服转化为秩序的象征。分封让诸侯各守一方，宗法确认嫡庶亲疏，礼乐把等级、祭祀、婚丧和朝聘固定下来。它不是一部一次写成的法典，而是一套被后世不断追认和理想化的政治文化模型：用礼来限制权力，用亲族关系维系天下。", "involvedPersonIds": ["zhougong"] },
-    { "id": "guoren-baodong", "title": "国人暴动", "year": -841, "narrative": "国人暴动发生在周厉王时期。厉王专利山林川泽、压制言论，引发都城『国人』起事，厉王出奔，周召二公共和行政。前 841 年也是中国传统纪年中连续可靠纪年的开端；这场事件提醒读者，西周并非只有礼乐温情，王权若破坏共同体利益，也会被政治共同体驱逐。" },
-    { "id": "quanrong-poxihao", "title": "犬戎破镐京", "year": -771, "narrative": "犬戎破镐京标志西周终结。传统故事把原因浓缩为幽王失信于诸侯，但背后是王畿衰弱、边患加重、诸侯救援意愿下降的长期结果。镐京陷落后，幽王被杀，平王东迁洛邑；从此周天子保留名义，实际政治舞台转向诸侯争霸。", "involvedPersonIds": ["youwang"] },
-    { "id": "fenghuo-xinuo", "title": "烽火戏诸侯", "year": -779, "narrative": "为博褒姒一笑而戏弄诸侯，狼真来时无人赴援——失信者亡。", "involvedPersonIds": ["youwang"] },
-    { "id": "zunwang-rangyi", "title": "尊王攘夷", "year": -679, "narrative": "『尊王攘夷』是春秋政治最精巧的口号。尊王，承认周天子的名义中心；攘夷，组织诸侯抵御或压制被视为外部威胁的势力。齐桓公、晋文公借它行霸主之实，却不公开推翻周礼。这个口号说明春秋仍在旧秩序里说话，但真正的权力已经从王室流向强国。", "involvedPersonIds": ["qihuan", "jinwen"] },
-    { "id": "shangyang-bianfa", "title": "商鞅变法", "year": -356, "narrative": "商鞅变法不是单项改革，而是秦国国家能力的重铸。它奖励耕战、按军功授爵，削弱旧贵族，推行县制和连坐，把人口、土地、赋役、司法都纳入可计算的体系。它残酷、有效，也极难回头：秦以后能持续东进，不是因为某一代君主突然英明，而是制度已经把战争变成国家日常。", "involvedPersonIds": ["shangyang"] },
-    { "id": "changping", "title": "长平之战", "year": -260, "narrative": "长平之战是战国后期的决定性崩塌。秦赵在上党僵持，赵国换下廉颇、启用赵括，希望速战破局；白起则诱敌深入，切断赵军粮道，最终迫使赵军投降并大规模坑杀。赵国失去最重要的有生力量，六国抗秦的军事基础从此被击穿。", "involvedPersonIds": ["baiqi", "zhao-kuo"] },
-    { "id": "qin-tongyi", "title": "秦灭六国·一统天下", "year": -221, "narrative": "十年并吞六国，称皇帝、行郡县、书同文，帝制骨架成型。", "involvedPersonIds": ["qinshihuang", "lisi"] },
-    { "id": "fenshu-kengru", "title": "焚书坑儒", "year": -213, "narrative": "禁私学、坑术士，思想一统的代价是文明的灼伤。", "involvedPersonIds": ["qinshihuang", "lisi"] },
-    { "id": "daze-qiyi", "title": "大泽乡起义", "year": -209, "narrative": "陈胜吴广振臂，『王侯将相宁有种乎』——最强帝国亡于最底层一问。", "involvedPersonIds": ["chensheng"] },
-    { "id": "hongmen-yan", "title": "鸿门宴", "year": -206, "narrative": "项羽一念之仁不杀刘邦，放虎归山，四年后自食其果。", "involvedPersonIds": ["xiangyu", "liubang", "zhangliang"] },
-    { "id": "gaixia", "title": "垓下之围", "year": -202, "narrative": "四面楚歌，霸王别姬，乌江自刎——『力拔山』败给『会用人』。", "involvedPersonIds": ["xiangyu", "liubang", "hanxin", "yuji"] },
-    { "id": "wenjing-zhizhi", "title": "文景之治", "year": -180, "narrative": "黄老无为、与民休息，为汉武鼎盛攒下家底。" },
-    { "id": "zhangqian-tongxiyu", "title": "张骞通西域", "year": -138, "narrative": "十三年凿空，丝绸之路自此而通，文明的动脉打开。", "involvedPersonIds": ["zhangqian", "hanwu"] },
-    { "id": "wangmang-cuanhan", "title": "王莽篡汉·新朝", "year": 9, "narrative": "外戚代汉，托古改制全面失败——『复古』也是一种激进。", "involvedPersonIds": ["wangmang"] },
-    { "id": "guangwu-zhongxing", "title": "光武中兴", "year": 25, "narrative": "刘秀昆阳奇胜、重建汉室，以柔道治天下。", "involvedPersonIds": ["liuxiu"] },
-    { "id": "huangjin-qiyi", "title": "黄巾起义", "year": 184, "narrative": "『苍天已死』，朝廷放权地方平乱——中央饮鸩，豪强坐大。", "involvedPersonIds": ["caocao", "liubei"] },
-    { "id": "guandu", "title": "官渡之战", "year": 200, "narrative": "曹操以少胜多破袁绍，奠定统一北方之基。", "involvedPersonIds": ["caocao"] },
-    { "id": "chibi", "title": "赤壁之战", "year": 208, "narrative": "孙刘联军火烧曹军，天下三分之势就此定型。", "involvedPersonIds": ["caocao", "sunquan", "liubei", "zhugeliang"] },
-    { "id": "wuzhangyuan", "title": "星落五丈原", "year": 234, "narrative": "诸葛亮鞠躬尽瘁，六出祁山而殁——智计敌不过国力与寿数。", "involvedPersonIds": ["zhugeliang", "simayi"] },
-    { "id": "sanjia-guijin", "title": "三家归晋", "year": 280, "narrative": "司马氏代魏、灭蜀吴一统——曹操开的头，司马家收的尾。", "involvedPersonIds": ["simayan", "simayi"] },
-    { "id": "bawang-zhiluan", "title": "八王之乱", "year": 291, "narrative": "宗室屏藩自相残杀十六年，掏空西晋，引五胡入局。", "involvedPersonIds": ["huidi"] },
-    { "id": "yongjia-zhiluan", "title": "永嘉之乱", "year": 311, "narrative": "匈奴攻陷洛阳掳怀帝，西晋将亡，士族南渡在即。", "involvedPersonIds": ["liuyuan"] },
-    { "id": "yiguan-nandu", "title": "衣冠南渡", "year": 317, "narrative": "司马睿赖王导立于江南，『王与马共天下』，华夏文明南移。", "involvedPersonIds": ["simarui", "wangdao"] },
-    { "id": "feishui", "title": "淝水之战", "year": 383, "narrative": "前秦八十万溃于东晋八万，风声鹤唳——决定南北朝对峙格局。", "involvedPersonIds": ["fujian", "xiexuan"] },
-    { "id": "xiaowen-hanhua", "title": "孝文帝汉化", "year": 494, "narrative": "迁都洛阳、改汉姓禁胡服——征服者主动融入被征服的文明。", "involvedPersonIds": ["xiaowendi"] },
-    { "id": "houjing-zhiluan", "title": "侯景之乱", "year": 548, "narrative": "建康陷落，梁武帝饿死台城，南朝门阀经此致命一击。", "involvedPersonIds": ["houjing"] },
-    { "id": "sui-tongyi", "title": "隋灭陈·南北一统", "year": 589, "narrative": "结束近三百年分裂，制度上承前启后。", "involvedPersonIds": ["yangjian"] },
-    { "id": "kaike-yunhe", "title": "开凿大运河", "year": 605, "narrative": "贯通南北经济命脉——功在千秋，罪在当代。", "involvedPersonIds": ["suiyang"] },
-    { "id": "sanzheng-gaogouli", "title": "三征高句丽", "year": 612, "narrative": "滥用民力，盛隋骤崩，瓦岗群雄并起。", "involvedPersonIds": ["suiyang"] },
-    { "id": "zhenguan-zhizhi", "title": "贞观之治", "year": 627, "narrative": "纳谏任贤、轻徭薄赋，太宗被尊『天可汗』。", "involvedPersonIds": ["litaizong"] },
-    { "id": "kaiyuan-shengshi", "title": "开元盛世", "year": 713, "narrative": "盛唐顶点，长安为世界都会——而衰亡的伏笔已埋。", "involvedPersonIds": ["tangxuanzong", "libai"] },
-    { "id": "anshi-zhiluan", "title": "安史之乱", "year": 755, "narrative": "渔阳鼙鼓动地来，盛唐拦腰被斩，藩镇宦官之祸自此而起。", "involvedPersonIds": ["anlushan", "tangxuanzong"] },
-    { "id": "huangchao-rujing", "title": "黄巢入长安·大齐", "year": 880, "narrative": "『满城尽带黄金甲』一语成谶，黄巢攻入长安称帝。", "involvedPersonIds": ["huangchao"] },
-    { "id": "baima-yi", "title": "白马驿之祸", "year": 905, "narrative": "朱温尽杀朝臣投尸黄河，『此辈清流，可投浊流』——唐之脊梁断绝。", "involvedPersonIds": ["zhuwen", "tang-zhaozong"] },
-    { "id": "tang-wang", "title": "朱温篡唐·唐亡", "year": 907, "narrative": "招降黄巢的那个人，亲手为大唐盖棺——三百年大唐终。", "involvedPersonIds": ["zhuwen", "huangchao", "tang-zhaozong"] },
-    { "id": "zhuwen-jianliang", "title": "后梁建立", "year": 907, "narrative": "朱温建后梁，五代开场，武人立国的赤裸时代。", "involvedPersonIds": ["zhuwen"] },
-    { "id": "houtang-mieliang", "title": "后唐灭后梁", "year": 923, "narrative": "李存勖承父三矢之志灭后梁——为唐『复仇』，但后唐终非大唐。", "involvedPersonIds": ["licunxu", "likeyong", "zhuwen"] },
-    { "id": "geyun-yunzhou", "title": "石敬瑭割幽云十六州", "year": 938, "narrative": "认契丹为父割燕云——中原四百年无险可守，宋两朝背此债。", "involvedPersonIds": ["shijingtang", "yelvabaoji"] },
-    { "id": "chenqiao-bingbian", "title": "陈桥兵变·黄袍加身", "year": 960, "narrative": "赵匡胤代周建宋，几乎兵不血刃接收周世宗的家底。", "involvedPersonIds": ["zhaokuangyin", "zhouhshizong"] },
-    { "id": "beijiu-shibingquan", "title": "杯酒释兵权", "year": 961, "narrative": "一杯酒解武将兵柄，终结武人乱政，也种下百年积弱之根。", "involvedPersonIds": ["zhaokuangyin"] },
-    { "id": "chanyuan-zhimeng", "title": "澶渊之盟", "year": 1005, "narrative": "宋辽约为兄弟、岁币买和平——百年无大战，也百年失锐气。" },
-    { "id": "xining-bianfa", "title": "熙宁变法", "year": 1069, "narrative": "王安石图强变法，新旧党争撕裂朝堂数十年。", "involvedPersonIds": ["wanganshi", "songshenzong"] },
-    { "id": "jingkang-zhibian", "title": "靖康之耻", "year": 1127, "narrative": "金破汴京，徽钦二帝北狩，北宋亡——文明巅峰的至暗时刻。", "involvedPersonIds": ["songhuizong"] },
-    { "id": "yuefei-beifa", "title": "岳飞北伐", "year": 1140, "narrative": "郾城大捷直捣黄龙在望，十二道金牌召回——功亏一篑。", "involvedPersonIds": ["yuefei", "zhaogou"] },
-    { "id": "shaoxing-heyi", "title": "绍兴和议·风波亭", "year": 1142, "narrative": "宋向金称臣，岳飞以『莫须有』死——自毁长城者非敌人。", "involvedPersonIds": ["qinhui", "yuefei", "zhaogou"] },
-    { "id": "yashan", "title": "崖山海战", "year": 1279, "narrative": "陆秀夫负幼帝蹈海，十万军民殉国，南宋以最惨烈方式谢幕。", "involvedPersonIds": ["luxiufu", "wentianxiang"] },
-    { "id": "mongol-mienansong", "title": "蒙古灭南宋·元一统", "year": 1279, "narrative": "首次由草原民族统一全中国，行省制延用至今。", "involvedPersonIds": ["kublai"] },
-    { "id": "hongjin-qiyi", "title": "红巾起义", "year": 1351, "narrative": "黄河泛滥、白莲教起，群雄逐鹿，元统治不足百年而崩。", "involvedPersonIds": ["zhuyuanzhang-pre"] },
-    { "id": "jingnan-zhiyi", "title": "靖难之役", "year": 1399, "narrative": "燕王朱棣以『清君侧』夺侄之位，迁都北京。", "involvedPersonIds": ["yongle"] },
-    { "id": "zhenghe-xixiyang", "title": "郑和下西洋", "year": 1405, "narrative": "宝船七下西洋远抵东非，旋因国策内缩而绝响。", "involvedPersonIds": ["zhenghe", "yongle"] },
-    { "id": "tumubao", "title": "土木堡之变", "year": 1449, "narrative": "宦官王振误国，英宗被瓦剌所俘，明由盛转衰。" },
-    { "id": "jiashen-zhibian", "title": "甲申之变", "year": 1644, "narrative": "李自成破北京，崇祯自缢煤山，清军随即入关——天崩地裂的一年。", "involvedPersonIds": ["chongzhen", "lizicheng"] },
-    { "id": "qing-ruguan", "title": "清军入关", "year": 1644, "narrative": "山海关一开，满洲入主，最后一个王朝登场。", "involvedPersonIds": ["nuerhachi"] },
-    { "id": "kangqian-shengshi", "title": "康乾盛世", "year": 1681, "narrative": "疆域奠定今日之基，自信的天朝即将撞上工业文明。", "involvedPersonIds": ["kangxi", "qianlong"] },
-    { "id": "yapian-zhanzheng", "title": "鸦片战争", "year": 1840, "narrative": "坚船利炮凿穿国门，天朝上国梦碎，近代百年屈辱起点。", "involvedPersonIds": ["linzexu"] },
-    { "id": "taiping", "title": "太平天国", "year": 1851, "narrative": "金田起义席卷半个中国十四年，内外交困加速王朝衰朽。" },
-    { "id": "xinhai", "title": "辛亥革命", "year": 1911, "narrative": "武昌一声枪响，两千年帝制终结——但中国向何处去，问题才开始。", "involvedPersonIds": ["sunyatsen", "cixi"] },
-    { "id": "xinhai-gonghe", "title": "民国肇建", "year": 1912, "narrative": "清帝退位，中华民国立——共和初生即陷军阀混战。", "involvedPersonIds": ["sunyatsen", "yuanshikai"] },
-    { "id": "beifa", "title": "国民革命军北伐", "year": 1926, "narrative": "名义统一全国，军阀时代落幕，新的裂痕又起。" },
-    { "id": "kangri-zhanzheng", "title": "抗日战争", "year": 1937, "narrative": "八年焦土山河泣血而不屈，中华民族近代最痛也最硬的一段。", "involvedPersonIds": ["kangri-junmin"] },
-    { "id": "guogong-neizhan", "title": "国共内战·三大战役", "year": 1946, "narrative": "战后决战定局，一个旧时代走向终点。" },
-    { "id": "kaiguo-dadian", "title": "新中国成立", "year": 1949, "narrative": "1949 年 10 月 1 日——四千年长卷在此收束，又在此重新铺开。" }
+    {
+      "id": "zhuolu",
+      "title": "涿鹿之战",
+      "year": -2600,
+      "narrative": "涿鹿之战属于传说史层面的记忆：黄帝与炎帝部族联合，对抗以蚩尤为首的东方势力。故事里有风后、指南车、浓雾与兵器神话，真正重要的不是战场细节，而是它解释了『华夏』如何从多部族竞争走向共同祖先叙事。胜利后的黄帝被推为联盟中心，文明开篇由此有了一个可被讲述的主角。",
+      "involvedPersonIds": [
+        "huangdi"
+      ]
+    },
+    {
+      "id": "dayu-zhishui",
+      "title": "大禹治水",
+      "year": -2100,
+      "narrative": "大禹治水把洪水神话、早期水利经验和政治合法性缝在一起。鲧用堵塞失败，禹改用疏导，沿山川入海开通水路，十三年奔走在外，『三过家门而不入』成为公义压倒私情的原型。治水成功使禹拥有超越部族的威望，也让权力从贤能推举逐渐转向家族继承，为夏的出现铺路。",
+      "involvedPersonIds": [
+        "yu"
+      ]
+    },
+    {
+      "id": "mingtiao",
+      "title": "鸣条之战",
+      "year": -1600,
+      "narrative": "鸣条之战是夏商更替的核心场景。传统说法中，夏桀失去民心与诸侯，商汤以讨暴救民为名进攻，最终击溃夏军。它未必能还原为一场清晰可考的战役，却确立了中国王朝政治最重要的叙事公式：末代君主失德，天命转移，新兴势力用军事胜利证明自己有资格重建秩序。",
+      "involvedPersonIds": [
+        "tang",
+        "jie"
+      ]
+    },
+    {
+      "id": "pangeng-qianyin",
+      "title": "盘庚迁殷",
+      "year": -1300,
+      "narrative": "盘庚迁殷标志着商从频繁迁徙走向相对稳定的政治中心。迁都并非简单搬家，而是重组贵族、祭祀与资源网络：王室需要把反对迁徙的势力重新纳入秩序，也需要一个更适合控制黄河中下游的都邑。殷墟甲骨、青铜器和宫殿遗址，让晚商第一次以较清晰的物质面貌出现在我们眼前。"
+    },
+    {
+      "id": "muye",
+      "title": "牧野之战",
+      "year": -1046,
+      "narrative": "牧野之战是商周更替的决战。周武王会盟诸侯东进，商纣王仓促调兵迎战，传统说法称商军『前徒倒戈』，反映出末年统治已经失去内部支持。战后帝辛自焚，商亡周兴；更深远的影响是，周人用『天命』解释胜利，把军事征服转化为道德审判。",
+      "involvedPersonIds": [
+        "zhou-wu",
+        "zhouwang",
+        "jiangziya"
+      ]
+    },
+    {
+      "id": "zhougong-zhili",
+      "title": "周公制礼作乐",
+      "year": -1040,
+      "narrative": "周公制礼作乐是西周把征服转化为秩序的象征。分封让诸侯各守一方，宗法确认嫡庶亲疏，礼乐把等级、祭祀、婚丧和朝聘固定下来。它不是一部一次写成的法典，而是一套被后世不断追认和理想化的政治文化模型：用礼来限制权力，用亲族关系维系天下。",
+      "involvedPersonIds": [
+        "zhougong"
+      ]
+    },
+    {
+      "id": "guoren-baodong",
+      "title": "国人暴动",
+      "year": -841,
+      "narrative": "国人暴动发生在周厉王时期。厉王专利山林川泽、压制言论，引发都城『国人』起事，厉王出奔，周召二公共和行政。前 841 年也是中国传统纪年中连续可靠纪年的开端；这场事件提醒读者，西周并非只有礼乐温情，王权若破坏共同体利益，也会被政治共同体驱逐。"
+    },
+    {
+      "id": "quanrong-poxihao",
+      "title": "犬戎破镐京",
+      "year": -771,
+      "narrative": "犬戎破镐京标志西周终结。传统故事把原因浓缩为幽王失信于诸侯，但背后是王畿衰弱、边患加重、诸侯救援意愿下降的长期结果。镐京陷落后，幽王被杀，平王东迁洛邑；从此周天子保留名义，实际政治舞台转向诸侯争霸。",
+      "involvedPersonIds": [
+        "youwang"
+      ]
+    },
+    {
+      "id": "fenghuo-xinuo",
+      "title": "烽火戏诸侯",
+      "year": -779,
+      "narrative": "为博褒姒一笑而戏弄诸侯，狼真来时无人赴援——失信者亡。",
+      "involvedPersonIds": [
+        "youwang"
+      ]
+    },
+    {
+      "id": "zunwang-rangyi",
+      "title": "尊王攘夷",
+      "year": -679,
+      "narrative": "『尊王攘夷』是春秋政治最精巧的口号。尊王，承认周天子的名义中心；攘夷，组织诸侯抵御或压制被视为外部威胁的势力。齐桓公、晋文公借它行霸主之实，却不公开推翻周礼。这个口号说明春秋仍在旧秩序里说话，但真正的权力已经从王室流向强国。",
+      "involvedPersonIds": [
+        "qihuan",
+        "jinwen"
+      ]
+    },
+    {
+      "id": "shangyang-bianfa",
+      "title": "商鞅变法",
+      "year": -356,
+      "narrative": "商鞅变法不是单项改革，而是秦国国家能力的重铸。它奖励耕战、按军功授爵，削弱旧贵族，推行县制和连坐，把人口、土地、赋役、司法都纳入可计算的体系。它残酷、有效，也极难回头：秦以后能持续东进，不是因为某一代君主突然英明，而是制度已经把战争变成国家日常。",
+      "involvedPersonIds": [
+        "shangyang"
+      ]
+    },
+    {
+      "id": "changping",
+      "title": "长平之战",
+      "year": -260,
+      "narrative": "长平之战是战国后期的决定性崩塌。秦赵在上党僵持，赵国换下廉颇、启用赵括，希望速战破局；白起则诱敌深入，切断赵军粮道，最终迫使赵军投降并大规模坑杀。赵国失去最重要的有生力量，六国抗秦的军事基础从此被击穿。",
+      "involvedPersonIds": [
+        "baiqi",
+        "zhao-kuo"
+      ]
+    },
+    {
+      "id": "qin-tongyi",
+      "title": "秦灭六国·一统天下",
+      "year": -221,
+      "narrative": "十年并吞六国，称皇帝、行郡县、书同文，帝制骨架成型。",
+      "involvedPersonIds": [
+        "qinshihuang",
+        "lisi"
+      ]
+    },
+    {
+      "id": "fenshu-kengru",
+      "title": "焚书坑儒",
+      "year": -213,
+      "narrative": "禁私学、坑术士，思想一统的代价是文明的灼伤。",
+      "involvedPersonIds": [
+        "qinshihuang",
+        "lisi"
+      ]
+    },
+    {
+      "id": "daze-qiyi",
+      "title": "大泽乡起义",
+      "year": -209,
+      "narrative": "陈胜吴广振臂，『王侯将相宁有种乎』——最强帝国亡于最底层一问。",
+      "involvedPersonIds": [
+        "chensheng"
+      ]
+    },
+    {
+      "id": "hongmen-yan",
+      "title": "鸿门宴",
+      "year": -206,
+      "narrative": "项羽一念之仁不杀刘邦，放虎归山，四年后自食其果。",
+      "involvedPersonIds": [
+        "xiangyu",
+        "liubang",
+        "zhangliang"
+      ]
+    },
+    {
+      "id": "gaixia",
+      "title": "垓下之围",
+      "year": -202,
+      "narrative": "四面楚歌，霸王别姬，乌江自刎——『力拔山』败给『会用人』。",
+      "involvedPersonIds": [
+        "xiangyu",
+        "liubang",
+        "hanxin",
+        "yuji"
+      ]
+    },
+    {
+      "id": "wenjing-zhizhi",
+      "title": "文景之治",
+      "year": -180,
+      "narrative": "黄老无为、与民休息，为汉武鼎盛攒下家底。"
+    },
+    {
+      "id": "zhangqian-tongxiyu",
+      "title": "张骞通西域",
+      "year": -138,
+      "narrative": "十三年凿空，丝绸之路自此而通，文明的动脉打开。",
+      "involvedPersonIds": [
+        "zhangqian",
+        "hanwu"
+      ]
+    },
+    {
+      "id": "wangmang-cuanhan",
+      "title": "王莽篡汉·新朝",
+      "year": 9,
+      "narrative": "外戚代汉，托古改制全面失败——『复古』也是一种激进。",
+      "involvedPersonIds": [
+        "wangmang"
+      ]
+    },
+    {
+      "id": "guangwu-zhongxing",
+      "title": "光武中兴",
+      "year": 25,
+      "narrative": "刘秀昆阳奇胜、重建汉室，以柔道治天下。",
+      "involvedPersonIds": [
+        "liuxiu"
+      ]
+    },
+    {
+      "id": "huangjin-qiyi",
+      "title": "黄巾起义",
+      "year": 184,
+      "narrative": "『苍天已死』，朝廷放权地方平乱——中央饮鸩，豪强坐大。",
+      "involvedPersonIds": [
+        "caocao",
+        "liubei"
+      ]
+    },
+    {
+      "id": "guandu",
+      "title": "官渡之战",
+      "year": 200,
+      "narrative": "曹操以少胜多破袁绍，奠定统一北方之基。",
+      "involvedPersonIds": [
+        "caocao"
+      ]
+    },
+    {
+      "id": "chibi",
+      "title": "赤壁之战",
+      "year": 208,
+      "narrative": "孙刘联军火烧曹军，天下三分之势就此定型。",
+      "involvedPersonIds": [
+        "caocao",
+        "sunquan",
+        "liubei",
+        "zhugeliang"
+      ]
+    },
+    {
+      "id": "wuzhangyuan",
+      "title": "星落五丈原",
+      "year": 234,
+      "narrative": "诸葛亮鞠躬尽瘁，六出祁山而殁——智计敌不过国力与寿数。",
+      "involvedPersonIds": [
+        "zhugeliang",
+        "simayi"
+      ]
+    },
+    {
+      "id": "sanjia-guijin",
+      "title": "三家归晋",
+      "year": 280,
+      "narrative": "司马氏代魏、灭蜀吴一统——曹操开的头，司马家收的尾。",
+      "involvedPersonIds": [
+        "simayan",
+        "simayi"
+      ]
+    },
+    {
+      "id": "bawang-zhiluan",
+      "title": "八王之乱",
+      "year": 291,
+      "narrative": "宗室屏藩自相残杀十六年，掏空西晋，引五胡入局。",
+      "involvedPersonIds": [
+        "huidi"
+      ]
+    },
+    {
+      "id": "yongjia-zhiluan",
+      "title": "永嘉之乱",
+      "year": 311,
+      "narrative": "匈奴攻陷洛阳掳怀帝，西晋将亡，士族南渡在即。",
+      "involvedPersonIds": [
+        "liuyuan"
+      ]
+    },
+    {
+      "id": "yiguan-nandu",
+      "title": "衣冠南渡",
+      "year": 317,
+      "narrative": "司马睿赖王导立于江南，『王与马共天下』，华夏文明南移。",
+      "involvedPersonIds": [
+        "simarui",
+        "wangdao"
+      ]
+    },
+    {
+      "id": "feishui",
+      "title": "淝水之战",
+      "year": 383,
+      "narrative": "前秦八十万溃于东晋八万，风声鹤唳——决定南北朝对峙格局。",
+      "involvedPersonIds": [
+        "fujian",
+        "xiexuan"
+      ]
+    },
+    {
+      "id": "xiaowen-hanhua",
+      "title": "孝文帝汉化",
+      "year": 494,
+      "narrative": "迁都洛阳、改汉姓禁胡服——征服者主动融入被征服的文明。",
+      "involvedPersonIds": [
+        "xiaowendi"
+      ]
+    },
+    {
+      "id": "houjing-zhiluan",
+      "title": "侯景之乱",
+      "year": 548,
+      "narrative": "建康陷落，梁武帝饿死台城，南朝门阀经此致命一击。",
+      "involvedPersonIds": [
+        "houjing"
+      ]
+    },
+    {
+      "id": "sui-tongyi",
+      "title": "隋灭陈·南北一统",
+      "year": 589,
+      "narrative": "结束近三百年分裂，制度上承前启后。",
+      "involvedPersonIds": [
+        "yangjian"
+      ]
+    },
+    {
+      "id": "kaike-yunhe",
+      "title": "开凿大运河",
+      "year": 605,
+      "narrative": "贯通南北经济命脉——功在千秋，罪在当代。",
+      "involvedPersonIds": [
+        "suiyang"
+      ]
+    },
+    {
+      "id": "sanzheng-gaogouli",
+      "title": "三征高句丽",
+      "year": 612,
+      "narrative": "滥用民力，盛隋骤崩，瓦岗群雄并起。",
+      "involvedPersonIds": [
+        "suiyang"
+      ]
+    },
+    {
+      "id": "zhenguan-zhizhi",
+      "title": "贞观之治",
+      "year": 627,
+      "narrative": "纳谏任贤、轻徭薄赋，太宗被尊『天可汗』。",
+      "involvedPersonIds": [
+        "litaizong"
+      ]
+    },
+    {
+      "id": "kaiyuan-shengshi",
+      "title": "开元盛世",
+      "year": 713,
+      "narrative": "盛唐顶点，长安为世界都会——而衰亡的伏笔已埋。",
+      "involvedPersonIds": [
+        "tangxuanzong",
+        "libai"
+      ]
+    },
+    {
+      "id": "anshi-zhiluan",
+      "title": "安史之乱",
+      "year": 755,
+      "narrative": "渔阳鼙鼓动地来，盛唐拦腰被斩，藩镇宦官之祸自此而起。",
+      "involvedPersonIds": [
+        "anlushan",
+        "tangxuanzong"
+      ]
+    },
+    {
+      "id": "huangchao-rujing",
+      "title": "黄巢入长安·大齐",
+      "year": 880,
+      "narrative": "『满城尽带黄金甲』一语成谶，黄巢攻入长安称帝。",
+      "involvedPersonIds": [
+        "huangchao"
+      ]
+    },
+    {
+      "id": "baima-yi",
+      "title": "白马驿之祸",
+      "year": 905,
+      "narrative": "朱温尽杀朝臣投尸黄河，『此辈清流，可投浊流』——唐之脊梁断绝。",
+      "involvedPersonIds": [
+        "zhuwen",
+        "tang-zhaozong"
+      ]
+    },
+    {
+      "id": "tang-wang",
+      "title": "朱温篡唐·唐亡",
+      "year": 907,
+      "narrative": "招降黄巢的那个人，亲手为大唐盖棺——三百年大唐终。",
+      "involvedPersonIds": [
+        "zhuwen",
+        "huangchao",
+        "tang-zhaozong"
+      ]
+    },
+    {
+      "id": "zhuwen-jianliang",
+      "title": "后梁建立",
+      "year": 907,
+      "narrative": "朱温建后梁，五代开场，武人立国的赤裸时代。",
+      "involvedPersonIds": [
+        "zhuwen"
+      ]
+    },
+    {
+      "id": "houtang-mieliang",
+      "title": "后唐灭后梁",
+      "year": 923,
+      "narrative": "李存勖承父三矢之志灭后梁——为唐『复仇』，但后唐终非大唐。",
+      "involvedPersonIds": [
+        "licunxu",
+        "likeyong",
+        "zhuwen"
+      ]
+    },
+    {
+      "id": "geyun-yunzhou",
+      "title": "石敬瑭割幽云十六州",
+      "year": 938,
+      "narrative": "认契丹为父割燕云——中原四百年无险可守，宋两朝背此债。",
+      "involvedPersonIds": [
+        "shijingtang",
+        "yelvabaoji"
+      ]
+    },
+    {
+      "id": "chenqiao-bingbian",
+      "title": "陈桥兵变·黄袍加身",
+      "year": 960,
+      "narrative": "赵匡胤代周建宋，几乎兵不血刃接收周世宗的家底。",
+      "involvedPersonIds": [
+        "zhaokuangyin",
+        "zhouhshizong"
+      ]
+    },
+    {
+      "id": "beijiu-shibingquan",
+      "title": "杯酒释兵权",
+      "year": 961,
+      "narrative": "一杯酒解武将兵柄，终结武人乱政，也种下百年积弱之根。",
+      "involvedPersonIds": [
+        "zhaokuangyin"
+      ]
+    },
+    {
+      "id": "chanyuan-zhimeng",
+      "title": "澶渊之盟",
+      "year": 1005,
+      "narrative": "宋辽约为兄弟、岁币买和平——百年无大战，也百年失锐气。"
+    },
+    {
+      "id": "xining-bianfa",
+      "title": "熙宁变法",
+      "year": 1069,
+      "narrative": "王安石图强变法，新旧党争撕裂朝堂数十年。",
+      "involvedPersonIds": [
+        "wanganshi",
+        "songshenzong"
+      ]
+    },
+    {
+      "id": "jingkang-zhibian",
+      "title": "靖康之耻",
+      "year": 1127,
+      "narrative": "金破汴京，徽钦二帝北狩，北宋亡——文明巅峰的至暗时刻。",
+      "involvedPersonIds": [
+        "songhuizong"
+      ]
+    },
+    {
+      "id": "yuefei-beifa",
+      "title": "岳飞北伐",
+      "year": 1140,
+      "narrative": "郾城大捷直捣黄龙在望，十二道金牌召回——功亏一篑。",
+      "involvedPersonIds": [
+        "yuefei",
+        "zhaogou"
+      ]
+    },
+    {
+      "id": "shaoxing-heyi",
+      "title": "绍兴和议·风波亭",
+      "year": 1142,
+      "narrative": "宋向金称臣，岳飞以『莫须有』死——自毁长城者非敌人。",
+      "involvedPersonIds": [
+        "qinhui",
+        "yuefei",
+        "zhaogou"
+      ]
+    },
+    {
+      "id": "yashan",
+      "title": "崖山海战",
+      "year": 1279,
+      "narrative": "陆秀夫负幼帝蹈海，十万军民殉国，南宋以最惨烈方式谢幕。",
+      "involvedPersonIds": [
+        "luxiufu",
+        "wentianxiang"
+      ]
+    },
+    {
+      "id": "mongol-mienansong",
+      "title": "蒙古灭南宋·元一统",
+      "year": 1279,
+      "narrative": "首次由草原民族统一全中国，行省制延用至今。",
+      "involvedPersonIds": [
+        "kublai"
+      ]
+    },
+    {
+      "id": "hongjin-qiyi",
+      "title": "红巾起义",
+      "year": 1351,
+      "narrative": "黄河泛滥、白莲教起，群雄逐鹿，元统治不足百年而崩。",
+      "involvedPersonIds": [
+        "zhuyuanzhang-pre"
+      ]
+    },
+    {
+      "id": "jingnan-zhiyi",
+      "title": "靖难之役",
+      "year": 1399,
+      "narrative": "燕王朱棣以『清君侧』夺侄之位，迁都北京。",
+      "involvedPersonIds": [
+        "yongle"
+      ]
+    },
+    {
+      "id": "zhenghe-xixiyang",
+      "title": "郑和下西洋",
+      "year": 1405,
+      "narrative": "宝船七下西洋远抵东非，旋因国策内缩而绝响。",
+      "involvedPersonIds": [
+        "zhenghe",
+        "yongle"
+      ]
+    },
+    {
+      "id": "tumubao",
+      "title": "土木堡之变",
+      "year": 1449,
+      "narrative": "宦官王振误国，英宗被瓦剌所俘，明由盛转衰。"
+    },
+    {
+      "id": "jiashen-zhibian",
+      "title": "甲申之变",
+      "year": 1644,
+      "narrative": "李自成破北京，崇祯自缢煤山，清军随即入关——天崩地裂的一年。",
+      "involvedPersonIds": [
+        "chongzhen",
+        "lizicheng"
+      ]
+    },
+    {
+      "id": "qing-ruguan",
+      "title": "清军入关",
+      "year": 1644,
+      "narrative": "山海关一开，满洲入主，最后一个王朝登场。",
+      "involvedPersonIds": [
+        "nuerhachi"
+      ]
+    },
+    {
+      "id": "kangqian-shengshi",
+      "title": "康乾盛世",
+      "year": 1681,
+      "narrative": "疆域奠定今日之基，自信的天朝即将撞上工业文明。",
+      "involvedPersonIds": [
+        "kangxi",
+        "qianlong"
+      ]
+    },
+    {
+      "id": "yapian-zhanzheng",
+      "title": "鸦片战争",
+      "year": 1840,
+      "narrative": "坚船利炮凿穿国门，天朝上国梦碎，近代百年屈辱起点。",
+      "involvedPersonIds": [
+        "linzexu"
+      ]
+    },
+    {
+      "id": "taiping",
+      "title": "太平天国",
+      "year": 1851,
+      "narrative": "金田起义席卷半个中国十四年，内外交困加速王朝衰朽。"
+    },
+    {
+      "id": "xinhai",
+      "title": "辛亥革命",
+      "year": 1911,
+      "narrative": "武昌一声枪响，两千年帝制终结——但中国向何处去，问题才开始。",
+      "involvedPersonIds": [
+        "sunyatsen",
+        "cixi"
+      ]
+    },
+    {
+      "id": "xinhai-gonghe",
+      "title": "民国肇建",
+      "year": 1912,
+      "narrative": "清帝退位，中华民国立——共和初生即陷军阀混战。",
+      "involvedPersonIds": [
+        "sunyatsen",
+        "yuanshikai"
+      ]
+    },
+    {
+      "id": "beifa",
+      "title": "国民革命军北伐",
+      "year": 1926,
+      "narrative": "名义统一全国，军阀时代落幕，新的裂痕又起。"
+    },
+    {
+      "id": "kangri-zhanzheng",
+      "title": "抗日战争",
+      "year": 1937,
+      "narrative": "八年焦土山河泣血而不屈，中华民族近代最痛也最硬的一段。",
+      "involvedPersonIds": [
+        "kangri-junmin"
+      ]
+    },
+    {
+      "id": "guogong-neizhan",
+      "title": "国共内战·三大战役",
+      "year": 1946,
+      "narrative": "战后决战定局，一个旧时代走向终点。"
+    },
+    {
+      "id": "kaiguo-dadian",
+      "title": "新中国成立",
+      "year": 1949,
+      "narrative": "1949 年 10 月 1 日——四千年长卷在此收束，又在此重新铺开。"
+    },
+    {
+      "id": "legend-banquan",
+      "title": "阪泉之战",
+      "year": -2700,
+      "narrative": "[[huangdi]] 与 [[legend-shennong]]（炎帝）部族战于阪泉之野，三战而合——先有这两大华夏部族的同盟，才有之后联合对抗 [[legend-chiyou]] 的能力。『炎黄子孙』四个字的源头，从这里开始。",
+      "involvedPersonIds": [
+        "huangdi",
+        "legend-shennong"
+      ]
+    },
+    {
+      "id": "legend-changbaicao",
+      "title": "神农尝百草",
+      "year": -2800,
+      "narrative": "[[legend-shennong]] 遍尝百草以辨药性，传说一日中毒七十次——中国医药传统的起点被放在『以身试药』上，文明的早期智慧是用一个人的肉身换来的。后来《神农本草经》托名于他，几千年中药体系都从这里追溯源头。",
+      "involvedPersonIds": [
+        "legend-shennong"
+      ]
+    },
+    {
+      "id": "legend-cangjie-zaozi",
+      "title": "仓颉造字",
+      "year": -2650,
+      "narrative": "[[legend-cangjie]] 观鸟兽足迹、山川走势造出最早的文字，传说造字成功之日『天雨粟，鬼夜哭』——天降祥瑞，鬼神惊恐。中国人对文字的敬畏从一开始就被神话定调：它不是工具，是能让秘密无处藏的力量。",
+      "involvedPersonIds": [
+        "legend-cangjie",
+        "huangdi"
+      ]
+    },
+    {
+      "id": "legend-gun-zhishui",
+      "title": "鲧治水",
+      "year": -2150,
+      "narrative": "[[yao]] 命 [[legend-gun]] 治水，鲧以堵塞之法治理九年不成，被 [[shun]] 殛于羽山。神话里说他死后腹中生出 [[yu]]——父亲的失败成为儿子的起点，中国治水叙事的真正第一人，是这位被杀死在山上的失败者。",
+      "involvedPersonIds": [
+        "legend-gun",
+        "yao",
+        "shun",
+        "yu"
+      ]
+    },
+    {
+      "id": "legend-shun-fang-yao",
+      "title": "舜放尧（异说）",
+      "year": -2200,
+      "narrative": "禅让的主流叙事说 [[yao]] 主动让位给 [[shun]]，但《竹书纪年》另写一笔：舜囚尧于平阳，又流放其子 [[legend-danzhu]]，自己取而代之。两套叙事并存几千年——中国最早的政治神话，从一开始就有两种讲法。",
+      "involvedPersonIds": [
+        "yao",
+        "shun",
+        "legend-danzhu"
+      ]
+    },
+    {
+      "id": "xia-taikang-shiguo",
+      "title": "太康失国",
+      "year": -2050,
+      "narrative": "[[xia-taikang]] 沉湎田猎，常出洛水之南数月不归；东夷有穷氏首领 [[xia-houyi]] 趁机渡河据守国都，太康有家归不得，史称『太康失国』。世袭制刚立第二代就出问题——继承不靠德能，迟早要还。",
+      "involvedPersonIds": [
+        "xia-taikang",
+        "xia-houyi"
+      ]
+    },
+    {
+      "id": "xia-houyi-daixia",
+      "title": "羿浞代夏",
+      "year": -2000,
+      "narrative": "[[xia-houyi]] 据有夏室、沉湎田猎，把政事交给亲信 [[xia-hanzhuo]]，反被弑而妻国俱失；寒浞又派儿子追杀夏室遗孤 [[xia-xiang]]，几乎灭绝夏祀。夏的中段，天下其实是东夷与篡臣的天下。",
+      "involvedPersonIds": [
+        "xia-houyi",
+        "xia-hanzhuo",
+        "xia-xiang"
+      ]
+    },
+    {
+      "id": "xia-shaokang-zhongxing",
+      "title": "少康中兴",
+      "year": -1940,
+      "narrative": "[[xia-shaokang]] 为 [[xia-xiang]] 遗腹子，母亲怀着他逃到有仍氏，长大放牛于有虞氏，四十年隐忍后联合旧夏遗臣灭 [[xia-hanzhuo]] 复国。中国史上第一次『中兴』就此发生——后世刘秀、唐肃宗的剧本，都是这一份原型。",
+      "involvedPersonIds": [
+        "xia-shaokang",
+        "xia-hanzhuo",
+        "xia-xiang"
+      ]
+    },
+    {
+      "id": "xia-konggjia-yanglong",
+      "title": "孔甲乱夏",
+      "year": -1700,
+      "narrative": "[[xia-konggjia]] 好鬼神、事淫乱，传说天降双龙，命刘累养之，一龙死后他把龙肉做成羹给孔甲吃。荒诞外表下是政治事实：自孔甲起诸侯大量叛夏，王朝离亡国不远——[[jie]] 接手时已是危局。",
+      "involvedPersonIds": [
+        "xia-konggjia",
+        "jie"
+      ]
+    },
+    {
+      "id": "xia-jiezhuojiu",
+      "title": "桀作酒池肉林",
+      "year": -1620,
+      "narrative": "[[jie]] 宠 [[xia-meixi]]，作酒池可行舟，悬肉为林，使男女裸戏其间——这是中国史第一组『暴君奢靡』画面。后来商纣、周幽王的故事一遍遍翻演同一套场景：亡国前总要有一场极致的纵欲，才好让革命显得理所当然。",
+      "involvedPersonIds": [
+        "jie",
+        "xia-meixi",
+        "tang"
+      ]
+    },
+    {
+      "id": "shang-yiyin-fang-taijia",
+      "title": "伊尹放太甲",
+      "year": -1550,
+      "narrative": "[[shang-taijia]] 即位后『不明、暴虐』，元老 [[shang-yiyin]] 把他放逐到桐宫三年，太甲悔过，伊尹再迎回执政。中国史唯一一次大臣『合法』废立君主——商人政治弹性远比后世儒家叙事里宽，这条可能性从此再没被使用。",
+      "involvedPersonIds": [
+        "shang-yiyin",
+        "shang-taijia"
+      ]
+    },
+    {
+      "id": "shang-wuding-qiuxian",
+      "title": "武丁求贤·拔傅说",
+      "year": -1250,
+      "narrative": "[[wuding]] 即位后三年不言，某夜梦圣人，画像求遍天下，找到正在傅岩筑墙的奴隶 [[shang-fushuo]]，拔为相而商朝中兴。从奴隶到首相的跳跃，在中国后三千年的政治史里几乎绝迹。",
+      "involvedPersonIds": [
+        "wuding",
+        "shang-fushuo"
+      ]
+    },
+    {
+      "id": "shang-fuhao-zhengfa",
+      "title": "妇好征羌方",
+      "year": -1230,
+      "narrative": "[[shang-fuhao]] 率一万三千人征伐羌方，是甲骨卜辞记载中商军规模最大的一次出征——她不只是 [[wuding]] 王后，还是商最能打的将军之一与女祭司。1976 年安阳出土她的墓，三千年后我们才知道：商朝最强战力，是位女性。",
+      "involvedPersonIds": [
+        "shang-fuhao",
+        "wuding"
+      ]
+    },
+    {
+      "id": "shang-bigan-pouxin",
+      "title": "比干剖心",
+      "year": -1060,
+      "narrative": "[[shang-bigan]] 见 [[zhouwang]] 日益暴虐强谏不止，纣怒道『吾闻圣人心有七窍』，剖比干之心而观。中国史上第一位『死谏』被杀的大臣——之后每个王朝末年，都会有人被反复拿来与他对比。",
+      "involvedPersonIds": [
+        "shang-bigan",
+        "zhouwang"
+      ]
+    },
+    {
+      "id": "shang-jizi-yangkuang",
+      "title": "箕子佯狂·微子出走",
+      "year": -1050,
+      "narrative": "[[shang-bigan]] 被剖心后，[[shang-jizi]] 披发佯狂为奴，[[shang-weizi]] 抱祭器出走。死谏、装疯、出走——商末三种结局同时上演，孔子合称这三人为『殷有三仁』，从此成为中国士大夫面对暴政的三个标准选项。",
+      "involvedPersonIds": [
+        "shang-jizi",
+        "shang-weizi",
+        "shang-bigan",
+        "zhouwang"
+      ]
+    },
+    {
+      "id": "zhou-sanjian-zhiluan",
+      "title": "三监之乱",
+      "year": -1042,
+      "narrative": "[[zhou-wu]] 灭商后把商遗民交给纣王之子武庚，又派管叔、蔡叔、霍叔为『三监』；武王刚死，三监联合武庚和东方诸侯反叛。[[zhougong]] 摄政东征三年平定，杀管叔放蔡叔——周礼背后，是一场用亲兄弟之血换来的秩序。",
+      "involvedPersonIds": [
+        "zhougong",
+        "zhou-chengwang"
+      ]
+    },
+    {
+      "id": "zhou-zhougong-dongzheng",
+      "title": "周公东征·营成周",
+      "year": -1040,
+      "narrative": "平定 [[zhou-sanjian-zhiluan]] 后，[[zhougong]] 东征三年彻底压服东方诸侯，又营建成周（洛邑），把殷遗民迁至成周以便管控。从此周有镐京与洛邑两都——西土与东土的二元结构，奠定西周三百年的地理格局。",
+      "involvedPersonIds": [
+        "zhougong",
+        "zhou-chengwang"
+      ]
+    },
+    {
+      "id": "zhou-chengkang-zhizhi",
+      "title": "成康之治",
+      "year": -1020,
+      "narrative": "[[zhou-chengwang]] 与 [[zhou-kangwang]] 两代四十余年，分封诸侯、整顿礼乐、刑措不用，史称『成康之治』。这是中国史上第一个被命名的『治世』——它的真正基础不是君主多能，而是 [[zhougong]] 留下的制度还在发力。",
+      "involvedPersonIds": [
+        "zhou-chengwang",
+        "zhou-kangwang",
+        "zhougong"
+      ]
+    },
+    {
+      "id": "zhou-gonghe-xingzheng",
+      "title": "共和行政",
+      "year": -841,
+      "narrative": "[[zhou-liwang]] 被国人暴动驱逐后，[[zhou-gongbohe]]（或周召二公）摄政十四年。这一年成为中国传统纪年里连续可靠纪年的起点——王权被人民赶走的那一年，竟成了中国信史的元年。",
+      "involvedPersonIds": [
+        "zhou-liwang",
+        "zhou-gongbohe",
+        "zhou-xuanwang"
+      ]
+    },
+    {
+      "id": "zhou-xuanwang-zhongxing",
+      "title": "宣王中兴",
+      "year": -820,
+      "narrative": "[[zhou-xuanwang]] 即位后重用召穆公、尹吉甫，南征荆楚、北伐玁狁，史称『宣王中兴』；但晚年专横、料民于太原（违礼），中兴能量在他自己手里散掉。中兴只续了一代，亡国还是来了——一次短暂的回光。",
+      "involvedPersonIds": [
+        "zhou-xuanwang",
+        "youwang"
+      ]
+    },
+    {
+      "id": "zhou-pingwang-dongqian",
+      "title": "平王东迁",
+      "year": -770,
+      "narrative": "[[youwang]] 被 [[zhou-shenhou]] 联犬戎所杀后，[[zhou-pingwang]] 被外祖与诸侯拥立东迁洛邑；镐京残破不能复都，周天子从天下中心退到东都一隅。东周开场，天子越来越像招牌——春秋诸侯争霸的舞台由此拉开。",
+      "involvedPersonIds": [
+        "zhou-pingwang",
+        "youwang",
+        "zhou-shenhou"
+      ]
+    },
+    {
+      "id": "cq-chengpu",
+      "title": "城濮之战",
+      "year": -632,
+      "narrative": "[[jinwen]] 兑现流亡时承诺『退避三舍』，借此把楚军拖入晋军预设战场，一举大败楚军——晋自此称霸中原近百年。",
+      "involvedPersonIds": [
+        "jinwen",
+        "cq-chuzhuang"
+      ]
+    },
+    {
+      "id": "cq-bi-zhi-zhan",
+      "title": "邲之战",
+      "year": -597,
+      "narrative": "[[cq-chuzhuang]] 大败晋师于邲，楚国正式取代晋国成为中原霸主——城濮的胜负三十五年后被反过来写了一遍。",
+      "involvedPersonIds": [
+        "cq-chuzhuang",
+        "jinwen"
+      ]
+    },
+    {
+      "id": "cq-wending",
+      "title": "楚庄王问鼎",
+      "year": -606,
+      "narrative": "[[cq-chuzhuang]] 北上观兵周郊，问九鼎轻重。周大夫王孙满答『在德不在鼎』——鼎没被夺，周天子的合法性却被当众称重了一次。",
+      "involvedPersonIds": [
+        "cq-chuzhuang"
+      ]
+    },
+    {
+      "id": "cq-wupojing",
+      "title": "吴破楚入郢",
+      "year": -506,
+      "narrative": "[[cq-helu]] 用 [[cq-wuzixu]] 与 [[cq-sunwu]]，三万吴军千里奔袭，五战入郢。伍子胥掘平王墓鞭尸三百——一场复仇，让南方两个大国同时受重创。",
+      "involvedPersonIds": [
+        "cq-helu",
+        "cq-wuzixu",
+        "cq-sunwu"
+      ]
+    },
+    {
+      "id": "cq-fujiao",
+      "title": "夫椒之战",
+      "year": -494,
+      "narrative": "[[cq-fuchai]] 大败 [[cq-goujian]] 于夫椒，越几乎亡国。夫差听 [[cq-bopi]] 之言留勾践一命——这一念之差，二十年后被勾践还成灭国之灾。",
+      "involvedPersonIds": [
+        "cq-fuchai",
+        "cq-goujian",
+        "cq-bopi"
+      ]
+    },
+    {
+      "id": "cq-woxin-changdan",
+      "title": "卧薪尝胆灭吴",
+      "year": -473,
+      "narrative": "[[cq-goujian]] 入吴为奴归国后悬胆尝苦，十年生聚十年教训，借 [[cq-fanli]]、[[cq-wenzhong]]、[[cq-xishi]] 之力终灭 [[cq-fuchai]]——春秋时代最完整的一次『复仇—复国—清算功臣』闭环。",
+      "involvedPersonIds": [
+        "cq-goujian",
+        "cq-fuchai",
+        "cq-fanli",
+        "cq-wenzhong",
+        "cq-xishi"
+      ]
+    },
+    {
+      "id": "cq-zhaoshi-guer-shijian",
+      "title": "赵氏孤儿事件",
+      "year": -583,
+      "narrative": "[[cq-tu-angu]] 灭赵氏满门，公孙杵臼与程婴用亲生子替死保下 [[cq-zhaoshigu]]。十五年后赵氏复立——赵氏从灭门走到分晋，这是关键一步。",
+      "involvedPersonIds": [
+        "cq-tu-angu",
+        "cq-zhaoshigu",
+        "cq-zhaodun"
+      ]
+    },
+    {
+      "id": "zg-guiling-maling",
+      "title": "桂陵·马陵之战",
+      "year": -341,
+      "narrative": "[[zg-sunbin]] 两次以围魏救赵、减灶诱敌之法大破魏军，马陵道树下 [[zg-pangjuan]] 自刎——同窗之恨，他用两场战役彻底还清。",
+      "involvedPersonIds": [
+        "zg-sunbin",
+        "zg-pangjuan",
+        "zg-tianji"
+      ]
+    },
+    {
+      "id": "zg-jimo-huoniu",
+      "title": "即墨火牛阵",
+      "year": -279,
+      "narrative": "[[zg-tian-dan]] 以反间逐乐毅，又集千牛角束兵刃尾燃火把夜冲燕营，一战尽复齐七十城——亡国剧本被几头牛改写。",
+      "involvedPersonIds": [
+        "zg-tian-dan"
+      ]
+    },
+    {
+      "id": "zg-wanbi-guizhao",
+      "title": "完璧归赵",
+      "year": -283,
+      "narrative": "[[zg-linxiangru]] 怀和氏璧入秦，殿上抗辞，托斋戒之名连夜遣人送璧回邯郸——赵国第一次在秦威之下，硬气地说了一个『不』。",
+      "involvedPersonIds": [
+        "zg-linxiangru"
+      ]
+    },
+    {
+      "id": "zg-fujing-qingzui",
+      "title": "负荆请罪",
+      "year": -279,
+      "narrative": "渑池会后 [[zg-linxiangru]] 位居 [[zg-lianpo]] 之上，老将不服。蔺相如避让而廉颇赤背负荆登门——将相和这场戏，美在两个人都肯先放下自己。",
+      "involvedPersonIds": [
+        "zg-linxiangru",
+        "zg-lianpo"
+      ]
+    },
+    {
+      "id": "zg-qiefu-jiuzhao",
+      "title": "窃符救赵",
+      "year": -257,
+      "narrative": "[[zg-xinlingjun]] 借爱姬如姬偷虎符，让 [[zg-zhuhai]] 椎杀晋鄙夺军，解邯郸之围——救一国，赔上自己回不去的国。",
+      "involvedPersonIds": [
+        "zg-xinlingjun",
+        "zg-houying",
+        "zg-zhuhai",
+        "zg-pingyuan"
+      ]
+    },
+    {
+      "id": "zg-qu-yuan-toujiang",
+      "title": "屈原投江",
+      "year": -278,
+      "narrative": "郢都被 [[baiqi]] 攻破，[[zg-qu-yuan]] 怀石沉汨罗——他用一死给战国时代写下『士不下跪』的另一种归宿。",
+      "involvedPersonIds": [
+        "zg-qu-yuan",
+        "baiqi"
+      ]
+    },
+    {
+      "id": "zg-jingke-cixqin",
+      "title": "荆轲刺秦",
+      "year": -227,
+      "narrative": "[[zg-jingke]] 怀 [[zg-fan-wuqi]] 首与督亢图入秦，图穷匕见绕柱不中，被斩咸阳殿上——一国之命，系于一把不到一尺的匕首。",
+      "involvedPersonIds": [
+        "zg-jingke",
+        "zg-taizidan",
+        "zg-fan-wuqi",
+        "zg-gao-jianli",
+        "qinshihuang"
+      ]
+    },
+    {
+      "id": "zg-li-mu-shubian",
+      "title": "李牧守边与赐死",
+      "year": -229,
+      "narrative": "[[zg-limu]] 三败秦军，秦行反间，赵王迁信谗自杀其将——李牧死，三月而邯郸破。一国常常不是输给敌人，而是输给自己的多疑。",
+      "involvedPersonIds": [
+        "zg-limu"
+      ]
+    },
+    {
+      "id": "qin-laoai-zhiluan",
+      "title": "嫪毐之乱",
+      "year": -238,
+      "narrative": "[[qinshihuang]] 加冠那年，[[qin-laoai]] 在雍城以太后玺起兵反。秦王平叛，车裂嫪毐、夷三族、摔死与 [[qin-zhaoji]] 所生二子。秦王二十二岁，一夜把家族关系全部清算。",
+      "involvedPersonIds": [
+        "qinshihuang",
+        "qin-laoai",
+        "qin-zhaoji",
+        "qin-lvbuwei"
+      ]
+    },
+    {
+      "id": "qin-lvbuwei-zisha",
+      "title": "吕不韦饮鸩",
+      "year": -235,
+      "narrative": "嫪毐之乱牵连 [[qin-lvbuwei]]，免相迁蜀途中受 [[qinshihuang]] 一封『君何亲于秦？号称仲父』的诘问，饮鸩自尽——投资秦国一生，最终被秦国清算。",
+      "involvedPersonIds": [
+        "qin-lvbuwei",
+        "qinshihuang"
+      ]
+    },
+    {
+      "id": "qin-mie-chu",
+      "title": "秦灭楚",
+      "year": -223,
+      "narrative": "少壮 [[qin-lixin]] 说二十万够，[[qin-wangjian]] 偏要六十万。[[qinshihuang]] 先选李信，败于 [[qin-xiangyan]]，转回亲请王翦。六十万大军对峙年余，一鼓而下楚都。『楚虽三户，亡秦必楚』的种子，正是此战埋下。",
+      "involvedPersonIds": [
+        "qin-wangjian",
+        "qin-lixin",
+        "qin-xiangyan",
+        "qinshihuang"
+      ]
+    },
+    {
+      "id": "qin-changcheng",
+      "title": "筑长城·通直道",
+      "year": -214,
+      "narrative": "[[qin-mengtian]] 统三十万北却匈奴七百余里，西起临洮东至辽东，连缀燕赵秦旧长城。又通直道连云阳至九原。秦末关中无援，正因这三十万军团远在北疆。",
+      "involvedPersonIds": [
+        "qin-mengtian",
+        "qinshihuang"
+      ]
+    },
+    {
+      "id": "qin-afang-lishan",
+      "title": "阿房宫·骊山陵",
+      "year": -212,
+      "narrative": "[[qinshihuang]] 同时动用七十万刑徒修阿房宫与骊山陵。后者埋下兵马俑八千、水银百川。前者未完工而秦亡，[[xiangyu]] 入关一把火烧了三个月——一个皇帝想留下永恒，留下的是后世两千年的灰烬意象。",
+      "involvedPersonIds": [
+        "qinshihuang",
+        "xiangyu"
+      ]
+    },
+    {
+      "id": "qin-xufu-dongdu",
+      "title": "徐福东渡",
+      "year": -210,
+      "narrative": "[[qin-xufu]] 率三千童男女、百工五谷出海寻仙药，再无音讯。一说漂至日本。[[qinshihuang]] 求长生求得越急，越像一个怕死的普通老人——最强的帝国，建在一个人对死亡的恐惧之上。",
+      "involvedPersonIds": [
+        "qinshihuang",
+        "qin-xufu"
+      ]
+    },
+    {
+      "id": "qin-shaqiu-zhimo",
+      "title": "沙丘之谋",
+      "year": -210,
+      "narrative": "[[qinshihuang]] 暴卒沙丘，[[lisi]] 与 [[qin-zhaogao]] 篡改诏书，赐死 [[qin-fusu]] [[qin-mengtian]]、拥立 [[qin-husai]]。一辆腐臭的辒辌车，载着帝国最后的可能。",
+      "involvedPersonIds": [
+        "qinshihuang",
+        "lisi",
+        "qin-zhaogao",
+        "qin-husai",
+        "qin-fusu",
+        "qin-mengtian"
+      ]
+    },
+    {
+      "id": "qin-fusu-zisha",
+      "title": "扶苏自杀·蒙恬吞药",
+      "year": -210,
+      "narrative": "假诏到上郡，[[qin-fusu]] 含泪自尽。[[qin-mengtian]] 不肯死，要求复请——使者催逼，吞药而亡。三十万长城军团群龙无首，秦末再无人能压住关中。",
+      "involvedPersonIds": [
+        "qin-fusu",
+        "qin-mengtian",
+        "qin-zhaogao",
+        "lisi"
+      ]
+    },
+    {
+      "id": "qin-zhilu-weima",
+      "title": "指鹿为马",
+      "year": -207,
+      "narrative": "[[qin-zhaogao]] 牵鹿入朝问 [[qin-husai]]『是马吗』。说鹿者皆被诛，说马者活下来——这不是问畜生，是清点谁还敢说真话。从这天起，秦廷上只剩附和。",
+      "involvedPersonIds": [
+        "qin-zhaogao",
+        "qin-husai"
+      ]
+    },
+    {
+      "id": "qin-wangyi-zhibian",
+      "title": "望夷宫之变·子婴杀赵高",
+      "year": -207,
+      "narrative": "刘项已逼近关中，[[qin-zhaogao]] 怕担责，先杀 [[qin-husai]] 于望夷宫，立 [[qin-ziying]]。子婴称病不出，引赵高入斋宫亲手刺杀，夷三族——赵高弑二君，自己死在第三个君的刀下。",
+      "involvedPersonIds": [
+        "qin-zhaogao",
+        "qin-husai",
+        "qin-ziying"
+      ]
+    },
+    {
+      "id": "qin-julu",
+      "title": "巨鹿之战",
+      "year": -207,
+      "narrative": "[[xiangyu]] 渡漳河沉船、破釜、烧庐舍，只带三日粮。九战 [[qin-zhanghan]]，秦军主力崩溃。诸侯将入辕门膝行不敢仰视——一个二十六岁的项籍，那天成了天下共主。",
+      "involvedPersonIds": [
+        "xiangyu",
+        "qin-zhanghan"
+      ]
+    },
+    {
+      "id": "ch-dingtao",
+      "title": "定陶之战",
+      "year": -208,
+      "narrative": "[[qin-zhanghan]] 夜袭项梁军，项梁战死定陶——[[xiangyu]] 此后接掌楚军，巨鹿一战才有了战神的开场。每一个传奇背后，先有一个叔叔的牺牲。",
+      "involvedPersonIds": [
+        "qin-zhanghan",
+        "xiangyu"
+      ]
+    },
+    {
+      "id": "ch-pengcheng",
+      "title": "彭城之战",
+      "year": -205,
+      "narrative": "[[liubang]] 趁 [[xiangyu]] 在齐国苦战，率诸侯联军五十六万袭楚都彭城。项羽闻报，亲率三万精骑回援，半日大破汉军，睢水为之不流。刘邦仅以数十骑逃出，途中数次推子女下车，[[ch-xiahouying]] 每次都下去抱回——汉文帝血脉的命，捏在一个车夫手里。",
+      "involvedPersonIds": [
+        "liubang",
+        "xiangyu",
+        "ch-xiahouying"
+      ]
+    },
+    {
+      "id": "ch-jingsuo",
+      "title": "京索之战",
+      "year": -205,
+      "narrative": "彭城大败后，[[liubang]] 收散卒据荥阳，[[hanxin]] 与 [[ch-guanying]] 在京索之间反击楚军，止住汉军溃势。汉军从此能与楚军正面对峙——韩信用一次小胜换来全局喘息。",
+      "involvedPersonIds": [
+        "liubang",
+        "hanxin",
+        "ch-guanying"
+      ]
+    },
+    {
+      "id": "ch-jingxing",
+      "title": "井陉背水之战",
+      "year": -204,
+      "narrative": "[[hanxin]] 攻赵，背水列阵——兵法大忌。赵军笑出营来攻，韩信另派两千轻骑乘虚换赵旗。汉军见无退路死战，赵军回望大营尽是汉旗，瞬间崩盘。韩信淡淡一句：『陷之死地而后生』。",
+      "involvedPersonIds": [
+        "hanxin"
+      ]
+    },
+    {
+      "id": "ch-weishui",
+      "title": "潍水半渡",
+      "year": -203,
+      "narrative": "[[ch-longju]] 救齐，[[hanxin]] 夜令万人囊沙堵潍水上游。龙且渡河至半，韩信令决囊放水，楚军一分为二。龙且战死，二十万楚军覆没——[[xiangyu]] 从此再无战略反击之力。",
+      "involvedPersonIds": [
+        "hanxin",
+        "ch-longju",
+        "xiangyu"
+      ]
+    },
+    {
+      "id": "ch-guling",
+      "title": "鸿沟分天下·固陵反悔",
+      "year": -203,
+      "narrative": "楚汉以鸿沟为界讲和，[[xiangyu]] 东归。[[zhangliang]] 进言『此天亡楚之时，不可纵虎归山』——[[liubang]] 回头撕了和约，追到固陵。一纸合约的有效期，是给天下定下来的——也是给天下撕毁的。",
+      "involvedPersonIds": [
+        "xiangyu",
+        "liubang",
+        "zhangliang"
+      ]
+    },
+    {
+      "id": "ch-xiao-zhui-han",
+      "title": "萧何月下追韩信",
+      "year": -206,
+      "narrative": "[[hanxin]] 在汉营连治粟都督都嫌小，一夜负气出走。[[xiaohe]] 来不及禀报 [[liubang]]，骑马追到月光下。坛上拜将那一刻，刘邦把整支汉军交给一个从没带过兵的少年。",
+      "involvedPersonIds": [
+        "xiaohe",
+        "hanxin",
+        "liubang"
+      ]
+    },
+    {
+      "id": "ch-tianheng-wubai",
+      "title": "田横五百士",
+      "year": -202,
+      "narrative": "齐王 [[ch-tianheng]] 兵败入海岛，从者五百。[[liubang]] 召其入京，行至洛阳三十里自刎——『以首付使者』。岛上五百人闻讯，相继自杀——汉初最沉的一笔忠义，留在了齐国最后的孤岛上。",
+      "involvedPersonIds": [
+        "ch-tianheng",
+        "liubang"
+      ]
+    },
+    {
+      "id": "wh-baideng",
+      "title": "白登之围",
+      "year": -200,
+      "narrative": "[[liubang]] 亲征匈奴，被冒顿单于围在白登山七日七夜。[[ch-chenping]] 暗使阏氏说情才脱身。从此汉对匈奴七十年和亲——开国皇帝亲历的耻辱，要靠曾孙 [[hanwu]] 来洗。",
+      "involvedPersonIds": [
+        "liubang",
+        "ch-chenping"
+      ]
+    },
+    {
+      "id": "wh-zhulv-zhiluan",
+      "title": "诸吕之乱·迎立文帝",
+      "year": -180,
+      "narrative": "[[wh-lvzhi]] 死，吕氏图谋为乱。[[wh-zhoubo]] 与 [[ch-chenping]] 设计夺南北军，诛诸吕，迎立代王 [[wh-wenhan]]——选最远最弱的那个王回长安，反而救了汉室。",
+      "involvedPersonIds": [
+        "wh-lvzhi",
+        "wh-zhoubo",
+        "ch-chenping",
+        "wh-wenhan"
+      ]
+    },
+    {
+      "id": "wh-qiguo-zhiluan",
+      "title": "七国之乱",
+      "year": -154,
+      "narrative": "[[wh-chaocuo]] 力主削藩，吴楚七国以『清君侧』之名起兵。[[wh-jingdi]] 信袁盎言腰斩晁错于东市。叛军不退——景帝才知『清君侧』只是借口，最后靠 [[wh-zhouyafu]] 三月平叛。",
+      "involvedPersonIds": [
+        "wh-jingdi",
+        "wh-chaocuo",
+        "wh-zhouyafu"
+      ]
+    },
+    {
+      "id": "wh-mayi-zhimou",
+      "title": "马邑之谋",
+      "year": -133,
+      "narrative": "[[hanwu]] 设伏三十万于马邑欲诱单于入塞，被一个小亭尉泄密，匈奴撤兵——汉匈和亲七十年正式破裂，全面战争从此开打。",
+      "involvedPersonIds": [
+        "hanwu"
+      ]
+    },
+    {
+      "id": "wh-mobei",
+      "title": "漠北决战",
+      "year": -119,
+      "narrative": "[[wh-weiqing]] 与 [[wh-huoqubing]] 各率五万骑分东西两路。卫青大破单于主力于阗颜山下，霍去病封狼居胥、禅姑衍、临翰海。匈奴远遁，从此漠南无王庭。但 [[wh-liguang]] 迷路失期，自刎——同一战，铸了三人三种命数。",
+      "involvedPersonIds": [
+        "wh-weiqing",
+        "wh-huoqubing",
+        "wh-liguang",
+        "hanwu"
+      ]
+    },
+    {
+      "id": "wh-wugu-zhihuo",
+      "title": "巫蛊之祸",
+      "year": -91,
+      "narrative": "[[hanwu]] 晚年信巫蛊，江充挖出太子宫木偶人。太子刘据起兵反抗，五日血战长安，自缢而死，皇后卫子夫殉。事后查清纯属诬陷，武帝筑思子宫——可儿子和孙子（戾太子一系）几乎死绝，幸而留下一个襁褓 [[wh-xuandi]]。",
+      "involvedPersonIds": [
+        "hanwu",
+        "wh-xuandi"
+      ]
+    },
+    {
+      "id": "wh-yantielun",
+      "title": "盐铁论",
+      "year": -81,
+      "narrative": "[[wh-huoguang]] 召贤良文学六十人与丞相 [[wh-sanghongyang]] 辩盐铁酒榷。一边说官营是与民争利，一边说不官营则边费无所出。中国第一次有完整文字记录的经济政策大辩论——最后部分撤酒榷，盐铁照旧。",
+      "involvedPersonIds": [
+        "wh-huoguang",
+        "wh-sanghongyang"
+      ]
+    },
+    {
+      "id": "wh-zhaoxuan-zhongxing",
+      "title": "昭宣中兴",
+      "year": -73,
+      "narrative": "[[wh-huoguang]] 辅昭帝、废昌邑王、立 [[wh-xuandi]]。整饬吏治、抑霍氏、置西域都护府。宣帝以『汉家自有制度，本以霸王道杂之』一句，定下西汉后期的治理哲学。",
+      "involvedPersonIds": [
+        "wh-huoguang",
+        "wh-xuandi"
+      ]
+    },
+    {
+      "id": "wh-zhaojun-chusai",
+      "title": "昭君出塞",
+      "year": -33,
+      "narrative": "[[wh-wangzhaojun]] 入宫数年不得见，画师毛延寿索贿不成画丑她。匈奴呼韩邪求亲，元帝按图选她。临行召见，貌为后宫第一——人已许出。一张被改丑的画像，换来汉匈五十年和平。",
+      "involvedPersonIds": [
+        "wh-wangzhaojun"
+      ]
+    },
+    {
+      "id": "wh-wangmang-gaizhi",
+      "title": "王莽改制",
+      "year": 9,
+      "narrative": "[[wangmang]] 代汉建『新』，复古井田、王田、五均六筦、改地名改官名一日数变。理想撞上现实，五年内八改币制——『复古』第一次被证明也是激进。",
+      "involvedPersonIds": [
+        "wangmang"
+      ]
+    },
+    {
+      "id": "wh-lulin-chimei",
+      "title": "绿林·赤眉起义",
+      "year": 17,
+      "narrative": "新莽末年大饥，绿林军起于湖北，赤眉军起于山东。[[wh-liuxuan]] 被立为更始帝，[[liuxiu]] 在昆阳一战封神。短短数年，[[wangmang]] 的『新』被两个布衣集团联手抹平。",
+      "involvedPersonIds": [
+        "wangmang",
+        "wh-liuxuan",
+        "liuxiu"
+      ]
+    },
+    {
+      "id": "wh-kunyang",
+      "title": "昆阳之战",
+      "year": 23,
+      "narrative": "[[wangmang]] 调四十二万大军围昆阳，城内汉军不足万人。[[liuxiu]] 突围搬救兵，回身率三千敢死队凿穿王莽中军，恰逢大风暴雨、虎豹奔散。新莽主力一日崩溃——一个尚未称帝的偏将，那天定下了东汉两百年的开场。",
+      "involvedPersonIds": [
+        "liuxiu",
+        "wangmang"
+      ]
+    },
+    {
+      "id": "eh-yongping-qiufa",
+      "title": "永平求法·白马寺",
+      "year": 67,
+      "narrative": "[[eh-mingdi]] 梦金人飞行殿前，遣使迎天竺二僧入洛阳，建白马寺。中国佛教史的官方起点。两百年后五胡乱华，佛法成北方共同语言——一个梦改写下半部中国史。",
+      "involvedPersonIds": [
+        "eh-mingdi"
+      ]
+    },
+    {
+      "id": "eh-banchao-xiyu",
+      "title": "班超经营西域",
+      "year": 73,
+      "narrative": "[[banchao]] 率三十六人入西域。鄯善匈奴使到，他召吏士夜袭其营，烧杀百余人——『不入虎穴焉得虎子』由此而出。三十年定五十余国。年老上书『臣不敢望到酒泉郡，但愿生入玉门关』——回洛阳一月而逝。",
+      "involvedPersonIds": [
+        "banchao",
+        "eh-mingdi"
+      ]
+    },
+    {
+      "id": "eh-danggu-1",
+      "title": "第一次党锢之祸",
+      "year": 166,
+      "narrative": "宦官诬 [[eh-liying]] 等结党。汉桓帝下诏捕李膺、陈寔等二百余人，禁锢终身。东汉士人首次集体被踩进泥里——清流再不能进入仕途。",
+      "involvedPersonIds": [
+        "eh-liying",
+        "eh-shichangshi"
+      ]
+    },
+    {
+      "id": "eh-danggu-2",
+      "title": "第二次党锢之祸",
+      "year": 169,
+      "narrative": "[[eh-chenfan]] 与窦武谋诛宦官，事泄被杀。宦官趁势再兴党狱，杀 [[eh-liying]] [[eh-fansheng]] 等百余人，门生故吏株连数千——东汉清流被一次性清空，再无人为汉室死。",
+      "involvedPersonIds": [
+        "eh-chenfan",
+        "eh-liying",
+        "eh-fansheng",
+        "eh-shichangshi"
+      ]
+    },
+    {
+      "id": "eh-shichangshi-zhiluan",
+      "title": "十常侍之乱·袁绍尽诛宦官",
+      "year": 189,
+      "narrative": "汉灵帝死，[[eh-hejin]] 欲诛 [[eh-shichangshi]]，宦官先发难骗他入宫，斩头扔出宫墙。[[eh-yuanshao]] 入宫尽诛宦官二千余人，连无须男子都误杀——东汉宫廷史以一场连胡子都问的大屠杀作结。",
+      "involvedPersonIds": [
+        "eh-hejin",
+        "eh-yuanshao",
+        "eh-shichangshi"
+      ]
+    },
+    {
+      "id": "eh-zhaodongzhuo",
+      "title": "何进召董卓入京",
+      "year": 189,
+      "narrative": "[[eh-hejin]] 怕太后不允诛宦官，听 [[eh-yuanshao]] 计召凉州 [[eh-dongzhuo]] 入京胁迫。董卓未至，何进已死——东汉死亡证书的签名，是这一封诏书。",
+      "involvedPersonIds": [
+        "eh-hejin",
+        "eh-yuanshao",
+        "eh-dongzhuo"
+      ]
+    },
+    {
+      "id": "eh-qiandu-changan",
+      "title": "董卓焚洛阳·迁都长安",
+      "year": 190,
+      "narrative": "[[eh-dongzhuo]] 见关东诸侯讨董，焚洛阳（一把火烧两百年京畿）、迁都长安，挟献帝西行。皇陵被发、洛阳城方圆二百里无鸡犬——汉室真正的崩塌在这一刻。",
+      "involvedPersonIds": [
+        "eh-dongzhuo"
+      ]
+    },
+    {
+      "id": "eh-wangyun-chudong",
+      "title": "王允除董·长安再陷",
+      "year": 192,
+      "narrative": "[[eh-wangyun]] 用 [[eh-diaochan]] 连环计，使 [[eh-lvbu]] 反戈杀 [[eh-dongzhuo]]。董卓尸点天灯三日。王允胜而骄，逼反董卓旧部李傕郭汜，长安再陷，王允自己也死在宫门——汉末最后一次斯文的胜利，败于胜者的傲慢。",
+      "involvedPersonIds": [
+        "eh-wangyun",
+        "eh-diaochan",
+        "eh-lvbu",
+        "eh-dongzhuo"
+      ]
+    },
+    {
+      "id": "sg-baiyimaijiang",
+      "title": "白衣渡江",
+      "year": 219,
+      "narrative": "[[guanyu]] 北伐威震华夏的同年，[[sg-lumeng]] 装病让 [[sg-luxun]] 代将以麻痹之，士卒化为商人白衣渡江袭荆州——关羽兵败麦城被擒杀。孙刘联盟的赤壁同袍，自此一刀两断。",
+      "involvedPersonIds": [
+        "sg-lumeng",
+        "sg-luxun",
+        "guanyu",
+        "sunquan"
+      ]
+    },
+    {
+      "id": "sg-yiling",
+      "title": "夷陵之战",
+      "year": 222,
+      "narrative": "[[liubei]] 为关羽报仇倾国伐吴，七百里连营驻于山林。[[sg-luxun]] 等了大半年，一夜火攻——蜀军主力尽没，[[liubei]] 退白帝托孤 [[zhugeliang]]。蜀汉国本，从此残了半边。",
+      "involvedPersonIds": [
+        "liubei",
+        "sg-luxun",
+        "zhugeliang",
+        "sunquan"
+      ]
+    },
+    {
+      "id": "sg-jieting",
+      "title": "街亭失守",
+      "year": 228,
+      "narrative": "[[zhugeliang]] 一出祁山，街亭是命门，他却把它交给从未独当一面的马谡。马谡舍水上山，被张郃一截即溃，北伐全盘崩溃，丞相挥泪斩之。空城计是后人补的安慰，街亭才是真实的痛。",
+      "involvedPersonIds": [
+        "zhugeliang"
+      ]
+    },
+    {
+      "id": "sg-qibushi",
+      "title": "七步成诗",
+      "year": 220,
+      "narrative": "[[sg-caopi]] 称帝后命弟 [[sg-caozhi]] 七步成诗不成则诛。『本是同根生，相煎何太急』——建安风骨最高的两个人，原是同胞兄弟。",
+      "involvedPersonIds": [
+        "sg-caopi",
+        "sg-caozhi"
+      ]
+    },
+    {
+      "id": "sg-gaopingling",
+      "title": "高平陵之变",
+      "year": 249,
+      "narrative": "[[simayi]] 七十岁装病三年，等大将军曹爽离都祭高平陵那一天，洛阳城门一关、太后诏书一发——魏国从此姓司马。曹操防了一辈子代汉者，最后没防住自己人。",
+      "involvedPersonIds": [
+        "simayi",
+        "sg-simashi",
+        "sg-simazhao"
+      ]
+    },
+    {
+      "id": "sg-aidudu-yinping",
+      "title": "邓艾偷渡阴平",
+      "year": 263,
+      "narrative": "钟会大军在剑阁被 [[sg-jiangwei]] 死死堵住，[[sg-dengai]] 率几千人翻七百里无人之径，裹毡滚崖直插江油。绵竹一战诸葛瞻战死，刘禅出降——蜀汉，亡于一条没人守的小路。",
+      "involvedPersonIds": [
+        "sg-dengai",
+        "sg-zhonghui",
+        "sg-jiangwei"
+      ]
+    },
+    {
+      "id": "sg-deng-zhong-zhisi",
+      "title": "邓艾钟会之死",
+      "year": 264,
+      "narrative": "灭蜀之后 [[sg-zhonghui]] 诬 [[sg-dengai]] 谋反，自己又据成都谋反裹挟 [[sg-jiangwei]]——乱军一日内三人皆死。[[sg-simazhao]] 不必出手，灭蜀的人和守蜀的人在同一座成都城里互相杀光。",
+      "involvedPersonIds": [
+        "sg-zhonghui",
+        "sg-dengai",
+        "sg-jiangwei",
+        "sg-simazhao"
+      ]
+    },
+    {
+      "id": "sg-lebusishu",
+      "title": "乐不思蜀",
+      "year": 264,
+      "narrative": "刘禅降魏迁洛阳，[[sg-simazhao]] 设宴试他：『颇思蜀否？』答：『此间乐，不思蜀。』全场以为是怯懦——其实是这位四十年皇帝唯一学会的保命术。",
+      "involvedPersonIds": [
+        "sg-simazhao"
+      ]
+    },
+    {
+      "id": "wj-doufu",
+      "title": "石崇王恺斗富",
+      "year": 290,
+      "narrative": "[[wj-shichong]] 用蜡当柴、用赤石脂涂壁；[[wj-wangkai]] 拿出皇帝赐的二尺珊瑚树撑场，被石崇一锤打碎再赔出一屋子三四尺的。富到这一步，离亡国只剩一代人。",
+      "involvedPersonIds": [
+        "wj-shichong",
+        "wj-wangkai",
+        "simayan"
+      ]
+    },
+    {
+      "id": "wj-jia-housha-taizi",
+      "title": "贾后毒杀太子",
+      "year": 300,
+      "narrative": "[[wj-jianan]] 借痴呆夫主 [[huidi]] 之名废太子司马遹，又毒杀于金墉城。赵王 [[wj-zhaowanglun]] 借『为太子复仇』起兵——[[bawang-zhiluan]] 自此正式爆发。",
+      "involvedPersonIds": [
+        "wj-jianan",
+        "huidi",
+        "wj-zhaowanglun"
+      ]
+    },
+    {
+      "id": "wj-liuyuan-qibing",
+      "title": "刘渊起兵建汉",
+      "year": 304,
+      "narrative": "匈奴贵族 [[liuyuan]] 自称汉室外甥，于离石建国号『汉』，追尊蜀汉后主刘禅为孝怀皇帝——用『复汉』的名义灭晋。八王互砍的同时，第一个真正的胡人政权立起来。",
+      "involvedPersonIds": [
+        "liuyuan",
+        "wj-chengduwangying"
+      ]
+    },
+    {
+      "id": "wj-yongjia-luoyang",
+      "title": "永嘉之乱·洛阳焚毁",
+      "year": 311,
+      "narrative": "[[dj-shile]] 苦县烧 [[wj-donghaiwangyue]] 灵车坑十万晋军，刘聪攻破洛阳掳怀帝。王公士民死者三万，北方衣冠尽数南渡（[[yiguan-nandu]]）——中国文明的重心由此南移。",
+      "involvedPersonIds": [
+        "liuyuan",
+        "dj-shile",
+        "wj-donghaiwangyue"
+      ]
+    },
+    {
+      "id": "wj-jiankang-changan",
+      "title": "长安沦陷·愍帝出降",
+      "year": 316,
+      "narrative": "洛阳陷后五年，长安再陷，晋愍帝肉袒出降，被押北上受辱而死。西晋至此正式灭亡，[[simarui]] 次年在建康称帝，是为东晋。",
+      "involvedPersonIds": [
+        "liuyuan",
+        "simarui"
+      ]
+    },
+    {
+      "id": "wj-hujiao-neiqian",
+      "title": "五胡内迁",
+      "year": 280,
+      "narrative": "晋初匈奴、鲜卑、羯、氐、羌大量内迁充实关陇河北。郭钦、江统等人屡屡上书请徙之，[[simayan]] 不许——八王之乱（[[bawang-zhiluan]]）一开，这些近在肘腋的胡部立刻成了倾覆中原的主力。",
+      "involvedPersonIds": [
+        "simayan",
+        "liuyuan"
+      ]
+    },
+    {
+      "id": "dj-lantingxu",
+      "title": "兰亭修禊",
+      "year": 353,
+      "narrative": "永和九年三月三，[[dj-wangxizhi]] 与 [[dj-xiean]] 等四十二人会于会稽兰亭，曲水流觞，写下《兰亭集序》——『后之视今，亦犹今之视昔』，乱世里最从容的一笔。",
+      "involvedPersonIds": [
+        "dj-wangxizhi",
+        "dj-xiean"
+      ]
+    },
+    {
+      "id": "dj-jiehu-ling",
+      "title": "冉闵杀胡令",
+      "year": 350,
+      "narrative": "[[dj-shihu]] 暴死，养孙 [[dj-ranmin]] 篡后赵下『杀胡令』，邺城一日斩羯胡数万。建冉魏，三年间与诸胡血战，最后被前燕生擒斩于龙城——北方胡汉矛盾最血的一刀。",
+      "involvedPersonIds": [
+        "dj-ranmin",
+        "dj-shihu",
+        "dj-murongchui"
+      ]
+    },
+    {
+      "id": "dj-wangmeng-zhiqin",
+      "title": "王猛治秦",
+      "year": 370,
+      "narrative": "[[dj-wangmeng]] 执前秦政十几年，杀豪强、清吏治、兴学校，灭前燕统一北方。临终告 [[fujian]]：勿伐晋，先除鲜卑、西羌。苻坚不听——七年后淝水（[[feishui]]）果如所言。",
+      "involvedPersonIds": [
+        "dj-wangmeng",
+        "fujian",
+        "dj-murongchui"
+      ]
+    },
+    {
+      "id": "dj-huanwen-beifa",
+      "title": "桓温三次北伐",
+      "year": 369,
+      "narrative": "[[dj-huanwen]] 一入关中见关辅父老泣下，二复洛阳又退，三入枋头大败。归途抚少年所植柳叹：『木犹如此，人何以堪！』想以军功篡晋未成——这活留给儿子 [[dj-huanxuan]]。",
+      "involvedPersonIds": [
+        "dj-huanwen",
+        "dj-huanxuan"
+      ]
+    },
+    {
+      "id": "dj-tounbianduanliu",
+      "title": "投鞭断流",
+      "year": 383,
+      "narrative": "[[fujian]] 出兵伐晋，自夸『以吾之众旅，投鞭于江，足断其流』。百万大军南下时，没人想到一群八万北府兵能让百万自溃于淝水（[[feishui]]）——傲慢，是淝水之前唯一的预兆。",
+      "involvedPersonIds": [
+        "fujian",
+        "dj-xiean",
+        "xiexuan"
+      ]
+    },
+    {
+      "id": "dj-liuyu-beifa",
+      "title": "刘裕北伐",
+      "year": 417,
+      "narrative": "[[liuyu]] 两次北伐：灭南燕、平卢循、灭后秦一度收复长安。但他急回建康受禅，留下年幼次子守关中——长安旋失于 [[dj-hlbobo]]。三年后他代晋称帝，建宋。东晋走完最后一程。",
+      "involvedPersonIds": [
+        "liuyu",
+        "dj-hlbobo"
+      ]
+    },
+    {
+      "id": "nbc-tandaoji-yuanjia-zhisha",
+      "title": "檀道济被诛",
+      "year": 436,
+      "narrative": "[[nbc-songwendi]] 病重，忌 [[nbc-tandaoji]] 威重借故诛之。檀道济临刑摔下头巾怒吼：『乃复坏汝万里之长城！』果然次年 [[nbc-yuanjia-beifa]] 全线崩盘——『自毁长城』四字最真注脚。",
+      "involvedPersonIds": [
+        "nbc-tandaoji",
+        "nbc-songwendi"
+      ]
+    },
+    {
+      "id": "nbc-yuanjia-beifa",
+      "title": "元嘉北伐",
+      "year": 450,
+      "narrative": "[[nbc-songwendi]] 欲效汉武霍去病封狼居胥，三次北伐皆败。北魏太武帝反扑南下，铁骑直抵长江北岸瓜步山，建康望江震动。辛弃疾后写：『元嘉草草，封狼居胥，赢得仓皇北顾。』",
+      "involvedPersonIds": [
+        "nbc-songwendi",
+        "nbc-tandaoji"
+      ]
+    },
+    {
+      "id": "nbc-yushuhoutinghua",
+      "title": "玉树后庭花",
+      "year": 589,
+      "narrative": "陈后主 [[nbc-chenshubao]] 在结绮、临春、望仙三阁与张丽华、孔贵嫔写《玉树后庭花》。[[yangjian-pre]] 渡江时他与二妃投井避兵被拖出——南朝三百年至此终。",
+      "involvedPersonIds": [
+        "nbc-chenshubao",
+        "yangjian-pre"
+      ]
+    },
+    {
+      "id": "nbc-liuzhen-qiyi",
+      "title": "六镇起义",
+      "year": 523,
+      "narrative": "[[xiaowendi]] 迁洛后，留守北方边镇的鲜卑老兵从『国之肺腑』降为戍边贱户。523 年六镇兵乱涌入中原。汉化的代价由这群人付，复仇也由他们带——后来的高欢、宇文泰、独孤信、杨坚、李渊，全都从这里出。",
+      "involvedPersonIds": [
+        "xiaowendi",
+        "nbc-gaohuan",
+        "nbc-yuwentai"
+      ]
+    },
+    {
+      "id": "nbc-heyin-zhibian",
+      "title": "河阴之变",
+      "year": 528,
+      "narrative": "[[nbc-erzhurong]] 借胡太后毒杀孝明帝为由引兵入洛，把魏室王公百官两千余人尽屠于河阴渚上。北魏中央元气尽失，从此就是 [[nbc-gaohuan]] 与 [[nbc-yuwentai]] 两个权臣分尸的舞台。",
+      "involvedPersonIds": [
+        "nbc-erzhurong",
+        "nbc-gaohuan",
+        "nbc-yuwentai"
+      ]
+    },
+    {
+      "id": "nbc-fubing-chuangzhi",
+      "title": "府兵制创立",
+      "year": 550,
+      "narrative": "[[nbc-yuwentai]] 在西魏关中创府兵制——兵农合一、八柱国十二大将军，把关陇胡汉豪族焊成一个集团。地少人少的西魏从此能跟人多粮多的东魏掰手腕；隋唐的所有制度本钱，都在这里下了第一根桩。",
+      "involvedPersonIds": [
+        "nbc-yuwentai",
+        "nbc-dugujialuo"
+      ]
+    },
+    {
+      "id": "nbc-zhou-mie-qi",
+      "title": "北周灭北齐",
+      "year": 577,
+      "narrative": "[[nbc-zhouwudi]] 亲征灭北齐，统一北方。他正欲伐陈一统天下时三十六岁暴卒，江山留给八岁太子——岳父 [[yangjian-pre]] 顺手接走。北朝走完，隋朝接力。",
+      "involvedPersonIds": [
+        "nbc-zhouwudi",
+        "yangjian-pre"
+      ]
+    },
+    {
+      "id": "sui-jin-wang-duodi",
+      "title": "晋王夺嫡",
+      "year": 600,
+      "narrative": "[[suiyang]] 装乖二十年，[[sui-yangsu]] 联络于外、[[sui-dugu]] 推动于内，太子 [[sui-yangyong]] 被废为庶人——隋速亡的第一颗扣子，由父母自己扣下。",
+      "involvedPersonIds": [
+        "yangjian",
+        "sui-dugu",
+        "sui-yangsu",
+        "suiyang",
+        "sui-yangyong"
+      ]
+    },
+    {
+      "id": "sui-mie-chen-xiangzhan",
+      "title": "隋灭陈细节·贺若韩擒虎",
+      "year": 589,
+      "narrative": "[[sui-hejuobi]] 由广陵渡江，[[sui-hanqinhu]] 自采石突入建康俘 [[sui-chenshubao]] 于井中——制度对门阀的胜利，可属于谁的胜利争到了朝堂。",
+      "involvedPersonIds": [
+        "yangjian",
+        "sui-hejuobi",
+        "sui-hanqinhu",
+        "sui-chenshubao"
+      ]
+    },
+    {
+      "id": "sui-yingjian-dongdu",
+      "title": "营建东都洛阳",
+      "year": 605,
+      "narrative": "[[suiyang]] 即位次年下诏营东都，月役百万。东都扼天下之中，运河绕之而过——帝国骨架立起来，撑骨架的人也开始倒下。",
+      "involvedPersonIds": [
+        "suiyang"
+      ]
+    },
+    {
+      "id": "sui-wagang-qiyi",
+      "title": "瓦岗起义",
+      "year": 611,
+      "narrative": "[[sui-zhairang]] 聚众瓦岗，[[sui-limi]] 来奔献策破洛口仓开仓散粮。隋末规模最大的反隋集团，却败于内讧——它把 [[sui-xushiji-pre]] 等送进了新生的大唐。",
+      "involvedPersonIds": [
+        "sui-zhairang",
+        "sui-limi",
+        "sui-xushiji-pre",
+        "sui-wangshichong"
+      ]
+    },
+    {
+      "id": "sui-jiangdu-zhibian",
+      "title": "江都之变",
+      "year": 618,
+      "narrative": "骁果卫推 [[sui-yuwenhuaji]] 入宫，缢杀 [[suiyang]] 于江都。[[sui-yangsu]] 替他夺来的皇位，最终被 [[sui-yangsu]] 之子收走——同一家族开端与终局。",
+      "involvedPersonIds": [
+        "suiyang",
+        "sui-yuwenhuaji",
+        "sui-yuwenshu",
+        "sui-yushiji"
+      ]
+    },
+    {
+      "id": "sui-libuan-yangwen",
+      "title": "李密杀翟让",
+      "year": 617,
+      "narrative": "[[sui-limi]] 设宴杀 [[sui-zhairang]] 自立——瓦岗的裂痕由让位者死于受让者之手开启，从此再无凝聚力。",
+      "involvedPersonIds": [
+        "sui-limi",
+        "sui-zhairang",
+        "sui-xushiji-pre"
+      ]
+    },
+    {
+      "id": "tang-xuanwu-zhibian",
+      "title": "玄武门之变",
+      "year": 626,
+      "narrative": "[[litaizong]] 清晨伏弩射杀长兄建成、[[tang-yuchijingde]] 提元吉首级闯到 [[litang]] 面前——贞观之治从一摊兄弟血开始。",
+      "involvedPersonIds": [
+        "litaizong",
+        "litang",
+        "tang-yuchijingde",
+        "tang-fangxuanling",
+        "tang-duruhui"
+      ]
+    },
+    {
+      "id": "tang-baijiangkou",
+      "title": "白江口之战",
+      "year": 663,
+      "narrative": "唐军会新罗迎战倭国与百济联军于朝鲜半岛西岸，焚船四百。此后近千年日本不敢西望——一战定一千年。",
+      "involvedPersonIds": [
+        "tang-lishiji"
+      ]
+    },
+    {
+      "id": "tang-wenchengruZang",
+      "title": "文成公主入藏",
+      "year": 641,
+      "narrative": "[[tang-wenchengGongzhu]] 嫁 [[tang-songtsenGanbu]]，唐藏三十年无大战——大唐用一个公主，省下几十万兵。",
+      "involvedPersonIds": [
+        "tang-wenchengGongzhu",
+        "tang-songtsenGanbu",
+        "litaizong"
+      ]
+    },
+    {
+      "id": "tang-shenlong-zhibian",
+      "title": "神龙政变",
+      "year": 705,
+      "narrative": "[[tang-zhangjianzhi]] 等五人夜率羽林军入宫诛二张，迫 [[wuzetian]] 禅位还政于唐。武周十五年终。",
+      "involvedPersonIds": [
+        "wuzetian",
+        "tang-zhangjianzhi",
+        "tang-direnjie"
+      ]
+    },
+    {
+      "id": "tang-tanglong-zhibian",
+      "title": "唐隆政变",
+      "year": 710,
+      "narrative": "[[tangxuanzong]] 与 [[tang-taiping]] 联手夜诛韦后及党羽，[[tang-shangguan-wan]] 被斩。三年后玄宗反手赐死太平公主。",
+      "involvedPersonIds": [
+        "tangxuanzong",
+        "tang-taiping",
+        "tang-shangguan-wan"
+      ]
+    },
+    {
+      "id": "tang-maweipo-bingbian",
+      "title": "马嵬坡兵变",
+      "year": 756,
+      "narrative": "禁军斩 [[tang-yangguozhong]] 又逼 [[tangxuanzong]] 处死 [[tang-yangguifei]]——[[tang-gaolishi]] 牵白绫缢于佛堂梨树下。",
+      "involvedPersonIds": [
+        "tangxuanzong",
+        "tang-yangguifei",
+        "tang-gaolishi"
+      ]
+    },
+    {
+      "id": "tang-lingwu-jiwei",
+      "title": "灵武即位",
+      "year": 756,
+      "narrative": "太子李亨北走灵武不待父命自即位，是为肃宗，遥尊玄宗为太上皇——合法性在乱世里临时再造。",
+      "involvedPersonIds": [
+        "tangxuanzong"
+      ]
+    },
+    {
+      "id": "tang-yecheng-zhizhan",
+      "title": "邺城之战",
+      "year": 759,
+      "narrative": "九节度六十万围邺城安庆绪，因不立元帅、宦官鱼朝恩节制不力大败。[[tang-guoziyi]] 罢副元帅——平叛由此拖了五年。",
+      "involvedPersonIds": [
+        "tang-guoziyi",
+        "tang-liguangbi"
+      ]
+    },
+    {
+      "id": "tang-yongzhen-gexin",
+      "title": "永贞革新",
+      "year": 805,
+      "narrative": "[[tang-liushuwen]] 等谋革宦官藩镇之弊，146 天后宦官逼禅，党人贬为远州司马——柳宗元由此有永州，刘禹锡由此有玄都观。",
+      "involvedPersonIds": [
+        "tang-liushuwen",
+        "tang-liuyuxi",
+        "tang-liuzongyuan"
+      ]
+    },
+    {
+      "id": "tang-lisuXueye-rucai",
+      "title": "李愬雪夜入蔡州",
+      "year": 817,
+      "narrative": "宪宗朝平淮西，[[tang-lisuo]] 大雪夜奔袭一百三十里破吴元济牙城于黎明——藩镇可以一个个掰回来，前提是中央敢出手。",
+      "involvedPersonIds": [
+        "tang-liude-zong",
+        "tang-lipi",
+        "tang-lisuo"
+      ]
+    },
+    {
+      "id": "tang-ganlu-zhibian",
+      "title": "甘露之变",
+      "year": 835,
+      "narrative": "文宗与李训郑注谋诛宦官，托甘露降为名，事泄 [[tang-chouShiliang]] 反挟皇帝大杀宰相王涯等——皇帝叹『朕受制于家奴，汉献帝不及也』。",
+      "involvedPersonIds": [
+        "tang-chouShiliang"
+      ]
+    },
+    {
+      "id": "tang-niuli-dangzheng",
+      "title": "牛李党争",
+      "year": 821,
+      "narrative": "[[tang-niuseng-ru]] 与 [[tang-lideyu]] 一科举一门阀，互相攻讦近四十年——藩镇宦官未亡之前，士大夫先把自己耗死。",
+      "involvedPersonIds": [
+        "tang-niuseng-ru",
+        "tang-lideyu"
+      ]
+    },
+    {
+      "id": "tl-wangxianzhi-qibing",
+      "title": "王仙芝起兵",
+      "year": 875,
+      "narrative": "[[tl-wangxianzhi]] 在长垣起兵贩盐聚众，[[huangchao]] 应之于冤句。三年后王败死黄梅——他是火星，黄巢是燎原。",
+      "involvedPersonIds": [
+        "tl-wangxianzhi",
+        "huangchao"
+      ]
+    },
+    {
+      "id": "tl-xizong-benshu",
+      "title": "僖宗奔蜀",
+      "year": 880,
+      "narrative": "黄巢军逼潼关，[[tl-tang-xizong]] 在 [[tl-tianlingzi]] 挟持下夜半出金光门入蜀——百年来唐天子第二次出奔。",
+      "involvedPersonIds": [
+        "tl-tang-xizong",
+        "tl-tianlingzi",
+        "huangchao"
+      ]
+    },
+    {
+      "id": "tl-changan-zaihui",
+      "title": "长安二度焚毁",
+      "year": 883,
+      "narrative": "黄巢入长安纵兵掳掠，唐军收复又一次纵火；中和三年 [[likeyong]] 沙陀骑兵再克长安，宫室坊市焚为灰烬。",
+      "involvedPersonIds": [
+        "huangchao",
+        "likeyong"
+      ]
+    },
+    {
+      "id": "tl-zhaozong-dongqian",
+      "title": "昭宗东迁",
+      "year": 904,
+      "narrative": "[[zhuwen]] 强逼 [[tang-zhaozong]] 迁都洛阳，长安宫室拆木材顺渭水东运，士民哭于道——天子玩物命运至此明白。",
+      "involvedPersonIds": [
+        "tang-zhaozong",
+        "zhuwen"
+      ]
+    },
+    {
+      "id": "tl-jiuding-chenhe",
+      "title": "九鼎沉河（昭宗东迁途中）",
+      "year": 904,
+      "narrative": "东迁途中传国玉册沉于陕州渭河——搬家、被弑、禅位、绝祀，朱温只是按部就班。",
+      "involvedPersonIds": [
+        "tang-zhaozong",
+        "zhuwen"
+      ]
+    },
+    {
+      "id": "tl-baima-yi-houxu",
+      "title": "白马驿后·清流断绝",
+      "year": 905,
+      "narrative": "[[zhuwen]] 谋士李振（屡试不第）进言『此辈清流，可投浊流』——失意举子一句怨言，结掉了一个士族时代。",
+      "involvedPersonIds": [
+        "zhuwen",
+        "tang-zhaozong"
+      ]
+    },
+    {
+      "id": "wd1-baixiang",
+      "title": "柏乡之战",
+      "year": 910,
+      "narrative": "[[likeyong]] 之子 [[licunxu]] 大破后梁主力八万于柏乡——晋梁攻守自此易势。河北之地从此向晋倾斜，[[zhuwen]] 余生再无能力北顾。",
+      "involvedPersonIds": [
+        "licunxu",
+        "zhuwen",
+        "wd1-wangyanzhang"
+      ]
+    },
+    {
+      "id": "wd1-mieqi",
+      "title": "灭岐之战",
+      "year": 924,
+      "narrative": "[[licunxu]] 招降岐王李茂贞之子李从曮，岐地归后唐——五代十国地图收复一大块，唐末藩镇最后一支独立力量消失。",
+      "involvedPersonIds": [
+        "licunxu"
+      ]
+    },
+    {
+      "id": "wd1-miexianshu",
+      "title": "灭前蜀之役",
+      "year": 925,
+      "narrative": "[[licunxu]] 命 [[wd1-guochongtao]] 统军七十日下成都，[[wd1-wangjian-qianshu]] 之孙王衍出降——前蜀十八年而亡。次年郭崇韬即被赐死成都军中，功臣未及还朝。",
+      "involvedPersonIds": [
+        "licunxu",
+        "wd1-guochongtao",
+        "wd1-wangjian-qianshu"
+      ]
+    },
+    {
+      "id": "wd1-xingjiaomen",
+      "title": "兴教门之变",
+      "year": 926,
+      "narrative": "[[licunxu]] 宠伶人、杀 [[wd1-guochongtao]]，激禁军兵变。庄宗中流矢死于兴教门，伶人焚其尸。欧阳修评：『得国之易，未有如庄宗者；失之之速，亦未有如庄宗者。』",
+      "involvedPersonIds": [
+        "licunxu",
+        "wd1-guochongtao",
+        "wd1-lisiyuan"
+      ]
+    },
+    {
+      "id": "wd1-luwang-zifen",
+      "title": "潞王自焚·传国玉玺失踪",
+      "year": 937,
+      "narrative": "[[shijingtang]] 引契丹南下逼洛阳，[[wd1-licongke]] 守玄武楼自焚——怀中传国玉玺从此在文献中再未清晰出现。秦汉相传一千一百余年的『受命于天』之物，烧没于此夜。",
+      "involvedPersonIds": [
+        "wd1-licongke",
+        "shijingtang"
+      ]
+    },
+    {
+      "id": "wd2-yelvdeguang-rumian",
+      "title": "辽太宗入汴·『帝羓』北归",
+      "year": 947,
+      "narrative": "[[wd2-yelvdeguang]] 灭后晋入汴梁，改国号大辽。纵兵『打草谷』激起中原义军群起，一月即仓皇北撤。途中病死栾城，契丹用盐腌尸送回——北族第一次入主中原以闹剧收场。",
+      "involvedPersonIds": [
+        "wd2-yelvdeguang",
+        "shijingtang",
+        "wd2-liuzhiyuan"
+      ]
+    },
+    {
+      "id": "wd2-gaoping",
+      "title": "高平之战",
+      "year": 954,
+      "narrative": "[[zhouhshizong]] 即位四十天，[[wd2-liuchong]] 联辽南下。诸将怯战，柴荣亲冒矢石冲阵，斩怯将七十余人。一战立威整军，五代少年雄主的成名战。",
+      "involvedPersonIds": [
+        "zhouhshizong",
+        "wd2-liuchong",
+        "zhaokuangyin"
+      ]
+    },
+    {
+      "id": "wd2-zhoushizong-nanzheng",
+      "title": "周世宗南征·取淮南十四州",
+      "year": 956,
+      "narrative": "[[zhouhshizong]] 三征南唐，[[wd2-liying]] 去帝号、献淮南江北十四州。南唐自此元气尽失，再无机会北顾——南唐亡国的种子，在此战种下。",
+      "involvedPersonIds": [
+        "zhouhshizong",
+        "wd2-liying"
+      ]
+    },
+    {
+      "id": "wd2-zhoushizong-beifa",
+      "title": "周世宗北伐·取瀛莫易三州",
+      "year": 959,
+      "narrative": "[[zhouhshizong]] 北征辽，四十二日下瀛、莫、易三州，准备直取幽州。途中疾发，撤军汴梁旋崩，年仅三十九——本可补天的人，差最后一口气。",
+      "involvedPersonIds": [
+        "zhouhshizong"
+      ]
+    },
+    {
+      "id": "wd2-songmie-houshu",
+      "title": "宋灭后蜀",
+      "year": 965,
+      "narrative": "[[zhaokuangyin]] 派 [[bs-panmei]]、王全斌两路伐蜀，六十六日下成都。[[wd2-mengchang]] 出降，押至汴梁七日暴卒，[[wd2-huaruifuren]] 入宫题诗『十四万人齐解甲』钉死亡国之耻。",
+      "involvedPersonIds": [
+        "zhaokuangyin",
+        "wd2-mengchang",
+        "wd2-huaruifuren",
+        "bs-panmei"
+      ]
+    },
+    {
+      "id": "wd2-songmie-nantang",
+      "title": "宋灭南唐",
+      "year": 975,
+      "narrative": "[[zhaokuangyin]] 派曹彬伐南唐，围金陵一年城破。[[wd2-liyu]] 肉袒出降，押至汴梁封违命侯。三年后七夕，[[bs-zhaoguangyi]] 赐牵机药鸩杀——中国词史最高峰陨落。",
+      "involvedPersonIds": [
+        "zhaokuangyin",
+        "wd2-liyu",
+        "bs-zhaoguangyi"
+      ]
+    },
+    {
+      "id": "wd2-songmie-beihan",
+      "title": "宋灭北汉",
+      "year": 979,
+      "narrative": "[[bs-zhaoguangyi]] 亲征围太原四月，[[wd2-liuchong]] 之孙刘继元降——十国终结，[[zhaokuangyin]] 未竟之业由弟完成。但乘胜伐辽，高梁河大败，太宗中箭乘驴车逃归——『先南后北』战略，在北线撞墙。",
+      "involvedPersonIds": [
+        "bs-zhaoguangyi"
+      ]
+    },
+    {
+      "id": "bs-zhuyingfuhseng",
+      "title": "烛影斧声",
+      "year": 976,
+      "narrative": "[[zhaokuangyin]] 暴卒之夜，宫人远见烛影下兄弟二人对饮、又闻斧戳地声。次日弟 [[bs-zhaoguangyi]] 即位，是为太宗。此夜真相千年成谜——但此后宋朝皇位再未回到太祖一脉，直到南宋孝宗。",
+      "involvedPersonIds": [
+        "zhaokuangyin",
+        "bs-zhaoguangyi"
+      ]
+    },
+    {
+      "id": "bs-yongxi-beifa",
+      "title": "雍熙北伐",
+      "year": 986,
+      "narrative": "[[bs-zhaoguangyi]] 三路北伐欲收幽云。东路曹彬轻敌冒进溃于岐沟关，西路 [[bs-panmei]] 监军王侁逼 [[bs-yangye]] 出战不接应——杨业陈家谷殉国。宋朝从此对辽由攻转守一百二十年。",
+      "involvedPersonIds": [
+        "bs-zhaoguangyi",
+        "bs-panmei",
+        "bs-yangye"
+      ]
+    },
+    {
+      "id": "bs-haoshuichuan",
+      "title": "好水川之战",
+      "year": 1041,
+      "narrative": "[[bs-liyuanhao]] 设伏好水川，宋将任福十万军被围全军覆没。西夏立国第三年，连胜宋三川口、好水川、定川寨——『三川口三大败』。范仲淹、韩琦由此戍守西北，西夏对宋长期压力定型。",
+      "involvedPersonIds": [
+        "bs-liyuanhao",
+        "bs-fanzhongyan",
+        "bs-hanqi"
+      ]
+    },
+    {
+      "id": "bs-qingli-xinzheng",
+      "title": "庆历新政",
+      "year": 1043,
+      "narrative": "[[bs-songrenzong]] 用 [[bs-fanzhongyan]]、[[bs-fubi]]、[[bs-hanqi]] 推十事疏：明黜陟、抑侥幸、精贡举、择官长……触动权贵八月即败。北宋第一次系统性改革夭折——三十年后王安石变法的预演。",
+      "involvedPersonIds": [
+        "bs-fanzhongyan",
+        "bs-fubi",
+        "bs-hanqi",
+        "bs-songrenzong"
+      ]
+    },
+    {
+      "id": "bs-wutaishi-an",
+      "title": "乌台诗案",
+      "year": 1079,
+      "narrative": "新党御史李定等弹劾 [[bs-sushi]] 谢表讥讽朝政。苏轼下御史台狱一百三十日，几被处死。靠太后与 [[wanganshi]] 一句『岂有圣世杀才士乎』救下，贬黄州——此后才有了《赤壁赋》《念奴娇》和『一蓑烟雨任平生』。",
+      "involvedPersonIds": [
+        "bs-sushi",
+        "wanganshi"
+      ]
+    },
+    {
+      "id": "bs-yuanyou-genghua",
+      "title": "元祐更化",
+      "year": 1086,
+      "narrative": "哲宗即位、宣仁太后听政，[[bs-simaguang]] 还朝拜相，五月内尽废新法。新党尽贬，[[bs-sushi]] 也反对『矫枉过正』再次得罪。八个月司马光卒——党争却没完，[[bs-zhangdun]] 二十年后再翻一次盘。",
+      "involvedPersonIds": [
+        "bs-simaguang",
+        "wanganshi",
+        "bs-sushi",
+        "bs-zhangdun"
+      ]
+    },
+    {
+      "id": "bs-lianjin-mieliao",
+      "title": "联金灭辽·海上之盟",
+      "year": 1120,
+      "narrative": "[[bs-tongguan]] 主谋，宋金签『海上之盟』夹击辽国。宋军北上接收幽云时连辽兵败将都打不过——女真由此看清宋虚实。两年后辽亡，再一年女真兵分两路南下扑汴梁。请来一只更猛的虎赶走老虎。",
+      "involvedPersonIds": [
+        "bs-tongguan",
+        "songhuizong",
+        "bs-wanyanaguda"
+      ]
+    },
+    {
+      "id": "bs-jingkang-beishou",
+      "title": "靖康北狩·五国城",
+      "year": 1127,
+      "narrative": "[[songhuizong]]、[[bs-songqinzong]] 父子及妃嫔宗室三千余人被掳北行五千里至五国城。徽宗坐井观天九年病死，钦宗被金人逼上马球场，乱马踏死——两个皇帝的死状，岳飞写进了《满江红》。",
+      "involvedPersonIds": [
+        "songhuizong",
+        "bs-songqinzong"
+      ]
+    },
+    {
+      "id": "ss-huangtiandang",
+      "title": "黄天荡之战",
+      "year": 1130,
+      "narrative": "[[ss-wuzhu]] 十万金兵渡江烧杀，归途被 [[ss-hanshizhong]] 八千人困于黄天荡四十八日。[[ss-liangghongyu]] 亲擂战鼓三日不下，金兵掘渠才仓皇北逃——南宋立国后第一次真正的胜利。",
+      "involvedPersonIds": [
+        "ss-hanshizhong",
+        "ss-liangghongyu",
+        "ss-wuzhu"
+      ]
+    },
+    {
+      "id": "ss-yancheng-yingchang",
+      "title": "郾城颖昌大捷",
+      "year": 1140,
+      "narrative": "[[yuefei]] 北伐至河南，郾城大破金军精锐铁浮屠、拐子马；颖昌再胜，距汴梁不到百里。岳飞欢呼『直捣黄龙府，与诸君痛饮耳！』——十二道金牌召回，功亏一篑。",
+      "involvedPersonIds": [
+        "yuefei",
+        "ss-wuzhu",
+        "zhaogou"
+      ]
+    },
+    {
+      "id": "ss-caishi",
+      "title": "采石矶之战",
+      "year": 1161,
+      "narrative": "金主 [[ss-wanyanliang]] 倾国南下渡江，文官 [[ss-yuyunwen]] 临时接管溃兵、亲擂鼓、烧尽金军渡江船。完颜亮撤瓜洲被部下哗变缢杀——一个第一次上战场的进士，救了南宋三十年。",
+      "involvedPersonIds": [
+        "ss-yuyunwen",
+        "ss-wanyanliang"
+      ]
+    },
+    {
+      "id": "ss-longxing-heyi",
+      "title": "隆兴和议",
+      "year": 1164,
+      "narrative": "宋孝宗赵昚锐意北伐，符离之战大败。无奈与金签隆兴和议——宋金易『君臣之国』为『叔侄之国』，岁币减为银二十万、绢二十万。比绍兴和议体面些，但北伐梦正式破产。",
+      "involvedPersonIds": [
+        "zhaogou"
+      ]
+    },
+    {
+      "id": "ss-kaixi-beifa",
+      "title": "开禧北伐",
+      "year": 1206,
+      "narrative": "[[ss-hantuozhou]] 主政发动北伐金，准备不足三路兵败。[[ss-xinqiji]] 病重未及临阵，[[ss-luyou]] 在山阴写诗祝捷而败讯至。次年韩侂胄被诱杀，函首送金求和——朝中宰相的头颅第一次成了和议品。",
+      "involvedPersonIds": [
+        "ss-hantuozhou",
+        "ss-xinqiji",
+        "ss-luyou",
+        "ss-shimiyuan"
+      ]
+    },
+    {
+      "id": "ss-mengsong-miejin",
+      "title": "蒙宋联军灭金",
+      "year": 1234,
+      "narrative": "蒙古约南宋共灭金。宋将孟珙与蒙军会师蔡州，金哀宗自缢——金亡。宋廷以三百年世仇得报欢腾，史称『端平入洛』。但请神容易送神难——蒙古的下一刀，转身就劈向南宋。",
+      "involvedPersonIds": []
+    },
+    {
+      "id": "ss-xiangfan",
+      "title": "襄樊之战·六年围城",
+      "year": 1273,
+      "narrative": "蒙古 [[ss-boyan]] 围襄阳樊城六年，宋将吕文焕守至粮绝、援军不至。[[ss-jiasidao]] 隐瞒军情、谎报捷音。城破日吕文焕降元，回身领元兵顺汉水东下——长江天险从此洞开。",
+      "involvedPersonIds": [
+        "ss-boyan",
+        "ss-jiasidao"
+      ]
+    },
+    {
+      "id": "ss-diaoyucheng",
+      "title": "钓鱼城之战·蒙哥之死",
+      "year": 1259,
+      "narrative": "蒙古大汗 [[ss-mengge]] 围合州钓鱼城半年不下，亲临前线中流矢殁于军中。三路蒙古大军被迫回师争汗位——南宋因此续命二十年，旭烈兀西征中止，整个欧亚史就此改写。",
+      "involvedPersonIds": [
+        "ss-mengge"
+      ]
+    },
+    {
+      "id": "ss-dingjiazhou",
+      "title": "丁家洲之战",
+      "year": 1275,
+      "narrative": "襄樊陷后，[[ss-jiasidao]] 仓促率十三万军迎元军于丁家洲，一战即溃，水陆军全军覆没。贾似道贬死循州。南宋最后一支机动主力消失——临安投降已是时间问题。",
+      "involvedPersonIds": [
+        "ss-jiasidao",
+        "ss-boyan"
+      ]
+    },
+    {
+      "id": "ss-linan-touxiang",
+      "title": "临安投降",
+      "year": 1276,
+      "narrative": "[[ss-boyan]] 兵临临安，谢太后奉表向元降，[[ss-songgongdi]] 五岁稚子跪向元帅——宋朝廷在这一拜里正式终结。残部奉益王、广王南奔，三年后崖山赴海。",
+      "involvedPersonIds": [
+        "ss-boyan",
+        "ss-songgongdi"
+      ]
+    },
+    {
+      "id": "yuan-alibuge-zhanzheng",
+      "title": "忽必烈·阿里不哥汗位之争",
+      "year": 1260,
+      "narrative": "1260 年 [[kublai]] 在开平自立，[[yuan-alibuge]] 在和林被传统派推上汗位——一场仗打了四年，本质是『要不要做中国皇帝』的路线之争。忽必烈赢了，蒙古帝国从此分裂为四大汗国，元朝独走汉化路。",
+      "involvedPersonIds": [
+        "kublai",
+        "yuan-alibuge",
+        "yuan-tolui"
+      ]
+    },
+    {
+      "id": "yuan-xiangfan-zhiwei",
+      "title": "襄樊之围",
+      "year": 1273,
+      "narrative": "[[kublai]] 派 [[yuan-bayan]]、阿术围襄阳、樊城六年。回回炮一响，襄阳守将吕文焕降——南宋长江防线的钥匙交了出去。两年后元军顺江而下，再过两年崖山。一场围攻六年的城，决定了一个三百年王朝的终局。",
+      "involvedPersonIds": [
+        "kublai",
+        "yuan-bayan"
+      ]
+    },
+    {
+      "id": "yuan-yashan-haizhan",
+      "title": "崖山海战",
+      "year": 1279,
+      "narrative": "1279 年正月，[[yuan-zhanghongfan]] 围 [[luxiufu]] 残部于崖山。二月六日战败，陆秀夫抱八岁少帝赵昺跳海，杨太后随之投水，十万军民相继。海上浮尸数日。张弘范在崖山题碑『张弘范灭宋于此』——金人后裔灭宋，宋臣抱幼帝跳海，两边都不属于自己的国，却为这国死。",
+      "involvedPersonIds": [
+        "yuan-zhanghongfan",
+        "luxiufu",
+        "kublai"
+      ]
+    },
+    {
+      "id": "yuan-liangdu-zhizhan",
+      "title": "两都之战",
+      "year": 1328,
+      "narrative": "元泰定帝死，朝廷在大都、上都两派分立汗位，刀兵相见数月。最后大都派胜，元文宗即位。一场内战让中央威信折损，地方藩臣开始离心——元朝快速衰落的转折点。",
+      "involvedPersonIds": []
+    },
+    {
+      "id": "yuan-jialu-zhihe",
+      "title": "贾鲁治河",
+      "year": 1351,
+      "narrative": "1351 年 [[yuan-tuotuo]] 派 [[yuan-jialu]] 治黄河，征发民工十五万、军兵两万。工地上挖出独眼石人，背刻『莫道石人一只眼，挑动黄河天下反』——同年五月 [[yuan-hanlin-er]]、[[yuan-liufutong]] 红巾起。元朝的命，被自己的水利工程引爆。",
+      "involvedPersonIds": [
+        "yuan-tuotuo",
+        "yuan-jialu",
+        "yuan-hanlin-er",
+        "yuan-liufutong"
+      ]
+    },
+    {
+      "id": "yuan-poyanghu",
+      "title": "鄱阳湖之战",
+      "year": 1363,
+      "narrative": "1363 年 [[yuan-chenyouliang]] 率六十万大军围洪都，[[zhuyuanzhang-pre]] 率二十万救援，鄱阳湖鏖战三十六日，火攻定胜负。陈中流矢而亡——这一仗如果反过来，明朝就叫汉朝。",
+      "involvedPersonIds": [
+        "zhuyuanzhang-pre",
+        "yuan-chenyouliang",
+        "ming-changyuchun"
+      ]
+    },
+    {
+      "id": "yuan-pingjiang",
+      "title": "平江之战",
+      "year": 1367,
+      "narrative": "1367 年 [[zhuyuanzhang-pre]] 军围 [[yuan-zhangshicheng]] 苏州城十个月，火炮日夜轰击。城破，张被俘至应天绝食而亡——最富的群雄，最不甘心打到底；最穷的对手，反而一路战到了最后。",
+      "involvedPersonIds": [
+        "zhuyuanzhang-pre",
+        "yuan-zhangshicheng",
+        "ming-xuda"
+      ]
+    },
+    {
+      "id": "yuan-mingbeifa",
+      "title": "明军北伐入大都",
+      "year": 1368,
+      "narrative": "1368 年正月朱称帝，七月 [[ming-xuda]]、[[ming-changyuchun]] 率二十五万北伐军入大都。[[yuan-shundi]] 不守不战，连夜出健德门北遁草原——元在中原九十八年，结束于一夜之间的弃城。",
+      "involvedPersonIds": [
+        "zhuyuanzhang",
+        "ming-xuda",
+        "ming-changyuchun",
+        "yuan-shundi"
+      ]
+    },
+    {
+      "id": "yuan-shundi-beidun",
+      "title": "顺帝北遁·北元开始",
+      "year": 1368,
+      "narrative": "[[yuan-shundi]] 出健德门北归草原，后世史称『北元』。蒙古帝国在中国结束，但并未灭亡——草原汗庭继续传承两百多年。征服者最后选择的，是回家。",
+      "involvedPersonIds": [
+        "yuan-shundi",
+        "zhuyuanzhang"
+      ]
+    },
+    {
+      "id": "ming-hongwu-sida-an",
+      "title": "洪武四大案",
+      "year": 1380,
+      "narrative": "[[zhuyuanzhang]] 用『胡惟庸案』废丞相、『蓝玉案』清开国武将、『郭桓案』『空印案』整顿吏治。前后牵连十余万人。开国功臣几乎屠尽——他要给孙子留一个没有权臣的天下，结果留下的是一个没有屏障的天下。",
+      "involvedPersonIds": [
+        "zhuyuanzhang",
+        "ming-huweiyong",
+        "ming-lanyu",
+        "ming-lishanchang"
+      ]
+    },
+    {
+      "id": "ming-zhudi-qianbei",
+      "title": "永乐迁都北京",
+      "year": 1421,
+      "narrative": "[[yongle]] 把首都从南京搬到自己的封地北平，号称『天子守国门』。一方面是不放心南京的旧勋贵和南方文官，一方面是要直接顶住北方蒙古。未来两百年皇帝的安危直接挂在边境的刀口上——明的命，从此挂上了北方。",
+      "involvedPersonIds": [
+        "yongle"
+      ]
+    },
+    {
+      "id": "ming-beijing-baowei",
+      "title": "北京保卫战",
+      "year": 1449,
+      "narrative": "[[tumubao]] 后瓦剌挟英宗扣关，[[ming-yuqian]] 力主『社稷为重君为轻』，立景帝、组团营、守九门。也先攻德胜、西直、彰义诸门皆败，无功而退。一个文官在二十万精锐尽失之后，凭京师残兵守住了国都。",
+      "involvedPersonIds": [
+        "ming-yuqian",
+        "ming-wangzhen"
+      ]
+    },
+    {
+      "id": "ming-duomen-zhibian",
+      "title": "夺门之变",
+      "year": 1457,
+      "narrative": "1457 年景帝病重，石亨、徐有贞、曹吉祥半夜撬开南宫门，背幽禁的英宗冲到奉天殿。天亮文武入朝，发现龙椅上的人换了。复辟之后第一道诏书：杀 [[ming-yuqian]]。明朝皇位的合法性，从此再没站稳过。",
+      "involvedPersonIds": [
+        "ming-yuqian"
+      ]
+    },
+    {
+      "id": "ming-dali-yi",
+      "title": "大礼议",
+      "year": 1524,
+      "narrative": "嘉靖以小宗入大统，要追封生父为『皇考』。文官集团坚持祖制，二百余人跪哭午门，被廷杖一百八十多人，死十六。一个十几岁的皇帝用棍子赢了礼法之争，从此他可以二十年不上朝——明朝皇权对文官的最后一次大规模碾压。",
+      "involvedPersonIds": []
+    },
+    {
+      "id": "ming-zhangjuzheng-gaige",
+      "title": "张居正改革（考成法·一条鞭法）",
+      "year": 1572,
+      "narrative": "[[ming-zhangjuzheng]] 任首辅十年，行考成法考核官僚、行一条鞭法折赋为银。太仓积银千万，明朝回光返照。1582 年死，第三天 [[ming-wanli]] 下令抄家，长子自缢——改革者最怕的不是反对者，是会等他死的皇帝。",
+      "involvedPersonIds": [
+        "ming-zhangjuzheng",
+        "ming-wanli",
+        "ming-qijiguang"
+      ]
+    },
+    {
+      "id": "ming-longqing-kaiguan",
+      "title": "隆庆开关",
+      "year": 1567,
+      "narrative": "1567 年隆庆帝下旨『准贩东西二洋』，结束明初两百年的海禁。月港（漳州）开埠，白银大量从美洲、日本经马尼拉流入中国——明末『白银帝国』由此而成；但白银一旦因外部供给断流，国库就先崩塌。开关救了一时，也埋下未来的雷。",
+      "involvedPersonIds": []
+    },
+    {
+      "id": "ming-zhengguoben",
+      "title": "争国本",
+      "year": 1586,
+      "narrative": "[[ming-wanli]] 想立宠妃郑氏所生福王为太子，文官集团坚持长子皇长子常洛。争吵十五年，皇帝最终让步，但从此对朝政心灰意冷，二十多年不上朝——一场关于储君的争执，让明朝皇帝彻底退场。",
+      "involvedPersonIds": [
+        "ming-wanli"
+      ]
+    },
+    {
+      "id": "ming-wanli-sanzheng",
+      "title": "万历三大征",
+      "year": 1592,
+      "narrative": "1592 年至 1600 年，明军连续打三场大仗：宁夏哱拜之乱、朝鲜援朝抗倭（壬辰倭乱）、播州杨应龙之乱。三战皆胜，但耗银千万、太仓为空——张居正攒下的家底打没了，明朝的财政从此再没缓过来。",
+      "involvedPersonIds": [
+        "ming-wanli"
+      ]
+    },
+    {
+      "id": "ming-sansi-an",
+      "title": "明末三大案（梃击·红丸·移宫）",
+      "year": 1615,
+      "narrative": "1615 年梃击案（疯汉持棍闯太子宫）、1620 年红丸案（光宗服丹药暴亡）、1620 年移宫案（李选侍欲挟天启幼帝）。三案不到五年，每一案都让东林党与对手党争一次。皇宫已成党争剧场——明朝最高权力中枢，从此再无安宁。",
+      "involvedPersonIds": []
+    },
+    {
+      "id": "ming-jisi-zhibian",
+      "title": "己巳之变",
+      "year": 1629,
+      "narrative": "1629 年 [[ming-huangtaiji]] 绕过山海关，借道蒙古直叩北京。[[ming-yuanchonghuan]] 千里回援，京师百姓却疑其通谋。[[chongzhen]] 听信谗言下袁入狱，次年凌迟于市，京城百姓争食其肉——明亡的转折点之一，崇祯亲手砍断了自己唯一的盾。",
+      "involvedPersonIds": [
+        "ming-huangtaiji",
+        "ming-yuanchonghuan",
+        "chongzhen"
+      ]
+    },
+    {
+      "id": "ming-songjin-dahzan",
+      "title": "松锦大战",
+      "year": 1641,
+      "narrative": "1641 年 [[ming-huangtaiji]] 围锦州，[[chongzhen]] 命洪承畴率十三万援军出关，被清军围于松山。次年城破，洪承畴被俘后降清。明朝在关外最后一支机动主力被歼——之后辽东只剩 [[ming-wusangui]] 守着山海关一座孤城。",
+      "involvedPersonIds": [
+        "ming-huangtaiji",
+        "chongzhen",
+        "ming-wusangui"
+      ]
+    },
+    {
+      "id": "ming-yipianshi",
+      "title": "一片石之战·开关引清",
+      "year": 1644,
+      "narrative": "1644 年四月，[[ming-wusangui]] 在山海关一片石与 [[lizicheng]] 大顺军决战。三桂力不能支，开关引 [[ming-duoergun]] 八旗入关。清军会同吴军大破李自成。两天之内，中国的统治者从明、变顺、变清——历史最浓的一笔，发生在一座关口。",
+      "involvedPersonIds": [
+        "ming-wusangui",
+        "ming-duoergun",
+        "lizicheng"
+      ]
+    },
+    {
+      "id": "ming-yangzhou-shiri",
+      "title": "扬州十日",
+      "year": 1645,
+      "narrative": "1645 年清军围扬州，[[ming-shikefa]] 守十日，城破被俘不降而死。多铎下令屠城十日，死难八十万。一座城用十天证明南明还有人愿意死——但更多的城，开了门。",
+      "involvedPersonIds": [
+        "ming-shikefa",
+        "ming-duoergun"
+      ]
+    },
+    {
+      "id": "ming-zhengchenggong-fuTai",
+      "title": "郑成功收复台湾",
+      "year": 1661,
+      "narrative": "1661 年 [[ming-zhengchenggong]] 率两万五千军、四百战船自金门东渡，围荷兰人在台湾的热兰遮城九个月。次年荷兰总督揆一签降。台湾被汉人收回。郑成功在台一年余病亡，年三十九——一个明朝臣子，在一座岛上替明朝多活了三十八年。",
+      "involvedPersonIds": [
+        "ming-zhengchenggong"
+      ]
+    },
+    {
+      "id": "qing-tifayifu",
+      "title": "剃发易服令",
+      "year": 1645,
+      "narrative": "[[qing-duergun]] 一纸『留头不留发』下江南——江阴八十一日、嘉定三屠由此而起。一根辫子压了二百六十七年。",
+      "involvedPersonIds": [
+        "qing-duergun",
+        "qing-shunzhi"
+      ]
+    },
+    {
+      "id": "qing-sanfan",
+      "title": "三藩之乱",
+      "year": 1673,
+      "narrative": "吴三桂等三藩起兵『反清复明』，[[kangxi]] 用八年平之——清廷从此再无藩镇之忧。",
+      "involvedPersonIds": [
+        "kangxi"
+      ]
+    },
+    {
+      "id": "qing-shoutaiwan",
+      "title": "收台湾",
+      "year": 1683,
+      "narrative": "[[qing-shilang]] 澎湖一战大破郑军，台湾正式入清版图——结束郑氏三代抗清。",
+      "involvedPersonIds": [
+        "kangxi",
+        "qing-shilang"
+      ]
+    },
+    {
+      "id": "qing-jiuzi-duodi",
+      "title": "九子夺嫡",
+      "year": 1722,
+      "narrative": "[[kangxi]] 晚年九子结党，太子两立两废。最不张扬的四阿哥 [[qing-yongzheng]] 凭一道遗诏一夜登基。",
+      "involvedPersonIds": [
+        "kangxi",
+        "qing-yongzheng",
+        "qing-longkeduo"
+      ]
+    },
+    {
+      "id": "qing-yongzheng-gaige",
+      "title": "雍正新政",
+      "year": 1724,
+      "narrative": "摊丁入亩、火耗归公、改土归流、设军机处——[[qing-yongzheng]] 十三年装上盛世的财政骨架，自己背骂名。",
+      "involvedPersonIds": [
+        "qing-yongzheng",
+        "qing-nianxgengyao",
+        "qing-longkeduo"
+      ]
+    },
+    {
+      "id": "qing-wenziyu",
+      "title": "雍乾文字狱",
+      "year": 1755,
+      "narrative": "雍乾两朝大狱百余起——一句『清风不识字』可灭门。盛世的另一面，是士人把笔尖磨成了考据。",
+      "involvedPersonIds": [
+        "qing-yongzheng",
+        "qianlong"
+      ]
+    },
+    {
+      "id": "qing-yuanmingyuan",
+      "title": "火烧圆明园",
+      "year": 1860,
+      "narrative": "英法联军入北京，咸丰逃热河。三天三夜大火烧出天朝上国神话最具体的灰烬。",
+      "involvedPersonIds": [
+        "qing-xianfeng",
+        "qing-yixin"
+      ]
+    },
+    {
+      "id": "qing-xinyou-zhengbian",
+      "title": "辛酉政变",
+      "year": 1861,
+      "narrative": "[[cixi]] [[qing-cian]] 与 [[qing-yixin]] 联手扳倒 [[qing-susuns]] 等顾命八大臣——清后半场由这一夜定局。",
+      "involvedPersonIds": [
+        "cixi",
+        "qing-cian",
+        "qing-yixin",
+        "qing-susuns",
+        "qing-xianfeng"
+      ]
+    },
+    {
+      "id": "qing-shoufu-xinjiang",
+      "title": "左宗棠收复新疆",
+      "year": 1878,
+      "narrative": "[[qing-zuozongtang]] 抬棺西征，两年克复天山南北、迫俄归还伊犁——晚清最硬的一仗。",
+      "involvedPersonIds": [
+        "qing-zuozongtang",
+        "qing-lihongzhang"
+      ]
+    },
+    {
+      "id": "qing-jiawu",
+      "title": "甲午战争",
+      "year": 1894,
+      "narrative": "北洋水师覆没黄海、[[qing-dengshichang]] 撞舰殉国。马关条约割台赔银二亿三千万——清廷与日本的牌底自此对调。",
+      "involvedPersonIds": [
+        "qing-lihongzhang",
+        "qing-dengshichang",
+        "cixi"
+      ]
+    },
+    {
+      "id": "qing-wuxu-bianfa",
+      "title": "戊戌变法",
+      "year": 1898,
+      "narrative": "[[qing-guangxu]] 用 [[qing-kangyouwei]] 行新政百日，[[cixi]] 一夕政变。六君子血溅菜市口——『有心杀贼，无力回天』。",
+      "involvedPersonIds": [
+        "qing-guangxu",
+        "qing-kangyouwei",
+        "qing-liangqichao",
+        "qing-tansitong",
+        "cixi"
+      ]
+    },
+    {
+      "id": "qing-gengzi",
+      "title": "庚子之乱",
+      "year": 1900,
+      "narrative": "[[cixi]] 借义和团对八国宣战，转眼联军破京。她带光绪西逃西安——回京只能签 [[qing-xinchou-tiaoyue]]。",
+      "involvedPersonIds": [
+        "cixi",
+        "qing-guangxu"
+      ]
+    },
+    {
+      "id": "qing-xinchou-tiaoyue",
+      "title": "辛丑条约",
+      "year": 1901,
+      "narrative": "[[qing-lihongzhang]] 代表清廷签字：四亿五千万两赔款，按人头一人一两——签完三个月后他病死。",
+      "involvedPersonIds": [
+        "qing-lihongzhang",
+        "cixi"
+      ]
+    },
+    {
+      "id": "qing-tuiwei",
+      "title": "清帝退位",
+      "year": 1912,
+      "narrative": "[[qing-longyu]] 代三岁 [[qing-puyi]] 颁布退位诏书——两千一百三十二年帝制由这道诏书收尾。",
+      "involvedPersonIds": [
+        "qing-puyi",
+        "qing-longyu",
+        "yuanshikai"
+      ]
+    },
+    {
+      "id": "roc-songjiaoren-an",
+      "title": "宋教仁案",
+      "year": 1913,
+      "narrative": "国民党大选胜出，[[roc-songjiaoren]] 北上组阁前被刺于上海火车站——民国唯一可能的议会政治至此终结。",
+      "involvedPersonIds": [
+        "roc-songjiaoren",
+        "yuanshikai"
+      ]
+    },
+    {
+      "id": "roc-erci-geming",
+      "title": "二次革命",
+      "year": 1913,
+      "narrative": "[[sunyatsen]] 起兵讨袁，三月败亡日本——议会一败，革命派只能再次走武装。",
+      "involvedPersonIds": [
+        "sunyatsen",
+        "yuanshikai",
+        "roc-songjiaoren"
+      ]
+    },
+    {
+      "id": "roc-hugou-zhanzheng",
+      "title": "护国战争",
+      "year": 1915,
+      "narrative": "[[roc-caie]] 自京装病南下昆明起义，八十三天逼 [[yuanshikai]] 帝制崩——共和续了半口气。",
+      "involvedPersonIds": [
+        "roc-caie",
+        "yuanshikai",
+        "roc-liangqichao-late"
+      ]
+    },
+    {
+      "id": "roc-wusi",
+      "title": "五四运动",
+      "year": 1919,
+      "narrative": "巴黎和会把山东送给日本，北大学生火烧赵家楼——中国第一次学生、报纸、罢工自觉地搅动政治。",
+      "involvedPersonIds": [
+        "roc-chenduxiu",
+        "roc-lidazhao",
+        "roc-hushi",
+        "roc-luxun"
+      ]
+    },
+    {
+      "id": "roc-zhonggong-yida",
+      "title": "中共一大",
+      "year": 1921,
+      "narrative": "上海法租界一间小楼里十三个人开了三天会——后因密探转浙江嘉兴南湖船上闭幕。新的政治力量从此开张。",
+      "involvedPersonIds": [
+        "roc-chenduxiu",
+        "roc-lidazhao",
+        "roc-maozedong"
+      ]
+    },
+    {
+      "id": "roc-siyier",
+      "title": "四一二政变",
+      "year": 1927,
+      "narrative": "[[roc-jiangjieshi]] 借青帮之手清党，一夜杀光左派同志。北伐还未结束，国共合作已经粉身。",
+      "involvedPersonIds": [
+        "roc-jiangjieshi",
+        "roc-zhouenlai",
+        "roc-maozedong"
+      ]
+    },
+    {
+      "id": "roc-changzheng",
+      "title": "长征",
+      "year": 1934,
+      "narrative": "中央苏区第五次反围剿失败，八万红军西走两年两万五千里，遵义会议 [[roc-maozedong]] 取得军权，到陕北只剩七千余人。",
+      "involvedPersonIds": [
+        "roc-maozedong",
+        "roc-zhouenlai",
+        "roc-zhude",
+        "roc-pengdehuai"
+      ]
+    },
+    {
+      "id": "roc-jiuyiba",
+      "title": "九一八事变",
+      "year": 1931,
+      "narrative": "关东军炸柳条湖、突袭沈阳——一夜失东北。[[roc-zhangxueliang]] 背了一辈子骂名。",
+      "involvedPersonIds": [
+        "roc-zhangxueliang",
+        "roc-jiangjieshi"
+      ]
+    },
+    {
+      "id": "xian-shibian",
+      "title": "西安事变",
+      "year": 1936,
+      "narrative": "[[roc-zhangxueliang]] 与 [[roc-yangchucheng]] 在临潼活捉 [[roc-jiangjieshi]] 逼其抗日。[[roc-zhouenlai]] 飞临潼调停。十四天后蒋获释，全国抗战格局成形。",
+      "involvedPersonIds": [
+        "roc-zhangxueliang",
+        "roc-yangchucheng",
+        "roc-jiangjieshi",
+        "roc-zhouenlai"
+      ]
+    },
+    {
+      "id": "roc-lugouqiao",
+      "title": "卢沟桥事变",
+      "year": 1937,
+      "narrative": "1937 年 7 月 7 日宛平城外一声枪响，八年全面抗战由此而起——华北、华东战线一路烧。",
+      "involvedPersonIds": [
+        "roc-jiangjieshi",
+        "roc-zhangzizhong"
+      ]
+    },
+    {
+      "id": "roc-nanjing-datusha",
+      "title": "南京大屠杀",
+      "year": 1937,
+      "narrative": "1937 年 12 月 13 日，日军入南京六周屠杀三十万——[[roc-lugouqiao]] 之后短短半年，首都沦为人间地狱。",
+      "involvedPersonIds": [
+        "roc-jiangjieshi"
+      ]
+    },
+    {
+      "id": "roc-chongqing-tanpan",
+      "title": "重庆谈判",
+      "year": 1945,
+      "narrative": "日本投降，[[roc-jiangjieshi]] 三电邀 [[roc-maozedong]] 赴重庆，四十三天谈出《双十协定》——纸上同意和平建国，背后双方都在调兵。",
+      "involvedPersonIds": [
+        "roc-jiangjieshi",
+        "roc-maozedong",
+        "roc-zhouenlai"
+      ]
+    },
+    {
+      "id": "roc-sandazhanyi",
+      "title": "三大战役",
+      "year": 1948,
+      "narrative": "辽沈、淮海、平津四个月歼国军一百五十四万——[[roc-jiangjieshi]] 嫡系尽失，内战胜负至此而定。",
+      "involvedPersonIds": [
+        "roc-lindabiao",
+        "roc-liubocheng",
+        "roc-dengxiaoping",
+        "roc-jiangjieshi",
+        "roc-maozedong"
+      ]
+    },
+    {
+      "id": "prc-zhengxie-1949",
+      "title": "中国人民政治协商会议",
+      "year": 1949,
+      "narrative": "1949 年 9 月北平，决定国号、国旗、国徽、国歌、首都——开国大典前十天，新国家的目录已经印好。",
+      "involvedPersonIds": [
+        "prc-mao-1949",
+        "prc-zhou-1949",
+        "prc-zhu-1949"
+      ]
+    }
   ]
 }

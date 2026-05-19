@@ -1,0 +1,1187 @@
+{
+  "agentGroup": "A5",
+  "eras": ["sui", "tang", "tang-late"],
+  "eraPatches": {
+    "sui": {
+      "storyAppend": "更耐人寻味的是隋的速度：[[yangjian]] 三十八年攒下的家底，[[suiyang]] 十四年就挥霍干净。[[sui-dugu]] 的『一夫一妻』把帝国搭成铁桶，[[sui-yangsu]] 的权术替 [[suiyang]] 夺嫡铺路；[[sui-jiangdu-zhibian]] 那一夜，[[suiyang]] 对镜叹『好头颅谁当斫之』——而砍它的，正是 [[sui-yangsu]] 的儿子 [[sui-yuwenhuaji]]。",
+      "addedKeyPersonIds": [
+        "sui-dugu",
+        "sui-yangsu",
+        "sui-yangyong",
+        "sui-hejuobi",
+        "sui-hanqinhu",
+        "sui-yuwenshu",
+        "sui-yuwenhuaji",
+        "sui-yushiji",
+        "sui-mai-tiezhang",
+        "sui-limi",
+        "sui-wangshichong",
+        "sui-doujiande",
+        "sui-zhairang",
+        "sui-xushiji-pre",
+        "sui-chenshubao"
+      ],
+      "addedKeyEventIds": [
+        "sui-jin-wang-duodi",
+        "sui-mie-chen-xiangzhan",
+        "sui-yingjian-dongdu",
+        "sui-wagang-qiyi",
+        "sui-jiangdu-zhibian",
+        "sui-libuan-yangwen"
+      ],
+      "addedStorylets": [
+        {
+          "title": "独孤皇后的『一夫一妻』",
+          "body": "[[sui-dugu]] 与 [[yangjian]] 少年成婚，誓『无异生之子』。她在内宫立铁规：宗室宠妾生子者尽免，朝臣纳妾者亦遭斥。她不只是皇后，更是开皇政治的合伙人——开皇之治的稳，一半在她；后来 [[sui-yangyong]] 之废、[[suiyang]] 之立，也一半因她。"
+        },
+        {
+          "title": "晋王夺嫡",
+          "body": "太子 [[sui-yangyong]] 好色奢华，晋王 [[suiyang]] 反向操作：素衣、独宠正妃、屏退乐伎。[[sui-dugu]] 看在眼里，[[sui-yangsu]] 在外联络——一明一暗。开皇二十年，杨勇被废为庶人。[[sui-jin-wang-duodi]] 不靠一刀一剑，靠的是把整个帝国后宫读成了一道考题。"
+        },
+        {
+          "title": "贺若弼与韩擒虎",
+          "body": "[[sui-mie-chen-xiangzhan]] 中，[[sui-hejuobi]] 由广陵渡江主攻，[[sui-hanqinhu]] 自采石突袭直取建康，俘 [[sui-chenshubao]] 于井中。两人都自称首功，朝堂吵到杨坚面前。隋灭陈是制度对门阀的胜利——可属于谁的胜利，连开国君主也答不清。"
+        },
+        {
+          "title": "科举之始：寒门第一次有路",
+          "body": "[[yangjian]] 废九品中正、置秀才进士科，[[suiyang]] 进一步设进士科取人。门阀世家垄断仕途数百年，第一次被一张试卷撬开缝。这缝在隋只是细线，到唐被撑成大门，到宋成了主路——隋亡得快，但它留下的这条路，铺了一千三百年。"
+        },
+        {
+          "title": "营建东都与运河",
+          "body": "[[suiyang]] 即位次年即 [[sui-yingjian-dongdu]]，又凿通济渠、邗沟、永济渠、江南河。每月役夫数十万，死者枕藉。运河贯通南北、东都扼天下之中——他要的是一个『南北合一』的帝国骨架。骨架立起来了，撑骨架的人也倒下了。"
+        },
+        {
+          "title": "三征高句丽：百万军中无回声",
+          "body": "[[sanzheng-gaogouli]] 第一次出兵 113 万，败于萨水，生还者数千。[[suiyang]] 不甘心，二征遇 [[sui-yangsu]] 之子 [[sui-yuwenhuaji]] 之兄杨玄感反于黎阳，三征师老兵疲。功业心吞掉了基本盘——同一战场，他与 [[hanwu]] 走相反方向：汉武把国库打光打赢了，他把国库打光也输了。"
+        },
+        {
+          "title": "瓦岗群雄",
+          "body": "[[sui-zhairang]] 聚众瓦岗，[[sui-limi]] 来奔献策破洛口仓，开仓散粮，远近来归。后来 [[sui-limi]] 杀翟让自立、败于 [[sui-wangshichong]]，转投 [[ligong-pre]] 又叛被杀。[[sui-wagang-qiyi]] 是隋末规模最大的反隋集团，却没能笑到最后——它真正的遗产是把 [[sui-xushiji-pre]] 等一批军政骨干，送进了即将诞生的大唐。"
+        },
+        {
+          "title": "江都之夜",
+          "body": "大业末年，[[suiyang]] 困守江都不肯北归。他常对镜叹：『好头颅，谁当斫之。』[[sui-jiangdu-zhibian]] 那一夜，骁果卫推 [[sui-yuwenhuaji]] 入宫，缢杀这位中国史上最矛盾的帝王。[[sui-yangsu]] 替他夺来的皇位，最终被 [[sui-yangsu]] 之子收走——隋的开局与终局，写在同一个家族里。"
+        },
+        {
+          "title": "麦铁杖单骑断后",
+          "body": "辽东之役，[[sui-mai-tiezhang]] 自请为先锋渡辽，知必死，对子曰：『阿奴，富贵止此。』他战死辽水，三子皆殉。[[sanzheng-gaogouli]] 留下无数这样的尸骨——百万大军中，最让人记住的，反而是这种没回得来的小将。"
+        },
+        {
+          "title": "虞世基与杨广的回音壁",
+          "body": "晚年 [[suiyang]] 厌闻败报，[[sui-yushiji]] 便把各地告急压下、报喜不报忧。皇帝问『天下安否』，朝堂齐声『安』。等他困在江都时才发现，整个帝国早已不属于自己——杀掉他的不是叛兵，是他亲手筑起的那堵回音壁。"
+        }
+      ]
+    },
+    "tang": {
+      "storyAppend": "唐的耐人寻味不只在『盛』，更在『盛之后还能撑一百五十年』。[[tang-xuanwu-zhibian]] 一日血流，开出贞观；[[tang-shenlong-zhibian]] 五日夺权，[[wuzetian]] 还政于唐；[[tang-maweipo-bingbian]] 一根白绫，逼皇帝杀了自己的爱妃；[[tang-ganlu-zhibian]] 一场翻车，皇帝亲眼看着宦官把宰相拖出去剁。每一次政变之后，唐都比原以为的更能挺住——直到挺不住的那一天，由 [[huangchao]] 在长安的酒楼里写完最后一笔。",
+      "addedKeyPersonIds": [
+        "tang-zhangsun-huang",
+        "tang-zhangsun-wuji",
+        "tang-fangxuanling",
+        "tang-duruhui",
+        "tang-weizheng",
+        "tang-yuchijingde",
+        "tang-lijing",
+        "tang-lishiji",
+        "tang-wangxuance",
+        "tang-shangguan",
+        "tang-direnjie",
+        "tang-zhangjianzhi",
+        "tang-shangguan-wan",
+        "tang-taiping",
+        "tang-yaoChong",
+        "tang-songjing",
+        "tang-zhangjiuling",
+        "tang-lilinfu",
+        "tang-yangguozhong",
+        "tang-yangguifei",
+        "tang-gaolishi",
+        "tang-guoziyi",
+        "tang-liguangbi",
+        "tang-yanzhenqing",
+        "tang-yangaoqing",
+        "tang-lipi",
+        "tang-lisuo",
+        "tang-yuanzhen-bs",
+        "tang-baijuyi",
+        "tang-dufu",
+        "tang-hanyu",
+        "tang-liude-zong",
+        "tang-liushuwen",
+        "tang-liuyuxi",
+        "tang-liuzongyuan",
+        "tang-xuanzang",
+        "tang-jianzhen",
+        "tang-wenchengGongzhu",
+        "tang-songtsenGanbu",
+        "tang-lideyu",
+        "tang-niuseng-ru",
+        "tang-chouShiliang"
+      ],
+      "addedKeyEventIds": [
+        "tang-xuanwu-zhibian",
+        "tang-baijiangkou",
+        "tang-wenchengruZang",
+        "tang-shenlong-zhibian",
+        "tang-tanglong-zhibian",
+        "tang-maweipo-bingbian",
+        "tang-lingwu-jiwei",
+        "tang-yecheng-zhizhan",
+        "tang-yongzhen-gexin",
+        "tang-lisuXueye-rucai",
+        "tang-ganlu-zhibian",
+        "tang-niuli-dangzheng"
+      ],
+      "addedStorylets": [
+        {
+          "title": "玄武门那一刀",
+          "body": "[[tang-xuanwu-zhibian]] 那天清晨，[[litaizong]] 在宫门内伏弩射杀长兄太子建成。[[tang-yuchijingde]] 提齐王元吉首级闯到 [[litang]] 面前，逼父让位。贞观之治从一摊兄弟血开始——后世修《起居注》他亲自要看，要看的是这一段。"
+        },
+        {
+          "title": "长孙皇后的退场",
+          "body": "[[tang-zhangsun-huang]] 临终前对 [[litaizong]] 只说两件事：勿厚葬，勿用外戚。她兄 [[tang-zhangsun-wuji]] 后来权倾朝野，最终因反对立武则天，被流放黔州自缢。她生前一句不写诏书的人，死后挡不住自己族人的命运。"
+        },
+        {
+          "title": "房谋杜断",
+          "body": "[[tang-fangxuanling]] 善谋多疑，[[tang-duruhui]] 善断敢决。太宗问计，房常列十策，杜挑一策，房即拍板。[[litaizong]] 笑：『非如晦不能成。』贞观朝最稳的政治组合，是把『想清楚』和『下得了手』分给两个人。"
+        },
+        {
+          "title": "魏徵这面镜子",
+          "body": "[[tang-weizheng]] 原是太子建成的人，玄武门后被 [[litaizong]] 留用。他二百余次面折廷争，惹得太宗几度在内宫骂『会须杀此田舍翁』。魏徵死，太宗哭：『以铜为镜可正衣冠，以人为镜可知得失——今魏徵殁，朕亡一镜矣。』后又疑其结党，亲手推倒他的墓碑——镜子最终也被砸了。"
+        },
+        {
+          "title": "王玄策一人灭一国",
+          "body": "[[tang-wangxuance]] 第二次出使天竺，遇中天竺王阿罗那顺政变劫使团。他独走吐蕃借兵七千、泥婆罗借骑一千二，反攻王舍城，俘阿罗那顺献长安。一个使节，借两国之兵，灭一国之主——大唐外交史上最不可复制的奇迹。"
+        },
+        {
+          "title": "白江口：与日本的第一战",
+          "body": "[[tang-baijiangkou]] 唐军会新罗、迎战倭国与百济联军于朝鲜半岛西岸。倭船千艘，唐军以少胜多，焚舟四百。此后近千年，日本不敢西望大陆。一战定一千年——史书写得极短，回声极长。"
+        },
+        {
+          "title": "文成入藏：和亲也是统战",
+          "body": "贞观十五年，[[tang-wenchengGongzhu]] 入吐蕃嫁 [[tang-songtsenGanbu]]，带工匠、医书、佛经、谷种与释迦像。她是 [[litaizong]] 派去的远客，也是唐藏几十年和平的支点。[[tang-wenchengruZang]] 之后再无大战——大唐用一个公主，省下了几十万兵。"
+        },
+        {
+          "title": "狄仁杰：在武周里保唐",
+          "body": "[[tang-direnjie]] 历仕高宗武后两朝，曾被酷吏 [[wuzetian]] 朝下狱险死，复起为相。武则天问立嗣，他答：『姑侄与母子孰亲？』终促武则天召回庐陵王李显。[[tang-shenlong-zhibian]] 之能成，[[tang-zhangjianzhi]] 等五人之能联手，是他生前推荐的果。武周里最大的『唐忠臣』，正是武则天最听得进话的那个人。"
+        },
+        {
+          "title": "上官婉儿：诏书里的女人",
+          "body": "[[tang-shangguan-wan]] 出身罪臣家被没入掖庭，凭才学被 [[wuzetian]] 召入内廷掌制诰。中宗朝又为昭容，代行宰相之权，主持朝堂诗会评诗定优劣。她最后死于 [[tang-tanglong-zhibian]] 李隆基刀下——一个写了一辈子诏书的女人，最后写不出自己一份赦书。"
+        },
+        {
+          "title": "姚崇宋璟：盛世的两块石头",
+          "body": "[[tangxuanzong]] 即位，先用 [[tang-yaoChong]] 革除积弊，再用 [[tang-songjing]] 守成。姚崇灭蝗、宋璟抑权幸——前者不怕骂名，后者不结党援。开元盛世不是从天降下来的，是这两块石头先把地基垫平。可惜后来玄宗换上了 [[tang-lilinfu]]，地基就开始松了。"
+        },
+        {
+          "title": "口蜜腹剑李林甫",
+          "body": "[[tang-lilinfu]] 当政十九年，杜绝言路、排挤张九龄、提拔胡将（理由：胡人不党，可专使于外）——为 [[anlushan]] 坐大铺平了路。他死后被 [[tang-yangguifei]] 兄 [[tang-yangguozhong]] 一系翻案抄家。安史之乱的伏笔，一半埋在他生前，一半埋在他死后。"
+        },
+        {
+          "title": "马嵬坡那根白绫",
+          "body": "[[tang-maweipo-bingbian]] 时，禁军斩 [[tang-yangguozhong]]，又逼 [[tangxuanzong]] 处死 [[tang-yangguifei]]。[[tang-gaolishi]] 牵白绫入佛堂，杨妃死于梨树下。皇帝不是不爱她，只是发现自己再不杀她，禁军就要杀自己。盛唐崩塌的标志性画面，是一位皇帝在路边亲手放弃自己最爱的人。"
+        },
+        {
+          "title": "灵武即位：分裂的合法性",
+          "body": "[[tang-lingwu-jiwei]] ：太子李亨北走灵武，不待父命自即位，是为肃宗，遥尊玄宗为太上皇。父子两套朝廷并立月余，西迁的玄宗被动接受。[[anshi-zhiluan]] 中唐廷没散，靠的是这场『先斩后奏』——合法性也能在乱世里临时再造。"
+        },
+        {
+          "title": "颜杲卿断舌",
+          "body": "常山太守 [[tang-yangaoqing]] 在 [[anshi-zhiluan]] 中举义反安禄山，城破被俘押至洛阳。安禄山责其负恩，颜杲卿大骂不止，被钩断其舌，犹含血喷骂而死。其从弟 [[tang-yanzhenqing]] 写《祭侄文稿》追祭其子颜季明——那张涂改纵横的草稿，是中国书法第二行书，也是颜氏一族的血书。"
+        },
+        {
+          "title": "郭子仪：不是名将而是政治家",
+          "body": "[[tang-guoziyi]] 收复两京、退吐蕃、平 [[anshi-zhiluan]]，功盖天下而主不疑、位极人臣而众不嫉。他对宦官 [[tang-chouShiliang]] 之流亦俯首相迎，府门洞开。他不是没本事翻天，是知道翻天之后没人收拾——唐能多撑一百五十年，关键不在他打了多少胜仗，在他始终不肯造反。"
+        },
+        {
+          "title": "李愬雪夜入蔡州",
+          "body": "[[tang-lisuXueye-rucai]] ：宪宗朝平淮西，[[tang-lipi]] 主谋于朝、[[tang-liude-zong]] 旧将 [[tang-lisuo]] 突袭于野。大雪之夜 [[tang-lisuo]] 以九千兵奔袭一百三十里，破吴元济牙城于黎明。这是中唐少有的一场漂亮的胜——藩镇可以一个个掰回来，前提是中央敢出手。"
+        },
+        {
+          "title": "永贞革新与二王八司马",
+          "body": "[[tang-yongzhen-gexin]] ：顺宗即位，[[tang-liushuwen]] 与王伾、[[tang-liuzongyuan]]、[[tang-liuyuxi]] 等谋革宦官藩镇之弊，废宫市五坊小儿、抑藩镇。146 天后宦官逼禅，顺宗退位，党人贬为远州司马。柳宗元由是有永州、刘禹锡由是有玄都观——『种桃道士归何处？前度刘郎今又来。』改革输得很彻底，却把两位大文豪逼出了千古文章。"
+        },
+        {
+          "title": "甘露之变",
+          "body": "[[tang-ganlu-zhibian]] ：文宗与李训郑注谋诛宦官，托言金吾仗院石榴树夜降甘露。事泄， [[tang-chouShiliang]] 反挟皇帝入内殿，调神策军大肆诛戮，宰相王涯等被剁于市。皇帝从此对宦官说：『朕受制于家奴，汉献帝不及也。』唐之亡，亡于皇帝不能自保。"
+        },
+        {
+          "title": "牛李党争四十年",
+          "body": "[[tang-niuli-dangzheng]] ：[[tang-niuseng-ru]] 为首的科举派、[[tang-lideyu]] 为首的门阀派，互相攻讦近四十年，一方上台另一方尽贬。武宗用李德裕灭佛、平回鹘、定泽潞，宣宗一即位即贬李德裕死崖州。唐末的政治资源就在这种『你上我下』里耗光——藩镇宦官未亡之前，士大夫先把自己耗死了。"
+        },
+        {
+          "title": "玄奘与鉴真：两条相反的路",
+          "body": "[[tang-xuanzang]] 偷渡出玉门西行十七年取经，回长安主持译场。[[tang-jianzhen]] 六次东渡五次失败，第六次以盲眼之躯抵奈良，将律宗与建筑工艺传入日本。一个把世界请进来，一个把自己送出去——大唐的开放，不只是接受，也是给予。"
+        },
+        {
+          "title": "诗里的安史",
+          "body": "[[tang-dufu]] 困于陷落的长安，写下『国破山河在』；[[tang-baijuyi]] 在元和之后回望，写下《长恨歌》——皇帝与贵妃的故事被改写成一段缠绵悱恻的爱情。[[tang-yuanzhen-bs]] 与他唱和，[[tang-hanyu]] 在朝堂之外另立古文一脉。盛唐崩塌后，文字成了存放它的容器。"
+        }
+      ]
+    },
+    "tang-late": {
+      "storyAppend": "黄巢-朱温之外，唐末更长的镜头里还有一群配角：[[tl-wangxianzhi]] 先于黄巢起兵盐贩聚众，[[tl-tianlingzi]] 把僖宗当玩偶左右朝纲，[[tl-zhangchengye]] 在沙陀阵中守着大唐最后一点正统名分。[[tl-baima-yi-houxu]] 的清流被推下黄河之后，南方的 [[tl-wangjian]]、[[tl-yangxingmi]]、[[tl-qianliu]] 已经各自划好了下一个朝代——大唐没死在黄巢手里，是死在一群不再仰望长安的人手里。",
+      "addedKeyPersonIds": [
+        "tl-wangxianzhi",
+        "tl-luoyin",
+        "tl-pirixiu",
+        "tl-tianlingzi",
+        "tl-yangfugong",
+        "tl-tang-xizong",
+        "tl-tang-aizong",
+        "tl-zhangchengye",
+        "tl-wangjian",
+        "tl-yangxingmi",
+        "tl-qianliu"
+      ],
+      "addedKeyEventIds": [
+        "tl-wangxianzhi-qibing",
+        "tl-xizong-benshu",
+        "tl-changan-zaihui",
+        "tl-zhaozong-dongqian",
+        "tl-jiuding-chenhe",
+        "tl-baima-yi-houxu"
+      ],
+      "addedStorylets": [
+        {
+          "title": "王仙芝先于黄巢",
+          "body": "[[tl-wangxianzhi]] 在长垣起兵贩盐聚众，[[huangchao]] 应之于冤句——王是火星，黄是燎原。乾符五年王仙芝接受唐廷招安未成，怒杀使者再战，旋败死黄梅。[[tl-wangxianzhi-qibing]] 不到三年就熄了，黄巢却接过那把火向北烧到了长安。"
+        },
+        {
+          "title": "罗隐十上不第",
+          "body": "[[tl-luoyin]] 十次科举不中，归吴越投 [[tl-qianliu]] 终身为掾。他写『时来天地皆同力，运去英雄不自由』，也写『今朝有酒今朝醉』。同时代的 [[tl-pirixiu]] 一度入黄巢军任翰林，下落不明——一个用诗骂朝廷，一个用诗投义军，两种唐末文人，都没能逃出『生不逢时』四个字。"
+        },
+        {
+          "title": "田令孜：把皇帝抱在膝上",
+          "body": "宦官 [[tl-tianlingzi]] 自称『阿父』，把 [[tl-tang-xizong]] 当儿子养。黄巢入长安，他抱着皇帝逃蜀；后又因争盐池与藩镇翻脸，挟天子再奔兴元。后被 [[tl-yangfugong]] 取代，杨复恭再被 [[zhuwen]] 之流挤垮。宦官换班，皇帝始终在膝盖上。"
+        },
+        {
+          "title": "僖宗奔蜀",
+          "body": "[[tl-xizong-benshu]] ：广明元年黄巢军逼潼关，[[tl-tang-xizong]] 在 [[tl-tianlingzi]] 挟持下夜半出金光门，仅五百神策军随驾入蜀。沿途无供帐、无饮食，皇帝马上啮干饼。这是百年来唐天子第二次出奔——上一次是 [[tangxuanzong]] 入蜀，但那回还有人迎接；这回沿路州县望旗而散。"
+        },
+        {
+          "title": "长安二度焚毁",
+          "body": "[[tl-changan-zaihui]] ：[[huangchao]] 入长安后纵兵掳掠、屠杀官吏，唐军收复又一次纵火。中和三年 [[likeyong]] 沙陀骑兵再克长安，宫室坊市焚为灰烬。这座汉唐千年都城在五年内被三轮兵火夷平——朱温后来劫昭宗东迁，所拆毁的，已是一座没什么可拆的空壳。"
+        },
+        {
+          "title": "昭宗东迁与九鼎沉河",
+          "body": "[[tl-zhaozong-dongqian]] ：天祐元年，[[zhuwen]] 强逼 [[tang-zhaozong]] 迁都洛阳，长安宫室拆木材顺渭水东运，士民哭于道。途中 [[tl-jiuding-chenhe]] ：传国玉册沉于陕州渭河——天子的玩物命运至此明明白白：搬家、被弑、禅位、绝祀，朱温只是按部就班。"
+        },
+        {
+          "title": "白马驿之后",
+          "body": "[[tl-baima-yi-houxu]] ：[[baima-yi]] 后，[[zhuwen]] 谋士李振——本人屡试不第——进言：『此辈自谓清流，可投浊流。』于是裴枢等三十余朝臣尸投黄河。从此唐朝中央的『清流』士大夫阶层断绝，五代『武人立国』的世道由此打开。失意举子的一句怨言，结掉了一个士族时代。"
+        },
+        {
+          "title": "南方分剧本",
+          "body": "中原打得稀烂时，南方早已各自立国：[[tl-wangjian]] 在成都建前蜀，[[tl-yangxingmi]] 在扬州建吴，[[tl-qianliu]] 在杭州建吴越保境安民、修海塘、富甲东南。后来宋之能不战而下吴越、富庶江南成为帝国经济命脉，是这些唐末军阀替宋养出来的——大唐倒了，唐人开拓的南方反而开始真正发力。"
+        }
+      ]
+    }
+  },
+  "people": [
+    {
+      "id": "sui-dugu",
+      "name": "独孤皇后伽罗",
+      "life": "544—602",
+      "role": "隋文帝皇后·开皇政治合伙人",
+      "bio": "北周柱国独孤信之女，与 [[yangjian]] 少年成婚誓无异生子。她在内宫立『一夫一妻』铁规，废太子 [[sui-yangyong]]、立晋王 [[suiyang]] 多半出于她。隋有开皇之治，也因她而种下夺嫡之祸。",
+      "relations": [
+        { "personId": "yangjian", "type": "妻·政治合伙人", "note": "夫妇并称『二圣』——开皇一朝实由两人共治，她死后杨坚很快崩。" },
+        { "personId": "suiyang", "type": "助其夺嫡", "note": "她最不喜纳妾奢靡，偏偏被晋王的『装乖』骗了一辈子。" },
+        { "personId": "sui-yangyong", "type": "废其太子位", "note": "亲生母亲推动废嫡——隋速亡的第一颗扣子。" }
+      ]
+    },
+    {
+      "id": "sui-yangsu",
+      "name": "杨素",
+      "life": "?—606",
+      "role": "越国公·开国功臣",
+      "bio": "隋灭陈战中由长江上游统军直取建康。后助晋王 [[suiyang]] 夺嫡、平汉王杨谅之叛，权倾朝野。其子 [[sui-yuwenhuaji]] 之兄杨玄感后来反于黎阳——他替杨广搭起的台子，最终被自己家族的人推垮。",
+      "relations": [
+        { "personId": "suiyang", "type": "助其夺嫡", "note": "夺嫡之力最大者，却也最被其忌——晚年杨广已不愿见他。" },
+        { "personId": "sui-dugu", "type": "外朝默契", "note": "内宫与外朝两线合谋，废储一案的真正双轴。" }
+      ]
+    },
+    {
+      "id": "sui-yangyong",
+      "name": "杨勇",
+      "life": "?—604",
+      "role": "原隋太子",
+      "bio": "杨坚长子，封太子近二十年，性宽厚而喜乐宴，触怒 [[sui-dugu]]。开皇二十年被废为庶人，[[suiyang]] 即位后矫诏赐死。他不算坏，只是不如弟弟会演戏——隋朝命运在这位被废太子身上转了向。",
+      "relations": [
+        { "personId": "suiyang", "type": "被其取代并赐死", "note": "兄弟相残的隋版本，比唐玄武门更隐蔽——靠后宫舆论，不靠刀剑。" }
+      ]
+    },
+    {
+      "id": "sui-hejuobi",
+      "name": "贺若弼",
+      "life": "544—607",
+      "role": "隋平陈名将",
+      "bio": "由广陵渡江攻入建康北门，与 [[sui-hanqinhu]] 争南征首功于殿廷。开皇之治时受重用，[[suiyang]] 即位后议论朝政忤旨被诛。前朝功臣常在新朝活不过几年——他不是例外。",
+      "relations": [
+        { "personId": "sui-hanqinhu", "type": "争功宿敌", "note": "灭陈是制度对门阀的胜利——可属于谁的胜利，连开国君主也答不清。" },
+        { "personId": "suiyang", "type": "被其所杀", "note": "炀帝不能容老臣议政——一刀切了开皇旧人。" }
+      ]
+    },
+    {
+      "id": "sui-hanqinhu",
+      "name": "韩擒虎",
+      "life": "538—592",
+      "role": "隋平陈名将",
+      "bio": "由采石渡江突袭直取建康，俘 [[sui-chenshubao]] 于胭脂井中。晚年被传『生为上柱国，死作阎罗王』。隋一统的两员主将之一，争功不让 [[sui-hejuobi]]。",
+      "relations": [
+        { "personId": "sui-hejuobi", "type": "争功宿敌", "note": "两人同破建康却各执首功，朝堂吵不出结论——开国第一功，从来不是单选。" }
+      ]
+    },
+    {
+      "id": "sui-yuwenshu",
+      "name": "宇文述",
+      "life": "?—616",
+      "role": "炀帝心腹·许国公",
+      "bio": "夺嫡之役为晋王心腹，[[suiyang]] 即位后官至左卫大将军。三征高句丽中辽东败绩，归朝罪轻而宠不衰。其子 [[sui-yuwenhuaji]] 在他死后两年发动 [[sui-jiangdu-zhibian]] ——父亲一辈子捧着的皇帝，儿子亲手缢死。",
+      "relations": [
+        { "personId": "suiyang", "type": "心腹近臣", "note": "捧出炀帝的人之一，临终前还在劝他不要死守江都。" },
+        { "personId": "sui-yuwenhuaji", "type": "其子", "note": "父事其君，子弑其君——隋速亡的家族缩影。" }
+      ]
+    },
+    {
+      "id": "sui-yuwenhuaji",
+      "name": "宇文化及",
+      "life": "?—619",
+      "role": "江都之变首谋·许国公子",
+      "bio": "[[sui-yuwenshu]] 之子，骁果卫推为首发动 [[sui-jiangdu-zhibian]] ，缢杀 [[suiyang]]。北上称帝建许，旋败于 [[sui-doujiande]]，伏诛于聊城。弑君者亦无好下场——他给隋盖了棺，自己一年内也躺进去。",
+      "relations": [
+        { "personId": "suiyang", "type": "弑之", "note": "杨广替父弑兄夺位，二十年后被宇文家弑——隋的因果在两代里完成闭环。" },
+        { "personId": "sui-doujiande", "type": "被其所灭", "note": "杀皇帝的人一年就被农民军领袖斩首——这就是隋末的速度。" }
+      ]
+    },
+    {
+      "id": "sui-yushiji",
+      "name": "虞世基",
+      "life": "?—618",
+      "role": "炀帝近臣·内史侍郎",
+      "bio": "[[suiyang]] 晚年厌闻败报，[[sui-yushiji]] 便把告急折压下、报喜不报忧。江都之变中与皇帝同被杀。其弟 [[tang-yanzhenqing]] 远祖 [[sui-yushinan-pre]] 后入唐为虞世南，成贞观重臣——两兄弟一个伴亡国一个建新朝。",
+      "relations": [
+        { "personId": "suiyang", "type": "为其筑回音壁", "note": "杀皇帝的不只是叛兵，也是这堵亲手筑起的『天下安否』的墙。" }
+      ]
+    },
+    {
+      "id": "sui-yushinan-pre",
+      "name": "虞世南（隋末）",
+      "life": "558—638",
+      "role": "炀帝起居舍人",
+      "bio": "[[sui-yushiji]] 之弟，江都之变后由 [[sui-yuwenhuaji]] 胁迫北上，再归 [[litang]]，入贞观为弘文馆学士。兄死亡国，他入新朝以德行书法名世——同一家两兄弟，写完了隋唐之交。",
+      "relations": [
+        { "personId": "sui-yushiji", "type": "其兄", "note": "兄伴亡国弟建新朝，一个家族写完整个易代。" }
+      ]
+    },
+    {
+      "id": "sui-mai-tiezhang",
+      "name": "麦铁杖",
+      "life": "?—612",
+      "role": "辽东先锋·宿国公",
+      "bio": "出身岭南獠族，骁勇善走，日行五百里。一征高句丽时自请为先锋渡辽，知必死，对子曰：『阿奴，富贵止此。』战死辽水，三子皆殉。百万大军中能被史官记下的，反而是这种没回得来的小将。",
+      "relations": [
+        { "personId": "suiyang", "type": "为其捐躯", "note": "皇帝的功业心，要拿这种人的命来填——填光了，帝国也就空了。" }
+      ]
+    },
+    {
+      "id": "sui-limi",
+      "name": "李密",
+      "life": "582—619",
+      "role": "瓦岗领袖·魏公",
+      "bio": "出身关陇贵族，少时牛角挂书读《汉书》遇 [[sui-yangsu]]，后参杨玄感反隋败逃。投瓦岗 [[sui-zhairang]] 献策破洛口仓开仓散粮。其后杀翟让自立、败于 [[sui-wangshichong]]，转投 [[ligong-pre]] 又反，伏诛熊耳山。",
+      "relations": [
+        { "personId": "sui-zhairang", "type": "杀其主自立", "note": "瓦岗的裂痕从他手起——义军第一次让人看清，造反者也会内斗。" },
+        { "personId": "sui-wangshichong", "type": "败于其手", "note": "声势最大的反隋集团，被一个洛阳守将耗死。" },
+        { "personId": "ligong-pre", "type": "投而复叛", "note": "投奔大唐又反，注定不被任何阵营接纳。" }
+      ]
+    },
+    {
+      "id": "sui-wangshichong",
+      "name": "王世充",
+      "life": "?—621",
+      "role": "洛阳守将·郑帝",
+      "bio": "西域胡商之后，隋末守洛阳，败 [[sui-limi]] 收瓦岗精锐，逼禅越王侗自立为郑。武德四年 [[litaizong]] 围洛阳，王世充与 [[sui-doujiande]] 联手皆败，降唐被流配途中遇刺。",
+      "relations": [
+        { "personId": "sui-doujiande", "type": "联手败于唐", "note": "隋末三强同日陨——虎牢一战定唐之天下。" },
+        { "personId": "litaizong", "type": "降其后被杀", "note": "降唐免死，未离长安先遇刺——新朝不需要前朝的两个皇帝。" }
+      ]
+    },
+    {
+      "id": "sui-doujiande",
+      "name": "窦建德",
+      "life": "573—621",
+      "role": "夏王·河北义军领袖",
+      "bio": "河北农民起义首领，建夏国，仁政爱民，灭 [[sui-yuwenhuaji]] 报隋。武德四年率十余万救 [[sui-wangshichong]]，败于虎牢，被 [[litaizong]] 押至长安斩。河北人感其德，立祠四百年不绝。",
+      "relations": [
+        { "personId": "sui-yuwenhuaji", "type": "灭其伪许", "note": "弑帝者被农民军斩首——隋末天道循环最快的一笔。" },
+        { "personId": "litaizong", "type": "被其所擒斩", "note": "虎牢一战不仅定唐之天下，也斩断了河北另起的可能——河北日后反唐反宋，根在此处。" }
+      ]
+    },
+    {
+      "id": "sui-chenshubao",
+      "name": "陈后主陈叔宝",
+      "life": "553—604",
+      "role": "陈末帝",
+      "bio": "南陈亡国之君，作《玉树后庭花》耽于声色。隋军 [[sui-hanqinhu]] 入建康时，与张丽华、孔贵嫔同藏胭脂井中被俘。北上长安后受隋厚待，醉死不悔——亡国之君里活得最不像亡国之君的一个。",
+      "relations": [
+        { "personId": "sui-hanqinhu", "type": "为其所俘", "note": "藏井中被绳吊出——南朝的最后画面，是三个人挤一口胭脂井。" },
+        { "personId": "yangjian", "type": "受其厚待", "note": "杨坚封他长城县公，让他喝酒喝到死——降不杀，因为已经废了。" }
+      ]
+    },
+    {
+      "id": "sui-zhairang",
+      "name": "翟让",
+      "life": "?—617",
+      "role": "瓦岗寨主",
+      "bio": "东郡法吏出身亡命瓦岗，聚众数万。引 [[sui-limi]] 入伙后让出大位，反被李密设宴所杀。义军的第一道裂痕——让位者死于受让者之手，从此瓦岗再无凝聚力。",
+      "relations": [
+        { "personId": "sui-limi", "type": "被其所杀", "note": "让位求合反丢命——『天下未定先内斗』的最早注脚。" },
+        { "personId": "sui-xushiji-pre", "type": "其旧部", "note": "他死后旧部多归徐世勣，徐再降唐成为唐初名将。" }
+      ]
+    },
+    {
+      "id": "sui-xushiji-pre",
+      "name": "徐世勣（隋末·后为李勣）",
+      "life": "594—669",
+      "role": "瓦岗骨干·入唐封英国公",
+      "bio": "瓦岗早期骨干，[[sui-zhairang]] 死后率部归 [[sui-limi]]，李密降唐后他不愿邀功，把山东郡县名册先送李密再献朝廷，[[litang]] 叹为纯臣赐姓李。入唐为李勣，灭东突厥、平高句丽，三朝重臣。",
+      "relations": [
+        { "personId": "sui-limi", "type": "保全其名节", "note": "归唐时不抢功，先让旧主献籍——乱世里少见的『不抢』。" },
+        { "personId": "litaizong", "type": "三朝元勋", "note": "瓦岗骨干变成贞观元勋，唐初武将的半壁江山是隋末降人。" }
+      ]
+    },
+
+    {
+      "id": "tang-zhangsun-huang",
+      "name": "长孙皇后",
+      "life": "601—636",
+      "role": "唐太宗皇后",
+      "bio": "鲜卑长孙氏，[[litaizong]] 同甘共苦的伴侣。玄武门当夜亲赴军门激励将士。临终遗言只两条：勿厚葬、勿用外戚。她在世时太宗几次发怒被她冷处理后悔，她死太宗哭『内失一良佐』。",
+      "relations": [
+        { "personId": "litaizong", "type": "妻·政治制衡者", "note": "贞观纳谏的氛围一半在 [[tang-weizheng]]，一半在她的内宫。" },
+        { "personId": "tang-zhangsun-wuji", "type": "其兄", "note": "她不肯让他用外戚，她死二十年后兄仍被自己外甥流放至死。" }
+      ]
+    },
+    {
+      "id": "tang-zhangsun-wuji",
+      "name": "长孙无忌",
+      "life": "?—659",
+      "role": "贞观元勋·托孤之臣",
+      "bio": "[[tang-zhangsun-huang]] 之兄，[[litaizong]] 妻舅，凌烟阁二十四功臣之首。太宗托孤辅高宗。反对立 [[wuzetian]] 为后被许敬宗诬谋反，流黔州自缢。妹妹生前最怕的事——他还是没能躲过。",
+      "relations": [
+        { "personId": "tang-zhangsun-huang", "type": "其妹", "note": "妹在世时压住他的权位，妹死二十年后他还是栽在自己外甥的女人手里。" },
+        { "personId": "wuzetian", "type": "反对其立后", "note": "挡了武则天的路，结局只有一个——这是高宗朝最大的政治分水岭。" }
+      ]
+    },
+    {
+      "id": "tang-fangxuanling",
+      "name": "房玄龄",
+      "life": "579—648",
+      "role": "贞观宰相·梁国公",
+      "bio": "隋末弃官投秦王 [[litaizong]]，玄武门之变前夜冒死入见。贞观二十二年居相位，遇大事必待 [[tang-duruhui]] 至而决。临终上疏切谏停征高句丽，太宗读之泣。『房谋杜断』里那个『谋』。",
+      "relations": [
+        { "personId": "tang-duruhui", "type": "搭档", "note": "贞观最稳的政治组合：他想，杜断——把『想清楚』和『下得了手』分给两个人。" },
+        { "personId": "litaizong", "type": "玄武门主谋之一", "note": "贞观功臣的清单上，多数人手上都有玄武门那天的血。" }
+      ]
+    },
+    {
+      "id": "tang-duruhui",
+      "name": "杜如晦",
+      "life": "585—630",
+      "role": "贞观宰相·莱国公",
+      "bio": "玄武门夺位的核心谋士，与 [[tang-fangxuanling]] 同时入秦王府。即位后任尚书右仆射，决断果敢但只活到四十六岁。每见房玄龄谋议，太宗辄叹『非如晦不能成』。",
+      "relations": [
+        { "personId": "tang-fangxuanling", "type": "搭档", "note": "他若多活十年，贞观政治结构会不会完全不同——这是史家几百年讨论的问题。" },
+        { "personId": "litaizong", "type": "玄武门主谋", "note": "夺位之夜他与房玄龄被扮成道士潜入秦王府密议。" }
+      ]
+    },
+    {
+      "id": "tang-weizheng",
+      "name": "魏徵",
+      "life": "580—643",
+      "role": "贞观谏臣·郑国公",
+      "bio": "本东宫太子建成洗马，玄武门后被 [[litaizong]] 留用。二百余次面折廷争，太宗几度在内宫骂『会须杀此田舍翁』。死后太宗哭『以人为镜可知得失，今亡一镜矣』。后疑其结党推倒其碑——镜子最终被砸了。",
+      "relations": [
+        { "personId": "litaizong", "type": "君臣相磨", "note": "他被推倒的墓碑后来又被太宗下令立回——一个皇帝对待镜子的两次心意。" }
+      ]
+    },
+    {
+      "id": "tang-yuchijingde",
+      "name": "尉迟敬德",
+      "life": "585—658",
+      "role": "玄武门功臣·鄂国公",
+      "bio": "刘武周降将，玄武门之变中亲手射杀齐王元吉、提元吉首级闯到 [[litang]] 面前逼父让位。晚年闭门炼丹不问朝政——这是贞观功臣里最聪明的退场方式。",
+      "relations": [
+        { "personId": "litaizong", "type": "玄武门首功", "note": "皇帝最忌讳的功臣，正是他记得最清楚的人——所以晚年只能炼丹。" }
+      ]
+    },
+    {
+      "id": "tang-lijing",
+      "name": "李靖",
+      "life": "571—649",
+      "role": "贞观名将·卫国公",
+      "bio": "灭萧铣定江南、夜袭阴山灭东突厥俘颉利可汗、平吐谷浑。功盖天下而谨慎守身，归朝即称病避朝政。所撰兵法散佚后被宋人辑为《李卫公问对》。",
+      "relations": [
+        { "personId": "litaizong", "type": "灭东突厥之将", "note": "他俘颉利那一天，唐被尊为『天可汗』——一个人改写了东亚的力量秩序。" }
+      ]
+    },
+    {
+      "id": "tang-lishiji",
+      "name": "李勣（徐世勣）",
+      "life": "594—669",
+      "role": "三朝元勋·英国公",
+      "bio": "[[sui-xushiji-pre]] 入唐改名李勣。灭东突厥、薛延陀、高句丽，三朝不倒。立 [[wuzetian]] 为后时，他一句『此陛下家事，何必问外人』决了大局——他知道哪些事不该多嘴。",
+      "relations": [
+        { "personId": "wuzetian", "type": "助其立后", "note": "一句『陛下家事』让武则天上位——三朝不倒的秘密，在于知道何时不说话。" }
+      ]
+    },
+    {
+      "id": "tang-wangxuance",
+      "name": "王玄策",
+      "life": "?—?",
+      "role": "唐使·一人灭一国",
+      "bio": "贞观末两度出使天竺。第二次遇中天竺王阿罗那顺政变劫使团，他独走吐蕃借兵七千、泥婆罗借骑一千二，反攻王舍城，俘阿罗那顺献长安。一介使节，借两国之兵，灭一国之主——大唐外交史上最不可复制的奇迹。",
+      "relations": [
+        { "personId": "tang-songtsenGanbu", "type": "借其兵", "note": "唐藏和亲的红利第一次以这种方式兑现——一个公主换来七千吐蕃兵。" }
+      ]
+    },
+    {
+      "id": "tang-shangguan",
+      "name": "上官仪",
+      "life": "608—665",
+      "role": "高宗宰相",
+      "bio": "贞观进士，文辞清丽开『上官体』。高宗欲废 [[wuzetian]]，他为草诏，事泄被诬谋反诛灭。其孙女即 [[tang-shangguan-wan]]——一份没发出去的废后诏书，灭了一个家，却也把另一个女人推到了帝国诏书的笔头。",
+      "relations": [
+        { "personId": "wuzetian", "type": "草废后诏被诛", "note": "废后诏书没发出去，灭了上官一家——四十年后他的孙女成了武则天最信任的代笔人。" },
+        { "personId": "tang-shangguan-wan", "type": "其孙女", "note": "祖父之死与孙女之贵，写在同一道诏书的反面。" }
+      ]
+    },
+    {
+      "id": "tang-direnjie",
+      "name": "狄仁杰",
+      "life": "630—700",
+      "role": "武周名相·梁国公",
+      "bio": "历仕高宗武后两朝，曾被酷吏诬下狱险死。复起为相，劝武则天召回庐陵王李显。武则天临朝必尊『国老』。[[tang-shenlong-zhibian]] 之能成，[[tang-zhangjianzhi]] 等五人之能联手，是他生前推荐的果——武周里最大的『唐忠臣』。",
+      "relations": [
+        { "personId": "wuzetian", "type": "国老·谏立太子", "note": "在女皇朝里保住李唐血脉的，恰是女皇最听话的那个老臣。" },
+        { "personId": "tang-zhangjianzhi", "type": "举荐之", "note": "他举荐的人，最终发动政变把武则天赶下台——他自己看不到，但这是他最后的安排。" }
+      ]
+    },
+    {
+      "id": "tang-zhangjianzhi",
+      "name": "张柬之",
+      "life": "625—706",
+      "role": "神龙政变主谋",
+      "bio": "八十岁拜相，联合崔玄暐、敬晖、桓彦范、袁恕己，神龙元年正月夜率羽林军入宫诛二张，迫 [[wuzetian]] 禅位。中宗复辟后五人皆封王，旋被韦后与武三思排挤，流放岭南死。功成不过一年。",
+      "relations": [
+        { "personId": "wuzetian", "type": "迫其禅位", "note": "翻天的人活不过一年——这是中国政治史最常见的循环之一。" },
+        { "personId": "tang-direnjie", "type": "被其举荐", "note": "他执行的，是十年前狄仁杰已经写好的剧本。" }
+      ]
+    },
+    {
+      "id": "tang-shangguan-wan",
+      "name": "上官婉儿",
+      "life": "664—710",
+      "role": "武周·中宗朝才人/昭容",
+      "bio": "[[tang-shangguan]] 孙女，襁褓中随母没入掖庭，凭才学被武则天召入内廷掌制诰。中宗朝为昭容，代行宰相之权，主持朝堂诗会评诗定优劣。死于 [[tang-tanglong-zhibian]] [[tangxuanzong]] 刀下——一个写诏书的女人，最后写不出自己一份赦书。",
+      "relations": [
+        { "personId": "wuzetian", "type": "提拔入内廷", "note": "灭其家的人提拔了她——她替这位灭家者写了二十年诏书。" },
+        { "personId": "tangxuanzong", "type": "被其所杀", "note": "唐隆政变中她持诏书示李隆基求免，仍被斩——刀下不认笔。" }
+      ]
+    },
+    {
+      "id": "tang-taiping",
+      "name": "太平公主",
+      "life": "约665—713",
+      "role": "武则天之女·政变要角",
+      "bio": "武则天最宠之女。神龙政变出力、唐隆政变联手 [[tangxuanzong]] 杀韦后，先天政变中欲废玄宗反被赐死。三场政变两胜一败——母亲的女儿，最像母亲，所以也最不能容。",
+      "relations": [
+        { "personId": "wuzetian", "type": "其女·继其遗风", "note": "想做第二个武则天，败给的是亲外甥——母女两代女主，结局完全相反。" },
+        { "personId": "tangxuanzong", "type": "曾联手反被诛", "note": "唐隆夜里她推外甥上位，三年后被外甥赐死——盟友之间最快的反转。" }
+      ]
+    },
+    {
+      "id": "tang-yaoChong",
+      "name": "姚崇",
+      "life": "651—721",
+      "role": "开元宰相",
+      "bio": "玄宗即位之初拜相，奏《十事要说》定开元基调：不求边功、不任宦官、不近女宠、不许皇亲干政。开元四年关东大蝗，他力主灭蝗，破『天灾不可违』之议。后举 [[tang-songjing]] 自代——肯让位的宰相，唐朝只此一人。",
+      "relations": [
+        { "personId": "tangxuanzong", "type": "开元开局之相", "note": "他与宋璟两块石头垫稳了地基——可惜玄宗后来自己拆了。" },
+        { "personId": "tang-songjing", "type": "推举其代己", "note": "肯让位的宰相，唐朝只此一人。" }
+      ]
+    },
+    {
+      "id": "tang-songjing",
+      "name": "宋璟",
+      "life": "663—737",
+      "role": "开元宰相",
+      "bio": "姚崇之后任相，抑权幸、塞侥幸，朝中言路通畅。守成的硬骨头——他在朝时玄宗连说话都收敛。开元之治正面气象的另一半立法者。",
+      "relations": [
+        { "personId": "tang-yaoChong", "type": "承其相位", "note": "姚革新，他守成——一硬一柔垒出开元前十年。" }
+      ]
+    },
+    {
+      "id": "tang-zhangjiuling",
+      "name": "张九龄",
+      "life": "678—740",
+      "role": "玄宗朝最后一位正直宰相",
+      "bio": "岭南人，文章为开元之冠。曾断言 [[anlushan]] 必反『请杀以绝后患』。罢相后玄宗每见人荐相必问『风度得如九龄否』。他罢相那一年，是开元转天宝的分水岭——之后用的是 [[tang-lilinfu]]。",
+      "relations": [
+        { "personId": "anlushan", "type": "断其必反", "note": "看穿安禄山的那个人最先被赶出朝廷——预言没救得了唐，反而害了自己。" },
+        { "personId": "tang-lilinfu", "type": "被其排挤", "note": "他下野那一刻，开元就结束了——天宝从这里开始。" }
+      ]
+    },
+    {
+      "id": "tang-lilinfu",
+      "name": "李林甫",
+      "life": "?—752",
+      "role": "天宝宰相·『口蜜腹剑』",
+      "bio": "当政十九年，杜绝言路、排挤张九龄，提拔胡将（理由：胡人不党，可专使于外）——为 [[anlushan]] 坐大铺平了路。死后被 [[tang-yangguozhong]] 一系翻案抄家。安史之乱的伏笔，一半埋在他生前，一半埋在他死后。",
+      "relations": [
+        { "personId": "anlushan", "type": "纵其坐大", "note": "为了防汉将拥兵，他改用胡将——结果养出了真要造反的那一个。" },
+        { "personId": "tangxuanzong", "type": "其相十九年", "note": "玄宗最长一任的宰相，也是把玄宗推下悬崖的那双手。" }
+      ]
+    },
+    {
+      "id": "tang-yangguozhong",
+      "name": "杨国忠",
+      "life": "?—756",
+      "role": "天宝宰相·杨贵妃从兄",
+      "bio": "蜀州人，因 [[tang-yangguifei]] 入相，与 [[tang-lilinfu]] 争权。李林甫死后独相，与 [[anlushan]] 互忌不容，多次激其反。马嵬坡兵变中先被禁军斩杀，再有杨妃之死——皇帝的小舅子，是禁军最容易拿来祭旗的那一个。",
+      "relations": [
+        { "personId": "tang-yangguifei", "type": "从兄·因其而贵", "note": "兄妹一荣俱荣一损俱损——马嵬坡上他先死，妹妹随后。" },
+        { "personId": "anlushan", "type": "激其反", "note": "他逼反了安禄山，又被安禄山的反逼死——把祸引上身的那种宰相。" },
+        { "personId": "tang-lilinfu", "type": "继其相位并翻其案", "note": "李林甫死后他独相，又联合杨贵妃把李家抄家——天宝政治的两副脸。" }
+      ]
+    },
+    {
+      "id": "tang-yangguifei",
+      "name": "杨贵妃",
+      "life": "719—756",
+      "role": "玄宗贵妃",
+      "bio": "蜀州人，本寿王李瑁妃，被 [[tangxuanzong]] 改册入道再迎入宫，封贵妃。三姊封国夫人，从兄 [[tang-yangguozhong]] 入相，杨家『一门三公』。马嵬坡之夜被 [[tang-gaolishi]] 牵白绫缢于佛堂梨树下。她不是政治家，但成了整个崩塌的署名人。",
+      "relations": [
+        { "personId": "tangxuanzong", "type": "宠妃·被其赐死", "note": "皇帝不是不爱她，只是发现自己再不杀她，禁军就要杀自己。" },
+        { "personId": "tang-gaolishi", "type": "被其缢杀", "note": "陪了她半生的内侍，是亲手了结她的人——这是唐宫最荒凉的一笔。" }
+      ]
+    },
+    {
+      "id": "tang-gaolishi",
+      "name": "高力士",
+      "life": "684—762",
+      "role": "玄宗宦官·骠骑大将军",
+      "bio": "岭南人，幼时净身入宫，侍 [[tangxuanzong]] 五十年。皇帝呼之为兄，太子呼为二兄。马嵬坡缢杨妃，扶玄宗入蜀。玄宗崩，他闻讯吐血而死——少数对主人有真感情的宦官，下场也最伤心。",
+      "relations": [
+        { "personId": "tangxuanzong", "type": "终身侍从", "note": "皇帝崩，他吐血而死——宦官里少见的『真感情』。" },
+        { "personId": "tang-yangguifei", "type": "缢杀其人", "note": "服侍她的人是了结她的人——马嵬坡上最沉默的一笔。" }
+      ]
+    },
+    {
+      "id": "tang-guoziyi",
+      "name": "郭子仪",
+      "life": "697—781",
+      "role": "汾阳郡王·中兴元勋",
+      "bio": "收复两京、退吐蕃、平 [[anshi-zhiluan]]。功盖天下而主不疑，位极人臣而众不嫉。对宦官 [[tang-chouShiliang]] 之流亦俯首相迎，府门洞开。唐能多撑一百五十年，关键不是他打了多少胜仗，是他始终不肯造反。",
+      "relations": [
+        { "personId": "tang-liguangbi", "type": "并称『李郭』", "note": "两人并肩平乱，李善打仗他善做人——结局郭善终李抑郁而死。" },
+        { "personId": "tang-chouShiliang", "type": "对其低姿态", "note": "他不是怕宦官，是怕宦官在皇帝耳边的话——这是中唐生存哲学。" }
+      ]
+    },
+    {
+      "id": "tang-liguangbi",
+      "name": "李光弼",
+      "life": "708—764",
+      "role": "中兴名将·临淮郡王",
+      "bio": "契丹人，与 [[tang-guoziyi]] 并称『李郭』。常山、河阳、邺城诸战屡建奇功。晚年被宦官猜忌不敢入朝，忧惧成疾死于徐州。同样是平乱功臣，他选择了硬扛——结局比郭子仪苦得多。",
+      "relations": [
+        { "personId": "tang-guoziyi", "type": "并称『李郭』", "note": "同样平乱有功，他扛硬骨头，郭子仪低头——结局比郭苦得多。" }
+      ]
+    },
+    {
+      "id": "tang-yanzhenqing",
+      "name": "颜真卿",
+      "life": "709—784",
+      "role": "中唐名臣·书法宗师",
+      "bio": "[[anshi-zhiluan]] 中守平原，与从兄 [[tang-yangaoqing]] 共倡义反安禄山。后官至太子太师，德宗朝奉命使李希烈军中招降，被囚三年缢死。所书《祭侄文稿》追祭从兄之子颜季明——涂改纵横的草稿，是中国书法第二行书，也是颜氏一族的血书。",
+      "relations": [
+        { "personId": "tang-yangaoqing", "type": "从兄", "note": "颜氏一族在安史之乱里几乎死绝——《祭侄文稿》上的每一处涂改，都是来不及哭的字。" },
+        { "personId": "anlushan", "type": "举义反之", "note": "河北诸郡望风而降，唯颜氏兄弟反——天宝末年的脊梁。" }
+      ]
+    },
+    {
+      "id": "tang-yangaoqing",
+      "name": "颜杲卿",
+      "life": "692—756",
+      "role": "常山太守·安史殉国",
+      "bio": "[[tang-yanzhenqing]] 从兄，[[anshi-zhiluan]] 中在常山举义反 [[anlushan]]，城破被俘押至洛阳。安禄山责其负恩，颜杲卿大骂不止，被钩断其舌，犹含血喷骂而死。其子颜季明同被害——河北沦陷夜里唯一亮起来的那盏灯。",
+      "relations": [
+        { "personId": "tang-yanzhenqing", "type": "从弟", "note": "他战死，[[tang-yanzhenqing]] 替他写下《祭侄文稿》——血与墨在一张纸上重逢。" },
+        { "personId": "anlushan", "type": "誓死骂之", "note": "舌被钩断仍骂——这是中唐保住唐字号的那种人。" }
+      ]
+    },
+    {
+      "id": "tang-lipi",
+      "name": "李泌",
+      "life": "722—789",
+      "role": "四朝奇谋之士·邺侯",
+      "bio": "玄、肃、代、德四朝顾问，每危急被召入朝，事毕辞官入山。肃宗朝定平叛之策，德宗朝缓 [[tang-chouShiliang]]、和回纥制吐蕃。不要官、不要田、不要妻——一辈子像影子，关键时刻总在皇帝旁边。",
+      "relations": [
+        { "personId": "tang-guoziyi", "type": "幕后谋主", "note": "前台是郭子仪，后台是他——中唐能撑过来的两根柱子。" }
+      ]
+    },
+    {
+      "id": "tang-lisuo",
+      "name": "李愬",
+      "life": "773—821",
+      "role": "中唐名将·凉国公",
+      "bio": "西平郡王李晟之子。元和十二年雪夜以九千兵奔袭一百三十里，黎明破吴元济牙城于蔡州。一战定淮西，宪宗削藩声威到顶。会昌后藩镇又起，但这场雪夜证明——只要中央真敢动手，藩镇并非不可掰。",
+      "relations": [
+        { "personId": "tang-liude-zong", "type": "为其雪夜入蔡州", "note": "宪宗削藩最漂亮的一笔，由这位名将之子在大雪里完成。" }
+      ]
+    },
+    {
+      "id": "tang-yuanzhen-bs",
+      "name": "元稹",
+      "life": "779—831",
+      "role": "中唐诗人·宰相",
+      "bio": "与 [[tang-baijuyi]] 并称『元白』，倡新乐府运动。写《莺莺传》开传奇之先。一度拜相旋罢。诗里写过『曾经沧海难为水』也写过『取次花丛懒回顾』——文字与品格之间的张力，从他这里成为中国诗的常态。",
+      "relations": [
+        { "personId": "tang-baijuyi", "type": "并称『元白』", "note": "新乐府的旗帜，两人一前一后写完了元和的天空。" }
+      ]
+    },
+    {
+      "id": "tang-baijuyi",
+      "name": "白居易",
+      "life": "772—846",
+      "role": "中唐诗人",
+      "bio": "新乐府运动主将，《卖炭翁》《琵琶行》《长恨歌》。元和之后回望盛唐，把皇帝与贵妃的故事改写成一段缠绵悱恻的爱情。晚年退居洛阳，自号醉吟先生。盛唐崩塌后，文字成了存放它的容器。",
+      "relations": [
+        { "personId": "tang-yuanzhen-bs", "type": "诗友", "note": "元白唱和把元和的政治苦涩泡在诗里。" },
+        { "personId": "tangxuanzong", "type": "为其作《长恨歌》", "note": "皇帝杀了爱妃，诗人替他们写成了一段千年爱情——历史就这样被诗篡改。" }
+      ]
+    },
+    {
+      "id": "tang-dufu",
+      "name": "杜甫",
+      "life": "712—770",
+      "role": "诗圣·盛唐崩塌的目击者",
+      "bio": "盛唐入仕不得志，安史之乱中困于陷落的长安，写下『国破山河在』『朱门酒肉臭，路有冻死骨』。晚年漂泊巴蜀、湖湘，病死湘江舟中。他的诗记下了一个王朝具体地、一寸一寸塌下去的样子。",
+      "relations": [
+        { "personId": "libai", "type": "诗友", "note": "李白写它升起，杜甫写它落下——盛唐两副面孔。" },
+        { "personId": "anlushan", "type": "受其乱所困", "note": "一个老书生在长安沦陷的春天写下『国破山河在』——这五个字比任何官修史更准。" }
+      ]
+    },
+    {
+      "id": "tang-hanyu",
+      "name": "韩愈",
+      "life": "768—824",
+      "role": "古文运动领袖·吏部侍郎",
+      "bio": "倡古文反骈俪，提『文以载道』。元和十四年上《论佛骨表》谏宪宗迎佛骨，几被赐死，贬潮州刺史。潮州治鳄、兴学，留祠不绝。儒家在中唐还能立得起来，靠他那张敢死的嘴。",
+      "relations": [
+        { "personId": "tang-liuzongyuan", "type": "古文同道", "note": "韩柳并立——一个被贬潮州，一个被贬永州，古文运动是从两座岭南州里写出来的。" }
+      ]
+    },
+    {
+      "id": "tang-liude-zong",
+      "name": "唐宪宗李纯",
+      "life": "778—820",
+      "role": "元和中兴之君",
+      "bio": "即位即着手削藩，用 [[tang-lipi]]、裴度等谋臣，平西川、淮西、淄青，藩镇暂时低头。晚年迷信方士饵丹药，性情暴戾被宦官陈弘志弑于中和殿。中兴一时，杀身一夜——元和的英气与悲剧同人。",
+      "relations": [
+        { "personId": "tang-lipi", "type": "中兴谋主", "note": "他能削藩，靠的是李泌、裴度、李愬这一批；他能被弑，靠的是宦官无人能制。" }
+      ]
+    },
+    {
+      "id": "tang-liushuwen",
+      "name": "王叔文",
+      "life": "?—806",
+      "role": "永贞革新主谋",
+      "bio": "顺宗潜邸旧人，即位后任翰林学士主持改革，与王伾、[[tang-liuzongyuan]]、[[tang-liuyuxi]] 等图革宦官藩镇之弊。146 天后宦官逼禅，顺宗退位，王叔文贬渝州司户旋赐死。改革输得最快的一次，也输得最干净。",
+      "relations": [
+        { "personId": "tang-liuyuxi", "type": "革新同道", "note": "革新失败，他死，党人散，柳刘留下了文字——中唐最短命的政治理想。" }
+      ]
+    },
+    {
+      "id": "tang-liuyuxi",
+      "name": "刘禹锡",
+      "life": "772—842",
+      "role": "中唐诗人·永贞党人",
+      "bio": "永贞革新失败贬朗州，后还京游玄都观题诗『玄都观里桃千树，尽是刘郎去后栽』。再贬十四年，重返长安又写『种桃道士归何处？前度刘郎今又来』。两首桃花诗写完了一个党人一辈子的硬。",
+      "relations": [
+        { "personId": "tang-liushuwen", "type": "革新同道", "note": "王叔文死了，刘郎还在写桃花——一个人替整个革新派活了下去。" }
+      ]
+    },
+    {
+      "id": "tang-liuzongyuan",
+      "name": "柳宗元",
+      "life": "773—819",
+      "role": "永贞党人·古文宗师",
+      "bio": "永贞革新失败贬永州司马十年，再贬柳州刺史四十七岁卒。十年永州山水里写出《永州八记》、《捕蛇者说》。一个被踢出朝廷的人，把山水写成中国散文的一座高峰——朝廷的损失，是文学的赢。",
+      "relations": [
+        { "personId": "tang-hanyu", "type": "古文同道", "note": "韩柳并立——一个被贬潮州一个被贬永州，古文运动从两座岭南州里写出来。" }
+      ]
+    },
+    {
+      "id": "tang-xuanzang",
+      "name": "玄奘",
+      "life": "602—664",
+      "role": "唐僧·译经家",
+      "bio": "贞观三年偷渡出玉门，西行十七年至天竺，遍参那烂陀寺。携经六百五十七部归长安，主持译场十九年，所译经典占汉译佛典近半。他不是去取经，他是去校对——把中土走样了的佛学拉回原本。",
+      "relations": [
+        { "personId": "litaizong", "type": "归后受敕主译", "note": "偷渡出关的逃僧，归来时被皇帝亲自接见——大唐对真本事的容忍度，比规矩高得多。" }
+      ]
+    },
+    {
+      "id": "tang-jianzhen",
+      "name": "鉴真",
+      "life": "688—763",
+      "role": "唐僧·东渡日本",
+      "bio": "扬州大明寺律宗高僧。应日本留学僧请，六次东渡五次失败，第六次以盲眼之躯抵奈良，将律宗、医药、建筑、雕塑传入日本，主持东大寺受戒，建唐招提寺。他失明六年仍上船——大唐外向的最高姿态，是一个看不见的老人。",
+      "relations": [
+        { "personId": "tang-xuanzang", "type": "对照", "note": "玄奘把世界请进来，鉴真把自己送出去——大唐的开放从来不是单向的。" }
+      ]
+    },
+    {
+      "id": "tang-wenchengGongzhu",
+      "name": "文成公主",
+      "life": "约625—680",
+      "role": "唐宗女·入吐蕃和亲",
+      "bio": "贞观十五年入吐蕃嫁 [[tang-songtsenGanbu]]，带工匠、医书、佛经、谷种与释迦像。在拉萨四十年，吐蕃推行历法、农耕、纺织、建筑多有其手。她不是国王的女儿，是一个唐朝派出去的远客——用一个人省下几十万兵。",
+      "relations": [
+        { "personId": "tang-songtsenGanbu", "type": "嫁之", "note": "和亲不是退让，是用一个人换三十年和平——这是 [[litaizong]] 最划算的一笔。" },
+        { "personId": "tang-wangxuance", "type": "为其铺路", "note": "她过去的几年后，王玄策才能在天竺借到吐蕃兵。" }
+      ]
+    },
+    {
+      "id": "tang-songtsenGanbu",
+      "name": "松赞干布",
+      "life": "约617—650",
+      "role": "吐蕃赞普",
+      "bio": "统一吐蕃高原，南通泥婆罗、东和大唐，迎 [[tang-wenchengGongzhu]] 入逻些（拉萨），创藏文字、建大昭寺。他给了吐蕃一个真正帝国的开局——也给了唐藏两百年战与和的复杂关系。",
+      "relations": [
+        { "personId": "tang-wenchengGongzhu", "type": "迎之为妻", "note": "他迎来唐朝公主，也开启了吐蕃此后一切学唐的方向。" }
+      ]
+    },
+    {
+      "id": "tang-lideyu",
+      "name": "李德裕",
+      "life": "787—850",
+      "role": "李党领袖·会昌中兴之相",
+      "bio": "门阀宰相李吉甫之子，武宗朝独相，灭佛、平回鹘、定泽潞，史称『会昌之政』。宣宗一即位即贬死崖州，临终自叹『穷愁着书』。武宗朝的强势，全凭他撑；他一死，唐的下坡再无人能拉。",
+      "relations": [
+        { "personId": "tang-niuseng-ru", "type": "牛李党争对手", "note": "你上我下四十年，最后两人都耗在贬所——士大夫先把自己耗死了，藩镇宦官才动手。" }
+      ]
+    },
+    {
+      "id": "tang-niuseng-ru",
+      "name": "牛僧孺",
+      "life": "780—849",
+      "role": "牛党领袖·宰相",
+      "bio": "元和年间举贤良对策切中时弊，被 [[tang-lideyu]] 之父李吉甫所抑，从此结成牛李党争。文宗朝两度入相，主守成、容藩镇。武宗朝被贬，宣宗朝复起，最后在洛阳郁郁而终。",
+      "relations": [
+        { "personId": "tang-lideyu", "type": "党争对手", "note": "唐末政治资源耗光的真正原因——不是宦官，是士大夫之间的对垒。" }
+      ]
+    },
+    {
+      "id": "tang-chouShiliang",
+      "name": "仇士良",
+      "life": "781—843",
+      "role": "文宗朝大宦官",
+      "bio": "[[tang-ganlu-zhibian]] 中反挟文宗入内殿，调神策军大杀宰相王涯等，专权二十余年，立过两帝。退休时教导晚辈：『天子不可令闲，常宜以奢靡蛊其心。』唐末宦官弄权的标准教材，由他亲口传下。",
+      "relations": [
+        { "personId": "tang-guoziyi", "type": "对其曾受敬礼", "note": "他不是怕宦官，是怕宦官在皇帝耳边的话——这是中唐生存哲学。" }
+      ]
+    },
+
+    {
+      "id": "tl-wangxianzhi",
+      "name": "王仙芝",
+      "life": "?—878",
+      "role": "唐末民变先驱",
+      "bio": "濮州长垣盐贩，乾符二年起兵率众数千，[[huangchao]] 在冤句应之。次年朝廷招安他为左神策军押牙，他几乎接受，被黄巢痛斥乃止。乾符五年战死黄梅——他是火星，黄巢是燎原。",
+      "relations": [
+        { "personId": "huangchao", "type": "同起·先死", "note": "王是火星黄是燎原——王仙芝若接了招安，黄巢未必有后来的长安。" }
+      ]
+    },
+    {
+      "id": "tl-luoyin",
+      "name": "罗隐",
+      "life": "833—909",
+      "role": "唐末诗人",
+      "bio": "十次科举不中，最终归吴越投 [[tl-qianliu]] 终身为掾。诗讽世：『时来天地皆同力，运去英雄不自由』『今朝有酒今朝醉』。一个用诗骂朝廷骂到老的人，最后在江南军阀帐下安顿——唐末文人最现实的归宿。",
+      "relations": [
+        { "personId": "tl-qianliu", "type": "投其幕府", "note": "骂朝廷一辈子，最后是个不要称帝的军阀肯收留他。" }
+      ]
+    },
+    {
+      "id": "tl-pirixiu",
+      "name": "皮日休",
+      "life": "约834—约883",
+      "role": "唐末诗人·入黄巢军",
+      "bio": "中和元年前后入 [[huangchao]] 长安朝廷任翰林学士。诗有《橡媪叹》《卖松者》，写贫民苦。黄巢败后下落不明，一说为巢所杀，一说为唐所杀。一个用诗记下民间疾苦的人，最终消失在自己加入的那场起义里。",
+      "relations": [
+        { "personId": "huangchao", "type": "入其朝", "note": "唐末文人有的骂朝廷不入仕（罗隐），有的真入了义军朝廷（皮日休）——两条路都没好下场。" }
+      ]
+    },
+    {
+      "id": "tl-tianlingzi",
+      "name": "田令孜",
+      "life": "?—893",
+      "role": "僖宗朝大宦官",
+      "bio": "蜀人，自称 [[tl-tang-xizong]] 之『阿父』，把皇帝当儿子养。黄巢入长安他抱皇帝逃蜀；后因争盐池与河中节度使翻脸，挟天子再奔兴元。后被 [[tl-yangfugong]] 取代，亡命西川被王建所杀。皇帝在他膝盖上长大，也在他手里被消耗光。",
+      "relations": [
+        { "personId": "tl-tang-xizong", "type": "挟为玩偶", "note": "宦官把皇帝抱在膝上养——这是唐末最荒谬也最普通的政治日常。" },
+        { "personId": "tl-yangfugong", "type": "被其取代", "note": "宦官换班，皇帝始终在膝盖上。" }
+      ]
+    },
+    {
+      "id": "tl-yangfugong",
+      "name": "杨复恭",
+      "life": "?—894",
+      "role": "昭宗朝大宦官",
+      "bio": "继 [[tl-tianlingzi]] 之后掌神策军，自诩立 [[tang-zhaozong]] 之功，养假子数十人散为节度使。后被昭宗外放、削职。出奔山南被 [[zhuwen]] 与李茂贞兵败擒杀。宦官想用藩镇制衡藩镇，最终发现自己什么也制不住。",
+      "relations": [
+        { "personId": "tang-zhaozong", "type": "立而旋叛", "note": "立他的人想控制他，他想摆脱立他的人——唐末皇帝与宦官互害的最后一回合。" }
+      ]
+    },
+    {
+      "id": "tl-tang-xizong",
+      "name": "唐僖宗李儇",
+      "life": "862—888",
+      "role": "唐末之主",
+      "bio": "十二岁即位，事事听 [[tl-tianlingzi]]。黄巢入长安被抱着出奔成都，回长安又因争盐池再奔兴元，前后流亡近八年。爱马球，曾自称：『朕若应击球进士举，须为状元。』唐廷在他手上从中央滑成西陲流亡政府。",
+      "relations": [
+        { "personId": "tl-tianlingzi", "type": "被其挟", "note": "皇帝呼宦官为阿父，唐末政治的尊卑早就反过来了。" },
+        { "personId": "huangchao", "type": "为其所逐", "note": "黄巢入长安那夜，他在宦官怀里出宫——这一夜大唐的体面就没了。" }
+      ]
+    },
+    {
+      "id": "tl-tang-aizong",
+      "name": "唐哀帝李柷",
+      "life": "892—908",
+      "role": "唐末帝",
+      "bio": "[[tang-zhaozong]] 被弑后由 [[zhuwen]] 立，十三岁，名义在位三年。开平元年禅位给朱温，旋被鸩死于曹州。三百年大唐的最后一笔，由一个连选择权都没有的少年签下。",
+      "relations": [
+        { "personId": "zhuwen", "type": "被其立又被其弑", "note": "立他禅他鸩他——朱温对皇帝的三步走，比当年董卓对汉献帝还要彻底。" },
+        { "personId": "tang-zhaozong", "type": "其父", "note": "父被弑子被禅，李唐的血脉在这两年里被一手处理干净。" }
+      ]
+    },
+    {
+      "id": "tl-zhangchengye",
+      "name": "张承业",
+      "life": "846—922",
+      "role": "晋王府监军·沙陀帐中的唐遗臣",
+      "bio": "唐昭宗朝宦官，被派往河东任 [[likeyong]] 监军。朱温白马驿屠唐宦官，他逃过一劫，从此死守『为唐复仇』的旗号辅佐李克用、[[licunxu]]。劝李存勖『先灭梁后称帝』，存勖不听仍称帝，他忧愤而死——唐最后一个忠臣，是个在敌阵里养大下一代的宦官。",
+      "relations": [
+        { "personId": "likeyong", "type": "辅其父子两代", "note": "把『大唐』这两个字在沙陀帐里保了二十年——唐亡之后还有一个人替它管账。" },
+        { "personId": "licunxu", "type": "辅之·谏其不要称帝", "note": "他要的是恢复大唐，李存勖要的是自己当皇帝——理想与现实只差了几年。" }
+      ]
+    },
+    {
+      "id": "tl-wangjian",
+      "name": "王建",
+      "life": "847—918",
+      "role": "前蜀开国",
+      "bio": "许州贼出身，从军入忠武军，挟僖宗入蜀后留任西川节度使。唐亡建前蜀于成都，行制度、修都江堰、招纳流亡士人，蜀地一时富庶。盗贼出身的开国之主，却给乱世里的蜀地搭起一个三十年的安稳壳。",
+      "relations": [
+        { "personId": "tl-tang-xizong", "type": "扈驾入蜀", "note": "护驾出身的将领，二十年后在原驾停留的地方称帝——唐末最常见的剧本。" }
+      ]
+    },
+    {
+      "id": "tl-yangxingmi",
+      "name": "杨行密",
+      "life": "852—905",
+      "role": "吴国奠基者",
+      "bio": "庐州合肥人，从淮南乱军中崛起，据扬州、定淮南，与 [[zhuwen]] 对峙于淮泗。其子杨溥后正式称帝，是为吴国。淮南一线挡住了朱温南下，南方十国格局由此定型。",
+      "relations": [
+        { "personId": "zhuwen", "type": "南方对手", "note": "朱温能篡唐却不能下江淮——杨行密这道坎挡住了北方的吞并节奏。" }
+      ]
+    },
+    {
+      "id": "tl-qianliu",
+      "name": "钱镠",
+      "life": "852—932",
+      "role": "吴越王·保境安民之主",
+      "bio": "杭州临安人，从乡兵起家，平董昌、据两浙，建吴越。修海塘、兴水利、纳贡中原而不称帝（追尊后才号王），传五世归宋。乱世里他选择了一条不一样的路：不称帝、不北上、只把自己的一亩三分地修好。",
+      "relations": [
+        { "personId": "tl-luoyin", "type": "纳为掾", "note": "他肯收留落第十次的诗人——吴越国能富三代，气量是其中一项。" },
+        { "personId": "zhuwen", "type": "向其称臣纳贡", "note": "对中原一律称臣保境，给宋养出了未来的江南命脉。" }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sui-jin-wang-duodi",
+      "title": "晋王夺嫡",
+      "year": 600,
+      "narrative": "[[suiyang]] 装乖二十年，[[sui-yangsu]] 联络于外、[[sui-dugu]] 推动于内，太子 [[sui-yangyong]] 被废为庶人——隋速亡的第一颗扣子，由父母自己扣下。",
+      "involvedPersonIds": ["yangjian", "sui-dugu", "sui-yangsu", "suiyang", "sui-yangyong"]
+    },
+    {
+      "id": "sui-mie-chen-xiangzhan",
+      "title": "隋灭陈细节·贺若韩擒虎",
+      "year": 589,
+      "narrative": "[[sui-hejuobi]] 由广陵渡江，[[sui-hanqinhu]] 自采石突入建康俘 [[sui-chenshubao]] 于井中——制度对门阀的胜利，可属于谁的胜利争到了朝堂。",
+      "involvedPersonIds": ["yangjian", "sui-hejuobi", "sui-hanqinhu", "sui-chenshubao"]
+    },
+    {
+      "id": "sui-yingjian-dongdu",
+      "title": "营建东都洛阳",
+      "year": 605,
+      "narrative": "[[suiyang]] 即位次年下诏营东都，月役百万。东都扼天下之中，运河绕之而过——帝国骨架立起来，撑骨架的人也开始倒下。",
+      "involvedPersonIds": ["suiyang"]
+    },
+    {
+      "id": "sui-wagang-qiyi",
+      "title": "瓦岗起义",
+      "year": 611,
+      "narrative": "[[sui-zhairang]] 聚众瓦岗，[[sui-limi]] 来奔献策破洛口仓开仓散粮。隋末规模最大的反隋集团，却败于内讧——它把 [[sui-xushiji-pre]] 等送进了新生的大唐。",
+      "involvedPersonIds": ["sui-zhairang", "sui-limi", "sui-xushiji-pre", "sui-wangshichong"]
+    },
+    {
+      "id": "sui-jiangdu-zhibian",
+      "title": "江都之变",
+      "year": 618,
+      "narrative": "骁果卫推 [[sui-yuwenhuaji]] 入宫，缢杀 [[suiyang]] 于江都。[[sui-yangsu]] 替他夺来的皇位，最终被 [[sui-yangsu]] 之子收走——同一家族开端与终局。",
+      "involvedPersonIds": ["suiyang", "sui-yuwenhuaji", "sui-yuwenshu", "sui-yushiji"]
+    },
+    {
+      "id": "sui-libuan-yangwen",
+      "title": "李密杀翟让",
+      "year": 617,
+      "narrative": "[[sui-limi]] 设宴杀 [[sui-zhairang]] 自立——瓦岗的裂痕由让位者死于受让者之手开启，从此再无凝聚力。",
+      "involvedPersonIds": ["sui-limi", "sui-zhairang", "sui-xushiji-pre"]
+    },
+
+    {
+      "id": "tang-xuanwu-zhibian",
+      "title": "玄武门之变",
+      "year": 626,
+      "narrative": "[[litaizong]] 清晨伏弩射杀长兄建成、[[tang-yuchijingde]] 提元吉首级闯到 [[litang]] 面前——贞观之治从一摊兄弟血开始。",
+      "involvedPersonIds": ["litaizong", "litang", "tang-yuchijingde", "tang-fangxuanling", "tang-duruhui"]
+    },
+    {
+      "id": "tang-baijiangkou",
+      "title": "白江口之战",
+      "year": 663,
+      "narrative": "唐军会新罗迎战倭国与百济联军于朝鲜半岛西岸，焚船四百。此后近千年日本不敢西望——一战定一千年。",
+      "involvedPersonIds": ["tang-lishiji"]
+    },
+    {
+      "id": "tang-wenchengruZang",
+      "title": "文成公主入藏",
+      "year": 641,
+      "narrative": "[[tang-wenchengGongzhu]] 嫁 [[tang-songtsenGanbu]]，唐藏三十年无大战——大唐用一个公主，省下几十万兵。",
+      "involvedPersonIds": ["tang-wenchengGongzhu", "tang-songtsenGanbu", "litaizong"]
+    },
+    {
+      "id": "tang-shenlong-zhibian",
+      "title": "神龙政变",
+      "year": 705,
+      "narrative": "[[tang-zhangjianzhi]] 等五人夜率羽林军入宫诛二张，迫 [[wuzetian]] 禅位还政于唐。武周十五年终。",
+      "involvedPersonIds": ["wuzetian", "tang-zhangjianzhi", "tang-direnjie"]
+    },
+    {
+      "id": "tang-tanglong-zhibian",
+      "title": "唐隆政变",
+      "year": 710,
+      "narrative": "[[tangxuanzong]] 与 [[tang-taiping]] 联手夜诛韦后及党羽，[[tang-shangguan-wan]] 被斩。三年后玄宗反手赐死太平公主。",
+      "involvedPersonIds": ["tangxuanzong", "tang-taiping", "tang-shangguan-wan"]
+    },
+    {
+      "id": "tang-maweipo-bingbian",
+      "title": "马嵬坡兵变",
+      "year": 756,
+      "narrative": "禁军斩 [[tang-yangguozhong]] 又逼 [[tangxuanzong]] 处死 [[tang-yangguifei]]——[[tang-gaolishi]] 牵白绫缢于佛堂梨树下。",
+      "involvedPersonIds": ["tangxuanzong", "tang-yangguifei", "tang-gaolishi"]
+    },
+    {
+      "id": "tang-lingwu-jiwei",
+      "title": "灵武即位",
+      "year": 756,
+      "narrative": "太子李亨北走灵武不待父命自即位，是为肃宗，遥尊玄宗为太上皇——合法性在乱世里临时再造。",
+      "involvedPersonIds": ["tangxuanzong"]
+    },
+    {
+      "id": "tang-yecheng-zhizhan",
+      "title": "邺城之战",
+      "year": 759,
+      "narrative": "九节度六十万围邺城安庆绪，因不立元帅、宦官鱼朝恩节制不力大败。[[tang-guoziyi]] 罢副元帅——平叛由此拖了五年。",
+      "involvedPersonIds": ["tang-guoziyi", "tang-liguangbi"]
+    },
+    {
+      "id": "tang-yongzhen-gexin",
+      "title": "永贞革新",
+      "year": 805,
+      "narrative": "[[tang-liushuwen]] 等谋革宦官藩镇之弊，146 天后宦官逼禅，党人贬为远州司马——柳宗元由此有永州，刘禹锡由此有玄都观。",
+      "involvedPersonIds": ["tang-liushuwen", "tang-liuyuxi", "tang-liuzongyuan"]
+    },
+    {
+      "id": "tang-lisuXueye-rucai",
+      "title": "李愬雪夜入蔡州",
+      "year": 817,
+      "narrative": "宪宗朝平淮西，[[tang-lisuo]] 大雪夜奔袭一百三十里破吴元济牙城于黎明——藩镇可以一个个掰回来，前提是中央敢出手。",
+      "involvedPersonIds": ["tang-liude-zong", "tang-lipi", "tang-lisuo"]
+    },
+    {
+      "id": "tang-ganlu-zhibian",
+      "title": "甘露之变",
+      "year": 835,
+      "narrative": "文宗与李训郑注谋诛宦官，托甘露降为名，事泄 [[tang-chouShiliang]] 反挟皇帝大杀宰相王涯等——皇帝叹『朕受制于家奴，汉献帝不及也』。",
+      "involvedPersonIds": ["tang-chouShiliang"]
+    },
+    {
+      "id": "tang-niuli-dangzheng",
+      "title": "牛李党争",
+      "year": 821,
+      "narrative": "[[tang-niuseng-ru]] 与 [[tang-lideyu]] 一科举一门阀，互相攻讦近四十年——藩镇宦官未亡之前，士大夫先把自己耗死。",
+      "involvedPersonIds": ["tang-niuseng-ru", "tang-lideyu"]
+    },
+
+    {
+      "id": "tl-wangxianzhi-qibing",
+      "title": "王仙芝起兵",
+      "year": 875,
+      "narrative": "[[tl-wangxianzhi]] 在长垣起兵贩盐聚众，[[huangchao]] 应之于冤句。三年后王败死黄梅——他是火星，黄巢是燎原。",
+      "involvedPersonIds": ["tl-wangxianzhi", "huangchao"]
+    },
+    {
+      "id": "tl-xizong-benshu",
+      "title": "僖宗奔蜀",
+      "year": 880,
+      "narrative": "黄巢军逼潼关，[[tl-tang-xizong]] 在 [[tl-tianlingzi]] 挟持下夜半出金光门入蜀——百年来唐天子第二次出奔。",
+      "involvedPersonIds": ["tl-tang-xizong", "tl-tianlingzi", "huangchao"]
+    },
+    {
+      "id": "tl-changan-zaihui",
+      "title": "长安二度焚毁",
+      "year": 883,
+      "narrative": "黄巢入长安纵兵掳掠，唐军收复又一次纵火；中和三年 [[likeyong]] 沙陀骑兵再克长安，宫室坊市焚为灰烬。",
+      "involvedPersonIds": ["huangchao", "likeyong"]
+    },
+    {
+      "id": "tl-zhaozong-dongqian",
+      "title": "昭宗东迁",
+      "year": 904,
+      "narrative": "[[zhuwen]] 强逼 [[tang-zhaozong]] 迁都洛阳，长安宫室拆木材顺渭水东运，士民哭于道——天子玩物命运至此明白。",
+      "involvedPersonIds": ["tang-zhaozong", "zhuwen"]
+    },
+    {
+      "id": "tl-jiuding-chenhe",
+      "title": "九鼎沉河（昭宗东迁途中）",
+      "year": 904,
+      "narrative": "东迁途中传国玉册沉于陕州渭河——搬家、被弑、禅位、绝祀，朱温只是按部就班。",
+      "involvedPersonIds": ["tang-zhaozong", "zhuwen"]
+    },
+    {
+      "id": "tl-baima-yi-houxu",
+      "title": "白马驿后·清流断绝",
+      "year": 905,
+      "narrative": "[[zhuwen]] 谋士李振（屡试不第）进言『此辈清流，可投浊流』——失意举子一句怨言，结掉了一个士族时代。",
+      "involvedPersonIds": ["zhuwen", "tang-zhaozong"]
+    }
+  ]
+}

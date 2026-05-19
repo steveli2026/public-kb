@@ -1,0 +1,889 @@
+{
+  "agentGroup": "A7",
+  "eras": ["yuan", "ming"],
+  "eraPatches": {
+    "yuan": {
+      "storyAppend": "草原帝国坐进中原宫殿，最尴尬的是身份：四等人制把汉人压到底层，科举废而又复，汉文人退到边缘，却在边缘写出了 [[yuan-guanhanqing]] 的《窦娥冤》、[[yuan-huanggongwang]] 的《富春山居图》、[[yuan-guoshoujing]] 的《授时历》——一个被排挤的阶层，在戏台和山水里完成了自己的盛唐。九十年后，[[yuan-jialu]] 一锹下去开了黄河故道，民工歌谣里挖出一只独眼石人——元朝的命，就埋在那只石人下面。",
+      "addedKeyPersonIds": [
+        "yuan-tolui",
+        "yuan-mongke",
+        "yuan-alibuge",
+        "yuan-bayan",
+        "yuan-yelvchucai",
+        "yuan-basiba",
+        "yuan-liubingzhong",
+        "yuan-zhanghongfan",
+        "yuan-guoshoujing",
+        "yuan-zhaomengfu",
+        "yuan-huanggongwang",
+        "yuan-guanhanqing",
+        "yuan-tuotuo",
+        "yuan-jialu",
+        "yuan-hanlin-er",
+        "yuan-liufutong",
+        "yuan-chenyouliang",
+        "yuan-zhangshicheng",
+        "yuan-shundi"
+      ],
+      "addedKeyEventIds": [
+        "yuan-alibuge-zhanzheng",
+        "yuan-xiangfan-zhiwei",
+        "yuan-yashan-haizhan",
+        "yuan-liangdu-zhizhan",
+        "yuan-jialu-zhihe",
+        "yuan-poyanghu",
+        "yuan-pingjiang",
+        "yuan-mingbeifa",
+        "yuan-shundi-beidun"
+      ],
+      "addedStorylets": [
+        {
+          "title": "兄弟阋墙的草原议会",
+          "body": "[[kublai]] 在开平自立大汗，弟弟 [[yuan-alibuge]] 在和林被传统派推上汗位——一场仗打了四年，本质是『要不要做中国皇帝』的路线之争。忽必烈赢了，蒙古帝国从此分裂为四大汗国，元朝独走汉化路。"
+        },
+        {
+          "title": "契丹人当蒙古的汉化舵手",
+          "body": "[[yuan-yelvchucai]] 是亡国辽朝皇族，却为成吉思汗、窝阔台主政三十年。他劝住了『尽杀汉人、改农田为牧场』的提议，保住了华北的人和地——一个亡国后裔，替征服者收住了刀。"
+        },
+        {
+          "title": "帝师与一种新文字",
+          "body": "[[yuan-basiba]] 为 [[kublai]] 造『八思巴字』，本想拼写元帝国一切语言，结果只在官方文书里活了八十年。但他带来的藏传佛教却扎了根——元亡之后，宫廷的香火一直烧到清。"
+        },
+        {
+          "title": "大都不是一天画成的",
+          "body": "[[yuan-liubingzhong]] 是和尚出身的设计师，按《周礼·考工记》给 [[kublai]] 画出大都——左祖右社、前朝后市，方方正正的中国都城。蒙古大汗住进了一座最『中国』的城，本身就是答案。"
+        },
+        {
+          "title": "崖山之后",
+          "body": "[[yuan-zhanghongfan]] 是金人后裔、为元朝灭南宋的最后一员主将。 [[luxiufu]] 抱幼帝跳海那天，他在崖山题碑『张弘范灭宋于此』——后世骂他汉奸，但他生来就不是宋人。身份的错位，是元朝故事的底色。"
+        },
+        {
+          "title": "废了又开的科举",
+          "body": "[[kublai]] 废了科举，汉文人四十年没了出路，只好写戏、画画、做账房。[[yuan-shundi]] 时科举恢复，但名额按四等人分配，汉人南人挤一半。文人发现：在元朝当官，比在元朝写戏更卑微。"
+        },
+        {
+          "title": "窦娥的六月雪",
+          "body": "[[yuan-guanhanqing]] 写《窦娥冤》：一个寡妇被冤死，临刑发三桩誓——血溅白练、六月飞雪、三年大旱。一桩桩都应验。这不是迷信，是被排挤到底层的文人，借一个女子的嘴，把整个时代骂了一遍。"
+        },
+        {
+          "title": "富春山的隐居与流传",
+          "body": "[[yuan-huanggongwang]] 五十岁才学画，八十一岁画完《富春山居图》。三百年后此画被收藏家临终命人焚殉，家人抢出，已断为两截——『剩山图』在浙江、『无用师卷』在台北，至今分藏两岸。"
+        },
+        {
+          "title": "授时历——天文学的元朝高峰",
+          "body": "[[yuan-guoshoujing]] 实测一年为 365.2425 日，比格里高利历早三百年得出同一数字。一个被压在四等人最底的『南人』天文学家，给整个文明续上了最准的一只钟。"
+        },
+        {
+          "title": "一锹挖出独眼石人",
+          "body": "1351 年 [[yuan-jialu]] 奉命治黄河，征发民工十五万。工地上挖出一只独眼石人，背刻『莫道石人一只眼，挑动黄河天下反』——[[yuan-hanlin-er]]、[[yuan-liufutong]] 的红巾随即起事。元朝的命，被自己的水利工程引爆。"
+        },
+        {
+          "title": "鄱阳湖——决战的水面",
+          "body": "1363 年 [[zhuyuanzhang-pre]] 与 [[yuan-chenyouliang]] 在鄱阳湖鏖战三十六日，火攻定胜负。陈友谅中箭而亡，朱元璋扫清了通往天下最强的对手——这一仗如果反过来，明朝就叫『汉朝』。"
+        },
+        {
+          "title": "韩林儿沉江",
+          "body": "红巾名义共主 [[yuan-hanlin-er]] 是 [[zhuyuanzhang-pre]] 名义上的主公。1366 年朱元璋派廖永忠迎驾，船到瓜步『不慎倾覆』，小明王沉江。两年后朱元璋称帝——开国功业的开头，是一桩永远无法洗的悬案。"
+        },
+        {
+          "title": "顺帝北遁——元未亡，只是回家",
+          "body": "1368 年明军入大都，[[yuan-shundi]] 不守不战，连夜出健德门北遁草原。元朝在中国结束了，但蒙古帝国并没有亡——『北元』继续存在两百多年。征服者最后选择的，是回到自己的草原。"
+        }
+      ]
+    },
+    "ming": {
+      "storyAppend": "明朝的两百七十六年，是一条由 [[zhuyuanzhang]] 一个动作引发的多米诺：废相集权，权力没了制衡，于是要靠太监 [[ming-wangzhen]]、[[ming-liujin]]、[[ming-weizhongxian]] 替皇帝看门——太监做大，文官就抱团，于是有 [[ming-zhangjuzheng]] 死后被抄、有东林党议、有 [[ming-yuanchonghuan]] 被千刀。等到 [[chongzhen]] 在煤山上找树时，他面对的不是一时的流寇，而是这条链条二百年的累积。开国的强君没看见，强君之后还有十几个庸主——制度的债，从来不会因为你不还就消失。",
+      "addedKeyPersonIds": [
+        "ming-xuda",
+        "ming-changyuchun",
+        "ming-liuji",
+        "ming-lishanchang",
+        "ming-huweiyong",
+        "ming-lanyu",
+        "ming-zhubiao",
+        "ming-jianwen",
+        "ming-fangxiaoru",
+        "ming-yaoguangxiao",
+        "ming-yuqian",
+        "ming-wangzhen",
+        "ming-liujin",
+        "ming-wangyangming",
+        "ming-yansong",
+        "ming-haorui",
+        "ming-zhangjuzheng",
+        "ming-qijiguang",
+        "ming-wanli",
+        "ming-weizhongxian",
+        "ming-yuanchonghuan",
+        "ming-huangtaiji",
+        "ming-duoergun",
+        "ming-wusangui",
+        "ming-shikefa",
+        "ming-zhengchenggong",
+        "ming-songyingxing",
+        "ming-xuxiake"
+      ],
+      "addedKeyEventIds": [
+        "ming-hongwu-sida-an",
+        "ming-zhudi-qianbei",
+        "ming-beijing-baowei",
+        "ming-duomen-zhibian",
+        "ming-dali-yi",
+        "ming-zhangjuzheng-gaige",
+        "ming-longqing-kaiguan",
+        "ming-zhengguoben",
+        "ming-wanli-sanzheng",
+        "ming-sansi-an",
+        "ming-jisi-zhibian",
+        "ming-songjin-dahzan",
+        "ming-yipianshi",
+        "ming-yangzhou-shiri",
+        "ming-zhengchenggong-fuTai"
+      ],
+      "addedStorylets": [
+        {
+          "title": "洪武四大案",
+          "body": "[[zhuyuanzhang]] 用『胡惟庸案』废丞相，又借『蓝玉案』『郭桓案』『空印案』牵连十几万人头落地。开国功臣几乎屠尽——他要给孙子留一个没有权臣的天下，结果留下的是一个没有屏障的天下。"
+        },
+        {
+          "title": "黑衣宰相",
+          "body": "和尚 [[ming-yaoguangxiao]] 见到燕王 [[yongle]]，只说一句『臣愿献白帽』——『王』上加『白』，即『皇』。靖难之役由此发端。一个和尚，把一个王推上了皇位，自己照常穿僧袍上朝。"
+        },
+        {
+          "title": "诛十族",
+          "body": "[[yongle]] 进南京，要 [[ming-fangxiaoru]] 写即位诏，方写『燕贼篡位』。永乐怒：『不怕灭九族？』方答：『便十族何妨！』于是连门生算第十族，八百七十三人被杀。一个读书人，把『不可以』四个字写到了最硬的地步。"
+        },
+        {
+          "title": "迁都北京——天子守国门",
+          "body": "[[yongle]] 把首都从南京搬到自己的封地北平，号称『天子守国门』。实际是：他不放心南京的旧勋贵，也不放心南方的文官。结果未来两百年，皇帝的安危直接顶在蒙古和女真的刀口上——明的命，就这么挂上了北方。"
+        },
+        {
+          "title": "下西洋的余响",
+          "body": "[[zhenghe]] 七下西洋，舰队远到东非。但船一回港，账本一算，国库空了。[[yongle]] 死后文官集团群起反对，宝船图纸被烧、技术失传。一支可能改变世界航线的舰队，被自家朝廷亲手按死在码头。"
+        },
+        {
+          "title": "土木堡——一次野餐",
+          "body": "1449 年宦官 [[ming-wangzhen]] 怂恿英宗御驾亲征瓦剌，又中途想绕回老家蔚州显摆，结果二十万大军在土木堡被瓦剌围歼，皇帝被俘。一个太监的虚荣心，葬送了明朝半个开国底气。"
+        },
+        {
+          "title": "于谦保京",
+          "body": "土木堡后，瓦剌挟英宗扣关。[[ming-yuqian]] 力主『社稷为重君为轻』，立景帝、组团营、守九门，瓦剌无功而退。八年后英宗复辟，[[ming-yuqian]] 被斩。京城百姓罢市哭祭——救国者死于他救的那个国家。"
+        },
+        {
+          "title": "夺门之变",
+          "body": "1457 年景帝病重，石亨、徐有贞、曹吉祥半夜撬开南宫门，背着幽禁的英宗冲到奉天殿。天亮文武百官入朝，发现龙椅上的人换了。复辟之后第一道诏书：杀 [[ming-yuqian]]。明朝皇位的合法性，从此再没站稳过。"
+        },
+        {
+          "title": "大礼议——一个年号的战争",
+          "body": "嘉靖以小宗入大统，要追封生父为『皇考』。文官集团坚持祖制，二百余人跪哭午门，被廷杖一百八十多人，死十六。一个年轻皇帝，用棍子赢了礼法之争，从此他可以二十年不上朝。"
+        },
+        {
+          "title": "龙场悟道",
+          "body": "[[ming-wangyangming]] 被贬贵州龙场驿，住山洞、面石棺，夜半忽悟：『圣人之道，吾性自足。』心学由此发端。一个被朝廷扔到边荒的官，在山洞里把儒学翻了一遍——明朝最大的思想突破，发生在最远的角落。"
+        },
+        {
+          "title": "严嵩与海瑞",
+          "body": "[[ming-yansong]] 父子贪了二十年，倒台时抄出黄金三万两、白银三百万两。同朝 [[ming-haorui]] 抬棺骂嘉靖，被关进诏狱听到先帝驾崩，恸哭吐食。两人一朝同列，是明朝官场的两个极端——大多数人，都在两极之间寻找自己的位置。"
+        },
+        {
+          "title": "考成法与一条鞭",
+          "body": "[[ming-zhangjuzheng]] 用『考成法』把官僚体系拧成转动的齿轮，用『一条鞭法』把税赋全折成银。十年之内，太仓积银千万，明朝回光返照。他死后第三天，万历下令抄家，长子自缢——改革者最怕的不是反对者，是会等他死的皇帝。"
+        },
+        {
+          "title": "戚家军——一种新式军队",
+          "body": "[[ming-qijiguang]] 在浙东招矿工、农夫，编『鸳鸯阵』，十二人为一组互保。倭患十年扫平。他升任蓟镇总兵，又把这套打蒙古。但他靠的是 [[ming-zhangjuzheng]] 的政治保护——张倒，戚也被罢，病死故里。能打仗的人，从来不是死在战场上。"
+        },
+        {
+          "title": "万历怠政",
+          "body": "[[ming-wanli]] 跟文官就『立谁为太子』(争国本) 怄了十五年气，索性二十多年不上朝、不见臣、不批章。官员缺员一半也不补，朝廷在『失联』中继续运转——一个皇帝用消极抵抗证明：明朝的官僚体系，已经不太需要皇帝。"
+        },
+        {
+          "title": "九千岁与东林",
+          "body": "天启时 [[ming-weizhongxian]] 自称『九千九百岁』，全国为他建生祠。东林党人前赴后继上书弹劾，被『打死、廷杖、瘐死狱中』。崇祯即位，魏自缢；但他养出的『阉党、东林』对立，没散——朝堂最后一口气，耗在自己人骂自己人上。"
+        },
+        {
+          "title": "宁远城头的一炮",
+          "body": "1626 年 [[ming-yuanchonghuan]] 用红夷大炮守宁远，炮伤 [[nuerhachi]]，努尔哈赤数月后病卒。三年后 [[ming-huangtaiji]] 绕道蒙古直叩北京，崇祯反疑袁与皇太极通谋——1630 年袁被凌迟，京城百姓争食其肉。崇祯亲手砍断了自己唯一的盾。"
+        },
+        {
+          "title": "一片石——吴三桂的一个夜",
+          "body": "1644 年 [[lizicheng]] 已经进了北京，[[ming-wusangui]] 在山海关接到的消息是：父亲被夹拷，爱姬陈圆圆被劫。他在一夜之间从『准备降顺』变成『冲冠一怒为红颜』，开关引 [[ming-duoergun]] 入。一个边将的私事，决定了中国未来两百六十八年的姓。"
+        },
+        {
+          "title": "扬州十日",
+          "body": "1645 年清军围扬州，[[ming-shikefa]] 守十日城破，被俘不降，遇害。多铎下令屠城，十日内死难八十万。一座城用十天证明南明还有人愿意死——但更多的城，开了门。"
+        },
+        {
+          "title": "海上孤忠",
+          "body": "[[ming-zhengchenggong]] 父亲降清、母亲自尽，他在烈祠焚儒服披甲起兵。北伐南京失利，转而东征驱荷兰、复台湾。台湾光复后第二年，三十九岁的他在台南病亡——一个明朝臣子，在一座岛上替明朝多活了三十八年。"
+        },
+        {
+          "title": "君非亡国之君",
+          "body": "1644 年三月十九晨，[[chongzhen]] 砍死公主、命周后自缢，独自上煤山，在一棵歪脖槐树上吊。蓝衣袍内白绢遗诏：『朕死，无面目见祖宗，自去冠冕，以发覆面，任贼分裂朕尸，勿伤百姓一人。』十七年勤政，没能补上两百年的债。"
+        }
+      ]
+    }
+  },
+  "people": [
+    {
+      "id": "yuan-tolui",
+      "name": "拖雷",
+      "life": "1192—1232",
+      "role": "成吉思汗幼子·托雷家族开端",
+      "bio": "成吉思汗幼子，按蒙古『幼子守灶』本应继位，却让位于兄长窝阔台。其子蒙哥、忽必烈、旭烈兀、阿里不哥四人后来撑起整个蒙古帝国——但他自己英年早逝，传说为替窝阔台病代死饮咒水而亡。",
+      "relations": [
+        { "personId": "chinggis", "type": "幼子（理应守灶者）", "note": "按草原传统应继大汗位，让贤给二哥，自家四子日后却把帝国分了。" },
+        { "personId": "kublai", "type": "父", "note": "一个让位的弟弟，养出了四个分割欧亚的儿子。" }
+      ]
+    },
+    {
+      "id": "yuan-mongke",
+      "name": "蒙哥",
+      "life": "1209—1259",
+      "role": "蒙古第四任大汗",
+      "bio": "[[yuan-tolui]] 长子，靠『拖雷系』政变夺回汗位。亲征南宋，1259 年死于四川钓鱼城下——一个攻无不克的大汗，被一座小城拦住。他一死，正在攻打叙利亚的旭烈兀回师争位，蒙古西征戛然而止。",
+      "relations": [
+        { "personId": "kublai", "type": "兄", "note": "他战死钓鱼城，弟弟们才有机会争汗位——蒙古帝国的分裂从这一死开始。" },
+        { "personId": "yuan-tolui", "type": "父", "note": "拖雷系翻身的第一棒。" }
+      ]
+    },
+    {
+      "id": "yuan-alibuge",
+      "name": "阿里不哥",
+      "life": "1219—1266",
+      "role": "忽必烈之弟·汗位竞争者",
+      "bio": "[[yuan-tolui]] 幼子，按草原传统继承汗庭和林。1260 年 [[kublai]] 在开平自立，他在和林被传统派推上汗位——四年内战，他败、降、囚死。这场仗本质是路线之争：守草原还是入中原。忽必烈赢了，蒙古帝国从此分裂。",
+      "relations": [
+        { "personId": "kublai", "type": "兄·汗位对手", "note": "兄走汉法、弟守草原，蒙古帝国就此从内部断裂为四片。" }
+      ]
+    },
+    {
+      "id": "yuan-bayan",
+      "name": "伯颜",
+      "life": "1236—1295",
+      "role": "灭宋统帅",
+      "bio": "[[kublai]] 麾下名将，1274 年率二十万大军南下，三年灭宋。临安降，他下令『一不杀降、二不焚城、三不掳掠』——蒙古攻城史上罕见的克制。后世评：以二十万兵服九百万人，凭的不只是马刀，还有这道令。",
+      "relations": [
+        { "personId": "kublai", "type": "统帅", "note": "他用一道『不杀降』令，让灭宋这件事在江南没留下血海。" },
+        { "personId": "wentianxiang", "type": "其对手", "note": "他俘文天祥，押北上三年劝降不成，最后忽必烈才下令处决。" }
+      ]
+    },
+    {
+      "id": "yuan-yelvchucai",
+      "name": "耶律楚材",
+      "life": "1190—1244",
+      "role": "成吉思汗·窝阔台的汉化谋主",
+      "bio": "辽朝皇族后裔，金亡降蒙。在 [[chinggis]] 和窝阔台两朝主政三十年，劝阻『屠汉为牧』之议，立赋税制度、保住华北民人和耕地。死时家无余财，只剩琴书数件——一个亡国后裔，替征服者按住了刀。",
+      "relations": [
+        { "personId": "chinggis", "type": "汗庭谋主", "note": "亡国皇族当上征服者的宰相——他用文官官僚劝住了草原的屠刀。" }
+      ]
+    },
+    {
+      "id": "yuan-basiba",
+      "name": "八思巴",
+      "life": "1235—1280",
+      "role": "元朝帝师·藏传佛教传入者",
+      "bio": "藏传佛教萨迦派领袖，[[kublai]] 拜为帝师，赐号大宝法王。受命创制『八思巴字』，意图统一帝国文字，结果只在官方文书行用八十余年。但他带来的藏传佛教在中原宫廷扎了根，元亡之后香火延续至清。",
+      "relations": [
+        { "personId": "kublai", "type": "帝师", "note": "蒙古大汗向一位藏僧行弟子礼——元朝的宗教格局由此定型。" }
+      ]
+    },
+    {
+      "id": "yuan-liubingzhong",
+      "name": "刘秉忠",
+      "life": "1216—1274",
+      "role": "大都设计者",
+      "bio": "和尚出身，[[kublai]] 称帝的总参谋。按《周礼·考工记》给大都画图：左祖右社、前朝后市，方方正正九经九纬。蒙古大汗最后住进了最『中国』的一座城——这座城七百年后还是北京城的内核。",
+      "relations": [
+        { "personId": "kublai", "type": "总参谋·都城设计师", "note": "用《周礼》给草原大汗画都——元朝汉化的一个具体地基。" }
+      ]
+    },
+    {
+      "id": "yuan-zhanghongfan",
+      "name": "张弘范",
+      "life": "1238—1280",
+      "role": "崖山主将",
+      "bio": "易州人，金国遗民之后，元朝灭宋的最后一员主将。1279 年崖山海战，他指挥的舰队逼得 [[luxiufu]] 抱幼帝跳海。事后在崖山勒石『张弘范灭宋于此』——后世骂他汉奸，但他生来就不是宋人。身份的错位，是元朝故事的底色。",
+      "relations": [
+        { "personId": "luxiufu", "type": "对手", "note": "金人后裔灭宋，宋臣抱幼帝跳海——两边都不属于自己的国，却为这国死。" }
+      ]
+    },
+    {
+      "id": "yuan-guoshoujing",
+      "name": "郭守敬",
+      "life": "1231—1316",
+      "role": "天文学家·授时历主修",
+      "bio": "邢台人，[[yuan-liubingzhong]] 弟子。受 [[kublai]] 命主持修订历法，实测推得一年 365.2425 日——比格里高利历早三百年得出同一数字。又主持开通通惠河，让漕粮直入大都。一个『南人』压在四等人最底，给整个文明续上了最准的一只钟。",
+      "relations": [
+        { "personId": "yuan-liubingzhong", "type": "其师", "note": "刘以《周礼》造都，郭以测量造历——元朝最硬的两件汉化遗产。" }
+      ]
+    },
+    {
+      "id": "yuan-zhaomengfu",
+      "name": "赵孟頫",
+      "life": "1254—1322",
+      "role": "书画家·宋宗室仕元者",
+      "bio": "宋太祖十一世孙，宋亡后被 [[kublai]] 征召入仕，官至翰林学士承旨。书画双绝，开元代文人画一脉。但终身被讥『以宋宗室仕异姓』，妻管道升劝他归隐他不肯——亡国遗孤选择在征服者朝廷里画山水，是元朝文化的一个独特姿态。",
+      "relations": [
+        { "personId": "kublai", "type": "征召入仕", "note": "宋皇室宗亲为元朝写字——耻辱与艺术，在他一人身上并存。" }
+      ]
+    },
+    {
+      "id": "yuan-huanggongwang",
+      "name": "黄公望",
+      "life": "1269—1354",
+      "role": "元四家之首",
+      "bio": "做小吏被牵连入狱，出狱时已四十多岁，遂入道、学画。八十一岁画完《富春山居图》，把富春江一段山水画了七年。此画三百年后被收藏家临终命焚殉，家人抢出已断为两截——『剩山图』在浙江、『无用师卷』在台北，至今分藏两岸。",
+      "relations": [
+        { "personId": "yuan-zhaomengfu", "type": "私淑", "note": "赵开元代文人画路径，黄走到了山水画的顶。" }
+      ]
+    },
+    {
+      "id": "yuan-guanhanqing",
+      "name": "关汉卿",
+      "life": "约 1234—约 1300",
+      "role": "元曲四大家之首·杂剧奠基者",
+      "bio": "金亡后没进元朝官场，索性以写戏为业，自称『普天下郎君领袖、盖世界浪子班头』。代表作《窦娥冤》写一个寡妇被冤死，发三桩誓全部应验——血溅白练、六月飞雪、三年大旱。被排挤的文人借一个女子的嘴，骂了整个时代。",
+      "relations": [
+        { "personId": "yuan-zhaomengfu", "type": "同时代异路", "note": "赵入朝写字，关下市井写戏——元朝文人的两条出路。" }
+      ]
+    },
+    {
+      "id": "yuan-tuotuo",
+      "name": "脱脱",
+      "life": "1314—1356",
+      "role": "元末权臣·修三史者",
+      "bio": "[[yuan-shundi]] 朝中书右丞相，主持修《宋史》《辽史》《金史》——三个被元灭、被元继的朝代，由元朝来盖棺。又主张『变钞、治河』，派 [[yuan-jialu]] 治黄河。可他治河治出了红巾起义，自己也被政敌弹劾流放，途中被毒杀——一个想救元朝的人，亲手敲响了元朝的丧钟。",
+      "relations": [
+        { "personId": "yuan-jialu", "type": "其举荐", "note": "他派贾鲁治河，治出十五万民工和一场天下大反——救国之策，亡国之引。" }
+      ]
+    },
+    {
+      "id": "yuan-jialu",
+      "name": "贾鲁",
+      "life": "1297—1353",
+      "role": "元末治河名臣",
+      "bio": "1351 年奉 [[yuan-tuotuo]] 命疏浚黄河故道，征发民工十五万、军兵两万。工程不到半年完工，却在工地上挖出独眼石人——『莫道石人一只眼，挑动黄河天下反』。同年五月红巾起。一个工程功臣，意外成了王朝送葬人。",
+      "relations": [
+        { "personId": "yuan-tuotuo", "type": "其举主", "note": "脱脱以为治河可以救元，结果河治好了，元也快完了。" },
+        { "personId": "yuan-hanlin-er", "type": "其工程之果", "note": "石人传说一出，民工就是兵，红巾军主力来自这十五万。" }
+      ]
+    },
+    {
+      "id": "yuan-hanlin-er",
+      "name": "韩林儿",
+      "life": "?—1366",
+      "role": "韩宋（龙凤政权）小明王",
+      "bio": "白莲教首韩山童之子，山童起事被杀，[[yuan-liufutong]] 拥林儿在亳州称帝，国号宋，年号龙凤。[[zhuyuanzhang-pre]] 名义上奉龙凤年号。1366 年朱派廖永忠迎驾，船到瓜步『不慎倾覆』，小明王沉江——两年后朱称帝。开国前最后一桩黑账。",
+      "relations": [
+        { "personId": "zhuyuanzhang-pre", "type": "其名义共主（被沉杀）", "note": "迎驾途中船翻人亡——开国黑账上永远的一笔悬案。" }
+      ]
+    },
+    {
+      "id": "yuan-liufutong",
+      "name": "刘福通",
+      "life": "1321—1363",
+      "role": "红巾军北方领袖",
+      "bio": "[[yuan-hanlin-er]] 的拥立者和实际统帅。三路北伐元廷，一度兵临大都附近，把元朝主力消耗殆尽，给南方的 [[zhuyuanzhang-pre]] 腾出了发展空间。安丰之战为元援军大败，护卫小明王突围至滁州，后被 [[yuan-zhangshicheng]] 部追杀殉国。",
+      "relations": [
+        { "personId": "yuan-hanlin-er", "type": "其拥立者", "note": "替别人扛起红巾大旗，自己战死，最后受益的是南边那个和尚。" }
+      ]
+    },
+    {
+      "id": "yuan-chenyouliang",
+      "name": "陈友谅",
+      "life": "1320—1363",
+      "role": "大汉政权皇帝",
+      "bio": "渔家出身，杀主自立为帝，国号汉。控制长江中游，兵力一度超过 [[zhuyuanzhang-pre]]。1363 年率六十万大军围洪都，朱率二十万救援，鄱阳湖鏖战三十六日，火攻定胜负。陈中流矢而亡——这一仗如果反过来，明朝就叫汉朝。",
+      "relations": [
+        { "personId": "zhuyuanzhang-pre", "type": "其最大对手", "note": "鄱阳湖三十六日，决定了未来三百年姓朱还是姓陈。" }
+      ]
+    },
+    {
+      "id": "yuan-zhangshicheng",
+      "name": "张士诚",
+      "life": "1321—1367",
+      "role": "吴王·盐贩出身的群雄之一",
+      "bio": "泰州盐贩出身，据苏松富庶之地，称吴王。富而不进取，左右逢源——降元、又反元、与朱观望。1367 年朱军围平江（苏州），城破自缢未死被俘，至应天绝食而亡。一个最有钱的群雄，输给了一个最没退路的对手。",
+      "relations": [
+        { "personId": "zhuyuanzhang-pre", "type": "其平江战俘", "note": "他守苏州十个月，朱用炮日夜轰城——最富的人，最不甘心打。" }
+      ]
+    },
+    {
+      "id": "yuan-shundi",
+      "name": "元顺帝（妥懽帖睦尔）",
+      "life": "1320—1370",
+      "role": "元末代皇帝",
+      "bio": "元朝在中原的最后一位皇帝，前期任 [[yuan-tuotuo]] 改革有起色，后期沉溺佛事密宗，朝政尽溃。1368 年明军入大都，他不守不战，连夜出健德门北遁草原——元在中国结束了，但蒙古帝国并没有亡，『北元』继续存在两百多年。征服者最后选择的，是回家。",
+      "relations": [
+        { "personId": "zhuyuanzhang", "type": "被其驱出中原", "note": "他没打就走，朱也没追到底——元未亡，只是回了草原。" }
+      ]
+    },
+
+    {
+      "id": "ming-xuda",
+      "name": "徐达",
+      "life": "1332—1385",
+      "role": "明开国第一名将",
+      "bio": "[[zhuyuanzhang]] 同乡，平陈友谅、克张士诚、北伐入大都、追北元至漠北——明开国一半的版图是他打下的。功高震主而处世极谨，朱也未动他。1385 年病疽，传说朱送『蒸鹅』赐死（疽食蒸鹅则发），真假难辨——但传说本身就说明君臣关系的氛围。",
+      "relations": [
+        { "personId": "zhuyuanzhang", "type": "其开国第一将", "note": "功高而善退，朱才未杀；『蒸鹅』之谜，恰恰说明这君不可信。" },
+        { "personId": "yongle", "type": "其岳父", "note": "女儿是朱棣皇后，孙女成了明朝几代国母——开国大将的另一种传承。" }
+      ]
+    },
+    {
+      "id": "ming-changyuchun",
+      "name": "常遇春",
+      "life": "1330—1369",
+      "role": "明开国猛将",
+      "bio": "号称『常十万』，自言『将十万兵可横行天下』。鄱阳湖一战射 [[yuan-chenyouliang]] 部，北伐与 [[ming-xuda]] 同入大都。1369 年从北伐归途暴卒柳河川，年三十九——开国功臣里少数善终的之一，恰恰因为他死得早。",
+      "relations": [
+        { "personId": "ming-xuda", "type": "并肩主将", "note": "两人一并入大都；只是徐善终在病榻，常死得太早，反而避开了后来的屠刀。" }
+      ]
+    },
+    {
+      "id": "ming-liuji",
+      "name": "刘基（伯温）",
+      "life": "1311—1375",
+      "role": "明开国谋主",
+      "bio": "浙东人，元末进士。投 [[zhuyuanzhang]] 后定『先陈后张』平天下方略。开国后位低权轻——朱知其智深，反而戒之。归隐后被 [[ming-huweiyong]] 派医下毒，疑朱默许。民间从此把他越神越神：『三分天下诸葛亮，一统江山刘伯温』，其实他在朝堂上从未走到顶。",
+      "relations": [
+        { "personId": "zhuyuanzhang", "type": "开国谋主", "note": "立朱的功最大，封爵最低；最聪明的谋臣，朱最不放心。" },
+        { "personId": "ming-huweiyong", "type": "被其下毒", "note": "胡派医诊伯温，下毒，朱默许——开国谋主死于开国宰相之手。" }
+      ]
+    },
+    {
+      "id": "ming-lishanchang",
+      "name": "李善长",
+      "life": "1314—1390",
+      "role": "明开国宰相·韩国公",
+      "bio": "[[zhuyuanzhang]] 起兵就跟随，开国后任左丞相，封韩国公，朱比之萧何。十年后告病归乡，本可终老——结果『胡惟庸案』翻案，七十七岁被牵连，全家七十余口被诛。开国第一文臣，比开国谋主死得还惨。",
+      "relations": [
+        { "personId": "zhuyuanzhang", "type": "开国宰相", "note": "比萧何，结果死得比萧何惨——朱要的是干净，不是恩人。" },
+        { "personId": "ming-huweiyong", "type": "其举荐者", "note": "他举胡，胡案再翻，连带自己——开国之初最大的连坐网。" }
+      ]
+    },
+    {
+      "id": "ming-huweiyong",
+      "name": "胡惟庸",
+      "life": "?—1380",
+      "role": "明开国末任丞相",
+      "bio": "明朝最后一个真正的丞相。1380 年以谋反罪被诛，前后牵连三万人。朱借此案废除中书省和丞相制——从汉以来沿用一千五百年的相权，从此正式消灭。其后『胡党』继续翻案十余年，连 [[ming-lishanchang]] 都没逃过。",
+      "relations": [
+        { "personId": "zhuyuanzhang", "type": "被其废相借口", "note": "他不是被废相杀，是先被杀以废相——一千五百年的丞相制就死在这一案。" }
+      ]
+    },
+    {
+      "id": "ming-lanyu",
+      "name": "蓝玉",
+      "life": "?—1393",
+      "role": "明开国名将·蓝玉案主角",
+      "bio": "[[ming-changyuchun]] 妻弟，捕鱼儿海大破北元，俘获北元皇室及七万余人——一战彻底打断蒙古复兴。次年班师，骄横日甚，强占民田、私蓄义子。1393 年朱以谋反罪诛蓝及功臣集团一万五千余人——开国武将系彻底清空，朱孙能不能坐稳，朱替他用人头铺好了路。",
+      "relations": [
+        { "personId": "zhuyuanzhang", "type": "其『为孙清场』之刀", "note": "蓝灭北元，朱再灭蓝——开国将星全清，留给孙子一张白纸。" },
+        { "personId": "ming-zhubiao", "type": "其原本要保的太子之系", "note": "如果朱标活着，蓝玉就不必死；标早夭，蓝就成了下一代的隐患。" }
+      ]
+    },
+    {
+      "id": "ming-zhubiao",
+      "name": "朱标（懿文太子）",
+      "life": "1355—1392",
+      "role": "明太祖嫡长子",
+      "bio": "[[zhuyuanzhang]] 嫡长，仁厚有人望，多次为受朱猜忌的功臣求情。1392 年视察陕西归后病亡，年三十八。朱白发人送黑发人，从此性格更狠——『为孙清场』的蓝玉案、连坐数万人头，就发生在朱标死后第二年。一个未登基的太子，他的死改写了开国后期的所有事。",
+      "relations": [
+        { "personId": "zhuyuanzhang", "type": "其嫡长", "note": "标死，朱才下了清功臣的最狠手——这父亲的爱，体现在最血腥的地方。" },
+        { "personId": "ming-jianwen", "type": "父", "note": "他若不死，靖难之役大概率没有；他一死，整个明朝的剧本被改了。" }
+      ]
+    },
+    {
+      "id": "ming-jianwen",
+      "name": "建文帝（朱允炆）",
+      "life": "1377—?",
+      "role": "明朝第二任皇帝",
+      "bio": "[[ming-zhubiao]] 之子，由祖父 [[zhuyuanzhang]] 直接立为皇太孙。即位即削藩，逼反四叔燕王 [[yongle]]。靖难四年，南京城破时宫中起火，建文下落成谜——有说自焚、有说出亡为僧，[[zhenghe]] 下西洋后世也疑为寻其下落。一个皇帝的失踪，是明朝最长寿的悬案。",
+      "relations": [
+        { "personId": "yongle", "type": "被其推翻", "note": "侄要削叔，叔起兵抢侄，最大输家不是政争而是合法性。" }
+      ]
+    },
+    {
+      "id": "ming-fangxiaoru",
+      "name": "方孝孺",
+      "life": "1357—1402",
+      "role": "建文重臣·诛十族者",
+      "bio": "[[ming-jianwen]] 之师，天下文宗。南京城破，[[yongle]] 要他写即位诏，他写下『燕贼篡位』。永乐怒：『不怕灭九族？』方答：『便十族何妨！』连门生算第十族，八百七十三人被杀，方本人车裂。一个读书人，把『不可以』四个字写到了历史的极限。",
+      "relations": [
+        { "personId": "yongle", "type": "被其诛十族", "note": "九族之外加门生为第十族——史无前例，从此再无更狠。" },
+        { "personId": "ming-jianwen", "type": "其师·忠之至", "note": "侍奉过的皇帝下落不明，他用八百七十三条命赔上了对那个皇帝的忠。" }
+      ]
+    },
+    {
+      "id": "ming-yaoguangxiao",
+      "name": "姚广孝（道衍）",
+      "life": "1335—1418",
+      "role": "黑衣宰相",
+      "bio": "和尚出身，初见燕王 [[yongle]] 即说『愿献白帽』——『王』上加『白』即『皇』。靖难之役实际策划者。永乐即位封僧官、住寺、不蓄发不娶妻、不受赏赐，照常穿僧袍上朝。一个把皇帝送上皇位的人，自己一辈子坚持当和尚。",
+      "relations": [
+        { "personId": "yongle", "type": "其策反·策战·策都之主谋", "note": "一个和尚替一个王打下江山，自己只要继续当和尚——明朝最奇特的开国功臣。" }
+      ]
+    },
+    {
+      "id": "ming-yuqian",
+      "name": "于谦",
+      "life": "1398—1457",
+      "role": "保京名臣",
+      "bio": "土木堡后瓦剌挟英宗扣关，于谦力主『社稷为重君为轻』，立景帝、组团营、守九门，瓦剌无功而退。八年后『夺门之变』英宗复辟，第一道诏书：杀于谦。京城百姓罢市哭祭，刑场上『天下冤之』。救国者死于他救的那个国家——这是明朝政治最尖锐的一个反讽。",
+      "relations": [
+        { "personId": "ming-wangzhen", "type": "其制造之乱·之收拾者", "note": "王振葬军，于谦救国；王振无后被祭，于谦救国后被杀。" },
+        { "personId": "zhuyuanzhang", "type": "受其制度之苦", "note": "废相二百年，皇权失衡，救国者最容易死于政变——这债，于谦替朱还了一笔。" }
+      ]
+    },
+    {
+      "id": "ming-wangzhen",
+      "name": "王振",
+      "life": "?—1449",
+      "role": "明朝第一位专权宦官",
+      "bio": "本是落第秀才，自宫入宫教书。英宗即位后宠信至极，群臣皆称『翁父』。1449 年怂恿英宗御驾亲征瓦剌，又中途想绕回老家蔚州显摆，结果二十万大军在土木堡被歼，皇帝被俘，王振本人被护卫将军樊忠一锤击杀。一个太监的虚荣心，葬送了明朝半个开国底气。",
+      "relations": [
+        { "personId": "zhuyuanzhang", "type": "其『废相留宦官』之果", "note": "朱废丞相，权力真空被宦官填补——这种填补，几代之后变成王振葬军这件事。" }
+      ]
+    },
+    {
+      "id": "ming-liujin",
+      "name": "刘瑾",
+      "life": "1451—1510",
+      "role": "正德八虎之首",
+      "bio": "正德朝宦官，与马永成等八人称『八虎』。把持朝政，号『立皇帝』，朱厚照为『坐皇帝』。1510 年安化王起事以诛瑾为名，瑾被告谋反，凌迟三日，割三千三百五十七刀。家中抄出黄金二百五十万两、白银五千万两——明朝半年财政收入。",
+      "relations": [
+        { "personId": "ming-wangzhen", "type": "同一制度之果", "note": "王振开了头，刘瑾把这件事做到了极致——明朝宦官的进化曲线。" }
+      ]
+    },
+    {
+      "id": "ming-wangyangming",
+      "name": "王守仁（阳明）",
+      "life": "1472—1529",
+      "role": "心学集大成者",
+      "bio": "弹劾 [[ming-liujin]] 被廷杖、贬贵州龙场驿。住山洞、面石棺，夜半忽悟：『圣人之道，吾性自足。』心学由此发端。后又平宁王朱宸濠之乱，三十五日定一场大叛。一个被朝廷扔到边荒的官，在山洞里把儒学翻了一遍——明朝最大的思想突破，发生在最远的角落。",
+      "relations": [
+        { "personId": "ming-liujin", "type": "被其廷杖·因祸悟道", "note": "若没有刘瑾贬他，就没有龙场悟道——历史的反讽往往是这样。" }
+      ]
+    },
+    {
+      "id": "ming-yansong",
+      "name": "严嵩",
+      "life": "1480—1567",
+      "role": "嘉靖朝大学士·明末第一权奸",
+      "bio": "靠青词得宠嘉靖二十年，与子严世蕃把持朝政。倒台时抄家得黄金三万两、白银三百万两、田地数万顷。八十七岁削籍为民，乞食墓庐两年而死——靠帝王宠信起家的权臣，下场全在帝王的一念之间。",
+      "relations": [
+        { "personId": "ming-haorui", "type": "同朝之极端反例", "note": "一朝同列严海，一贪一清，是明朝官场的两个端点。" }
+      ]
+    },
+    {
+      "id": "ming-haorui",
+      "name": "海瑞",
+      "life": "1514—1587",
+      "role": "明朝清官代表",
+      "bio": "买好棺材抬进宫前上《治安疏》骂嘉靖『虚荣、刻薄、猜忌、二十余年不视朝』。嘉靖怒下诏狱，几月后听到先帝驾崩，海瑞恸哭吐食——他骂的那个人，他终究是臣子。一生清廉，死时家无余财，葬礼是百姓凑钱办的。",
+      "relations": [
+        { "personId": "ming-yansong", "type": "同朝之极端反例", "note": "严贪三百万白银，海死无积蓄——一座衙门里，活出了两种完全相反的人。" }
+      ]
+    },
+    {
+      "id": "ming-zhangjuzheng",
+      "name": "张居正",
+      "life": "1525—1582",
+      "role": "万历首辅·改革家",
+      "bio": "万历初年首辅十年，行考成法整顿吏治，行一条鞭法折赋为银。太仓积银千万、明朝回光返照。1582 年病逝，第三天 [[ming-wanli]] 下令抄家、削谥，长子自缢。死后被清算的不是错，是太成功——皇帝忍了他十年，等的就是这一天。",
+      "relations": [
+        { "personId": "ming-wanli", "type": "其师·被其抄家", "note": "他活着时万历最敬他，他一死万历最恨他——压抑十年的反扑，比任何政争都狠。" },
+        { "personId": "ming-qijiguang", "type": "其政治盾", "note": "张在，戚镇北疆；张倒，戚也被罢——能打仗的人，不是死在战场上。" }
+      ]
+    },
+    {
+      "id": "ming-qijiguang",
+      "name": "戚继光",
+      "life": "1528—1588",
+      "role": "抗倭名将·戚家军统帅",
+      "bio": "浙东募矿工农夫，编『鸳鸯阵』，十二人一组互保。十年扫平倭患。升蓟镇总兵，把这套打蒙古，北疆十余年安宁。靠 [[ming-zhangjuzheng]] 政治保护，张倒戚也被罢，病死故里——能打仗的人，从来不是死在战场上。",
+      "relations": [
+        { "personId": "ming-zhangjuzheng", "type": "其政治后盾", "note": "张倒戚罢，戚的本事在新的政治里没有位置——名将的命，常常系于朝堂的一根线。" }
+      ]
+    },
+    {
+      "id": "ming-wanli",
+      "name": "万历皇帝（朱翊钧）",
+      "life": "1563—1620",
+      "role": "明朝在位最长皇帝（48 年）",
+      "bio": "十岁即位，前十年由 [[ming-zhangjuzheng]] 辅政，是明朝回光返照。亲政后清算张居正，又跟文官就『立谁为太子』（争国本）怄了十五年气，索性二十多年不上朝、不见臣、不批章。官员缺员一半也不补，朝廷在『失联』中继续运转。后人评『明亡，实亡于万历』。",
+      "relations": [
+        { "personId": "ming-zhangjuzheng", "type": "其师·被其抄家", "note": "敬畏十年、压抑十年、反扑一辈子——师生关系的极端版本。" },
+        { "personId": "chongzhen", "type": "其制度之果·由孙承受", "note": "他三十年不上朝，朝廷已坏；崇祯接手时，可补已晚。" }
+      ]
+    },
+    {
+      "id": "ming-weizhongxian",
+      "name": "魏忠贤",
+      "life": "1568—1627",
+      "role": "天启朝大宦官·九千岁",
+      "bio": "市井无赖出身，自宫入宫，与天启乳母客氏勾结把持朝政。自称『九千九百岁』，全国为他建生祠，文官写碑赞如帝。东林党人前赴后继上书弹劾，被『打死、廷杖、瘐死狱中』数百。崇祯即位，魏被贬凤阳，途中自缢。但他养出的『阉党、东林』对立，到亡国都没散。",
+      "relations": [
+        { "personId": "ming-liujin", "type": "同一制度之果·登峰造极", "note": "王振葬军、刘瑾敛财、魏忠贤封圣——明朝宦官的进化三步走。" },
+        { "personId": "chongzhen", "type": "被其清算·遗害留下", "note": "崇祯杀了魏，但魏养出的党争却继承下来，最后没人能调和。" }
+      ]
+    },
+    {
+      "id": "ming-yuanchonghuan",
+      "name": "袁崇焕",
+      "life": "1584—1630",
+      "role": "辽东督师·宁远大捷主将",
+      "bio": "1626 年宁远城头用红夷大炮重伤 [[nuerhachi]]，努尔哈赤数月后病卒。三年后 [[ming-huangtaiji]] 绕道蒙古直叩北京（己巳之变），[[chongzhen]] 反疑袁通谋。1630 年袁被凌迟，京城百姓争食其肉。崇祯亲手砍断了自己唯一的盾——后来再无人敢替明朝守边。",
+      "relations": [
+        { "personId": "nuerhachi", "type": "其炮伤致死之敌", "note": "他一炮重伤努尔哈赤，三年后他自己被本朝凌迟——明清易代最尖锐的一个错位。" },
+        { "personId": "chongzhen", "type": "被其凌迟", "note": "猜忌之主用最残的刑杀掉最能打的将——明亡的转折点之一。" }
+      ]
+    },
+    {
+      "id": "ming-huangtaiji",
+      "name": "皇太极",
+      "life": "1592—1643",
+      "role": "清太宗·改国号为清者",
+      "bio": "[[nuerhachi]] 第八子，1636 年改国号『大清』、改族名『满洲』，建立完整的国家形制。绕过山海关五次入塞掠京畿（己巳之变即第一次），松锦大战俘 [[ming-yuanchonghuan]] 旧部洪承畴。1643 年暴卒，未及入关——把入关这桩功劳留给了弟弟 [[ming-duoergun]]。",
+      "relations": [
+        { "personId": "nuerhachi", "type": "其继承者·建国者", "note": "父打下基业，子改国号，制度成形——清的真正奠基人是他不是父。" },
+        { "personId": "ming-duoergun", "type": "兄·继业未竟", "note": "兄死，弟入关——清入主中原最关键的接力。" }
+      ]
+    },
+    {
+      "id": "ming-duoergun",
+      "name": "多尔衮",
+      "life": "1612—1650",
+      "role": "清摄政王·入关主帅",
+      "bio": "[[nuerhachi]] 十四子。[[ming-huangtaiji]] 死后让出帝位拥立六岁顺治，自任摄政王。1644 年 [[ming-wusangui]] 开关，多尔衮率清军入关，定都北京，奠定清两百六十八年江山。死后两月被顺治追夺一切封爵——掌权时的孤注一掷，死后总要被清算。",
+      "relations": [
+        { "personId": "ming-wusangui", "type": "被其引入关", "note": "一个明朝边将一开关，一个清朝摄政王就接住了整个中国。" },
+        { "personId": "ming-huangtaiji", "type": "兄·继业者", "note": "兄死他让位、自掌权，把入关的功劳实际做了——清帝制最有争议的一员。" }
+      ]
+    },
+    {
+      "id": "ming-wusangui",
+      "name": "吴三桂",
+      "life": "1612—1678",
+      "role": "辽东总兵·引清入关者",
+      "bio": "1644 年 [[lizicheng]] 已进北京，吴三桂在山海关接到的消息是：父亲被夹拷，爱姬陈圆圆被劫。他在一夜之间从『准备降顺』变成『冲冠一怒为红颜』，开关引 [[ming-duoergun]] 入关。后封平西王镇云南。1673 年起兵反清（三藩之乱），1678 年称帝衡州，几个月病亡。一个边将的私事，决定了中国未来两百六十八年的姓。",
+      "relations": [
+        { "personId": "ming-duoergun", "type": "其引入关者", "note": "一夜之间的选择，决定一个朝代的兴亡——历史最爱的样子。" },
+        { "personId": "lizicheng", "type": "其拒降之主", "note": "拒降的导火索不是政治，是父被拷、姬被夺——一个私事改写了一个时代。" }
+      ]
+    },
+    {
+      "id": "ming-shikefa",
+      "name": "史可法",
+      "life": "1601—1645",
+      "role": "南明扬州督师",
+      "bio": "南明弘光朝兵部尚书·督师江北。1645 年清军围扬州，守十日城破，被俘不降，遇害。多铎下令屠城，十日内死难八十万。一座城用十天证明南明还有人愿意死——但更多的城，开了门。",
+      "relations": [
+        { "personId": "ming-duoergun", "type": "其敌阵主帅之弟（多铎）部下", "note": "他守的城被屠十日——南明的悲剧不是没人死战，是大多数人选择开门。" }
+      ]
+    },
+    {
+      "id": "ming-zhengchenggong",
+      "name": "郑成功",
+      "life": "1624—1662",
+      "role": "南明遗臣·光复台湾者",
+      "bio": "父郑芝龙降清、母田川氏自尽，他在烈祠焚儒服披甲起兵。北伐南京失利，转而东征驱荷兰、复台湾。台湾光复后第二年，三十九岁的他在台南病亡——一个明朝臣子，在一座岛上替明朝多活了三十八年。",
+      "relations": [
+        { "personId": "ming-wusangui", "type": "同朝对照", "note": "一个开关迎清，一个浮海抗清——同一年代的两条极端的路。" }
+      ]
+    },
+    {
+      "id": "ming-songyingxing",
+      "name": "宋应星",
+      "life": "1587—约 1666",
+      "role": "《天工开物》作者",
+      "bio": "万历举人。1637 年刊《天工开物》，记农工技艺一百三十余项，是中国第一部综合科技百科。明亡后归隐不仕，著作在清朝竟失传二百年，到清末才从日本回传——一个民族的工程记忆，在故乡丢了，由别人替他保留。",
+      "relations": [
+        { "personId": "ming-xuxiake", "type": "同时代之异路", "note": "宋记工艺、徐写地理——明末科学的两位独行者，结局都是不被本朝看见。" }
+      ]
+    },
+    {
+      "id": "ming-xuxiake",
+      "name": "徐霞客",
+      "life": "1587—1641",
+      "role": "明末地理学家",
+      "bio": "二十二岁起遍游中国，三十余年不仕、徒步、记账。考察长江源、发现金沙江为长江正源（推翻《禹贡》岷山说一千八百年）。《徐霞客游记》六十万字，全是脚踩出来的。死于云南还家途中——一个一辈子在路上的人，最远没有走出明朝。",
+      "relations": [
+        { "personId": "ming-songyingxing", "type": "同时代之异路", "note": "一个走天下、一个写工艺，明末民间学术的两条罕见路。" }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yuan-alibuge-zhanzheng",
+      "title": "忽必烈·阿里不哥汗位之争",
+      "year": 1260,
+      "narrative": "1260 年 [[kublai]] 在开平自立，[[yuan-alibuge]] 在和林被传统派推上汗位——一场仗打了四年，本质是『要不要做中国皇帝』的路线之争。忽必烈赢了，蒙古帝国从此分裂为四大汗国，元朝独走汉化路。",
+      "involvedPersonIds": ["kublai", "yuan-alibuge", "yuan-tolui"]
+    },
+    {
+      "id": "yuan-xiangfan-zhiwei",
+      "title": "襄樊之围",
+      "year": 1273,
+      "narrative": "[[kublai]] 派 [[yuan-bayan]]、阿术围襄阳、樊城六年。回回炮一响，襄阳守将吕文焕降——南宋长江防线的钥匙交了出去。两年后元军顺江而下，再过两年崖山。一场围攻六年的城，决定了一个三百年王朝的终局。",
+      "involvedPersonIds": ["kublai", "yuan-bayan"]
+    },
+    {
+      "id": "yuan-yashan-haizhan",
+      "title": "崖山海战",
+      "year": 1279,
+      "narrative": "1279 年正月，[[yuan-zhanghongfan]] 围 [[luxiufu]] 残部于崖山。二月六日战败，陆秀夫抱八岁少帝赵昺跳海，杨太后随之投水，十万军民相继。海上浮尸数日。张弘范在崖山题碑『张弘范灭宋于此』——金人后裔灭宋，宋臣抱幼帝跳海，两边都不属于自己的国，却为这国死。",
+      "involvedPersonIds": ["yuan-zhanghongfan", "luxiufu", "kublai"]
+    },
+    {
+      "id": "yuan-liangdu-zhizhan",
+      "title": "两都之战",
+      "year": 1328,
+      "narrative": "元泰定帝死，朝廷在大都、上都两派分立汗位，刀兵相见数月。最后大都派胜，元文宗即位。一场内战让中央威信折损，地方藩臣开始离心——元朝快速衰落的转折点。",
+      "involvedPersonIds": []
+    },
+    {
+      "id": "yuan-jialu-zhihe",
+      "title": "贾鲁治河",
+      "year": 1351,
+      "narrative": "1351 年 [[yuan-tuotuo]] 派 [[yuan-jialu]] 治黄河，征发民工十五万、军兵两万。工地上挖出独眼石人，背刻『莫道石人一只眼，挑动黄河天下反』——同年五月 [[yuan-hanlin-er]]、[[yuan-liufutong]] 红巾起。元朝的命，被自己的水利工程引爆。",
+      "involvedPersonIds": ["yuan-tuotuo", "yuan-jialu", "yuan-hanlin-er", "yuan-liufutong"]
+    },
+    {
+      "id": "yuan-poyanghu",
+      "title": "鄱阳湖之战",
+      "year": 1363,
+      "narrative": "1363 年 [[yuan-chenyouliang]] 率六十万大军围洪都，[[zhuyuanzhang-pre]] 率二十万救援，鄱阳湖鏖战三十六日，火攻定胜负。陈中流矢而亡——这一仗如果反过来，明朝就叫汉朝。",
+      "involvedPersonIds": ["zhuyuanzhang-pre", "yuan-chenyouliang", "ming-changyuchun"]
+    },
+    {
+      "id": "yuan-pingjiang",
+      "title": "平江之战",
+      "year": 1367,
+      "narrative": "1367 年 [[zhuyuanzhang-pre]] 军围 [[yuan-zhangshicheng]] 苏州城十个月，火炮日夜轰击。城破，张被俘至应天绝食而亡——最富的群雄，最不甘心打到底；最穷的对手，反而一路战到了最后。",
+      "involvedPersonIds": ["zhuyuanzhang-pre", "yuan-zhangshicheng", "ming-xuda"]
+    },
+    {
+      "id": "yuan-mingbeifa",
+      "title": "明军北伐入大都",
+      "year": 1368,
+      "narrative": "1368 年正月朱称帝，七月 [[ming-xuda]]、[[ming-changyuchun]] 率二十五万北伐军入大都。[[yuan-shundi]] 不守不战，连夜出健德门北遁草原——元在中原九十八年，结束于一夜之间的弃城。",
+      "involvedPersonIds": ["zhuyuanzhang", "ming-xuda", "ming-changyuchun", "yuan-shundi"]
+    },
+    {
+      "id": "yuan-shundi-beidun",
+      "title": "顺帝北遁·北元开始",
+      "year": 1368,
+      "narrative": "[[yuan-shundi]] 出健德门北归草原，后世史称『北元』。蒙古帝国在中国结束，但并未灭亡——草原汗庭继续传承两百多年。征服者最后选择的，是回家。",
+      "involvedPersonIds": ["yuan-shundi", "zhuyuanzhang"]
+    },
+
+    {
+      "id": "ming-hongwu-sida-an",
+      "title": "洪武四大案",
+      "year": 1380,
+      "narrative": "[[zhuyuanzhang]] 用『胡惟庸案』废丞相、『蓝玉案』清开国武将、『郭桓案』『空印案』整顿吏治。前后牵连十余万人。开国功臣几乎屠尽——他要给孙子留一个没有权臣的天下，结果留下的是一个没有屏障的天下。",
+      "involvedPersonIds": ["zhuyuanzhang", "ming-huweiyong", "ming-lanyu", "ming-lishanchang"]
+    },
+    {
+      "id": "ming-zhudi-qianbei",
+      "title": "永乐迁都北京",
+      "year": 1421,
+      "narrative": "[[yongle]] 把首都从南京搬到自己的封地北平，号称『天子守国门』。一方面是不放心南京的旧勋贵和南方文官，一方面是要直接顶住北方蒙古。未来两百年皇帝的安危直接挂在边境的刀口上——明的命，从此挂上了北方。",
+      "involvedPersonIds": ["yongle"]
+    },
+    {
+      "id": "ming-beijing-baowei",
+      "title": "北京保卫战",
+      "year": 1449,
+      "narrative": "[[tumubao]] 后瓦剌挟英宗扣关，[[ming-yuqian]] 力主『社稷为重君为轻』，立景帝、组团营、守九门。也先攻德胜、西直、彰义诸门皆败，无功而退。一个文官在二十万精锐尽失之后，凭京师残兵守住了国都。",
+      "involvedPersonIds": ["ming-yuqian", "ming-wangzhen"]
+    },
+    {
+      "id": "ming-duomen-zhibian",
+      "title": "夺门之变",
+      "year": 1457,
+      "narrative": "1457 年景帝病重，石亨、徐有贞、曹吉祥半夜撬开南宫门，背幽禁的英宗冲到奉天殿。天亮文武入朝，发现龙椅上的人换了。复辟之后第一道诏书：杀 [[ming-yuqian]]。明朝皇位的合法性，从此再没站稳过。",
+      "involvedPersonIds": ["ming-yuqian"]
+    },
+    {
+      "id": "ming-dali-yi",
+      "title": "大礼议",
+      "year": 1524,
+      "narrative": "嘉靖以小宗入大统，要追封生父为『皇考』。文官集团坚持祖制，二百余人跪哭午门，被廷杖一百八十多人，死十六。一个十几岁的皇帝用棍子赢了礼法之争，从此他可以二十年不上朝——明朝皇权对文官的最后一次大规模碾压。",
+      "involvedPersonIds": []
+    },
+    {
+      "id": "ming-zhangjuzheng-gaige",
+      "title": "张居正改革（考成法·一条鞭法）",
+      "year": 1572,
+      "narrative": "[[ming-zhangjuzheng]] 任首辅十年，行考成法考核官僚、行一条鞭法折赋为银。太仓积银千万，明朝回光返照。1582 年死，第三天 [[ming-wanli]] 下令抄家，长子自缢——改革者最怕的不是反对者，是会等他死的皇帝。",
+      "involvedPersonIds": ["ming-zhangjuzheng", "ming-wanli", "ming-qijiguang"]
+    },
+    {
+      "id": "ming-longqing-kaiguan",
+      "title": "隆庆开关",
+      "year": 1567,
+      "narrative": "1567 年隆庆帝下旨『准贩东西二洋』，结束明初两百年的海禁。月港（漳州）开埠，白银大量从美洲、日本经马尼拉流入中国——明末『白银帝国』由此而成；但白银一旦因外部供给断流，国库就先崩塌。开关救了一时，也埋下未来的雷。",
+      "involvedPersonIds": []
+    },
+    {
+      "id": "ming-zhengguoben",
+      "title": "争国本",
+      "year": 1586,
+      "narrative": "[[ming-wanli]] 想立宠妃郑氏所生福王为太子，文官集团坚持长子皇长子常洛。争吵十五年，皇帝最终让步，但从此对朝政心灰意冷，二十多年不上朝——一场关于储君的争执，让明朝皇帝彻底退场。",
+      "involvedPersonIds": ["ming-wanli"]
+    },
+    {
+      "id": "ming-wanli-sanzheng",
+      "title": "万历三大征",
+      "year": 1592,
+      "narrative": "1592 年至 1600 年，明军连续打三场大仗：宁夏哱拜之乱、朝鲜援朝抗倭（壬辰倭乱）、播州杨应龙之乱。三战皆胜，但耗银千万、太仓为空——张居正攒下的家底打没了，明朝的财政从此再没缓过来。",
+      "involvedPersonIds": ["ming-wanli"]
+    },
+    {
+      "id": "ming-sansi-an",
+      "title": "明末三大案（梃击·红丸·移宫）",
+      "year": 1615,
+      "narrative": "1615 年梃击案（疯汉持棍闯太子宫）、1620 年红丸案（光宗服丹药暴亡）、1620 年移宫案（李选侍欲挟天启幼帝）。三案不到五年，每一案都让东林党与对手党争一次。皇宫已成党争剧场——明朝最高权力中枢，从此再无安宁。",
+      "involvedPersonIds": []
+    },
+    {
+      "id": "ming-jisi-zhibian",
+      "title": "己巳之变",
+      "year": 1629,
+      "narrative": "1629 年 [[ming-huangtaiji]] 绕过山海关，借道蒙古直叩北京。[[ming-yuanchonghuan]] 千里回援，京师百姓却疑其通谋。[[chongzhen]] 听信谗言下袁入狱，次年凌迟于市，京城百姓争食其肉——明亡的转折点之一，崇祯亲手砍断了自己唯一的盾。",
+      "involvedPersonIds": ["ming-huangtaiji", "ming-yuanchonghuan", "chongzhen"]
+    },
+    {
+      "id": "ming-songjin-dahzan",
+      "title": "松锦大战",
+      "year": 1641,
+      "narrative": "1641 年 [[ming-huangtaiji]] 围锦州，[[chongzhen]] 命洪承畴率十三万援军出关，被清军围于松山。次年城破，洪承畴被俘后降清。明朝在关外最后一支机动主力被歼——之后辽东只剩 [[ming-wusangui]] 守着山海关一座孤城。",
+      "involvedPersonIds": ["ming-huangtaiji", "chongzhen", "ming-wusangui"]
+    },
+    {
+      "id": "ming-yipianshi",
+      "title": "一片石之战·开关引清",
+      "year": 1644,
+      "narrative": "1644 年四月，[[ming-wusangui]] 在山海关一片石与 [[lizicheng]] 大顺军决战。三桂力不能支，开关引 [[ming-duoergun]] 八旗入关。清军会同吴军大破李自成。两天之内，中国的统治者从明、变顺、变清——历史最浓的一笔，发生在一座关口。",
+      "involvedPersonIds": ["ming-wusangui", "ming-duoergun", "lizicheng"]
+    },
+    {
+      "id": "ming-yangzhou-shiri",
+      "title": "扬州十日",
+      "year": 1645,
+      "narrative": "1645 年清军围扬州，[[ming-shikefa]] 守十日，城破被俘不降而死。多铎下令屠城十日，死难八十万。一座城用十天证明南明还有人愿意死——但更多的城，开了门。",
+      "involvedPersonIds": ["ming-shikefa", "ming-duoergun"]
+    },
+    {
+      "id": "ming-zhengchenggong-fuTai",
+      "title": "郑成功收复台湾",
+      "year": 1661,
+      "narrative": "1661 年 [[ming-zhengchenggong]] 率两万五千军、四百战船自金门东渡，围荷兰人在台湾的热兰遮城九个月。次年荷兰总督揆一签降。台湾被汉人收回。郑成功在台一年余病亡，年三十九——一个明朝臣子，在一座岛上替明朝多活了三十八年。",
+      "involvedPersonIds": ["ming-zhengchenggong"]
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<title>Mockup · 左栏详尽态</title>
+<link rel="stylesheet" href="../../../styles/tokens.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: var(--font-serif);
+    color: var(--ink);
+    background:
+      radial-gradient(120% 80% at 50% 0%, var(--paper) 0%, var(--paper-2) 55%, var(--paper-edge) 100%) fixed;
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+
+  /* —— 三栏：左详尽 480 / 中 1fr / 右 320 —— */
+  .stage {
+    display: grid;
+    grid-template-columns: 480px minmax(0, 1fr) 320px;
+    min-height: 100vh;
+  }
+
+  /* ============================================================ */
+  /*  详尽态左栏                                                    */
+  /* ============================================================ */
+  .left-rail-full {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background:
+      radial-gradient(120% 90% at 50% 0%, #f0e5cb 0%, #e3d4af 65%, #d1bf91 100%);
+    border-right: 1px solid rgba(60, 48, 30, .22);
+    overflow: hidden;
+  }
+
+  /* —— 顶部 Toggle 头 —— */
+  .rail-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(60, 48, 30, .14);
+    flex-shrink: 0;
+  }
+  .rail-title {
+    font-size: 13px;
+    color: var(--ink-soft);
+    letter-spacing: 0.05em;
+  }
+  .rail-toggle {
+    display: inline-flex;
+    background: rgba(33, 26, 18, 0.08);
+    border-radius: 999px;
+    padding: 3px;
+    font-size: 12px;
+    font-family: var(--font-sans);
+  }
+  .rail-toggle button {
+    border: 0;
+    background: transparent;
+    padding: 5px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    color: var(--ink-faint);
+    font-family: inherit;
+  }
+  .rail-toggle button.on {
+    background: var(--paper);
+    color: var(--ink);
+    box-shadow: 0 1px 3px rgba(33, 26, 18, 0.12);
+  }
+
+  /* —— 鸟瞰条（v2：高 56px + 可交互） —— */
+  .overview-bar {
+    height: 60px;
+    padding: 4px 12px 6px;
+    background: rgba(33, 26, 18, 0.04);
+    border-bottom: 1px solid rgba(60, 48, 30, .14);
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+  }
+  .overview-bar svg { display: block; width: 100%; height: 50px; }
+  .overview-bar:hover { background: rgba(33, 26, 18, 0.07); }
+  .overview-hint {
+    position: absolute;
+    bottom: 2px;
+    left: 12px;
+    right: 12px;
+    text-align: center;
+    font-family: var(--font-sans);
+    font-size: 9.5px;
+    color: var(--ink-faint);
+    letter-spacing: 0.18em;
+    pointer-events: none;
+    opacity: 0.7;
+  }
+  .overview-tooltip {
+    position: absolute;
+    background: rgba(33, 26, 18, 0.92);
+    color: var(--paper);
+    font-family: var(--font-sans);
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 3px;
+    pointer-events: none;
+    transform: translateX(-50%) translateY(-100%);
+    margin-top: -6px;
+    white-space: nowrap;
+    display: none;
+    z-index: 10;
+  }
+  .overview-tooltip.on { display: block; }
+  @keyframes cursor-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.55; }
+  }
+  #overview-svg .cursor-glow {
+    animation: cursor-pulse 2.4s ease-in-out infinite;
+  }
+
+  /* —— 脊柱滚动区 —— */
+  .spine-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px 0;
+  }
+
+  /* 每行 */
+  .spine-row {
+    display: grid;
+    grid-template-columns: 24px 1fr 130px;
+    align-items: center;
+    column-gap: 8px;
+    padding: 6px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 120ms ease;
+    position: relative;
+  }
+  .spine-row:hover { background: rgba(33, 26, 18, 0.05); }
+  /* P1: 当前 era 高亮加重 */
+  .spine-row.on {
+    background: rgba(185, 137, 47, 0.22);
+  }
+  .spine-row.on .row-name { font-weight: 600; }
+  .spine-row.on .duration-bar { opacity: 0.95; }
+  .spine-row.on::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 4px;
+    background: var(--gold);
+    box-shadow: 0 0 6px rgba(185, 137, 47, 0.6);
+  }
+
+  /* 顶层圆点 */
+  .row-dot {
+    justify-self: center;
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: var(--c-other);
+  }
+
+  /* 族谱竖条容器（嵌套缩进） */
+  .tree-rail {
+    grid-column: 1;
+    justify-self: stretch;
+    align-self: stretch;
+    position: relative;
+  }
+  /* P0: 主竖条加粗 + 不透明度提高 */
+  .tree-rail::before {
+    content: "";
+    position: absolute;
+    left: 11px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--tree-color, var(--c-other));
+    opacity: 0.72;
+    border-radius: 1px;
+  }
+  /* 末梢分叉 */
+  .tree-rail.branch::after {
+    content: "";
+    position: absolute;
+    left: 11px;
+    top: 50%;
+    width: 10px;
+    height: 2px;
+    background: var(--tree-color, var(--c-other));
+    opacity: 0.72;
+    border-radius: 1px;
+  }
+  /* 最后一支：竖条到中间停 */
+  .tree-rail.last::before {
+    bottom: 50%;
+  }
+
+  /* P2: 父级标签行 — 中括号样左饰 */
+  .spine-row.parent {
+    cursor: default;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    position: relative;
+  }
+  .spine-row.parent:hover { background: transparent; }
+  .spine-row.parent .row-name {
+    font-weight: 600;
+    color: var(--ink-soft);
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    padding-left: 4px;
+  }
+  .spine-row.parent .duration-bar { display: none; }
+  /* 中括号装饰：在父级 + 紧跟其后子元素的左侧，画一个"屋顶" */
+  .spine-row.parent .tree-rail::before {
+    width: 2.5px;
+    opacity: 0.85;
+    background: var(--tree-color, var(--c-other));
+  }
+  .spine-row.parent .tree-rail::after {
+    content: "";
+    position: absolute;
+    left: 11px;
+    top: 14px;
+    width: 12px;
+    height: 2.5px;
+    background: var(--tree-color, var(--c-other));
+    opacity: 0.85;
+    border-radius: 1.5px;
+  }
+  /* 父级组背景染色（含父级 + 紧随其后的子 + 同 depth peer） */
+  .parent-group {
+    background: linear-gradient(90deg,
+      rgba(33, 26, 18, 0.045) 0%,
+      rgba(33, 26, 18, 0.025) 60%,
+      transparent 100%);
+    border-radius: 0 6px 6px 0;
+    margin: 4px 0;
+    padding: 2px 0 4px;
+  }
+
+  /* 行名 */
+  .row-name {
+    color: var(--ink);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .row-name .kicker {
+    color: var(--ink-faint);
+    font-size: 11px;
+    font-family: var(--font-sans);
+    margin-left: 6px;
+  }
+
+  /* 时长条 */
+  .duration-bar {
+    justify-self: end;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--bar-color, var(--c-other));
+    opacity: 0.65;
+  }
+
+  /* 并立支线行 */
+  .spine-row.peer {
+    padding-left: 16px;
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+  .spine-row.peer .row-name b {
+    font-weight: 500;
+  }
+  .peer-swatch {
+    justify-self: center;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--swatch, var(--c-other));
+  }
+
+  /* 深度 2（如春秋/战国） */
+  .spine-row[data-depth="2"] {
+    padding-left: 38px;
+  }
+  .spine-row[data-depth="2"] .tree-rail::before {
+    left: 23px;
+  }
+
+  /* —— 拖拽手柄 —— */
+  .drag-handle {
+    position: absolute;
+    top: 0; right: -2px; bottom: 0;
+    width: 4px;
+    cursor: ew-resize;
+    background: transparent;
+    transition: background 120ms;
+  }
+  .drag-handle:hover, .drag-handle.active {
+    background: var(--gold);
+  }
+
+  /* ============================================================ */
+  /*  中栏样本（叙事 spine 缩略）                                    */
+  /* ============================================================ */
+  .spine-sample {
+    padding: 40px clamp(1.4rem, 2.6vw, 3.2rem);
+    min-width: 0;
+  }
+  .spine-sample h2 {
+    font-size: clamp(1.6rem, 1.2rem + 0.6vw, 2.2rem);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .spine-sample .swatch {
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .spine-sample p { margin: 12px 0; color: var(--ink-soft); max-width: 56ch; }
+  .spine-sample .kicker {
+    font-family: var(--font-sans);
+    color: var(--ink-faint);
+    font-size: 13px;
+    letter-spacing: 0.06em;
+  }
+
+  /* ============================================================ */
+  /*  右栏样本                                                      */
+  /* ============================================================ */
+  .right-rail-sample {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background: radial-gradient(120% 90% at 50% 0%, #f0e5cb 0%, #e3d4af 65%, #d1bf91 100%);
+    border-left: 1px solid rgba(60, 48, 30, .22);
+    padding: 24px 18px;
+    overflow-y: auto;
+  }
+  .rr-kicker { font-family: var(--font-sans); color: var(--ink-faint); font-size: 12px; letter-spacing: 0.08em; }
+  .rr-title { font-size: 22px; margin: 6px 0 8px; }
+  .rr-yr { color: var(--ink-soft); font-size: 13px; font-family: var(--font-sans); }
+  .rr-art {
+    margin-top: 18px;
+    aspect-ratio: 3 / 2;
+    background: linear-gradient(135deg, #e6d4a6 0%, #c8a87a 50%, #8a6f4a 100%);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: var(--font-sans);
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  .rr-tags { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .rr-tags span {
+    font-size: 12px; padding: 3px 8px;
+    background: rgba(33, 26, 18, 0.07);
+    border-radius: 3px;
+    color: var(--ink-soft);
+    font-family: var(--font-sans);
+  }
+</style>
+</head>
+<body>
+  <main class="stage">
+
+    <!-- ============== 左栏 · 详尽态 ============== -->
+    <aside class="left-rail-full" id="rail">
+      <div class="rail-head">
+        <div class="rail-title">时间线 · 中国通史</div>
+        <div class="rail-toggle">
+          <button>简略</button>
+          <button class="on">详尽</button>
+        </div>
+      </div>
+
+      <div class="overview-bar" id="overview-bar">
+        <svg id="overview-svg" viewBox="0 0 456 50" preserveAspectRatio="none"></svg>
+        <div class="overview-hint">公元 前 2700  —  1949</div>
+        <div class="overview-tooltip" id="overview-tooltip"></div>
+      </div>
+
+      <div class="spine-list" id="spine-list"></div>
+
+      <div class="drag-handle" title="拖拽调整宽度"></div>
+    </aside>
+
+    <!-- ============== 中栏 · 样本 ============== -->
+    <section class="spine-sample">
+      <div class="kicker">盛世 · 天可汗的时代</div>
+      <h2><span class="swatch" style="background: var(--c-tang)"></span>唐</h2>
+      <p style="color: var(--ink-soft); font-size: 13px; font-family: var(--font-sans);">618 — 907</p>
+      <p>
+        贞观之治、开元盛世，把中国推到帝国时代的顶点：长安城外胡商络绎，
+        玄奘西行十七年带回经卷，李白杜甫把汉字写到了汉字的边界。这是一个
+        既向外又向内都达到顶点的时代——直到一场叛乱把一切撕开。
+      </p>
+      <p>
+        但盛世的尾声里，已埋下分裂的引信：藩镇坐大、宦官弄权、党争不止。
+        到了末年，一个落第书生写下「我花开后百花杀」——黄巢的诗，唐朝的挽歌。
+      </p>
+      <p style="color: var(--ink-faint); font-size: 12px; font-family: var(--font-sans);">↓ 中栏是叙事 spine 的样本，仅作宽度参考</p>
+    </section>
+
+    <!-- ============== 右栏 · 样本 ============== -->
+    <aside class="right-rail-sample">
+      <div class="rr-kicker">盛世 · 天可汗的时代</div>
+      <h3 class="rr-title">唐</h3>
+      <div class="rr-yr">618 — 907</div>
+      <div class="rr-art">[era 图位 · 长安西市]</div>
+      <div class="rr-tags">
+        <span>贞观之治</span><span>开元盛世</span><span>安史之乱</span>
+        <span>玄奘西行</span><span>李白杜甫</span>
+      </div>
+    </aside>
+
+  </main>
+
+<script>
+// ============================================================
+//  数据（精简自项目 data/eras.json）
+// ============================================================
+const ERAS = [
+  { id:"sanhuang", name:"三皇五帝", kicker:"传说时代", start:-2700, end:-2070, color:"var(--c-other)" },
+  { id:"xia", name:"夏", kicker:"家天下之始", start:-2070, end:-1600, color:"var(--c-xia)" },
+  { id:"shang", name:"商", kicker:"青铜与甲骨", start:-1600, end:-1046, color:"var(--c-shang)" },
+  { id:"western-zhou", name:"西周", kicker:"封建·礼乐", start:-1046, end:-771, color:"var(--c-zhou)", parent:"周" },
+  { id:"chunqiu", name:"春秋", kicker:"礼崩乐坏", start:-770, end:-476, color:"var(--c-zhou)", parent:"周", grandparent:"东周" },
+  { id:"zhanguo", name:"战国", kicker:"七雄逐鹿", start:-475, end:-221, color:"var(--c-zhou)", parent:"周", grandparent:"东周" },
+  { id:"qin", name:"秦", kicker:"第一帝国", start:-221, end:-207, color:"var(--c-qin)" },
+  { id:"chuhan", name:"楚汉相争", kicker:"四年逐鹿", start:-206, end:-202, color:"var(--c-han)" },
+  { id:"western-han", name:"西汉·新莽", kicker:"帝国成型", start:-202, end:25, color:"var(--c-han)", parent:"汉" },
+  { id:"eastern-han", name:"东汉", kicker:"中兴与崩解", start:25, end:220, color:"var(--c-han)", parent:"汉" },
+  { id:"sanguo", name:"三国", kicker:"魏蜀吴鼎立", start:220, end:280, color:"var(--c-wei)",
+    peers:[{name:"曹魏",color:"var(--c-wei)"},{name:"蜀汉",color:"var(--c-shu)"},{name:"孙吴",color:"var(--c-wu)"}] },
+  { id:"western-jin", name:"西晋", kicker:"短暂一统", start:266, end:316, color:"var(--c-jin)", parent:"晋" },
+  { id:"shiliuguo", name:"东晋·十六国", kicker:"南渡与北乱", start:317, end:420, color:"var(--c-jin)", parent:"晋" },
+  { id:"nanbeichao", name:"南北朝", kicker:"南北对峙", start:420, end:589, color:"var(--c-jin)",
+    peers:[{name:"南朝(宋齐梁陈)",color:"var(--c-shu)"},{name:"北朝(魏齐周)",color:"var(--c-wei)"}] },
+  { id:"sui", name:"隋", kicker:"速兴速亡", start:581, end:619, color:"var(--c-sui)" },
+  { id:"tang", name:"唐", kicker:"天可汗的时代", start:618, end:907, color:"var(--c-tang)", parent:"唐(超代)", active:true },
+  { id:"tang-late", name:"唐末·黄巢", kicker:"帝国最后二十年", start:874, end:907, color:"var(--c-tang)", parent:"唐(超代)" },
+  { id:"wudai-front", name:"五代十国·前", kicker:"907-936", start:907, end:936, color:"var(--c-other)",
+    peers:[{name:"五代",color:"var(--c-other)"},{name:"十国",color:"var(--c-wu)"},{name:"辽",color:"var(--c-liao)"}] },
+  { id:"wudai-late", name:"五代十国·后", kicker:"947-960", start:947, end:960, color:"var(--c-other)",
+    peers:[{name:"后周/十国",color:"var(--c-other)"},{name:"辽",color:"var(--c-liao)"}] },
+  { id:"northern-song", name:"北宋·辽·西夏", kicker:"三国并立·重文轻武", start:960, end:1127, color:"var(--c-song)", parent:"宋",
+    peers:[{name:"北宋",color:"var(--c-song)"},{name:"辽",color:"var(--c-liao)"},{name:"西夏",color:"var(--c-xixia)"}] },
+  { id:"southern-song", name:"南宋·金", kicker:"偏安·半壁江山", start:1127, end:1279, color:"var(--c-song)", parent:"宋",
+    peers:[{name:"南宋",color:"var(--c-song)"},{name:"金",color:"var(--c-jinn)"}] },
+  { id:"yuan", name:"元", kicker:"草原帝国入主", start:1271, end:1368, color:"var(--c-yuan)" },
+  { id:"ming", name:"明", kicker:"布衣天子", start:1368, end:1644, color:"var(--c-ming)" },
+  { id:"qing", name:"清", kicker:"末代王朝", start:1636, end:1912, color:"var(--c-qing)" },
+  { id:"roc", name:"中华民国", kicker:"共和与烽火", start:1912, end:1949, color:"var(--c-roc)" },
+  { id:"prc", name:"中华人民共和国", kicker:"1949 —", start:1949, end:2026, color:"var(--c-prc)" },
+];
+
+// 颜色解析（取 :root 上的 CSS 变量值）
+const root = getComputedStyle(document.documentElement);
+function resolveColor(c) {
+  if (!c || !c.startsWith("var(")) return c;
+  const v = c.slice(4, -1).trim();
+  return root.getPropertyValue(v).trim() || "#888";
+}
+
+// ============================================================
+//  鸟瞰条 SVG（按公元年份线性）
+// ============================================================
+(function renderOverview() {
+  const svg = document.getElementById("overview-svg");
+  const W = 456;
+  const yMin = -2700, yMax = 2026, range = yMax - yMin;
+  const x = (y) => ((y - yMin) / range) * W;
+
+  // 主 era 段
+  ERAS.forEach((era) => {
+    const x0 = x(era.start), x1 = x(era.end);
+    const w = Math.max(1, x1 - x0);
+    const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    rect.setAttribute("x", x0);
+    rect.setAttribute("y", 8);
+    rect.setAttribute("width", w);
+    rect.setAttribute("height", 30);
+    rect.setAttribute("fill", resolveColor(era.color));
+    rect.setAttribute("fill-opacity", "0.82");
+    rect.dataset.era = era.id;
+    svg.appendChild(rect);
+  });
+
+  // P0: 当前 era 高亮"边框" + 顶部金线
+  const tang = ERAS.find(e => e.active);
+  if (tang) {
+    const x0 = x(tang.start), w = x(tang.end) - x(tang.start);
+    // 顶部金线 — 更粗，明显贯穿
+    const top = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    top.setAttribute("x", x0); top.setAttribute("y", 5);
+    top.setAttribute("width", w); top.setAttribute("height", 2);
+    top.setAttribute("fill", resolveColor("var(--gold)"));
+    top.setAttribute("rx", "1");
+    svg.appendChild(top);
+
+    // 游标竖线 — 加粗 + 强发光 + pulse
+    const cx = (x(tang.start) + x(tang.end)) / 2;
+    const cursor = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    cursor.setAttribute("class", "cursor-glow");
+    cursor.setAttribute("x1", cx); cursor.setAttribute("x2", cx);
+    cursor.setAttribute("y1", 2); cursor.setAttribute("y2", 46);
+    cursor.setAttribute("stroke", resolveColor("var(--gold)"));
+    cursor.setAttribute("stroke-width", "2.5");
+    cursor.setAttribute("filter", "drop-shadow(0 0 5px " + resolveColor("var(--gold)") + ") drop-shadow(0 0 9px " + resolveColor("var(--gold)") + ")");
+    svg.appendChild(cursor);
+
+    // 游标小三角（顶部 + 底部）
+    const tri = (y, flip) => {
+      const t = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+      const dy = flip ? -4 : 4;
+      t.setAttribute("points", `${cx-3},${y} ${cx+3},${y} ${cx},${y+dy}`);
+      t.setAttribute("fill", resolveColor("var(--gold)"));
+      svg.appendChild(t);
+    };
+    tri(0, false);
+    tri(48, true);
+  }
+
+  // P0: hover 整条 bar → 显示辅助线 + tooltip
+  const bar = document.getElementById("overview-bar");
+  const tooltip = document.getElementById("overview-tooltip");
+  let hoverLine = null;
+  bar.addEventListener("mousemove", (e) => {
+    const rect = bar.getBoundingClientRect();
+    const relX = e.clientX - rect.left - 12; // 减去 padding-left
+    const svgW = svg.getBoundingClientRect().width;
+    const pct = Math.max(0, Math.min(1, relX / svgW));
+    const year = Math.round(yMin + pct * range);
+    const inEra = ERAS.find(e => year >= e.start && year <= e.end);
+    if (!hoverLine) {
+      hoverLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
+      hoverLine.setAttribute("stroke", resolveColor("var(--ink-soft)"));
+      hoverLine.setAttribute("stroke-width", "1");
+      hoverLine.setAttribute("stroke-dasharray", "2,2");
+      hoverLine.setAttribute("y1", 0);
+      hoverLine.setAttribute("y2", 50);
+      svg.appendChild(hoverLine);
+    }
+    const sx = pct * 456;
+    hoverLine.setAttribute("x1", sx);
+    hoverLine.setAttribute("x2", sx);
+
+    const yLabel = year < 0 ? `前 ${-year}` : (year > 1949 ? "1949 —" : `公元 ${year}`);
+    tooltip.classList.add("on");
+    tooltip.style.left = (relX + 12) + "px";
+    tooltip.style.top = "0px";
+    tooltip.textContent = inEra ? `${yLabel} · ${inEra.name}` : yLabel;
+  });
+  bar.addEventListener("mouseleave", () => {
+    if (hoverLine) { hoverLine.remove(); hoverLine = null; }
+    tooltip.classList.remove("on");
+  });
+})();
+
+// ============================================================
+//  脊柱
+// ============================================================
+(function renderSpine() {
+  const list = document.getElementById("spine-list");
+  const maxDur = Math.max(...ERAS.map(e => e.end - e.start));
+  const BAR_MAX = 110;
+
+  // 按相邻同父合并出"父级标签"
+  let lastParent = null, lastGrandparent = null;
+  const out = [];
+  ERAS.forEach((era, i) => {
+    const nextSamePar = ERAS[i+1]?.parent === era.parent && era.parent;
+    const prevSamePar = ERAS[i-1]?.parent === era.parent && era.parent;
+    if (era.parent && era.parent !== lastParent) {
+      // 新父级开启
+      out.push({ kind: "parent", label: era.parent, color: era.color, depth: 1 });
+      lastParent = era.parent;
+    } else if (!era.parent) {
+      lastParent = null;
+    }
+    if (era.grandparent && era.grandparent !== lastGrandparent) {
+      out.push({ kind: "parent", label: era.grandparent, color: era.color, depth: 2 });
+      lastGrandparent = era.grandparent;
+    } else if (!era.grandparent) {
+      lastGrandparent = null;
+    }
+    out.push({ kind: "era", era, depth: era.grandparent ? 2 : era.parent ? 1 : 0 });
+    if (era.peers) {
+      era.peers.forEach(p => out.push({ kind: "peer", peer: p, parentColor: era.color, depth: (era.grandparent ? 2 : era.parent ? 1 : 0) + 1 }));
+    }
+  });
+
+  // P2: 把"父级 + 紧随其后的同 parent 子元素 + peer 们"包成 .parent-group
+  let activeRow = null;
+  let currentGroup = null;
+  out.forEach((item, i) => {
+    if (item.kind === "parent") {
+      currentGroup = document.createElement("div");
+      currentGroup.className = "parent-group";
+      list.appendChild(currentGroup);
+    } else if (item.kind === "era" && item.depth === 0) {
+      // 顶层 era 不在父组里
+      currentGroup = null;
+    }
+    const row = document.createElement("div");
+    row.className = "spine-row";
+    row.dataset.depth = item.depth;
+
+    if (item.kind === "parent") {
+      row.classList.add("parent");
+      row.style.setProperty("--tree-color", resolveColor(item.color));
+      row.innerHTML = `
+        <span class="tree-rail"></span>
+        <span class="row-name">${item.label}</span>
+        <span></span>`;
+    } else if (item.kind === "era") {
+      const e = item.era;
+      if (item.depth === 0) {
+        row.innerHTML = `
+          <span class="row-dot" style="background:${resolveColor(e.color)}"></span>
+          <span class="row-name">${e.name}<span class="kicker">${e.kicker}</span></span>
+          <span class="duration-bar" style="--bar-color:${resolveColor(e.color)}; width:${((e.end - e.start)/maxDur*BAR_MAX).toFixed(1)}px"></span>`;
+      } else {
+        row.style.setProperty("--tree-color", resolveColor(e.color));
+        row.innerHTML = `
+          <span class="tree-rail branch"></span>
+          <span class="row-name">${e.name}<span class="kicker">${e.kicker}</span></span>
+          <span class="duration-bar" style="--bar-color:${resolveColor(e.color)}; width:${((e.end - e.start)/maxDur*BAR_MAX).toFixed(1)}px"></span>`;
+      }
+      if (e.active) { row.classList.add("on"); activeRow = row; }
+    } else if (item.kind === "peer") {
+      row.classList.add("peer");
+      row.style.setProperty("--swatch", resolveColor(item.peer.color));
+      row.innerHTML = `
+        <span class="peer-swatch"></span>
+        <span class="row-name"><b>${item.peer.name}</b></span>
+        <span class="duration-bar" style="--bar-color:${resolveColor(item.peer.color)}; width:60px; opacity:0.55"></span>`;
+    }
+    (currentGroup || list).appendChild(row);
+  });
+
+  // P1: 当前 era 自动滚到视口中部
+  if (activeRow) {
+    requestAnimationFrame(() => {
+      activeRow.scrollIntoView({ block: "center", behavior: "instant" });
+    });
+  }
+})();
+</script>
+</body>
+</html>

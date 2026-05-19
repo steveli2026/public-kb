@@ -140,7 +140,9 @@ export class Spine {
         const vis = entries.filter((e) => e.isIntersecting)
           .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
         if (vis && vis.target.dataset.era !== current) {
+          if (current) this.sections.get(current)?.classList.remove("is-active");
           current = vis.target.dataset.era;
+          vis.target.classList.add("is-active");
           this.hooks.onActiveEra(current, vis.target);
         }
       },

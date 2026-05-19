@@ -41,6 +41,10 @@
   --c-roc:        #7a6b9a;
   --c-prc:        #b22f2f;
   --c-other:      #97876a;
+  --era-accent:   var(--cinnabar);
+  --era-paper:    var(--paper);
+  --era-paper-2:  var(--paper-2);
+  --era-edge:     var(--paper-edge);
 
   /* 字体 */
   --font-serif: "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC", "SimSun", serif;

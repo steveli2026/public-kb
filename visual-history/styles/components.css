@@ -155,8 +155,12 @@
 .mm-row .mm-num { color: var(--ink-faint); font-variant-numeric:tabular-nums; font-size:10px; }
 .mm-row .mm-name { font-family: var(--font-serif); font-size: 13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 .mm-row .mm-yr   { font-size: 10px; color: var(--ink-faint); font-variant-numeric:tabular-nums; }
-.mm-row.on { background: rgba(178,58,47,.12); color: var(--ink); box-shadow: inset 3px 0 0 var(--cinnabar); }
-.mm-row.on .mm-name { color: var(--cinnabar); font-weight: 600; }
+.mm-row.on {
+  background: color-mix(in srgb, var(--era-accent) 16%, transparent);
+  color: var(--ink);
+  box-shadow: inset 3px 0 0 var(--era-accent);
+}
+.mm-row.on .mm-name { color: var(--era-accent); font-weight: 600; }
 
 /* —— 右栏：单卡片，替换式（当期 / 实体） —— */
 .right-rail { padding: 1.1rem 1.2rem 1.4rem; }
@@ -167,7 +171,7 @@
 }
 .rr-title { font-size: var(--step-2); letter-spacing:.06em; line-height: 1.15; margin: .15em 0 .25em; }
 .rr-meta { font-family: var(--font-sans); font-size: var(--step--1); color: var(--ink-soft); margin-bottom:.25rem; }
-.rr-yr  { color: var(--cinnabar); font-variant-numeric: tabular-nums; }
+.rr-yr  { color: var(--era-accent); font-variant-numeric: tabular-nums; }
 .rr-powers {
   font-family: var(--font-sans); font-size: var(--step--1); color: var(--ink-soft);
   margin: .3rem 0 .25rem; line-height: 1.45;
@@ -182,7 +186,7 @@
   border: var(--rule); border-radius: 999px; padding:.35em .9em;
   cursor:pointer; max-width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
 }
-.rr-back:hover { background: #fff; color: var(--cinnabar); }
+.rr-back:hover { background: #fff; color: var(--era-accent); }
 .rr-body { flex: 1 1 auto; min-height: 0; }
 .rr-tagrow { margin-top: .7rem; }
 .rr-art { margin: 0 0 .8rem; }
@@ -212,7 +216,7 @@
 }
 .era-map figcaption b { color: var(--ink); }
 .era-map figcaption a {
-  color: var(--cinnabar);
+  color: var(--era-accent);
   text-decoration: none;
 }
 .era-map figcaption a:hover { text-decoration: underline; }
@@ -220,7 +224,7 @@
 /* —— 实体详情（人物/事件/政权）— 渲染进 .rr-body —— */
 .rr-body .d-kicker { font-family:var(--font-sans); letter-spacing:.3em; font-size:var(--step--1); color:var(--ink-faint); }
 .rr-body h2 { font-size:var(--step-2); margin:.05em 0 .2em; line-height: 1.15; }
-.rr-body .d-meta { font-family:var(--font-sans); font-size:var(--step--1); color:var(--cinnabar); margin-bottom:.7rem; }
+.rr-body .d-meta { font-family:var(--font-sans); font-size:var(--step--1); color:var(--era-accent); margin-bottom:.7rem; }
 .rr-body h3 {
   font-family:var(--font-sans); font-size:var(--step--1); letter-spacing:.25em;
   color:var(--ink-faint); margin:1.2rem 0 .5rem;
@@ -237,7 +241,7 @@
   font-family:var(--font-sans); font-size:var(--step--1); color:#fff;
   background:var(--ink-soft); border-radius:999px; padding:.05em .7em; white-space:nowrap;
 }
-.relations .lk { cursor:pointer; color:var(--cinnabar); font-weight:600; }
+.relations .lk { cursor:pointer; color:var(--era-accent); font-weight:600; }
 .relations .lk:hover { text-decoration:underline; }
 .relations .note { color:var(--ink-soft); font-size:var(--step--1); }
 

@@ -8,6 +8,35 @@ import { RightRail } from "./right/RightRail.js";
 
 const $ = (s) => document.querySelector(s);
 
+const ERA_THEMES = {
+  sanhuang: ["#97876a", "#ece3d2", "#d9ccb1", "#c7b78e"],
+  xia: ["#6f835f", "#e8e2cc", "#d7d3b7", "#b8c09b"],
+  shang: ["#8a6f4a", "#efe0c6", "#dcc29a", "#a98555"],
+  "western-zhou": ["#9c7b3f", "#eee2c8", "#d8c49d", "#b89556"],
+  chunqiu: ["#667d52", "#e8e7cf", "#cad6b3", "#88a06a"],
+  zhanguo: ["#8b4e3e", "#ece0d3", "#d9b8a8", "#b86b53"],
+  qin: ["#3f4a5a", "#dfe2df", "#b9c1c4", "#596675"],
+  chuhan: ["#8a5a8a", "#e8dce4", "#d2b6ca", "#8f6590"],
+  "western-han": ["#b23a2f", "#eee0d3", "#ddb5a5", "#c65b45"],
+  "eastern-han": ["#9f4b36", "#eadfd1", "#d7baa7", "#b76249"],
+  sanguo: ["#4b6b8a", "#dfe6e7", "#b8c8d3", "#5e7f9c"],
+  "western-jin": ["#6a5a8a", "#e5deea", "#c8bbd5", "#79699b"],
+  shiliuguo: ["#7a5a45", "#e6ddd2", "#cdb8a2", "#8a684d"],
+  nanbeichao: ["#5f6f83", "#e0e4e5", "#bac7cd", "#718399"],
+  sui: ["#8a7a3f", "#eee6cb", "#d8ca92", "#9f8c48"],
+  tang: ["#c0392b", "#f0ded0", "#dfb096", "#cf6047"],
+  "tang-late": ["#9d3f2f", "#eadbd2", "#cfaa9b", "#a84a37"],
+  "wudai-front": ["#6d5a42", "#e5ddd0", "#c8b9a0", "#7b664a"],
+  "wudai-late": ["#5d6b58", "#e0e4d8", "#bcc9b6", "#6f8068"],
+  "northern-song": ["#2f6b6b", "#dce9e6", "#a9c9c5", "#43827f"],
+  "southern-song": ["#3f786a", "#dce9e2", "#accabe", "#4f8a7a"],
+  yuan: ["#3f5a7a", "#dfe5eb", "#b5c4d2", "#536f90"],
+  ming: ["#b23a4a", "#efe0df", "#dfb4ba", "#c75666"],
+  qing: ["#5a7a8a", "#dfe8e8", "#b8cdd1", "#6a8e9f"],
+  roc: ["#7a6b9a", "#e5e0ea", "#c7bed8", "#8878aa"],
+  prc: ["#b22f2f", "#efe0d8", "#dfb0a0", "#c94f42"],
+};
+
 (async function main() {
   let db;
   try {
@@ -42,7 +71,6 @@ const $ = (s) => document.querySelector(s);
   right.render();
 
   let activeEra = null;
-  let activeEraObj = null;
 
   const spine = new Spine($("#spine"), db, {
     onActiveEra(eraId) {
@@ -50,7 +78,7 @@ const $ = (s) => document.querySelector(s);
       const era = db.eras.find((e) => e.id === eraId);
       if (!era) return;
       activeEra = eraId;
-      activeEraObj = era;
+      applyEraTheme(era);
       minimap.setActive(eraId);
       right.setEra(era);
       if (right.mode === "era") replaceHash("era", eraId);
@@ -96,3 +124,13 @@ const $ = (s) => document.querySelector(s);
   console.info("%c中国历史长卷 已就绪", "color:#b23a2f;font-weight:bold",
     `· ${db.eras.length} 个时期 · ${db.people.size} 人物 · ${db.events.size} 事件`);
 })();
+
+function applyEraTheme(era) {
+  const [accent, paper, paper2, edge] = ERA_THEMES[era.id] || [era.color || "#b23a2f", "#ece3d2", "#e3d7bf", "#d8c8a6"];
+  const root = document.documentElement;
+  root.style.setProperty("--era-accent", accent);
+  root.style.setProperty("--era-paper", paper);
+  root.style.setProperty("--era-paper-2", paper2);
+  root.style.setProperty("--era-edge", edge);
+  document.body.dataset.era = era.id;
+}

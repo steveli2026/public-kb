@@ -9,9 +9,10 @@ body {
   font-family: var(--font-serif);
   color: var(--ink);
   background:
-    radial-gradient(120% 80% at 50% 0%, var(--paper) 0%, var(--paper-2) 55%, var(--paper-edge) 100%) fixed;
+    radial-gradient(120% 80% at 50% 0%, var(--era-paper) 0%, var(--era-paper-2) 55%, var(--era-edge) 100%) fixed;
   -webkit-font-smoothing: antialiased;
   line-height: 1.75;
+  transition: background-color 900ms var(--ease), color var(--dur-ui) var(--ease);
 }
 
 .stage {
@@ -21,6 +22,10 @@ body {
     minmax(0, 1fr)
     clamp(300px, 26vw, 400px);
   min-height: 100vh;
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--era-accent) 12%, transparent), transparent 18%, transparent 82%, color-mix(in srgb, var(--era-accent) 10%, transparent)),
+    radial-gradient(70% 45% at 52% 18%, color-mix(in srgb, var(--era-accent) 18%, transparent), transparent 68%);
+  transition: background 900ms var(--ease);
 }
 
 .left-rail,
@@ -32,7 +37,8 @@ body {
   display: flex;
   flex-direction: column;
   background:
-    radial-gradient(120% 90% at 50% 0%, #f0e5cb 0%, #e3d4af 65%, #d1bf91 100%);
+    radial-gradient(120% 90% at 50% 0%, color-mix(in srgb, var(--era-paper) 86%, white) 0%, var(--era-paper-2) 65%, var(--era-edge) 100%);
+  transition: background 900ms var(--ease), border-color 900ms var(--ease);
 }
 .left-rail  { border-right: 1px solid rgba(60, 48, 30, .22); }
 .right-rail { border-left:  1px solid rgba(60, 48, 30, .22); overflow-y: auto; }
@@ -59,6 +65,13 @@ body {
   flex-direction: column;
   justify-content: center;
   scroll-margin-top: 0;
+  opacity: .72;
+  transform: translateY(18px) scale(.992);
+  transition: opacity 620ms var(--ease), transform 620ms var(--ease);
+}
+.era-section.is-active {
+  opacity: 1;
+  transform: none;
 }
 
 /* 进度浮标 */
@@ -73,7 +86,7 @@ body {
 .progress > i {
   display: block; height: 100%;
   width: var(--p, 0%);
-  background: linear-gradient(90deg, var(--cinnabar), var(--gold));
+  background: linear-gradient(90deg, var(--era-accent), var(--gold));
   transition: width 120ms linear;
 }
 

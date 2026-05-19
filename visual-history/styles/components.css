@@ -44,6 +44,35 @@
   color: var(--ink-soft); font-style: italic; max-width: 44ch;
 }
 .story .verse { font-style: normal; color: var(--ink); font-size: var(--step-1); letter-spacing: .06em; margin: .3em 0; }
+.storylets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: .75rem;
+  max-width: 58rem;
+  margin: var(--space-m) 0 var(--space-l);
+}
+.storylet {
+  border: var(--rule);
+  border-left: 3px solid var(--era-accent);
+  border-radius: var(--radius);
+  padding: .85rem .95rem;
+  background: color-mix(in srgb, white 40%, transparent);
+  box-shadow: 0 8px 28px -20px rgba(33,26,18,.45);
+}
+.storylet h3 {
+  font-family: var(--font-sans);
+  font-size: var(--step--1);
+  letter-spacing: .12em;
+  color: var(--era-accent);
+  margin-bottom: .35rem;
+}
+.storylet p {
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+  line-height: 1.65;
+}
+.storylet .lk { cursor: pointer; color: var(--era-accent); border-bottom: 1px dashed currentColor; }
+.storylet .lk:hover { background: color-mix(in srgb, var(--era-accent) 12%, transparent); }
 
 .regime-row { display:flex; flex-wrap:wrap; gap:.5rem; margin: var(--space-m) 0; }
 .chip {

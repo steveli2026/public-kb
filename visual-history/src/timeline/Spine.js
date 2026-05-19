@@ -65,6 +65,8 @@ export class Spine {
       s.append(st);
     }
 
+    if ((era.storylets || []).length) s.append(this._storylets(era.storylets));
+
     // 并立势力 chip
     if ((era.regimeIds || []).length) {
       const row = document.createElement("div");
@@ -100,6 +102,22 @@ export class Spine {
     s.append(cols);
     this.sections.set(era.id, s);
     return s;
+  }
+
+  _storylets(items) {
+    const wrap = document.createElement("div");
+    wrap.className = "storylets";
+    for (const item of items) {
+      const card = document.createElement("article");
+      card.className = "storylet";
+      const title = document.createElement("h3");
+      title.textContent = item.title;
+      const body = document.createElement("p");
+      body.append(linkify(item.body || "", this.db, (id) => this.hooks.openEntity(id)));
+      card.append(title, body);
+      wrap.append(card);
+    }
+    return wrap;
   }
 
   _list(title, ids, resolve) {

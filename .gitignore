@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Local agent/runtime state
+.omx/
+
+# Media files
+*.mp4
+*.m4a
+*.opus

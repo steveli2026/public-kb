@@ -16,7 +16,10 @@ body {
 
 .stage {
   display: grid;
-  grid-template-columns: 220px 1fr 380px;
+  grid-template-columns:
+    clamp(180px, 16vw, 230px)
+    minmax(0, 1fr)
+    clamp(300px, 26vw, 400px);
   min-height: 100vh;
 }
 

@@ -142,11 +142,11 @@
   scrollbar-width: thin;
 }
 .mm-row {
-  display:grid; grid-template-columns: 8px 1.4em 1fr auto;
-  align-items:center; gap:.4em;
-  font-family: var(--font-sans); font-size: 11.5px; line-height:1.2;
+  display:grid; grid-template-columns: 8px 1.4em 1fr;
+  align-items:center; gap:.5em;
+  font-family: var(--font-sans); line-height:1.2;
   color: var(--ink-soft);
-  background: transparent; border:0; padding:.32em .4em;
+  background: transparent; border:0; padding:.34em .4em;
   cursor:pointer; border-radius:3px; text-align:left;
   transition: background 140ms, color 140ms;
 }

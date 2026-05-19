@@ -25,8 +25,7 @@ export class Minimap {
       r.innerHTML = `
         <span class="mm-swatch" style="background:${era.color || "var(--c-other)"}"></span>
         <span class="mm-num">${String(i + 1).padStart(2, "0")}</span>
-        <span class="mm-name">${era.name}</span>
-        <span class="mm-yr">${era.years || ""}</span>`;
+        <span class="mm-name">${era.name}</span>`;
       r.addEventListener("click", () => this.hooks.onJump?.(era.id));
       list.append(r);
       this.rows.set(era.id, r);

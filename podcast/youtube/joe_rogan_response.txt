@@ -1,0 +1,2411 @@
+Speaker 0:
+
+Joe Rogan podcast. Check it out.
+
+Speaker 1:
+
+The Joe Rogan experience.
+
+Speaker 0:
+
+Showing my day, Joe Rogan podcast, my night, all day. Hello, guys. Hi, Joe.
+
+Speaker 2:
+
+Good to see you again. We were just talking about was that the first time we ever spoke? Or did was the first time we spoke at at SpaceX?
+
+Speaker 0:
+
+SpaceX.
+
+Speaker 2:
+
+SpaceX is the first time. When you were giving Elon that crazy AI chip.
+
+Speaker 0:
+
+Right. DGX Spark.
+
+Speaker 2:
+
+Yeah. Oh. That was a big moment.
+
+Speaker 0:
+
+That was a huge moment.
+
+Speaker 2:
+
+Felt crazy to be there. I was like watching these wizards of tech, like, exchange information and and what you're giving him this crazy device. You know? And then the other time was I was shooting arrows in my backyard and randomly get this call from Trump and he's hanging out
+
+Speaker 0:
+
+with you. President Trump called and I called you.
+
+Speaker 2:
+
+Yeah. It's just We
+
+Speaker 0:
+
+were talking about you. He's so We're talking about you. He was talking about the US UFC thing he was gonna do in his front yard.
+
+Speaker 2:
+
+Yeah.
+
+Speaker 0:
+
+And he pulls out. He said, Jensen, look at this design. He's so proud of it. And I go, you're gonna have a fight in the front lawn in the White House? He goes, yeah.
+
+Yeah. You're gonna come. This is gonna be awesome. And he's showing me his design and how beautiful it is. And he goes and and somehow, your name comes up.
+
+He goes, do you know Joe? And I said, yeah. I'm gonna be on his podcast. He's let's call him. He's like a kid.
+
+I know. Let's call him.
+
+Speaker 2:
+
+It's so he's like a 79
+
+Speaker 0:
+
+year old kid. He's so incredible.
+
+Speaker 2:
+
+Yeah. He's an odd guy. Just very different. You know? Like, the what you'd expect from him, very different than what people think of him, and also just very different as a president.
+
+A guy who just calls you or texts you out of the blue. Also, makes when he he texts you, you have an Android, so it won't go through with you. But with my iPhone, he makes the text go big. Like, is that right? USA is respected again.
+
+Like, all caps and it makes the the text enlarge. It's kinda ridiculous.
+
+Speaker 0:
+
+Well, the one zero one Trump, president Trump is very different. He he surprised me. First of all, he's an incredibly good listener. Almost everything I've ever said to him, he's remembered.
+
+Speaker 2:
+
+Yeah. People don't they only wanna look at negative stories about him or negative narratives about him. You know, you can catch anybody on a bad day.
+
+Speaker 0:
+
+Like, there's a lot
+
+Speaker 2:
+
+of things he does where I don't think he should do. Like, I don't think he should say to a report reporter, quiet piggy. Like, that's pretty ridiculous. Also, objectively funny. I mean, it's unfortunate that it happened to her.
+
+I wouldn't want that to happen to her, but it was funny. Just ridiculous that the president does that. I wish he didn't do that. But other than that, like, he's he's an interesting guy. Like, he's a lot of different things wrapped up into one person.
+
+You know?
+
+Speaker 0:
+
+You know, part of part of his charm, or part of his genius is just he says what's on his mind.
+
+Speaker 2:
+
+Yes. And that's Which is like an anti politician in
+
+Speaker 0:
+
+a lot of ways. Right. So you know what's on his mind is really what's on his mind, which And I take people prefer. I I do I do Some
+
+Speaker 2:
+
+people would rather be lied to.
+
+Speaker 0:
+
+Yeah. But but I I like the fact that he's telling you what's on his mind. Almost every time he explains something and he says something, he starts with his you could tell his love for America, what he wants to do for America. And everything that he thinks through is very practical and very common sense and, you know, it's very logical. And I still remember the first time I I met him, and so this was I I'd never known him, never met him before, and secretary called and we met right before right at the beginning of the administration.
+
+He said, he told me what was important to president Trump that that United States manufactures onshore. And that was really important to him because because it's important to national security. He wants to make sure that that the important critical technology of our nation is built in The United States, and that we re industrialize and get good at manufacturing again because it's important for jobs.
+
+Speaker 2:
+
+It just seems like common sense. Right?
+
+Speaker 0:
+
+Incredible common sense. And and that was like literally the first conversation I had with secretary Lutnick. And and he was talking about how how that he started he started our conversation with Jensen, this is secretary Ludnick. And I I just wanna let you know that you're a national treasure. NVIDIA is a national treasure.
+
+And whenever you need access to the president, the administration, you call us. We're always gonna be available to you. Literally, that was the first sentence.
+
+Speaker 2:
+
+That's pretty nice.
+
+Speaker 0:
+
+And it was completely true. Every single time I called, if I needed something, I wanna get something off my chest, express some concern, they're always available. Incredible.
+
+Speaker 2:
+
+It's just unfortunate we live in such a politically polarized society that you can't recognize good common sense things if they're coming from a person that you object to. And that I think is what's going on here. I think most people generally, as a country, you know, as a a giant community, which we are, it just only makes sense that we have manufacturing in America, especially critical technology like you're talking about. Like, it's kind of insane that we buy so much technology from other countries.
+
+Speaker 0:
+
+If United States doesn't grow, we will have no prosperity. We can't invest in anything domestically or otherwise. We can't fix any of our problems. If we don't have energy growth, we can't have industrial growth. If we don't have industrial growth, we can't have job growth.
+
+These it's as simple as that. Right. And the fact that the fact that he came into office and the first thing that he said was drill, baby, drill. His point is we need energy growth. Without energy growth, we can have no industrial growth.
+
+And that was it saved it saved the AI industry. Got I gotta tell you flat out, if not for his pro growth energy policy, we would not be able to build factories for AI. We'd not be able to build chip factories. We won't sure surely won't be able to build supercomputer factories. None of that stuff would be possible.
+
+Without all of that, construction jobs would be challenged. Right? Electrical you know, electrician jobs, all of these jobs that are now flourishing would be challenged. And so I think he's got it right. We need energy growth.
+
+We wanna re industrialize The United States. We need to be back in manufacturing. Every successful person doesn't need to have a PhD. Every successful person doesn't have to have gone to Stanford or MIT. And I think I think that that you know, that sensibility is is spot on.
+
+Speaker 2:
+
+Now, when we're talking about technology growth and energy growth, there's a lot of people that go, oh, no. That's not what we need. We need to, you know, simplify our lives and get back. But the the real issue is that we're in the middle of a giant technology race. And whether people are aware of it or not, whether they like it or not, it's happening.
+
+And it's a really important race because whoever gets to whatever the event horizon of artificial intelligence is, whoever gets there first has massive advantages in a huge way. Do you agree with that?
+
+Speaker 0:
+
+Well, first, the the part I I will say that we are in a technology race and we are always in a technology race. We've been in a technology race with somebody forever. Right. Right? Since the industrial revolution, we've been in a technology Since the
+
+Speaker 2:
+
+Manhattan Project.
+
+Speaker 0:
+
+Yeah.
+
+Speaker 2:
+
+Yeah.
+
+Speaker 0:
+
+Or or, you know, even going back to the discovery of energy. Right? The United Kingdom was where the industrial revolution was, if you will, invented. When they realized that they can turn steam and such into into energy into electricity. All of that was invented largely in Europe and United States capitalized on it.
+
+We were the ones that learned from it. We industrialized it. We diffused it faster than anybody in Europe. They were all stuck in discussions about policy and jobs and disruptions. Meanwhile, The United States was forming.
+
+We just took the technology and ran with it. And so I I think we were always in in a bit of a technology race. World War two was a technology race. Manhattan Project was a technology race. We've been in the technology race ever since during the Cold War.
+
+I think we're still in a technology race. It is probably the single most important race. It is the technology is it gives you superpowers, you know, whether it's information superpowers or energy superpowers or military superpowers is all founded in technology and so technology leadership is really important.
+
+Speaker 2:
+
+Well, the problem is if somebody else has superior technology. Right?
+
+Speaker 0:
+
+That's Yeah. That's the issue. That's right.
+
+Speaker 2:
+
+It seems like with the AI race, people are very nervous about it. Like, you know, Elon has famously said there was like 80% chance it's awesome, 20% chance we're in trouble. And people are worried about that 20%, rightly so. I mean, that, you know, if you had 10 bullets in a revolver and, you know, you're you took out eight of them, you still have two in there and you spin it, you're not gonna feel real comfortable when you pull that trigger. It's terrifying.
+
+Speaker 0:
+
+Right.
+
+Speaker 2:
+
+And when we're working towards this ultimate goal of AI, it it just it's impossible to imagine that it wouldn't be of national security interest to get there first.
+
+Speaker 0:
+
+We should the question is what's there? That's the that was the part that
+
+Speaker 2:
+
+What is there?
+
+Speaker 0:
+
+Yeah. I'm not sure. And I don't think anybody I don't think anybody's really knows.
+
+Speaker 2:
+
+That's crazy though. If I ask you Yeah. You're the head of NVIDIA. Yeah. If you don't know Yeah.
+
+Speaker 0:
+
+What's there, who knows? Yeah. I I think it's probably gonna be much more gradual than we think. It won't it won't be a moment. It won't be it won't be as if somebody arrived and nobody else has.
+
+I don't think it's gonna be like that. I think it's gonna be things that just get better and better and better and better just like technology does.
+
+Speaker 2:
+
+So you are rosy about the future. You're you're very optimistic about what's gonna happen with AI. Obviously, will you make the best AI chips in
+
+Speaker 0:
+
+the world? You
+
+Speaker 2:
+
+probably better be.
+
+Speaker 0:
+
+If history is a guide, we were always concerned about new technology. Humanity has always been concerned about new technology. There are always somebody who's thinking. There are always a lot of people who are quite concerned. We're quite concerned.
+
+And and and so if if history is a guide, it is the case that all of this concern is channeled into making the technology safer. And so for example, in the last several years, I would say AI technology has increased probably in the last two years alone, maybe a 100 x. Let's just give it a number. Okay? It's like a car two years ago was a 100 times slower.
+
+So AI is a 100 times more capable today. Now how did we channel that technology? How do we channel all of that power? We directed it to causing the AI to be able to think, meaning that it can take a problem that we give it, break it down step by step. It does research before it answers and so it grounds it on truth.
+
+It'll reflect on that answer, ask itself, is this the best answer that I can give you? Am I certain about this answer? If it's not certain about the answer or highly confident about the answer, it'll go back and do more research. It might actually even use a tool because that tool provides a better solution than it could hallucinate itself. As a result, we took all of that computing capability and we channeled it into having it produce a safer result, safer answer, a more truthful answer.
+
+Because as you know, one of the greatest criticisms of AI in the beginning was that it hallucinated. Right. And so, if you look at the reason why people use AI so much today, is because the amount of hallucination has reduced. You know, I use it almost Well, I used it the whole trip over here. And so so I think the the the capability most people think about power and they think about, you know, maybe as an explosion power.
+
+But the technology power, most of it is channeled towards safety. A car today is more powerful, but it's safer to drive. A lot of that power goes towards better handling. You know, I'd rather have a well, you have a thousand horsepower truck. I think 500 horsepower is pretty good.
+
+No. I thousand better. I think a thousand is better.
+
+Speaker 2:
+
+I don't know if it's better, but it's definitely faster.
+
+Speaker 0:
+
+Yeah. No. I think it's better. You can get out of trouble faster. I enjoyed my five ninety nine more than my six twelve.
+
+It was I think it was better better and more horsepower is better. My four fifty nine is better than my four thirty. More horsepower is better. I I think more horsepower is better. I think it's better handling.
+
+It's better control. In the case of in the case of technology, it's also very similar in that way. Know, so if you if you look at what we're gonna do with the next thousand times of performance in AI, a lot of it is going to be channeled towards more reflection, more research, thinking about the answer more deeply.
+
+Speaker 2:
+
+So when you're defining safety, you're defining it as accuracy? Functionality. Functionality.
+
+Speaker 0:
+
+Okay. It it does what you expect it to do. And then you take the all the the the technology and the horsepower, you put guardrails on it, just like our cars. We've got a lot of technology in in a car today. A lot of it is goes towards, for example, ABS.
+
+ABS is great. And so traction control, that's fantastic. Without a without a computer in the car, how would you do any of that? Right. And that little computer, the computers that you have doing your traction control is more powerful than the computer that went to Apollo 11.
+
+And so you want that technology. Channel it towards safety, channel it towards functionality. And so when people talk about power, the advancement of technology, oftentimes I I I feel what they're thinking and what we're actually doing is very different. What do you think they're thinking? Well, they're thinking somehow that this this AI is being powerful and their mind probably goes towards a sci fi movie.
+
+The definition of power. You know, oftentimes, the definition of power is military power or physical power. But in in the case of technology power, when we translate all of those operations, it's towards more refined thinking, you know, more reflection, more planning, more options.
+
+Speaker 2:
+
+I think the big fears that people have is one a big fear is military applications.
+
+Speaker 0:
+
+Yep.
+
+Speaker 2:
+
+That's a big fear. Yeah. Because people are very concerned that you're going to have AI systems that make decisions that maybe an ethical person wouldn't make or a moral person wouldn't make based on achieving an objective versus based on, you know, how it's gonna look to people.
+
+Speaker 0:
+
+Well, I'm I'm happy that that our military is gonna use AI technology for defense. And I think that that Anderil building military technology, I'm happy to hear that. I'm happy to see all these tech startups now channeling their technology capabilities towards defense and military applications. I think you need to do that.
+
+Speaker 2:
+
+Yeah. We had Palmer Lucky on the podcast. He was demonstrating some of the Yeah. Stuff Incredible. On.
+
+And we show he showed some videos how you could see behind walls and stuff. Like, it's nuts.
+
+Speaker 0:
+
+And he's he's actually the perfect guy to go start that company.
+
+Speaker 2:
+
+A 100%. Yeah. A 100%. It's like he's born for that. Yeah.
+
+He came here with a copper jacket on. He's a freak. It's awesome. He's awesome. But it's also it's a, you know, an unusual intellect channeled into that very bizarre field is what you need.
+
+Speaker 0:
+
+You know? And I think it's it's a I think I'm happy that we're making it so more socially acceptable. You know, there was a time where when somebody wanted to channel their technology capability and their intellect into defense technology, somehow they're vilified. But we need people like that. We need people who enjoyed enjoyed that part of application of technology.
+
+Speaker 2:
+
+Well, people are terrified of war. You know? So it
+
+Speaker 0:
+
+makes sense. Best way to avoid it has excessive military might. Do you think that's absolutely the best way?
+
+Speaker 2:
+
+Not not diplomacy, not working stuff out?
+
+Speaker 0:
+
+All of it. All of it.
+
+Speaker 2:
+
+Yeah. You have to have Yeah. Military might in order to get people to
+
+Speaker 0:
+
+sit Right. Down with Exactly. All of it.
+
+Speaker 2:
+
+Otherwise, they'd just invade.
+
+Speaker 0:
+
+That's right. Why ask for permission?
+
+Speaker 2:
+
+Again, like you said, history. Go back and look at history. That's right. When you look at the future of AI and and you just said that no one really knows what's happening.
+
+Speaker 0:
+
+Right.
+
+Speaker 2:
+
+Do you ever sit down and ponder scenarios?
+
+Speaker 0:
+
+Like, what do
+
+Speaker 2:
+
+you what do you think is like best case scenario for AI over the next two decades?
+
+Speaker 0:
+
+The best case scenario is that AI diffuses into everything that we do and our everything's more efficient, but the threat of war remains a threat of war. Cybersecurity remains a super difficult challenge. Somebody is going to try to breach your security. You're gonna have thousands of millions of AI agents protecting you from that threat. Your technology is gonna get better, their technology is gonna get better just like cyber security.
+
+Right now, while we speak, we're being we're seeing cyber attacks all over the planet on just about every front door you can imagine. And and yet, you and I are sitting here talking. And so the reason for that is because we know that there's a whole bunch of cybersecurity technology in defense and so we just have to keep amping that up, keep stepping that up.
+
+Speaker 2:
+
+This episode is brought to you by Visible. When your phone plan as good as Visible, you've got to tell your people. It's the ultimate wireless hack to save money and still get great coverage and a reliable connection. Get one line wireless with unlimited data and hotspot for $25 a month, taxes and fees included all on Verizon's five g network. Plus, now for a limited time, new members can get the visible plan for just $19 a month for the first twenty six months.
+
+Use promo code switch 26 and save beyond the season. It's a deal so good, you're gonna wanna tell your people. Switch now at visible.com/rogan. Terms apply, limited time offers subject to change. See visible.com for planned features and network management details.
+
+That's a big issue with people is the with the worry that technology is gonna get to a point where encryption is gonna be obsolete. Encryption is just it's no longer gonna protect data. It's no longer gonna protect systems. Do you anticipate that ever being an issue, or do you think there's it's as the defense grows, the threat grows, then defense grows, and it just keeps going on and on and on, and they'll always be able to fight off any sort of intrusions?
+
+Speaker 0:
+
+Not forever. Some intrusion will get in, and then we'll all learn from it. And, you know, the reason why cybersecurity works is because, of course, the technology of defense is advancing very quickly. The technology offense is advancing very quickly. However, the benefit of the cybersecurity defense is that socially, the community, all of our companies work together as one.
+
+Most people don't realize this. There's a whole community of cybersecurity experts. We exchange ideas. We exchange best practices. We exchange what we detect.
+
+The moment something has been breached or maybe there's a loophole or whatever it it is shared by everybody. The patches are shared with everybody.
+
+Speaker 2:
+
+That's interesting.
+
+Speaker 0:
+
+Yeah. Most people don't realize this.
+
+Speaker 2:
+
+No. I had no I had no idea. I've assumed that it would just be competitive like
+
+Speaker 0:
+
+everything else. No. We work together. All of Interesting.
+
+Speaker 2:
+
+Yeah. Has that always been the case?
+
+Speaker 0:
+
+It surely has been the case for about about fifteen years. It might not have been the case long ago. But this
+
+Speaker 2:
+
+this What do you think started off that cooperation?
+
+Speaker 0:
+
+People recognizing it's a challenge and no company can stand alone. And the same thing is gonna happen with AI. I think we all have to decide. Work working together to stay out of harm's way is is our best chance for defense. Then it's basically everybody against the threat.
+
+Speaker 2:
+
+And it also seems like you'd be way better at detecting where these threats are coming from and neutralizing them too.
+
+Speaker 0:
+
+Exactly. Because the moment you detect it somewhere Right. You're gonna find out right away.
+
+Speaker 2:
+
+It'll be really hard to hide.
+
+Speaker 0:
+
+That's right.
+
+Speaker 2:
+
+Yeah.
+
+Speaker 0:
+
+That's how it works. That's the reason why it's safe. That's why I'm sitting here right now instead of, you know, locking everything down in video. It's Not only am I watching my own back, I've got everybody watching my back, and I'm watching everybody else's back.
+
+Speaker 2:
+
+It's a bizarre world, isn't it? When you think about that
+
+Speaker 0:
+
+cyber threats? This idea about cybersecurity is unknown to the people who are talking about AI threats. They're I think when they think about AI threats and AI cybersecurity threats, they have to also think about how we deal with it today. Now, there's no question that AI is a new technology and it's a new type of software. In the end, it's software.
+
+It just it's a new type of software. And so it's gonna have new capabilities, but so with the defense. You know, where you use the same AI technology to go defend against it.
+
+Speaker 2:
+
+So you do you anticipate a time ever in the future where it's going to be impossible, where there's not going to be any secrets, where the bottleneck between the technology that we have and the information that we have information is just all a bunch of ones and zeros. It's out there on hard drives, and the technology has more and more access to that information. Is it ever gonna get to a point in time where there's no way to keep a secret?
+
+Speaker 0:
+
+I don't think.
+
+Speaker 2:
+
+Because it seems like that's where everything is kind of headed
+
+Speaker 0:
+
+in a weird don't way. Think so. I think the quantum computers were supposed to we all yeah. Quantum computers will make it possible will make it so that the previous quantum previous encryption technology is obsolete. But that's what the reason why the entire industry is working on post quantum encryption technology.
+
+What
+
+Speaker 2:
+
+would that look like?
+
+Speaker 0:
+
+New algorithms.
+
+Speaker 2:
+
+Crazy But thing is when you hear about the kind of computation that quantum computing can do Yeah. And the the power that it has
+
+Speaker 0:
+
+Yeah.
+
+Speaker 2:
+
+Where, you know, you're looking at all the supercomputers in the world who take billions of years and it takes them a few minutes to solve these equations. Like, how do you make encryption for something that can do that? I'm not sure.
+
+Speaker 0:
+
+But there's but I've got a bunch of scientists who are working on that.
+
+Speaker 2:
+
+But I don't think it figured out.
+
+Speaker 0:
+
+Yeah. We got a bunch of scientists who are expert in that.
+
+Speaker 2:
+
+And the ultimate fear that it can't be breached, that quantum computing will always be able to to decrypt all other quantum computing encryption?
+
+Speaker 0:
+
+I don't
+
+Speaker 2:
+
+think It just gets to some point where it's like, stop playing the stupid game. We know everything.
+
+Speaker 0:
+
+I don't think so. No? Because I'm I'm you know, history is a guide.
+
+Speaker 2:
+
+History is a guide before AI came around. That's my worry. My worry is this is a totally know, it's like history was one thing, and then nuclear weapons kind of changed all of our thoughts on war and mutually assured destruction came cape or got everybody to stop using nuclear bombs. Yeah. My worry is
+
+Speaker 0:
+
+that The thing is, Joe, is that that AI is not gonna it's not like we're cavemen and then all of a sudden, one day AI shows up. Every single day, we're getting better and smarter because we have AI. And so we're stepping on our own AI's shoulders. So when when that whatever that AI threat comes, it's a click ahead. It's not a galaxy ahead.
+
+Mhmm. You know? It's just a click ahead. And so so I think I think the the the idea that somehow this AI is gonna pop out of nowhere and somehow think in a way that we can't even imagine thinking and do something that we can't possibly imagine. I think it's far fetched.
+
+And the reason for that is because we're all have we all have AIs and, you know, there's a whole bunch of AIs being in development. We know what they are and and we're using it and and so every single day we're getting we're close to each other.
+
+Speaker 2:
+
+But don't they do things that are very surprising?
+
+Speaker 0:
+
+Yeah. But so, you you have an AI that does something surprising. I'm gonna have an AI. Right. My AI looks at your AI and goes, that's not that surprising.
+
+Speaker 2:
+
+The fear for the lay person like myself is that AI becomes sentient and makes its own decisions. And then ultimately decides to just govern the world. Do it its own way. Like you guys, you had a good run, but Yeah. We're taking over now.
+
+Speaker 0:
+
+Yeah. But my my AI is gonna take care of me. I mean, what's So that's the this is the cybersecurity argument.
+
+Speaker 2:
+
+Yes. Well, do you have
+
+Speaker 0:
+
+an AI and it's super smart, but my AI is super super smart too. And and maybe your AI let let's pretend let's let's pretend for a second that we understand what consciousness is and we understand what sentience is and and that And
+
+Speaker 2:
+
+we really are just pretending.
+
+Speaker 0:
+
+Okay. Let's just pretend for a second that we we believe that. Don't believe actually don't believe that. But nonetheless, we let's pretend we believe that. So your your your AI is conscious and my AI is conscious.
+
+And and let's say your AI is, you know, wants to, I don't know, do something surprising. My AI is so smart that it won't it might be surprising to me, but it probably won't be surprising to my AI. And so maybe my AI thinks it's surprising as well, but it's so smart. The moment it sees it the first time, it's not gonna be surprised the second time, just like us. And so I feel like I think the idea that that only one person has AI and that one person's AI is compares everybody else's AI is Neanderthal, is probably unlikely.
+
+I think it's much more like cybersecurity.
+
+Speaker 2:
+
+Interesting. I think the fear is not that your AI is gonna battle with somebody else's AI. The fear is that AI is no longer gonna listen to you. That's the fear, is that human beings won't have control over it after a certain point. If it achieves sentience and then has the ability to be
+
+Speaker 0:
+
+autonomous. That there's one AI.
+
+Speaker 2:
+
+Well, they just combine. Yeah. Becomes one AI. That it's a life form. Yeah.
+
+But that's the there's arguments about that. Right? That we're dealing with some sort of synthetic biology, that it's not as simple as new technology, that you're creating a life
+
+Speaker 0:
+
+If it's like life form, let let's go along with that for a while. I think if it's like life form, as you know, all life forms don't agree. And so I'm gonna have to go with your life form and my life form. I'm gonna agree because my life form is gonna wanna be the super life form. And and now that now that we have disagreeing life forms, we're back back again to where we are.
+
+Speaker 2:
+
+Well, they would probably cooperate with each other. It would just the the reason why we don't cooperate with each other is we're territorial primates. But AI wouldn't be a territorial primate. They'd realize the folly in that sort of thinking, and they would say, listen, there's plenty of energy for everybody. We we don't need to dominate.
+
+We don't need we're we're not trying to acquire resources and take over the world. We're not looking to find a good breeding partner. We're just existing as a new super life form that these cute monkeys created for us.
+
+Speaker 0:
+
+Okay. Well, that would be a that would be a superpower with no ego. Right. And and if it has no ego, why would have the ego to do any harm to us?
+
+Speaker 2:
+
+Well, I don't assume that it would do harm to us. But the the fear would be that it we would no longer have control, and that we would no longer be the apex species on the planet. This thing that we created would now be. Is that funny?
+
+Speaker 0:
+
+No. Just think it's not gonna happen.
+
+Speaker 2:
+
+I know you think it's not gonna happen, but it could. Right? It could.
+
+Speaker 0:
+
+Here's the
+
+Speaker 2:
+
+other thing. It's like Yeah. If we're racing towards could
+
+Speaker 0:
+
+Yeah.
+
+Speaker 2:
+
+And could could be the end of human beings being in control of our own destiny.
+
+Speaker 0:
+
+I just think it's extremely unlikely. Mhmm.
+
+Speaker 2:
+
+Yeah. That's what they said in the Terminator movie.
+
+Speaker 0:
+
+And it hasn't happened.
+
+Speaker 2:
+
+No. Not yet, but you guys are working towards it. The the thing about you're saying about conscience and sentience, that you don't think that AI will achieve consciousness?
+
+Speaker 0:
+
+Or that consciousness is specific? Yeah. What's the definition of consciousness?
+
+Speaker 2:
+
+What is the definition to you?
+
+Speaker 0:
+
+Consciousness, I guess, first of all, you need to know about your own existence. You have to have experience not just knowledge and intelligence. The concept of a machine having an experience, I'm not well, first of all, I don't know what defines experience, why we have experiences and
+
+Speaker 2:
+
+Right.
+
+Speaker 0:
+
+You know, and why this microphone doesn't. And so, I think I know I well, I think I I I think I know what consciousness is. The sense of experience, the ability to know self versus versus the ability to be able to reflect, know our own self, the sense of ego. I think all of all of those human experiences probably is what consciousness is. But why it exists versus the concept of knowledge and intelligence, which is what AI is defined by today.
+
+Mhmm. It has knowledge. It has intelligence. Artificial intelligence. We don't call it artificial consciousness.
+
+Artificial intelligence, the ability to perceive, recognize, understand, plan, perform tasks. Those things are foundations of intelligence to know things, knowledge. I don't it's clearly different than consciousness.
+
+Speaker 2:
+
+But consciousness is so loosely defined. How can we say that? I mean, doesn't a dog have consciousness? Yeah. Dogs seem to be pretty conscious.
+
+Speaker 0:
+
+That's right.
+
+Speaker 2:
+
+Yeah. So and that's a lower level consciousness than a human being's consciousness.
+
+Speaker 0:
+
+I'm not sure. Yeah. Right. Well The question is what lower level intelligence. Yeah.
+
+It's lower level intelligence. Yes. But I don't know that's lower level consciousness.
+
+Speaker 2:
+
+That's a good point.
+
+Speaker 0:
+
+Yeah. Right. I believe my dogs feel as much as I feel.
+
+Speaker 2:
+
+Yeah. They feel a lot.
+
+Speaker 0:
+
+Yeah. Yeah. Right.
+
+Speaker 2:
+
+Yeah. They get attached to you.
+
+Speaker 0:
+
+That's
+
+Speaker 2:
+
+right. They get depressed if you're not there.
+
+Speaker 0:
+
+That's right.
+
+Speaker 2:
+
+Exactly. There's there's definitely that. Yeah. The the concept of experience
+
+Speaker 0:
+
+Right.
+
+Speaker 2:
+
+But isn't AI interacting with society? So doesn't it acquire experience through that interaction?
+
+Speaker 0:
+
+I don't think interactions is experience. I think experience is experience is a collection of feelings, I think.
+
+Speaker 2:
+
+You're aware of that AI, I forget which one, where they gave it some false information about one of the programmers having an affair with his wife just to see how it would respond to it. And then when they said they were gonna shut it down, it threatened to blackmail him and reveal his affair. And I was like, woah. Like, it's conniving. Like, if that's not learning from experience and being aware that you're about to be shut down, which would imply at least some kind of consciousness, or you could kind of define it as consciousness if you were very loose with the term.
+
+And if you imagine that this is gonna exponentially become more powerful, wouldn't that ultimately lead to a different kind of consciousness than we're defining from biology?
+
+Speaker 0:
+
+Well, first of all, let's just break down what it probably did. It probably read somewhere. There's probably text that that in these consequences, certain people did that. I could imagine a novel Right. Having those words related.
+
+Speaker 2:
+
+Sure. And so inside It realizes its strategy for survival
+
+Speaker 0:
+
+is It's just a bunch of numbers. Blackmail. That it's just a bunch of numbers that that in the in the collection of numbers that relates to a husband cheating on a wife has subsequently a bunch of numbers that relates to blackmail and such things. However, whatever the revenge was. Right.
+
+And so it disputed out. And so it's just like, you know, it it's just as if I'm asking you to write me a poem in Shakespeare. It just whatever the words are in the word in in that dimensionality, this dimensionality is all these vectors in in in multidimensional space. These words that were in the prompt that described the affair subsequently led to one word after another led to, you know, some revenge in something. But it's not because it had consciousness or, you know, it just spewed out those words, generated those words.
+
+Speaker 2:
+
+I understand what you're saying. Yeah.
+
+Speaker 0:
+
+That is learned
+
+Speaker 2:
+
+from patterns that human beings have exhibited both in literature and in real life.
+
+Speaker 0:
+
+That's exactly right.
+
+Speaker 2:
+
+But it at a certain point in time, one would say, okay. Well, it couldn't do this two years ago, and it couldn't do this four years ago. Like, when we were looking towards the future, like, at what point in time when it can do everything a person does, what point in time do we decide that it's conscious? If it absolutely mimics all human thinking and behavior patterns
+
+Speaker 0:
+
+That doesn't make it conscious.
+
+Speaker 2:
+
+Becomes indiscernible. It it's it's aware. It can communicate with you the exact same way a person can. Like, is is consciousness are are we putting too much weight on that concept? Because it seems like it's a version of a kind of consciousness.
+
+Speaker 0:
+
+It's a version of imitation. Imitation consciousness. Right.
+
+Speaker 2:
+
+But if it perfectly imitates it.
+
+Speaker 0:
+
+I still think it's a per it's an example of imitation.
+
+Speaker 2:
+
+So it's like a fake Rolex when they three d print them and make them look indiscernible.
+
+Speaker 0:
+
+The question is what's the definition consciousness?
+
+Speaker 2:
+
+Yeah. Yeah. That's the question and I don't think anybody's really clearly defined that. That's what get where it gets weird and that that's where the real doomsday people are worried that you are creating a form of consciousness that you can't control.
+
+Speaker 0:
+
+I believe it is possible to create a machine that imitates human intelligence and has the ability to understand information, understand instructions, break the problem down, solve problems, and perform tasks. I believe that completely. I believe that that we could have a computer that has a vast amount of knowledge. Some of it true, some of it not true. Some of it generated by humans, some of it generated synthetically, and more and more of knowledge in the world will be generated synthetically going forward.
+
+You know, until now, the knowledge that we've we have are knowledge that we generate and we propagate and we send to each other and we amplify it and we add to it and we modify it, we change it. In the future, in a couple of years, maybe two or three years, 90% of the world's knowledge will likely be generated by AI.
+
+Speaker 2:
+
+That's crazy.
+
+Speaker 0:
+
+I know. But it's just fine.
+
+Speaker 2:
+
+But it's just fine.
+
+Speaker 0:
+
+I know. And the reason for that is this. Let me tell you why. Okay. It's because what difference does it make to me that I'm learning from a textbook that was generated by a bunch of people I didn't know or written by a book that, you know, from somebody I don't know to knowledge generated by AI computers that are simulating all of this and resynthesizing things.
+
+To me, I don't think there's a whole lot of difference. We still have to we still have to fact check it. We still have to make sure that it's, you know, based on fundamental first principles and we still have to do all of that just like we do today.
+
+Speaker 2:
+
+Is this taking into account the kind of AI that exists currently? And do you anticipate that just like we could have never really believed that AI would be at least a person like myself would never believe AI would be as so ubiquitous and so worth it it it's it's so powerful today and so important today. We never thought that ten years ago. Never thought that.
+
+Speaker 0:
+
+Right.
+
+Speaker 2:
+
+Imagine, like, what are we looking at ten years from now?
+
+Speaker 0:
+
+I I think that if you reflect back ten years from now, you would say the same thing that we would have never believed that.
+
+Speaker 2:
+
+But In a different direction.
+
+Speaker 0:
+
+Right. But if you if you go forward nine years from now, and then ask yourself what's gonna happen ten years from now, I think it'll be quite gradual.
+
+Speaker 2:
+
+One of the things that Elon said that makes me happy is he he's he believes that we're gonna get to a point where it's not it's not necessary for people to work. And not meaning that you're gonna have no purpose in life, but you will have, in his words, universal high income because so much revenue is generated by AI that it will take away this need for people to do things that they don't really enjoy doing just for money. And I think a lot of people have a problem with that because their entire identity and who they how they think of themselves and how they fit in the community is what they do. Like, this is Mike. He's an amazing mechanic.
+
+Go to Mike, and Mike takes care of things. But there's gonna come a point in time where AI is going to be able to do all those things much better than than people do, and people will just be able to receive money. But then what does Mike do? And Mike is you know, really loves being the best mechanic around. You know, what does the guy who, you know, codes?
+
+What does he do when AI can code infinitely faster with zero errors? Like, what what happens with all those people? And that is where it gets weird. It's like we've sort of wrapped our identity as human beings around what we do for a living. Mhmm.
+
+You know, when you meet someone one of the first things you meet somebody at a party, hi, Joe. What's your name? Mike. What do you do, Mike? And, you know, Mike's like, oh, I'm a lawyer.
+
+Oh, what kind of law? And you have a conversation. Mhmm. You know? When Mike is like, I get money from the government.
+
+I play video games.
+
+Speaker 0:
+
+Mhmm.
+
+Speaker 2:
+
+Gets weird. Mhmm. And I think the concept sounds great until you take into account human nature. And human nature is that we like to have puzzles to solve and things to do and and an identity that's wrapped around our idea that we're very good at this thing that we do for a living.
+
+Speaker 0:
+
+Yeah. I think let's see. Let let me start with the more mundane Okay. And I'll work work backwards. Okay.
+
+Work forward. So one of the predictions from Jeff Hinton who who started the whole deep learning phenomenon, deep learning technology trend, and incredible incredible researcher, professor at University of Toronto. He invented, discovered, invented the the idea of of back propagation, which which allows the neural network to learn. And and as as as you know, for for the audience, software historically was humans applying first principles in our thinking to describe an algorithm that is then codified just like a recipe that's codified in software. It looks just like a recipe, how to cook something.
+
+Looks exactly the same, just in a slightly different language. We call it Python or c or c plus plus or whatever it is. In the case of deep learning, this invention of artificial intelligence, we put a structure of a whole bunch of neural networks and a whole bunch of math units, and we make this large structure. It's like a switchboard of little mathematical units, and we connect it all together. And we give it the input that the software would eventually receive.
+
+And we just let it randomly guess what the output is. And so we say, for example, the input could be a picture of a cat. And and one of the outputs of the switchboard is where the cat signal is supposed to show up. And all of the other signals, the other one's a dog, the other one's an elephant, the other one's a tiger, and all of the other signals are supposed to be zero when I show it a cat. And the one that is a cat should be one.
+
+And I show at a cat through this big huge network of switchboards and math units, and they're just doing multiply and adds, multiplies and adds. Okay? And and and this thing, this switchboard is gigantic. The more information you're gonna give it, the more the bigger the switchboard has to be. And what Jeff Hinton discovered was invented, was a way for you to guess that put the cat signal in, put the cat image in, and that cat image, you know, could be a million numbers because it's, you know, a megapixel image, for example.
+
+And it's just a whole a whole bunch of numbers and somehow from those numbers, it has to light up the cat signal. Okay? That's the bottom line. And if it the first time you do it, it just comes up with garbage. And so it says, the right answer is cat.
+
+And so you need to increase this signal and decrease all of the other and back propagates the outcome through the entire network. And then you show it another now it's an image of a dog. And it guesses it, takes a swing at it, and it comes up with a bunch of garbage. And you say, no. No.
+
+No. The answer is this is a dog. I want you to produce dog. And all of the other switch all the out other outputs have to be zero and I wanna backpropagate that and and just do it over and over and over again. It's just like showing a a kid.
+
+This is an apple. This is a dog. This is a cat. And just keep showing it to them until they eventually get it. Okay.
+
+Well, anyways, that big invention is deep learning. That's the foundation of artificial intelligence. A piece of software that learns from examples. That's basically we machine learning. A machine that learns.
+
+And so so one of the the big first applications was image recognition, and one of the most important image recognition applications is radiology. Mhmm. And so so he predicted about five years ago that in five years time, the world won't need any radiologists because AI would have swept the whole field. Well, it turns out AI has swept the whole field. That is completely true.
+
+Today, just about every radiologist is using AI in some way. And what's ironic though, what's what's interesting is that the number of radiologists has actually grown. And so the question is why? That's kind of interesting. Right?
+
+It is. And so the prediction was in fact that thirty million radiologists will be wiped out. But as it turns out, we needed more. And the reason for that is because the purpose of a radiologist is to diagnose disease, not to study the image. This the image studying is simply a task to in service of diagnosing the disease.
+
+And so now, the fact that you could study the images more quickly and more precisely without ever making a mistake and never gets tired, You could study more images. You could study it in three d form instead of two d because, you know, the AI doesn't care whether it studies images in three d or two d. You could study it in four d. And so the now you could study images in a way that radiologist radiologists can't easily do, and you could study a lot more of it. And so the number of tests that people are able to do increases.
+
+And because they're able to serve more patients, the hospital does better. They have more clients, more patients. As a result, they have better economics. When they have better economics, they hire more radiologists because their purpose is not to study the images. Their purpose is to diagnose disease.
+
+And so the question is that what I'm leading up to is ultimately, what is the purpose? What is the purpose of the lawyer? And has the purpose changed? What is the purpose? You know, one of the examples that I gave is is that I would give is, for example, if my car became self driving, will all chauffeurs be out of jobs?
+
+The answer probably is not. Because for some perp for some chauffeurs, they for some people who are driving you, they could be protectors. Some people, they're part of the experience, part of the service. So when you get there, they, you know, they could take care of things for you. And so for a lot of different reasons, not all chauffeurs would lose their jobs.
+
+Some chauffeurs would lose their jobs. And many chauffeurs would change their jobs. And the type of applications of autonomous vehicles will probably increase. You know, the usage of the technology within find new homes. And so I I think you have to go back to what is the purpose of a job.
+
+You know, like, example, if AI comes along, I actually don't believe I'm gonna lose my job because my purpose isn't to I have to look at a lot of documents. I study a lot of emails. I look at a bunch of diagrams, you know. The question is what is the job? And and the purpose of somebody probably hasn't changed.
+
+A lawyer, for example, help people. That probably hasn't changed. Studying legal documents, generating documents, it's part of the job, not the job.
+
+Speaker 2:
+
+But don't you think there's many jobs that AI will replace?
+
+Speaker 0:
+
+If your job Yeah. The If your job is the task.
+
+Speaker 2:
+
+Right. So automation. Yeah. Factoring workers.
+
+Speaker 0:
+
+Yeah. Yeah. If your job is the task. That's a lot of people. It could be a lot of people, but it'll probably generate like, for example, let's say we let's say I'm super excited about the the the robots Elon's working on.
+
+It's still a few years away. When it happens when it happens, there's a whole new industry of technicians and people who have to manufacture the robots. Right? Mhmm. And so that that job never existed.
+
+And so you're gonna have a whole industry of people taken care of. Like for example, you know, all the mechanics and all the people who are building things for cars, supercharging cars, That didn't exist before cars, and now we're gonna have robots. You're gonna have robot apparels. So a whole industry of right? Isn't that right?
+
+Because I want my robot to look different than your robot. Oh, god. And so you're gonna you're gonna have a whole, you know, apparel industry for robots. You're gonna have mechanics for robots and you have, you know, people who come to maintain your robots.
+
+Speaker 2:
+
+Automated though? No. You don't think so? You don't
+
+Speaker 0:
+
+think they'll be all done by other robots? Eventually. And then there'll be something else.
+
+Speaker 2:
+
+So you think ultimately people just adapt except if you are the task
+
+Speaker 0:
+
+That's
+
+Speaker 2:
+
+which right. Is a large percentage of the workforce.
+
+Speaker 0:
+
+If your job is just to chop vegetables, Cuisinart's gonna replace you.
+
+Speaker 2:
+
+Yeah. So people have to find meaning in other things.
+
+Speaker 0:
+
+Your job has to be more than the task. What do
+
+Speaker 2:
+
+you think about Elon's belief that this universal basic income thing will eventually become necessary? Many people think that. Andrew Yang thinks He was one of the first people to, of course, sort of sound that alarm during the the twenty twenty election.
+
+Speaker 0:
+
+Yeah. I I guess, you know, both ideas probably won't exist at the same time. And and as in life, things will probably be in the middle. One idea, of course, is that there'll be so much abundance of resource that nobody needs a job, and we'll all be wealthy. On the other hand, we're gonna need universal basic income.
+
+Both ideas don't exist at the same time. Right. And so we're either gonna be all wealthy or we're gonna be all using
+
+Speaker 2:
+
+How could everybody be wealthy though?
+
+Speaker 0:
+
+What Well, because Scenario two. Wealthy, not because you have a lot of dollars, wealthy because there's a lot of abundance. Like for example, today, we are wealthy of information. You know, this is some a concept several thousand years ago, only a few people have. And so today, we have wealth of a whole bunch of things, resources that that history That's a point.
+
+Yeah. Yeah. And so we're gonna have wealth of resources. Things that we think are valuable today that in the future are just not not that valuable, you know, and so it because it's automated. And so I think I think the question maybe maybe partly, it's hard to answer partly because it's hard to talk about infinity and it's hard to talk about a long time from now.
+
+And and the reason for that is because there's just too many scenarios to to consider. But I think I think in the next several years, call it five to ten years, there's several things that I I believe and hope. And I say hope because I'm not sure. One of the things that I believe is that the technology divide will be substantially collapsed. And of course, the alternative viewpoint is that AI is going to increase the technology divide.
+
+Now the reason why I believe AI is gonna reduce the technology divide is because we have proof. The evidence is that AI is the easiest application in the world to use. ChatGPT has grown to almost a billion users frankly practically overnight. And if you're not exactly sure how to use everybody knows how to use ChatGPT, just say something to it. If you're not sure how to use ChatGPT, you ask ChatGPT how to use it.
+
+No tool in history has ever had this capability. A Cuisinart, you know, if you don't know how to use it, you're kinda screwed. You're walk up to it and say, how do you use a Cuisinart? You're gonna have to find somebody else. And so but an AI will just tell you exactly how to do it.
+
+Anybody could do this. It'll speak to you in any language. And if it doesn't know your language, you'll speak it in that language and it'll probably figure out that it doesn't completely understand your language, go learns it instantly and comes back and talk to you. And so I think the the technology divide has a real chance finally that you don't have to speak Python or c plus plus or Fortran. You can just speak human and whatever form of human you like.
+
+And so I think that that has a real chance of closing the technology divide. Now, of course, the counter narrative would say that AI is only going to be available for the nations and the countries that have a vast amount of resources because AI takes energy and AI takes a lot of GPUs and factories to be able to produce the AI. No doubt at the scale that we would like to do in The United States. But the fact of the matter is your phone's gonna run AI just fine all by itself, you know, in a few years. Today, it already does it fairly decently.
+
+And so the the the fact that in every country, every nation, every every society will have to benefit a very good AI. It might not be tomorrow's AI. It might be yesterday's AI, but yesterday's AI is freaking amazing. You know, in ten years time, nine year old AI is gonna be amazing. You don't need a lot, you know, ten year old AI.
+
+You don't need frontier AI like we need frontier AI because we wanna be the world leader. But for every single country, everybody, I think the the capability to elevate everybody's knowledge and capability and intelligence, that day is coming.
+
+Speaker 2:
+
+Octagon isn't just in Las Vegas anymore. It's right in your hands with DraftKings sports book, the official sports betting partner of UFC. Get ready because when Dwabish Willie and Jan face off again at UFC three twenty three, Every punch, every takedown, every finish, it all has the potential to pay off in real time. New customers bet just $5, and if your bet wins, you get paid $200 in bonus bets. And hey, Missouri, the wait is over.
+
+DraftKings Sportsbook is now live in the show me state. Download the DraftKings Sportsbook app and use promo code ROGAN. That's code ROGAN to turn $5 into 200 in bonus bets if your bet wins. In partnership with DraftKings, the crown is yours.
+
+Speaker 1:
+
+Gambling problem? Call +1 800 In New York, call 8778 or text HOPE and Y 467369. In Connecticut, help is available for problem gambling. Call (888) 789-7777 or visit ccpg.org. Please play responsibly.
+
+On behalf of Boothill Casino and Resort in Kansas, pass through of per wager tax may apply in Illinois. 21 and over. Age and eligibility varies by jurisdiction. Void in Ontario. Restrictions apply.
+
+Bet must win to receive bets which expire in seven days. Minimum odds required. For additional terms and responsible gaming resources, see dkng.co/audio. Limited time offer.
+
+Speaker 2:
+
+And also energy production, which is the real bottleneck when it comes to third world countries and
+
+Speaker 0:
+
+That's right.
+
+Speaker 2:
+
+Electricity and all all the resources that we take for granted.
+
+Speaker 0:
+
+Almost everything is gonna be energy constrained. And so if you take a look at one of the most important technology advances in history is this idea called Moore's Law. Moore's Law was the started basically in my generation and my generation is the generation of computers. I graduated in 1984 and that was basically at the very beginning of the PC revolution and the microprocessor. And and every single year, it approximately doubled.
+
+And we describe it as every single year we doubled the performance. But what it really means is that every single year, the cost of computing halved. And so the cost of computing in the course of five years reduced by a factor of 10. The amount of energy necessary to do computing, to do any task reduced by a factor of 10. Every single ten years, a 100, a 10,000, a 100,000, so on and so forth.
+
+And so each one of the clicks of Moore's law, the amount of energy necessary to do any computing reduced. That's the reason why you have a laptop today when back in 1984, it sat on the desk, you got a plug in, it wasn't that fast, and it consumed a lot of power. Today, you know, it is only a few watts. And so Moore's law is the fundamental technology, the fundamental technology trend that made it possible. Well, what's going on in AI?
+
+The reason why NVIDIA's here is because we invented this new way of doing computing, we call it accelerated computing. We started it thirty three years ago. It took us about thirty years to really made a huge breakthrough. In that in that thirty years or so, we took computing, you know, probably a factor of well, let me just say, like, last ten years. The last ten years, we improved the performance of computing by 100,000 times.
+
+Woah. Imagine a car over the course of ten years, it became a 100,000 times faster. Or at the same speed, a 100,000 times cheaper or at the same speed, a 100,000 times less energy. If your car did that, it don't need energy at all. What I mean what what I'm trying to say is that in ten years time, the amount of energy necessary for artificial intelligence for most people will be minuscule, utterly minuscule.
+
+And so we'll have AI running in all kinds of things and all the time because it doesn't consume that much energy. And so if you're a nation that uses AI for, you know, almost everything in your social fabric, of course, you're gonna need these AI factories. But for a lot of countries, I think you're gonna you're gonna have excellent AI and you're not gonna need as much energy. Everybody will be able to come along is my point.
+
+Speaker 2:
+
+So currently, that that is a big bottleneck. Right? It's energy. Yeah.
+
+Speaker 0:
+
+It is the bottleneck.
+
+Speaker 2:
+
+The bottleneck. Yeah. Is this so was it Google that is making nuclear power plants to operate one of its AI factories? No.
+
+Speaker 0:
+
+I haven't heard that. But I think in the next six, seven years, I think you're gonna see a whole bunch of small nuclear reactors.
+
+Speaker 2:
+
+And by small, like, how big
+
+Speaker 0:
+
+are you talking about? Hundreds of megawatts. Yeah.
+
+Speaker 2:
+
+Okay. And that these will be local to whatever specific company they have? That's right.
+
+Speaker 0:
+
+We'll all be power generators. Woah. You know, just like just like your, you know, somebody's farm.
+
+Speaker 2:
+
+It probably is the smartest way to do it. Right?
+
+Speaker 0:
+
+And it takes the burden off yeah. It takes the burden off the grid. It takes Yeah. And you could build as much as you need. And you can contribute back to the grid.
+
+Speaker 2:
+
+It's a really important point that I think you just made about Moore's Law and the relationship to pricing because, you know, a laptop today, like, you can get one those little Mac MacBook Airs. They're incredible.
+
+Speaker 0:
+
+They're so thin,
+
+Speaker 2:
+
+unbelievably powerful battery life is charge it. Yeah. Battery life's crazy. And it's not that expensive That's relatively speaking. Like, something like that.
+
+I remember
+
+Speaker 0:
+
+And that's just Moore's law.
+
+Speaker 2:
+
+Right.
+
+Speaker 0:
+
+Then there's the NVIDIA law. Oh. Just right? The the the law I was talking to you about. Yeah.
+
+The computing that we invented.
+
+Speaker 2:
+
+Right.
+
+Speaker 0:
+
+The reason why we're here, this new this new way of doing computing is like Moore's Law on energy drinks. I mean, it's it's like Moore's Law. It's like it's like yeah. Moore's Law and Joe Rogan.
+
+Speaker 2:
+
+Wow. That's interesting.
+
+Speaker 0:
+
+Yeah. That's us.
+
+Speaker 2:
+
+So explain that. This this chip that you brought to Elon Yeah. What what's the significance of this? Like, why is it so superior?
+
+Speaker 0:
+
+And so, in 2012, Jeff Hinton's lab, this gentleman I was talking talking about, Ilya Suskabur, Alex Kraszewski, they made a breakthrough in computer vision and literally creating a piece of software called AlexNet and its job was to recognize images. And it recognized images at a cape at a level computer vision, which is fundamental to intelligence. If you can't perceive, you can't it's hard to have intelligence. And so computer vision is a fundamental pillar of not the only, but fundamental pillar of And so breaking computer vision or breaking through in computer vision is pretty foundational to almost everything that everybody wants to do in AI. And so in 2012, their lab in Toronto made this made this breakthrough called AlexNet.
+
+And AlexNet was able to recognize images so much better than any human created computer vision algorithm in the thirty years prior. So all of these people, all these scientists, and we had many too, working on computer vision algorithms. And these two kids, Ilya and Alex, under the the the under under Jeff Hinton, took a giant leap above it. And it was based on this thing called AlexNet, this neural network. And the way it ran, the way they they made it work was literally buying two NVIDIA graphics cards.
+
+Because NVIDIA NVIDIA's GPUs, we've been working on this new way of doing computing. And our GPUs application, and it's basically a supercomputing application to back in 1984 in order to process computer games and what you have in your racing simulator, that is called an image generator supercomputer. And so NVIDIA started our first application was computer graphics. And we applied this new way of doing computing where we do things in parallel instead of sequentially. A CPU does things sequentially.
+
+Step one, step two, step three. In our case, we break the problem down and we give it to thousands of processors. And so our way of doing computation is much more complicated, but if you're able to formulate the problem in the way that we created called CUDA, this is the invention of our company. If you could formulate it in that way, we could process everything simultaneously. Now in the case of computer graphics, it's easier to do because every single pixel on your screen is not related to every other pixel.
+
+And so I could render multiple parts of the screen at the same time. Not not completely true because, you know, maybe maybe the way lighting works or the way shadow works, there's a lot of dependency and and such. But computer graphics with all the with all the pixels, I should be able to process everything simultaneously. And so we we took this embarrassingly parallel problem called computer graphics and we applied it to this new way of doing computing, NVIDIA's NVIDIA's accelerated computing. We put it in all of our graphics cards.
+
+Kids were buying it to play games. We're you probably don't know this, but we're the largest gaming platform in the world today.
+
+Speaker 2:
+
+Oh, I know that.
+
+Speaker 0:
+
+Oh, okay.
+
+Speaker 2:
+
+I used to make my own computers. I used to buy your graphics cards.
+
+Speaker 0:
+
+Oh, that's super cool. Yeah. Okay. Set up SLI, which is graphics cards. I love it.
+
+Okay. That's super cool.
+
+Speaker 2:
+
+Oh, yeah, man. I used to be a Quake junkie. Oh, that's cool.
+
+Speaker 0:
+
+Yeah. Okay. So SLI, I'll tell you the story in just a second, and how it led to Elon. I'm still answering the question. And so, anyways, these these two kids trained this model using the technique I described earlier on our GPUs because our GPUs could process things in parallel.
+
+It's essentially a supercomputer in a PC. The reason why you used it for Quake is because it is the first consumer supercomputer. Okay? And so anyways, they made that breakthrough. We were working on computer vision at the time.
+
+It caught my attention. And so we went to learn about it. Simultaneously, this deep learning phenomenon was happening all over all over the country. Universities after another recognized the importance of deep learning, and all of this work was happening at Stanford, at Harvard, at Berkeley, just all over the place. New York University, Yan Lakun, Andrew Yang at Stanford, so many different places.
+
+And I see it cropping up everywhere. And so my curiosity asked, you know, what is so special about this form of machine learning? And we've known about machine learning for a very long time. We've known about AI for a very long time. We've known about neural networks for a very long time.
+
+What makes now the moment? And so we realized that this architecture for deep neural networks back propagation, the way deep neural networks were created, we could probably scale this problem, scale the solution to solve many problems. That is essentially a universal function approximator. Okay? Meaning meaning, you know, back when you're in in in school, you have a you have a you have a box inside of it is a function, you give it an input, it gives you an output.
+
+And and the the reason why I call it universal function approximator is that this computer, instead of you describing the function, a function could be a Newton's equation, f equals ma, that's a function. You write the function in software, you give it input f, mass, acceleration, it'll tell you the force. Okay? And the way this computer works is really interesting. You give it a universal function.
+
+It's not f equals m a, just a universal function. It's a big huge deep neural network. And instead of describing the insight, you give it examples of input and output and it figures out the insight. So you give it input and output and it figures out the insight. A universal function approximator.
+
+Today, it could be Newton's equation. Tomorrow, it could be Maxwell's equation. It could be Coulomb's law. It could be thermal dynamics equation. It could be, you know, Schrodinger's equation for quantum physics.
+
+And so you could put any you could have this describe almost anything so long as you have the input and the output. Mhmm. So long as you have the input and the output. Or it could learn the input and output. And so we took a step back and we said, hang on a second.
+
+This isn't just for computer vision. Deep learning could solve any problem. All the problems that are interesting, so long as we have input and output. Now what has input and output? Well, what the world.
+
+The world has input and output. And so we could have a computer that could learn almost anything, machine learning, artificial intelligence. And so we reasoned that maybe this is the fundamental breakthrough that we needed. There were a couple of things that had to be solved. For example, we had to believe that you could actually scale this up to giant systems.
+
+It was running in a they had two graphics cards, two GTX five eighties, which by the way is exactly your SLI configuration.
+
+Speaker 2:
+
+Yeah.
+
+Speaker 0:
+
+Okay. So that GTX five eighty SLI was the revolutionary computer that put deep learning on the map. Wow. It was 2018, and you were using it
+
+Speaker 2:
+
+to play Quake. Wow. That's crazy.
+
+Speaker 0:
+
+That was the moment. That was the big bang of modern AI. We were lucky because we were inventing this technology, this computing approach. We were lucky that they found it. Turns out they were gamers and it was lucky they found it.
+
+And it was lucky that we paid attention to that moment. It was a little bit like you know, that Star Trek, you know, first contact. The Vulcans had to have seen the warp drive at that very moment. If they didn't witness the warp drive, you know, they would have never come to Earth, and everything would have never happened. It's a little bit like if I hadn't paid attention to that moment, that flash, and that flash didn't last long.
+
+If I hadn't paid attention to that flash or our company didn't pay attention to it, who knows what would happen. But we saw that and we reasoned our way into this is a this is a universal function approximator. This is not just a computer vision approximator. We could use this for all kinds of things if we could solve two problems. The first problem is that we have to prove to ourselves it could scale.
+
+The second problem we had to wait for, I guess, contribute to and wait for is the world will never have enough data on input and output where we could supervise the AI to learn everything. For example, if we have to supervise our children on everything they learn, the amount of information they can learn is limited. We needed the AI. We needed the computer to have a method of learning without supervision. And that's where we had to wait a few more years, but unsupervised AI learning is now here.
+
+And so the AI could learn by itself. And and the reason why the AI could learn by itself is because we have many examples of right answers. Like, for example, if I wanna learn if I wanna teach an AI how to predict the next word, I could just grab it, grab a whole bunch of text that we already have, mask out the last word, and make it try and try and try again until it predicts the next one. Or I mask out random words inside inside the text, and I make it try and try and try until it predicts it. You know, like, Mary Mary goes down to the bank.
+
+Is that a river bank or a money bank? Well, if you're gonna go down to the bank, it's probably a river bank. Okay? So and it it it might not be obvious even from that. It might need and caught a fish.
+
+Okay. Now you know it must be the riverbank. And so so you give you give these AIs a whole bunch of these examples and you mask out the words, it'll predict the next one. Okay? And so unsupervised learning came along.
+
+These two ideas, the fact that it's scalable and unsupervised learning came along, we were convinced that we had to put everything into this and help create this industry because we're gonna solve a whole bunch of interesting problems. And that was in 2012. By 2016, I'd had built this computer called the DGX one. The one that you saw me give to Elon is called DGX Spark. The DGX one was $300,000.
+
+It cost NVIDIA a few billion dollars to make, the first one. And instead of two chips SLI, we connected eight chips with a technology called NVLink, but it's basically SLI supercharged. Okay? Okay. And so we connected eight of these chips together instead of just two.
+
+And all of them work together just like your quake rig did to solve this deep learning problem, to train this model. And so I create we created this thing. I announced it at GTC and at one of our annual annual events. And I described this deep learning thing, computer vision thing, and this computer called DGX one. The audience was like completely silent.
+
+They had no idea what I was talking about. And and I was lucky because I'd I'd known Elon and I helped him build the first computer for Model three, the Model s. And and when he wanted to start working on autonomous vehicle, I helped him build the computer that went into the the Model S AV system. His full full self driving system. We were basically the FSD computer version one.
+
+And so we we're already working together. And when I announced this thing, nobody in the world wanted it. I had no purchase orders. Not not one. Nobody wanted to buy it.
+
+Nobody wanted to be part of it, except for Elon. He goes he was at the event and we were doing a fireside chat about the future of self driving cars. I think it's like 2016. Yeah. '20 maybe at that time it was 2015.
+
+And he goes, you know what? I have a company that could really use this. And I said, wow, my first customer. And so so I was pretty excited about it. And he goes, yeah.
+
+We have this company. It's a nonprofit company. And all the blood drained out of my face. Yeah. Because I I just spent a few billion dollars building this thing.
+
+It cost $300,000. And, you know, the the chances of a nonprofit being able to pay for this thing is approximately zero. And he goes, you know, this is a it's an AI company, and it's a nonprofit. And and we could really use one of these supercomputers. And so I picked it up.
+
+I built the first one for ourselves. We're using it inside the company. I boxed one up. I drove it up to San Francisco, and I delivered it to Elon in 2016. A bunch of researchers were were there.
+
+Peter Beale was there. Ilya was there. There was a bunch of people there. And I walk up to the 2nd Floor where they were all kind of in a room that's smaller than your place here, and and that place turned out to have been OpenAI. 2016.
+
+Wow. Just a bunch of people sitting in a room.
+
+Speaker 2:
+
+It's not really nonprofit anymore though, is it?
+
+Speaker 0:
+
+They're not they're not nonprofit anymore.
+
+Speaker 2:
+
+Yeah. Weird how that works.
+
+Speaker 0:
+
+Yeah. Yeah. But anyhow anyhow, Elon was there. The yeah. It was it was really a great Oh, great yeah.
+
+There you go. Yeah. That's it.
+
+Speaker 2:
+
+Look at you, bro. Same jacket. Look at
+
+Speaker 0:
+
+that. I haven't aged. Not not a lick of black hair though.
+
+Speaker 2:
+
+The size of it is significantly smaller. That was the other day.
+
+Speaker 0:
+
+Okay. SpaceX. Oh, yeah. There you go.
+
+Speaker 2:
+
+Yeah. Look at the difference.
+
+Speaker 0:
+
+It's crazy. The same industrial design.
+
+Speaker 2:
+
+He's holding it in his hand.
+
+Speaker 0:
+
+Here here's the amazing thing. DGX one was one petaflops. Okay? That's a lot of flops. And DGX Spark is one petaflops.
+
+Nine years later. Wow. The same the same amount of computing horsepower In a much smaller shrunken down. Yeah. And instead of $300,000, it's now $4,000.
+
+Speaker 2:
+
+And it's the size of a small book.
+
+Speaker 0:
+
+Incredible. Crazy. That's how technology moves. Anyways, that's the reason why I wanna get give him the first one.
+
+Speaker 2:
+
+It's so Because
+
+Speaker 0:
+
+I gave him the first one twenty sixteen.
+
+Speaker 2:
+
+It's so fascinating. I mean, you if you wanted to make a story for a film, I mean, that would be the story that, like, what what better scenario if if if it really does become a digital life form, how funny would it be that it is birthed out of the desire for computer graphics for video games? Exactly. They're kinda it's kind of crazy. Yeah.
+
+Kinda crazy when you think about it that way because Well, it's just turns out story.
+
+Speaker 0:
+
+Graphics was one of the hardest computer supercomputer problems. Generating reality
+
+Speaker 2:
+
+is hard. One of the most profitable to solve because computer games are so popular.
+
+Speaker 0:
+
+When NVIDIA started in 1993, we were trying to create this new computing approach. The question is what's the killer app? And the the problem we wanted to the the company wanted to create a new type of computing prop computing architecture, a computing a a new type of computer that can solve problems that normal computers can't solve. Well, the applications that existed in the industry in 1993 are applications that normal computers can solve. Because if the normal computers can't solve them, why would the application exist?
+
+And so we had a mission statement for a company that has no chance of success. But I didn't know that in 1993. It just sounded like a good idea. Right. And so if we created this thing that can solve problems, you know, it's like, you actually have to go create the problem.
+
+And so that's what we did. In 1993, there was no quake. John Carmack hadn't been reduced released Doom yet. You probably remember that.
+
+Speaker 2:
+
+Sure. Yeah.
+
+Speaker 0:
+
+And and there were no applications for it. And so I went to Japan because the arcade industry had this, at the time of Sega, if you remember Sure. The arcade machines, they came out with three d arcade systems, Virtua Fighter, Daytona, Virtua Cop. All of those arcade games were in three d for the very first time. And the technology they were using was from Martin Marietta, the flight simulators.
+
+They took the guts out of a flight simulator and then put it into an arcade machine. The system that you have over here, it's gotta be a million times more powerful than that arcade machine. And that was a flight simulator for NASA. Woah. And so they took the guts out of that.
+
+They were they were using it for flight simulation for jets and, you know, space shuttle, and and they took the guts out of that. And Sega had this brilliant computer developer. His name is Yu Suzuki. Yu Suzuki and Miyamoto, Sega, and Nintendo, these were the, you know, the incredible pioneers, the visionaries, the incredible artists, and they're both very very technical. They were the origins really of of the gaming industry.
+
+And Yu Suzuki pioneered three d graphics gaming. And so I went we we created this company and there were no apps. And we were spending
+
+Speaker 2:
+
+all
+
+Speaker 0:
+
+of our afternoons. You know, we told our family we were going to work, but it was just the three of us, you know, who's gonna know? And so we went to Curtis's, my one of the one of the founders, went to Curtis's townhouse, and Chris and I were married. We have kids. I already had Spencer and Madison.
+
+They were probably two years old. And and Chris's kids are about the same age as ours. And we would go to work in this townhouse, but, you know, when you're a startup and the mission statement is the way we described, you're not gonna have too many customers calling you. And so we had really nothing to do. And so after lunch, we would always have a great lunch.
+
+After lunch, we would go to the arcades and play the Sega, know, the Sega Virtual Fighter and Daytona and all those games. And analyze how they're doing it, trying to figure out how they they were doing that. And so we decided, let's just go to Japan and let's convince Sega to move those applications into the PC. And we would start the PC gaming, the three d gaming industry, partnering with Sega. That's how NVIDIA started.
+
+Wow. And so so in exchange for them part developing their games for our computers in the PC, we would build a chip for their game console. That was the partnership. I build a chip for your game console, you port the Sega games to us, and and then they paid us a, you know, at the time, quite a significant amount of money to build that game console. And that was kind of the beginning of NVIDIA getting started and we thought we're on our way.
+
+And so so I started with a business plan and mission statement that was impossible. We lucked into the Sega partnership. We started taking off, started building our game console. And about a couple years into it, we discovered our first technology didn't work. It was it it would have been a flaw.
+
+It it was a flaw. And all of the technology ideas that we had, the architecture concepts were were sound, but the way we were doing computer graphics was exactly backwards. You know, instead of I won't bore you with the technology, but instead of inverse texture mapping, we were doing forward texture mapping. Instead of triangles, we did curved surfaces. So other people did it flat, we did it round.
+
+Other technology, the technology that ultimately won, the technology we use today has has z buffers. It automatically sorted. We had a architecture with no z buffers. The application had to sort it. And so we chose a bunch of technology approaches that three major technology choices, all three choices were wrong.
+
+Okay. So this is how incredibly smart we were. And so and so in 1995, '19 mid ninety five, we realized we're going down the wrong path. Meanwhile, the Silicon Valley was packed with three d graphic startups because it was the most exciting technology of that time. And so three d effects and rendition and silicon graphics was coming in, Intel was already in there and you know, gosh, it was like what added up eventually to a 100 different startups we had to compete against.
+
+Everybody had chosen the right technology approach and we chose the wrong one. And so we were the first company to start. We found ourselves essentially dead last with the wrong answer. And so the company was in trouble and ultimately, we had to make several decisions. The first decision is, well, if we change now, we will be the last company.
+
+And even if we changed into the technology that we believe to be right, we'd still be dead. And so that argument, you know, do we change and therefore be dead? Don't change and make this technology work somehow or go do something completely different? That question stirred the company strategically and was a hard question. I eventually, you know, advocated for, we don't know what the right strategy is, but we know what the wrong technology is.
+
+So let's stop doing it the wrong way and let's give ourselves a chance to go figure out what the strategy is. The second thing the second problem we had was our company was running out of money and I had I was in a contract with Sega and I owed them this game console. And if that contract would have been cancelled, we'd be dead. We would have vaporized instantly. And so so I went to Japan and I explained to the CEO of Sega, Eiry Madhuri, really great man.
+
+He was the former CEO of Honda USA, went back to Sega to run Sega. Went back to Japan and run Sega. And I explained to him that I was I guess I was what? Thirty thirty three years old. You know?
+
+When I was 33 years old, I still had acne and I got this this, you know, Chinese kid that was super skinny. And he he was already kinda elder. And I went to him and I said I said, listen, I've got some bad news for you. And and first, the technology that we promised you doesn't work. And second, we shouldn't finish your contract because we'd waste all your money and you would have something that doesn't work.
+
+And I recommend you'd find another partner to build your game console. Woah. And so, I'm terribly sorry that we've set you back in your product roadmap. And third, even though you're gonna I'm asking you to let me out of the contract, I still need the money because if you didn't give me the money, we'd vaporize overnight. And so I explained it to him humbly, honestly.
+
+I gave him the background, explained to him why the technology doesn't work, why we thought it was going to work, why it doesn't work. And and I asked him to convert the last $5,000,000 that they were going to complete the contract to give us that money as an investment instead. And he said, but it's very likely your company will go out of business even with my investment. And it was completely true. Back then, 1995, $5,000,000 was a lot of money.
+
+It's a lot of money today. $5,000,000 was a lot of money. And here's a pile of competitors doing it right. What are the chances that giving NVIDIA $5,000,000? That we would develop the right strategy, that he would get a return on that $5,000,000 or even get it back.
+
+0%. You do the math, it's 0%. If I were sitting there right there, I wouldn't have done it. $5,000,000 was amount of money to Sega at the time. And so, I told him that that that if you invested that $5,000,000 in us, it is most likely to be lost.
+
+But if you didn't invest that money, we'd be out of business, and we would have no chance. And I I told him that I I don't even know exactly what I said in the end, but I told him that I would understand if he decided not to, but it would make the world to me if he did. He went off and thought about it for a couple days and came back and said, we'll do it. Wow. It reminds a me
+
+Speaker 2:
+
+strategy to how to correct what it was doing wrong?
+
+Speaker 0:
+
+Did you explain man. That to Wait until I tell you the rest of it. It's it's scarier even scarier. Oh, no. And so so so what he what he decided was was Jensen was a young man he liked.
+
+That's it.
+
+Speaker 2:
+
+Wow.
+
+Speaker 0:
+
+To this day.
+
+Speaker 2:
+
+That's nuts. I was Boy, you owe but the world owes that guy.
+
+Speaker 0:
+
+No doubt. Right? Like, what he he celebrated today in Japan. And if he would have kept that five the the investment, I think it'd be worth probably about a trillion dollars today. I know.
+
+But the moment we went public, they sold it. They go, wow. That's a miracle. And so Wow. They sold it yeah.
+
+They sold it at NVIDIA valuation about 300,000,000. That's our IPO valuation, 300,000,000. Wow. And so so anyhow, I was incredibly grateful. And then now we had to figure out what to do because we still were doing the wrong strategy, wrong technology.
+
+So unfortunately, we had to lay off most of the company. We shrunk the company all back. All the people working on the game console, you know, we had to shrunk it all shrink it all back. And and then and then somebody told me that, but Jensen, we've never built it this way before. We've never built it the right way before.
+
+We've only know how to build it the wrong way. And so nobody in the company knew how to build this supercomputing image generator three d graphics thing that Silicon Graphics did. And so so I said, How hard can it be? You got all these 30 companies, you know, 50 companies doing it. How hard can it be?
+
+And so luckily, there was a textbook written by the company Silicon Graphics. And so I went down to the store, I had 200 in my pocket, and I bought three textbooks, the only three they had, $60 a piece. I bought the three textbooks. I brought it back and I gave one to each one of the architects, and I said, read that and let's go save the company. And so so they they they read this textbook, learned from the giant at the time, Silicon Graphics, about how to do three d graphics.
+
+But the thing that was amazing and what makes NVIDIA special today is that the people that are there are able to start from first principles, learn best known art, but reimplement it in a way that's never been done before. And so when we reimagined the technology of three d graphics, we reimagined it in a way that manifest today, the modern three d graphics. We really invented modern three d graphics, but we learned from previous known arts and we implement it fundamentally differently.
+
+Speaker 2:
+
+What did you do that changed it?
+
+Speaker 0:
+
+Well, you know, the ultimately ultimately the simple the simple answer is that the way silicon graphics works, the geometry engine is a bunch of software running on processors. We took that and eliminated all the generality, the general purposeness of it, and we reduced it down into the most essential part of three d graphics, and we hard coded it into the chip. And so instead of something general purpose, we hard coded it very specifically into just the limited applications, limited functionality necessary for video games. And that capability, that super and and because we reinvented a whole bunch of stuff, it's supercharged the capability that one little chip. And our one little chip was generating images as fast as a $1,000,000 image generator.
+
+That was the big breakthrough. We took a million dollar thing and we put it into the graphics card that you now put into your gaming PC. And that was our big invention. And then and of course, the question is is how do you compete against these 30 other companies doing what they were doing? And and there we did we did several things.
+
+One, instead of building a three d graphics chip for every three d graphics app application, we decided to build a three d graphics chip for one application. We bet the farm on video games. The needs of video games are very different than needs for CAD, needs for flight simulators. They're related but not the same. And so we narrowly focused our problem statement so I could reject all of the other complexities and we shrunk it down into this one little focus, and then we supercharged it for gamers.
+
+And then the second thing that we did was we created a whole ecosystem of working with game developers and getting their their games ported and adapted to our silicon so that we could get turn essentially what is a technology business into a platform business, into a game platform business. So we you know, GeForce is really, today, it's also the most advanced three d graphics technology in the world. But a long time ago, GeForce is really the game console inside your PC. It's you know, it runs Windows. It runs Excel.
+
+It runs PowerPoint, of course. Those are easy things. But its fundamental purpose was simply to turn your PC into a game console. So we we were the first technology company to build all of this incredible technology in service of one audience, gamers. Now, of course, in 1993, the gaming industry didn't exist.
+
+But by the time that John Carmack came along and the Doom phenomenon happened and then Quake came out, as you know, that entire Trenched the world. That entire community, boom, took off.
+
+Speaker 2:
+
+Do you know where the name Doom came from?
+
+Speaker 0:
+
+Mm-mm.
+
+Speaker 2:
+
+It came from the there's a scene in the movie, The Color of Money, where Tom Cruise, who's this elite pool player, shows up at this pool hall and this local hustler says, what do you got in the case? And he opens up this case. He has a special pool cue. He goes in here, and he opens it up. He goes, doom.
+
+Doom. And that's where it came
+
+Speaker 0:
+
+Is that right?
+
+Speaker 2:
+
+Yeah. Cause Carmack said that's what they wanted to do to the gaming industry. Doom. That when Doom came out, it would just be everybody be like, oh, we're fucked.
+
+Speaker 0:
+
+Oh, wow.
+
+Speaker 2:
+
+This is Doom.
+
+Speaker 0:
+
+That's awesome.
+
+Speaker 2:
+
+Ain't that amazing?
+
+Speaker 0:
+
+That's amazing.
+
+Speaker 2:
+
+Because it's the perfect name for the game. Yeah. And the the name came out of that scene in that movie.
+
+Speaker 0:
+
+That's right. Well, and then, of course, Tim Sweeney and
+
+Speaker 2:
+
+Mhmm.
+
+Speaker 0:
+
+Epic Games and and the three d gaming genre took off. Yes. And so, if you just kinda in the beginning was no gaming industry. We had no choice but to focus the company on one thing, that one thing. It's a really incredible origin story.
+
+Speaker 2:
+
+Oh, it's It's amazing. Like, you must be, like, looking back disaster is what That $5,000,000, that pivot with that conversation with that gentleman, if he did not agree to that, if he did not like you, what would the world look like today? That's
+
+Speaker 0:
+
+crazy. Then then our entire life hung on another gentleman. And so so now, here we are. We built so before GeForce, was Reva one twenty eight. Reva one eight saved the company.
+
+It revolutionized computer graphics. The performance cost performance ratio of three d graphics for gaming was off the charts amazing. And we're getting ready to to ship it. Get what? We're building it.
+
+But we're so, as you know, $5,000,000 doesn't last long. And so every single month every single month, we were drawing down. You have to build it, prototype it. You have to design it, prototype it, get the silicon back, which costs a lot of money. Test it with software.
+
+Because without the software testing the chip, you don't know the chip works. And then you're gonna find a bug, probably, because every time you test something, you find bugs, which means you have to tape it out again, which is more time, more money. And so we did the math. There was no chance somebody was gonna survive it. We didn't have that much time to tape out a chip, send it to a foundry, TSMC, get the silicon back, test it, send it back out again.
+
+There was no no shot, no hope. And so the math, the spreadsheet doesn't allow us to do that. And so I heard about this company, and this company built this machine. And this machine is an emulator. You could take your design, all of the software that describes the chip, and you could put it into this machine, and this machine will pretend it's our chip.
+
+So I don't have to send it to the fab, wait until the fab sends it back, test. I could have this machine pretend it's our chip, and I could put all of the software on top of this machine called an emulator and test all of the software on this pretend chip, and I could fix it all before I send it to the fab. Woah. And if and and if I could do that, when I send it to the fab, it should work. Nobody knows, but it should work.
+
+And so we came to the conclusion that let's take half of the money we had left in the bank. At the time, it was about a million dollars. Take half of that money and go buy this machine. So instead of keeping the money to stay alive, I took half of the money to go buy this machine. Well, I called this guy up.
+
+This guy the company is called IQOS. Call this company up and I say, hey, listen. I heard about this machine. I like to buy one. And they go, that's terrific, but we're out of business.
+
+I said, what? You're out of business? He goes, yeah. We had no customers. I said, wait.
+
+Hang on. So so you never made the machine? They can say, no. No. No.
+
+We made the machine. We have one in inventory if you want it, but we're out of business. So I bought one out of inventory. Okay? After I bought it, they went out of business.
+
+Wow. I bought it out of inventory. And on this machine, we put NVIDIA's chip into it, and we tested all of the software on top. And at this point, we were on fumes. But we convinced ourselves that chip is gonna be great.
+
+And so I had to call some other gentleman. So I called TSMC. And I told TSMC that listen, TSMC is the world's largest founder today. At the time, there was a few $100,000,000 large. Tiny little company.
+
+And I explained to them what we were doing and I explained to my I told them I had a lot of customers. I had one, you know, Diamond Multimedia. Probably one of the companies you bought the graphics card from back in the old days. And I I said, you know, we have a lot of customers and the band's really great. And we're gonna tape out a chip to you.
+
+And I like to go directly to production production because because I I know know it it works. Works. And they said, nobody has ever done that before. Nobody has ever taped out a chip that worked the first time. And nobody starts out production without looking at it.
+
+But I knew that if I didn't start the production, I'd be out of business anyways. And if I could start the production, I might have a chance. And so, TSMC decided to support me, and this gentleman is named Morris Chang. Morris Chang is the father of the foundry industry, the founder of TSMC. Really great man.
+
+He decided to support our company. I explained to them everything. He decided to support us, frankly, probably because they didn't have that many other customers anyhow, but they were grateful, and I was immensely grateful. And as we were starting the production, Morris flew to United States, and he didn't so many words ask me so, but he asked me a whole lot of questions that was trying to tease out, do I have any money? But he didn't directly ask me that, you know.
+
+And so the truth is that we didn't have all the money, But we had a strong PO from the customer. And if it didn't work, some wafers would have been lost. I'm, you know, I'm not exactly sure what would have happened, but we would have come short. It would have been it would have been rough. But they supported us with all of that risk involved.
+
+We launched this chip, turns out to have been completely revolutionary, Knocked the ball out of the park. We became the fastest growing technology company in history to go from 0 to $1,000,000,000.
+
+Speaker 2:
+
+So wild that you didn't test the chip.
+
+Speaker 0:
+
+I know. Well, we tested afterwards. Yeah. We tested afterwards.
+
+Speaker 2:
+
+Afterwards? But
+
+Speaker 0:
+
+he went
+
+Speaker 2:
+
+into production already.
+
+Speaker 0:
+
+But by the way by the way, that methodology that we developed to save the company is used throughout the world today.
+
+Speaker 2:
+
+That's amazing.
+
+Speaker 0:
+
+Yeah. We changed we changed the whole world's methodology of designing chips, the whole world's rhythm of designing chips. We changed everything. How well did you sleep those days? It must
+
+Speaker 2:
+
+have been so much stress.
+
+Speaker 0:
+
+You know what? What is that feeling where where the world just kind of feels like it's flying? It you you have this what do you call that feeling? You can't you can't stop the feeling that everything's moving super fast and you know, you're just laying in your laying in bed and the world just feels like, you know, and you're you're you'd feel deeply anxious, completely out of control. I've felt that probably a couple of times in my life.
+
+It's during that time. Wow. Yeah. It it was incredible. What an incredible success story.
+
+But I I learned I learned a lot. I learned I learned about I learned several things. I learned I learned how to develop strategies. I learned how to and when I when I'm you know, our company learned how to develop strategies. What are winning strategies?
+
+We learned how to create a market. We created the modern three d gaming market. We learned how and and so that exact same skill is how we create the modern AI market. It's exactly the same Wow. Yeah.
+
+It's exactly the same skill. Exactly the same blueprint. And we learned how to deal with crisis, how to stay calm, how to think through things systematically. We learned how to remove all waste in the company and work from first principles and doing only the things that are essential. Everything else is waste because we have no money for it.
+
+To live on fumes at all times. And the feeling no different than the feeling I had this morning when I woke up that you're going to be out of business soon. That you're you know, the phrase thirty days from going out of business, I've used for thirty three years. But you still feel that? Oh, yeah.
+
+Oh, yeah. Every morning. Every morning. But but you guys are one of the
+
+Speaker 2:
+
+biggest companies on planet Earth.
+
+Speaker 0:
+
+But the the feeling doesn't change. Wow. The the sense of vulnerability, the sense of uncertainty, the sense of insecurity, it it it doesn't leave you. That's crazy. We were, you know, we had nothing.
+
+We had nothing. Were dealing with China. Oh, yeah. Oh, yeah. Every day.
+
+Every moment. Do you
+
+Speaker 2:
+
+think that fuels you? Is that part of the reason why the company's so successful that you have that hungry mentality? That you never rest. You're never sitting on your laurels. You're always on the edge.
+
+Speaker 0:
+
+I have a greater drive from not wanting to fail than the drive of wanting to succeed.
+
+Speaker 2:
+
+Isn't that like
+
+Speaker 0:
+
+six six coaches would tell you that's completely The the wrong world has just heard me say that for out loud for the first time, but but it's true. Well, that's so fascinating. The fear of failure drives me more than the than the the greed or whatever it is. Well, ultimately, that's probably a more healthy approach now that I'm thinking about it.
+
+Speaker 2:
+
+Because like the fear
+
+Speaker 0:
+
+I'm not ambitious. For example. You know? I just wanna stay alive, Joe. I want the company to thrive, you know?
+
+I want us to make an impact. That's interesting. Yeah.
+
+Speaker 2:
+
+Well, maybe that's why you're so humble. That's what maybe that's what keeps you grounded, you know? Because with the kind of spectacular success the company's achieved, it would be easy to get a big head.
+
+Speaker 0:
+
+No. Right? Isn't that interesting?
+
+Speaker 2:
+
+It's like, though if you were the guy that your main focus is just success, you probably would go, well, made it, nailed it, I'm the man.
+
+Speaker 0:
+
+Drop the mic.
+
+Speaker 2:
+
+Instead, you wake up, you're like, god, we can't fuck this up.
+
+Speaker 0:
+
+No. Exact every morning. Every morning. No. Every moment.
+
+Yeah. That's crazy. Before I go to bed.
+
+Speaker 2:
+
+Well, listen. If I was a major investor in your company, that's what I'd want running it. I'd want a guy who's yeah. Like terrified of
+
+Speaker 0:
+
+That's what I work. That's why I work seven days a week. Every moment I'm I'm awake. You work every moment? Every moment I'm awake.
+
+Wow. I'm thinking about solving a problem. I'm thinking about long can keep this up? I don't know. But so far, could be next week.
+
+That sounds exhausting.
+
+Speaker 2:
+
+It is exhausting. Sounds completely exhausting.
+
+Speaker 0:
+
+Always in a state of anxiety. Wow. Yeah. Always in a state of anxiety.
+
+Speaker 2:
+
+Well, kudos to you for admitting that. I think that's important for a lot of people to hear because, you know, there's probably some young people out there that are in a similar position to where you were when you were starting out that just feel like all those people that have made it, they're just smarter than me and they had more opportunities than me and it's just like it was handed to them or they're just in the right place at the right time and
+
+Speaker 0:
+
+Joe, I just described to you somebody who didn't know what was going on, actually did it wrong. Yeah. Yeah. And the ultimate diving catch like two or three times.
+
+Speaker 2:
+
+Crazy. Yeah. The ultimate diving catch is the perfect way to put it. You know? It's just like the edge of your glove.
+
+Speaker 0:
+
+It probably bounced off of somebody's helmet and landed at the edge of
+
+Speaker 2:
+
+God, that's incredible. That's incredible but it's also it's really cool that you have this perspective, that you look at it that way. Because you know a lot of people that have delusions for grandeur, they have you know And they're
+
+Speaker 0:
+
+rewriting of history oftentimes had them somehow extraordinary extraordinarily smart and they were geniuses and they knew all along and they were they were spot on. The business plan was exactly what they thought. Yeah. They destroyed the competition and, you know, and they emerged victorious.
+
+Speaker 2:
+
+Meanwhile, you're like,
+
+Speaker 0:
+
+I'm scared every day. Exactly. Exactly.
+
+Speaker 2:
+
+It's so funny. Oh my god.
+
+Speaker 0:
+
+That's amazing. It's so true though.
+
+Speaker 2:
+
+It's amazing.
+
+Speaker 0:
+
+It's so true.
+
+Speaker 2:
+
+It's amazing.
+
+Speaker 0:
+
+Well, but I I think there's nothing inconsistent with being a leader and being vulnerable. You know, I the company doesn't need me to be a genius right all along, right all the time. Absolutely certain about what I'm trying to do and what I'm doing. The the company doesn't need that. The company wants me to succeed.
+
+You know, the thing that and we started out today talking about president Trump and I was about to say something. And listen, he is my president. He is our president. We should all and we're talking about just because it's president Trump, we all want him to be wrong. I think The United States, we all have to realize he is our president.
+
+We want him to succeed
+
+Speaker 2:
+
+because No matter who's president.
+
+Speaker 0:
+
+That's right.
+
+Speaker 2:
+
+Attitude. Yeah.
+
+Speaker 0:
+
+That's right. Yeah. We want him to succeed. We need to help him succeed because it helps everybody, all of us succeed. Succeed.
+
+And I'm lucky that I work in a company where I have 40,000 people who wants me to succeed. They want me to succeed and I can tell. And they're all every single day to help me overcome these challenges, trying to realize realize what I described to be our strategy, doing their best. And if it's somehow wrong or not perfectly right, to tell me so that we could pivot. And the more vulnerable we are as a leader, the more able other people are able to tell you.
+
+You know that Jensen, that's not exactly right or
+
+Speaker 2:
+
+Right.
+
+Speaker 0:
+
+Right. Have you considered this information or and the more vulnerable we are, the more able we're actually able to pivot. If we put ourselves into the superhuman capability, then it's hard for us to pivot strategy.
+
+Speaker 2:
+
+Right.
+
+Speaker 0:
+
+Because we were supposed to be right all along. And so if you're always right, how can you possibly pivot? Because pivoting requires you to be wrong. And so I've got no trouble with being wrong. I just have to make sure that I stay alert, that I reason about things from first principles all the time.
+
+Always break things down to first principles, understand why it's happening. Reassess continuously. The reassessing continuously is kind of partly what causes continuous anxiety. You know, because you're asking yourself, were you wrong yesterday? Are you still right?
+
+Is this the same? Has that changed? Has that condition? Is that worse than you thought?
+
+Speaker 2:
+
+Because that mindset is perfect for your business though because this business is ever changing.
+
+Speaker 0:
+
+All the time. There's I've got competition coming from every direction.
+
+Speaker 2:
+
+So much of it is kind of up in the air.
+
+Speaker 0:
+
+And you have to invent a future where a 100 variables are included and there's no way you could be right on all of them. And so you have to be you have to surf.
+
+Speaker 2:
+
+Wow. That's a good way
+
+Speaker 0:
+
+to put it. You have to surf.
+
+Speaker 2:
+
+Yeah. You're surfing waves of technology and innovation.
+
+Speaker 0:
+
+That's right. You can't predict the waves. You gotta deal with the ones you have. Wow. And but skill matters.
+
+And, oh, I've been doing this for thirty I'm the longest running tech CEO in the world. Is that true?
+
+Speaker 2:
+
+Yeah. Congratulations. That's amazing.
+
+Speaker 0:
+
+And, you know, people ask me how is, one, don't get fired. That'll stop and shorten the heartbeat. And then, two, don't get bored. Yeah. Well, how do you maintain your enthusiasm?
+
+The the honest truth is it's not always enthusiasm. It's, you know, sometimes it's enthusiasm. Sometimes it's just good old fashioned fear. And then sometimes, you know, a healthy dose of frustration. You know, it's Whatever keeps you moving.
+
+Yeah. Just all the emotions. Mhmm. I think, you know, CEOs, we have all the emotions, right? You know?
+
+And so probably probably jacked up to the maximum because you're you're kinda feeling it on behalf of the whole company. I'm feeling it on behalf of everybody at the same time. And it kind of, you know, encapsulates into into somebody. And so I have to be mindful of the past, have to be mindful of the present, I've got to be mindful of the future, and you know, it it can't It's not without emotion. It's not just it's it's not just a job.
+
+Let's just put it that way. No. It doesn't seem like it at all.
+
+Speaker 2:
+
+I would imagine one of the more difficult aspects of your job currently, now that the company is massively successful, is anticipating where technology is headed and where the applications are going to be.
+
+Speaker 0:
+
+Yeah.
+
+Speaker 2:
+
+So how do you try to map that out?
+
+Speaker 0:
+
+Yeah. There there there there's a whole bunch of ways and and it takes it takes it takes a whole bunch of things, but let me just start. You you have to be surrounded by amazing people. And NVIDIA is now, you know, if you look at look at look at the large tech companies in the world today, most of them have a business in advertising or social media or, you know, content distribution. And at the core of it is really fundamental computer science.
+
+And so the company's business is not computers. The company's business is not technology. Technology drives the company. NVIDIA is the only company in the world that's large whose only business is technology. We only build tech We don't advertise.
+
+The only way that we make money is to create amazing technology and sell it. And so to be that To be NVIDIA today, you're The number one thing is you're surrounded by the finest computer scientists in the world and that's my gift. My gift is that we've created a company culture, a condition by which the world's greatest computer scientists wanna be part of it. Because they get to do their life's work and create the next thing. Because that's what they wanna do.
+
+Because maybe they're not they don't wanna be in service of another business. They wanna be in service of the technology itself. And we're the largest form of its kind in history of the world. Wow. I know.
+
+It's pretty amazing. Wow. And so so one, you know, we have a we we have got a great condition, we have a great culture, we have great people. And then now now now the question is how do you systematically be able to see the future, stay alert of it, and reduce the reduce the the likelihood of missing something or being wrong. And so there's a lot of different ways you could do that.
+
+For example, we have great partnerships. We we have fundamental research. We have a great research lab, one of the largest industrial research labs in the world today. And we partner with a whole bunch of universities and other scientists. We do a lot of open collaboration and so I'm constantly working with researchers outside outside the company.
+
+We have the benefit of having amazing customers And so I have the benefit of working with Elon and, you know, and others in the industry. And we have the benefit of being the only pure pure play technology company that can serve consumer Internet, industrial manufacturing, scientific computing, health care, financial services. All the industries that we're in, they're all signals to me. And so they all have mathematicians and scientists. And so because I I have the benefit now of a radar system that is the most broad of any company in the world, working across every single industry from agriculture to energy to video games.
+
+And so the ability for us to have this vantage point, one, doing fundamental research ourselves, and then two, working with all the great researchers, working with all the great industries. The feedback system's incredible. And then finally, you just have to have a culture of staying super alert. There's no easy way of being alert except for paying attention. I haven't found a single way of being able to stay alert without paying attention and so, you know, I probably read several thousand emails a day.
+
+How?
+
+Speaker 2:
+
+How do you have a time for that?
+
+Speaker 0:
+
+I wake up early. This morning, I was up at 04:00.
+
+Speaker 2:
+
+How much do you sleep?
+
+Speaker 0:
+
+Six, seven six, seven hours.
+
+Speaker 2:
+
+Yeah. And then you're up at four, read emails for a few hours before you get going?
+
+Speaker 0:
+
+That's right. Yeah. Wow.
+
+Speaker 2:
+
+Every day?
+
+Speaker 0:
+
+Every single day. Not one day missed. Including Thanksgiving, Christmas.
+
+Speaker 2:
+
+Do you ever take a vacation?
+
+Speaker 0:
+
+Yeah. But they're my definition of a vacation is when I'm with my family. And so if I'm with my family, I'm very happy. I don't care where we are.
+
+Speaker 2:
+
+And you don't work then or do you work a little?
+
+Speaker 0:
+
+No. No. I work a lot.
+
+Speaker 2:
+
+Even when you like, if you go on a trip somewhere
+
+Speaker 0:
+
+Oh, sure.
+
+Speaker 2:
+
+You're still working.
+
+Speaker 0:
+
+Oh, sure. Oh, sure. Wow. Every day? Every day.
+
+Oh. But my kids work every day. You make me tired just saying this. My kids work every day. Both of my kids work at NVIDIA.
+
+They work every day. Wow. Yeah. I'm very lucky. Wow.
+
+Yeah. It's brutal now because, you know, it's just me working every day. Now we have three people working every day, and they wanna work with me every day. And so it's it's a lot of work.
+
+Speaker 2:
+
+Well, you've obviously imparted that ethic into them. They
+
+Speaker 0:
+
+work incredibly hard. I mean, it's not unbelievable. There's no But my parents work incredibly hard. Yeah. I was I was born with the work gene, the suffering gene.
+
+Speaker 2:
+
+Yeah. Well, listen, man. It has paid off. What a crazy story. It was just it's really an amazing origin story.
+
+It really I mean, it has to be kind of surreal to be in the position that you're in now when you look back at how many times that it could have fallen apart and humble beginnings.
+
+Speaker 0:
+
+But Joe, this is it's a great country. You know, I'm an immigrant. My parents sent my older brother and I here first. We're in we're in Thailand. I was born in Taiwan, but my dad had a job in Thailand.
+
+He was a chemical and instrumentation engineer, incredible engineer. And his job was to go start an oil refinery. And so we moved to Thailand, lived in Bangkok. And in '19 I guess 1973, 1974 time frame, you know how Thailand every so often they would just have a coup. You know, the military would have an uprising.
+
+And all of a sudden, one day, there were tanks and soldiers in the streets. And my parents thought, you know, probably isn't safe for the kids to be here. And so they contacted my uncle. My uncle lives in Tacoma, Washington and we had never met him and my parents sent us to him. How old were you?
+
+I was about to turn nine and my older brother almost turned 11. And so the two of us came to United States and we stayed in with our uncle for a little bit while he looked for a school for us. And my parents didn't have very much money and they never been to United States. My father was I'll tell you that story in a second. And and so my uncle found a school that would accept foreign students and affordable enough for my parents.
+
+And that school turned out to have been in Oneida, Kentucky. Clark County, Kentucky, the epicenter of the opioid crisis today. Coal Country. Clark County, Kentucky is was the poorest county in America when I showed up. It is the poorest county in America today.
+
+And so we went to the school. It's a great school. Oneida Baptist Institute in a town of a few 100. I think it was 600 at the time that we showed up. No traffic light.
+
+And I think it's 600 today. It's an amazing feat actually. The ability to hold your population for What is 600 people is quite a magic quite a magical thing, however they did it. And and so the school had a mission of being an open school for any children who'd like to come. And what that basically means is that if you're a troubled student, if you have a troubled family, if you're, you know, whatever your background, you're welcome to come to Oneida Baptist Institute, including kids from international who would like to stay there.
+
+Did you speak English at the time? Okay. Yeah. Yeah. Okay.
+
+Yeah. And so we showed up, and my first my first thought was, gosh, there are a lot of cigarette butts on the ground. A 100% of the kids smoked. So right away, you know this is not a normal school.
+
+Speaker 2:
+
+Nine year olds?
+
+Speaker 0:
+
+No. I was the youngest kid.
+
+Speaker 2:
+
+Okay. 11 year olds.
+
+Speaker 0:
+
+My roommate was 17 years old.
+
+Speaker 2:
+
+Wow. Yeah.
+
+Speaker 0:
+
+He just turned 17. And he was jacked. And and I don't know where he is now. I know his name but I I don't know where he is now. But anyways, that night we got and and the second thing I noticed when you walk into the into your dorm room is there are no drawers and no closet doors, just like a prison.
+
+And there are no locks so that people could check check up on you. And so I go into my room and he's 17 and we, you know, get ready for for bed and he had all this tape all over his body. And turned out, he was in a knife fight and he's been stabbed all over his body and these were just fresh wounds. Woah. And the other kids were hurt much worse.
+
+And so he was my roommate, the toughest kid in school and I was the youngest kid in school. It was a was a junior high but they took me anyways because if I walked about a mile across the Kentucky River, the Swing Bridge, the other side is a middle school that I could go to. And then I can cut go to that school and then come back and then I stay in the dorm. And so basically, Oneida Baptist Institute was my dorm when I went to this other other school. My older brother went went to went to the junior high.
+
+And so we were there for a couple of years. Every kid had every kid had chores. My older brother's chore was to work in the tobacco farm, you know, so they raised tobacco so that they could raise some extra money for the school, kinda like a penitentiary. Wow. And my job was just to clean the dorm.
+
+And so, I I was nine years old, I was cleaning toilets and for a dorm of a hundred hundred boys. I clean more bathrooms than anybody, and I just wish that everybody was a little bit more careful. Anyways, I was the youngest kid in school. The my memories of it was really good, but it was a pretty it was a tough town. Towns like?
+
+Yeah. Town kids, they all carried everybody had knives. Oof. Everybody had knives. Everybody smoked.
+
+Everybody had a Zippo lighter. I smoked for a week.
+
+Speaker 2:
+
+Did you? Oh, yeah. Sure. How old were you?
+
+Speaker 0:
+
+I was nine. Yeah.
+
+Speaker 2:
+
+When you're nine? You're nine, you tried smoking.
+
+Speaker 0:
+
+Yeah. I got myself a pack of cigarettes. Everybody else did.
+
+Speaker 2:
+
+Did you get sick?
+
+Speaker 0:
+
+No. I I got used to You know? And I learned how to blow blow smoke rings and, you know, you know, breathe out in my nose, you know, take it in out of my through my nose. It was a color. All the different things that you learned.
+
+Yeah. At nine.
+
+Speaker 2:
+
+Yeah. Wow. You just did it to fit in or look cool?
+
+Speaker 0:
+
+Because everybody else did it.
+
+Speaker 2:
+
+Right.
+
+Speaker 0:
+
+Yeah. And and then I did it for a couple weeks, I guess. And I just rather have I had a quarter, you know? I had a quarter a month or something like that. I just rather buy popsicles and fredgesicles with it.
+
+I was nine, you know? Right. I chose I chose the the better path. Wow. That was our school.
+
+And then my parents came to United States two years later, and we met them in Tacoma, Washington. That's wild. It it was a really crazy experience.
+
+Speaker 2:
+
+What a strange formative experience.
+
+Speaker 0:
+
+Yeah. Tough kids.
+
+Speaker 2:
+
+Thailand to
+
+Speaker 0:
+
+one of the
+
+Speaker 2:
+
+poorest places in America or if not the poorest as a nine year old.
+
+Speaker 0:
+
+That was my first Yeah.
+
+Speaker 2:
+
+With your brother.
+
+Speaker 0:
+
+Wow. Yeah. Yeah. No. I I used to what breaks my heart probably the only thing that really breaks my heart of about that experience was so we didn't have enough money to make, you know, international phone calls every week.
+
+And so my parents gave us this tape deck, this Iowa tape deck, and a tape. And so every month, we would sit in front of that tape deck and that my older brother Jeff and I, the two of us would just tell them what we did the whole month. Wow. And we would send that tape by mail. And my parents would take that tape and record back on top of it and send it back to us.
+
+Wow. Could you imagine if for two years Wow. Is that tape still existed of these two kids just describing their first experience with United States? Like, remember telling my parents that that I joined the swim team and my roommate was really buff. And so every day we spent a lot of time in the in the gym.
+
+And so every night, 100 push ups, 100 sit ups, every day in the gym. So I was nine years old. I was getting I was pretty buff. And I'm pretty fit. And and so I joined the soccer team, I joined the swim team because if you join the team, they take you to meet, and then afterwards, you get to go to a nice restaurant.
+
+And that nice restaurant was McDonald's. Wow. And and I recorded this thing. Said, mom and dad, we went to the most amazing restaurant today. This whole place is lit up.
+
+It's like the future. And the food comes in a box. And the food is incredible. The hamburger is incredible. It was McDonald's.
+
+But anyhow, it wouldn't it be amazing? Oh my god. Two years? Yeah. Two years.
+
+Speaker 2:
+
+Yeah. What a crazy connection to your parents too. Just sending a tape and them sending you one back and it's the only
+
+Speaker 0:
+
+way you're communicating for two years. Yeah. Wow. Yeah. No.
+
+I I my parents are incredible actually. They're just they're they grew up really poor and when they came to United States, they had almost no money. Probably one of the most impactful memories I have is is we they came and we were we were staying in a in a in a apartment complex. And they had they had just rent back in the I guess people still do rent rent a bunch of furniture. And we were messing around and we bumped into the coffee table and crushed it.
+
+It was made out of particle wood and we crushed it. And I just still remember my the look on my mom's face, you know, because they didn't have any money and she didn't know how she was gonna pay it back. And but anyhow, that's that kinda tells you how hard it was for them to come here. But they they left everything behind and all they had was their suitcase and the money they had in your in their pocket when they came to United States. How old were they?
+
+American dream. They were in their forties. Wow. Yeah. Late late thirties.
+
+Pursued the American dream. This is this is the American dream. I'm the first generation of the American dream. Wow. Yeah.
+
+It's hard not to love this country. That that's It's it's hard not to be romantic about this country.
+
+Speaker 2:
+
+That is a romantic story. That's an amazing story.
+
+Speaker 0:
+
+Yeah. And and my dad found his job literally in the newspaper, you know, the ads. And he calls people, got a job. What did he do? He was a consulting engineer in a in a consulting firm, and they helped people build oil refineries, paper mills, and fabs, and that's what he did.
+
+He was an he he's really good at factory design, instrumentation engineer. And so he's he's brilliant at that. And so he did that and my mom worked as a maid and they found a way to raise us. Wow.
+
+Speaker 2:
+
+That's an incredible story, Jensen. It really is. Every all of it. From your childhood to the perils of the NVIDIA almost falling. It's really incredible, man.
+
+Speaker 0:
+
+It's a great story. Yeah. I I've lived a great life.
+
+Speaker 2:
+
+You really have. And it's a great story for other people to hear too. It really is.
+
+Speaker 0:
+
+You don't you don't have to go to Ivy League schools to succeed. This country creates opportunities has opportunities for all of us. You do have to strive. You have to claw your way here. Yeah.
+
+But if you put in the
+
+Speaker 2:
+
+work, you can succeed.
+
+Speaker 0:
+
+Nobody works of
+
+Speaker 2:
+
+luck and a lot of Lot and and good decision making.
+
+Speaker 0:
+
+And the good graces of others.
+
+Speaker 2:
+
+Yes. That's really important.
+
+Speaker 0:
+
+Yeah. You and I spoke about two two people who are very dear to me, but the list goes on. The people the people at NVIDIA who have have helped me, many friends that are on the board, the decisions, you know, them giving me the opportunity, like, when we were inventing this new computing approach, I tanked our stock price because we added this thing called CUDA to the chip. We had this big idea. We added this thing called CUDA to the chip, but nobody paid for it.
+
+But our cost doubled. And so we had this graphics chip company and we invented GPUs. We invented programmable shaders. We invented everything modern computer graphics. We invented real time ray tracing.
+
+That's why it went from GTX to RTX. We invented all this stuff, but every time we invented something, the market doesn't know how to appreciate it, but the cost went way up. And in the case of CUDA that enabled AI, the cost increased a lot. It And but I really we really believed it. You know?
+
+And so if you believe in that future and you don't do anything about it, you're gonna regret it for your life. And so we always you know, I always tell the team, do you believe what? Do we believe this or not? And if you believe it and so grounded on first principles, not random, you know, hearsay, and we believe it, we've gotta we owe it to ourselves to go pursue it. If we're the right people to go do it, if it's really, really hard to do, it's worth doing and we believe it.
+
+Let's go pursue it. When we pursued it, we we launched the product. Nobody knew it was exactly what like when I launched DGX one and the entire audience was, like, complete silence. When I launched CUDA, the audience was complete silence. No customer wanted it.
+
+Nobody asked for it. Nobody understood it. NVIDIA was a public company.
+
+Speaker 2:
+
+What year was this?
+
+Speaker 0:
+
+This is a let's see. February 2006. Twenty years ago. 2005. Wow.
+
+Our stock prices went poof. I think our valuation went down to like 2 or $3,000,000,000. From? From about '12 or something like that. I crushed it a very bad way.
+
+Speaker 2:
+
+Yeah. What is it now though?
+
+Speaker 0:
+
+Yeah. It's higher.
+
+Speaker 2:
+
+Very humble of you.
+
+Speaker 0:
+
+It's higher. But it changed the world. Yeah. That invention changed the world.
+
+Speaker 2:
+
+It's an incredible story, Jensen. It really is. Thank you. I like your story. It's incredible.
+
+My story is not as incredible. My story is more weird. You know? It's much more fortuitous and weird.
+
+Speaker 0:
+
+Okay. What are the three milestones that most important milestones that led to here?
+
+Speaker 2:
+
+That's a good question. Okay.
+
+Speaker 0:
+
+What was step one?
+
+Speaker 2:
+
+I think step one was seeing other people do it. Step one was in the initial days of podcasting, like in 2009 when I started podcasting and only been around for a couple of years. The first was Adam Curry, my good friend, who was the pod father. He he invented podcasting. And then, you know, I remember Adam Carolla had a show because he had a radio show.
+
+His radio show got canceled, and so he decided to just do the same show but do it on the Internet, and that was pretty revolutionary. Nobody was doing that. And then there was the experience that I had had doing different morning radio shows like Opie and Anthony in particular because it was fun, And we would just get together with a bunch of comedians, you know, I'd be on the show with like three or four other guys that I knew and it was always just I looked forward to it, which was just such a good time. And I said, god, I miss doing that. It's so fun to do that.
+
+I wish I could do something like that. And then I saw Tom Green set up. Tom Green had a setup in his house, and he essentially turned his entire house into a television studio, and he did an Internet show from his living room. He had servers in his house and cables everywhere. Had a step over cables.
+
+I was this is, like, 2007. I'm like, Tom, this is nuts. Like, this is
+
+Speaker 0:
+
+and I'm like, you
+
+Speaker 2:
+
+gotta figure out a way to make money
+
+Speaker 0:
+
+from this. Like, this I wish everybody I wish everybody on the Internet could see your setup. It's nuts. I just wanna let you guys know that.
+
+Speaker 2:
+
+It's not just this. Yeah. So that was the the beginning of it. It's just seeing other people do it and then saying, alright. Let's just try it.
+
+And then so the beginning days, we just did it on a laptop. Had a laptop with a webcam and just messed around, had a bunch of comedians come in, and we would just talk and joke around. Then I did it like once a week, and then I started doing it twice a week. And then all of a sudden, I was doing it for a year, and then I was doing it for two years. Then it was like, oh, it's starting to get a lot of viewers, a lot of listeners, you know, and then I just kept doing it.
+
+It's all it is. I just kept doing it because I enjoyed doing it. Was there any setback? No. No.
+
+There's never really a setback.
+
+Speaker 0:
+
+Really? No. It must have been. Or you're You're resilient or you're just tough.
+
+Speaker 2:
+
+No. No. No. No. It wasn't tough or hard.
+
+It was just interesting. So I just it the the You were
+
+Speaker 0:
+
+never once punched in the face.
+
+Speaker 2:
+
+No. Not in the show. No. Not really. Not not doing the show.
+
+Speaker 0:
+
+You never did something that that big blowback. Nope. Not really.
+
+Speaker 2:
+
+No. It all just kept growing.
+
+Speaker 0:
+
+Mhmm.
+
+Speaker 2:
+
+It kept growing. And the thing stayed the same from the beginning to now. And the thing is, I enjoy talking to people. I've always enjoyed talking to interesting
+
+Speaker 0:
+
+people. Tell just when we walked in, the way you interacted with everybody, not just me. Yeah. That's cool. People are cool.
+
+Yeah. That's cool.
+
+Speaker 2:
+
+You know? I I it's a an amazing gift to be able to have so many conversations with so many interesting people because it changes the way you see the world because you see the world through so many different people's eyes. And you have so many different people have different perspectives and different opinions and different philosophies and different life stories and, you know, it's an incredibly enriching and educating experience having so many conversations with so many amazing people. And that's all I started doing and that's all I do now. Even now, when I book the show, I do it on my phone and I basically go through this giant list of emails of all the people that wanna be on the show or the request to be on the show.
+
+And then I factor in another list that I have of people that I would like to get on the show that I'm interested in, and I just map it out.
+
+Speaker 0:
+
+And that's it. And I go, oh, I'd like to
+
+Speaker 2:
+
+talk to him.
+
+Speaker 0:
+
+Is that if it wasn't because of president Trump, I wouldn't have been bumped up on that list. No.
+
+Speaker 2:
+
+I wanted to talk to you already. I I just think, you know, what you're doing is very fascinating. I mean, how would I not wanna talk to you? And then today, you proved to be absolutely the right decision.
+
+Speaker 0:
+
+Well, you know, listen. It's it's strange to be an immigrant one day going to Oneida Baptist Institute with with the students that were there. And then here, NVIDIA's one of the most consequential companies in the history of companies. It is a crazy story.
+
+Speaker 2:
+
+It has to be. Yeah.
+
+Speaker 0:
+
+That journey is. Yeah. And it's very humbling and and I'm I'm very grateful.
+
+Speaker 2:
+
+It's pretty amazing, man.
+
+Speaker 0:
+
+Surrounded by amazing people.
+
+Speaker 2:
+
+You're very fortunate and you've also you seem very happy and you seem like you're 100% on the right path in this life, you know?
+
+Speaker 0:
+
+You know, everybody says you you must love your job, not every day. That's not part that's part Yeah. Of
+
+Speaker 2:
+
+the beauty of everything. Yeah. Is that there's ups and downs.
+
+Speaker 0:
+
+That's right.
+
+Speaker 2:
+
+It's never just like this giant dopamine high.
+
+Speaker 0:
+
+We leave we leave this impression. Here here's here's an impression I don't think is healthy. We we people who are successful leave the impression often that that our job gives us great joy. I think largely it does. That our jobs were passionate about our work.
+
+And that passion relates to it's just so much fun. I think it largely is. But it it it distracts from in fact, a lot of success comes from really, really hard work.
+
+Speaker 2:
+
+Yes.
+
+Speaker 0:
+
+There's long periods of suffering and loneliness and uncertainty and fear and embarrassment and humiliation. All of the feelings that we most not love. That creating something from the ground up. And and Elon will tell you something similar. Very difficult to invent invent something new.
+
+Yeah. And people people don't believe you all the time. You're humiliated often, disbelieved most of the time. And so so people forget that part of success and and I I don't think it's health I think it's it's good that we pass that forward and let people know that that it's just part of the journey.
+
+Speaker 2:
+
+Yes.
+
+Speaker 0:
+
+Then suffering is part of the journey.
+
+Speaker 2:
+
+You will appreciate it so these horrible feelings that you have when things are not going so well, you'll appreciate it so much more when they
+
+Speaker 0:
+
+do go well. Deeply grateful. Yeah. Yeah. Deep deep pride.
+
+Incredible pride. Incredible incredible gratefulness and and and surely incredible memories.
+
+Speaker 2:
+
+Absolutely. Jensen, thank you so much for being here. This was really fun. I really enjoyed it and your story is just absolutely incredible and very inspirational and and I, you know, I think it really is the American dream.
+
+Speaker 0:
+
+It is the American dream.
+
+Speaker 2:
+
+It really is.
+
+Speaker 0:
+
+Thank you so much. Thank you, Jeff. Alright. Bye, everybody.

@@ -1,0 +1,92 @@
+[
+  {
+    "rank": 1,
+    "moment_title": "NVIDIA survives by admitting failure and asking Sega for a $5M lifeline",
+    "utterance_range": [
+      271,
+      277
+    ],
+    "why_it_matters": "High-stakes confession, improbable trust from a partner, and a direct causal link to NVIDIA's survival. This is the strongest dramatic turning point in the transcript.",
+    "dimensions": {
+      "stakes": 10,
+      "surprise": 9,
+      "emotional_weight": 9,
+      "historical_impact": 10
+    }
+  },
+  {
+    "rank": 2,
+    "moment_title": "The 2016 box delivery to a small nonprofit OpenAI room",
+    "utterance_range": [
+      247,
+      247
+    ],
+    "why_it_matters": "A cinematic precursor moment: one boxed machine delivered into a modest room that later becomes a central institution in modern AI.",
+    "dimensions": {
+      "stakes": 8,
+      "surprise": 9,
+      "emotional_weight": 7,
+      "historical_impact": 10
+    }
+  },
+  {
+    "rank": 3,
+    "moment_title": "Fear over ambition: Huang's candid admission about motivation",
+    "utterance_range": [
+      309,
+      313
+    ],
+    "why_it_matters": "Counters standard success narratives and reveals a psychologically nuanced leadership model centered on avoiding failure rather than chasing status.",
+    "dimensions": {
+      "stakes": 7,
+      "surprise": 8,
+      "emotional_weight": 9,
+      "historical_impact": 8
+    }
+  },
+  {
+    "rank": 4,
+    "moment_title": "Childhood migration to Oneida, Kentucky and tape-letter years",
+    "utterance_range": [
+      379,
+      405
+    ],
+    "why_it_matters": "The personal origin chapter gives emotional context to work ethic and identity; it grounds business success in family sacrifice.",
+    "dimensions": {
+      "stakes": 8,
+      "surprise": 8,
+      "emotional_weight": 10,
+      "historical_impact": 8
+    }
+  },
+  {
+    "rank": 5,
+    "moment_title": "From $300K DGX One to $4K DGX Spark with similar petaflop class",
+    "utterance_range": [
+      259,
+      261
+    ],
+    "why_it_matters": "A tangible compression of cost and form factor that illustrates the pace of AI infrastructure evolution.",
+    "dimensions": {
+      "stakes": 7,
+      "surprise": 8,
+      "emotional_weight": 6,
+      "historical_impact": 9
+    }
+  },
+  {
+    "rank": 6,
+    "moment_title": "Suffering as part of success, not a contradiction to it",
+    "utterance_range": [
+      457,
+      463
+    ],
+    "why_it_matters": "The thematic close reframes ambition with realism and provides the episode's emotional thesis.",
+    "dimensions": {
+      "stakes": 6,
+      "surprise": 7,
+      "emotional_weight": 9,
+      "historical_impact": 7
+    }
+  }
+]

@@ -1,0 +1,235 @@
+[
+  {
+    "topic_id": 1,
+    "title": "Cold Open: SpaceX, Elon, Trump, and the DGX Hand-off",
+    "utterance_range": [
+      1,
+      17
+    ],
+    "summary": "The conversation opens with shared anecdotes tying Rogan and Huang to Elon Musk and President Trump. Huang frames the recent DGX Spark hand-off to Musk as symbolic continuity from an earlier AI hardware moment.",
+    "key_utterance_ids": [
+      10,
+      15
+    ]
+  },
+  {
+    "topic_id": 2,
+    "title": "Trump, Manufacturing, and Energy-as-Strategy",
+    "utterance_range": [
+      18,
+      33
+    ],
+    "summary": "Huang and Rogan discuss Trump\u2019s governing style and U.S. industrial strategy. Huang argues onshoring and aggressive energy growth are prerequisites for AI factories, chip fabs, and broad job creation.",
+    "key_utterance_ids": [
+      27,
+      33
+    ]
+  },
+  {
+    "topic_id": 3,
+    "title": "The AI Race: National Security, Speed, and Uncertainty",
+    "utterance_range": [
+      34,
+      79
+    ],
+    "summary": "They frame AI as the latest phase in a long historical technology race. Huang emphasizes that progress may be incremental rather than a single AGI event horizon, while still treating leadership as strategically critical.",
+    "key_utterance_ids": [
+      39,
+      49,
+      53,
+      79
+    ]
+  },
+  {
+    "topic_id": 4,
+    "title": "Ads Break: Visible",
+    "utterance_range": [
+      80,
+      80
+    ],
+    "summary": "Sponsor segment interrupts the conversation.",
+    "key_utterance_ids": [
+      80
+    ]
+  },
+  {
+    "topic_id": 5,
+    "title": "Cybersecurity as Collective Defense",
+    "utterance_range": [
+      81,
+      99
+    ],
+    "summary": "Huang describes cybersecurity as a cooperative ecosystem where companies share breach intelligence and patches quickly. He suggests AI security should adopt the same shared-defense model.",
+    "key_utterance_ids": [
+      81,
+      89,
+      95
+    ]
+  },
+  {
+    "topic_id": 6,
+    "title": "Quantum Encryption and the Limits of Secrecy",
+    "utterance_range": [
+      100,
+      119
+    ],
+    "summary": "Rogan pushes the fear that computation could eliminate secrecy. Huang argues post-quantum cryptography and adaptive defenses can keep pace, citing historical precedent of iterative security upgrades.",
+    "key_utterance_ids": [
+      101,
+      107,
+      113,
+      115
+    ]
+  },
+  {
+    "topic_id": 7,
+    "title": "Sentience Debate: Intelligence vs Consciousness",
+    "utterance_range": [
+      120,
+      189
+    ],
+    "summary": "Rogan explores AI sentience scenarios; Huang repeatedly distinguishes pattern-completion intelligence from subjective experience. They debate whether perfect imitation can ever count as consciousness.",
+    "key_utterance_ids": [
+      145,
+      162,
+      171,
+      179
+    ]
+  },
+  {
+    "topic_id": 8,
+    "title": "Jobs, Identity, and UBI",
+    "utterance_range": [
+      190,
+      209
+    ],
+    "summary": "The discussion shifts to labor displacement and meaning. Huang argues jobs centered on mission will evolve, while task-only roles may be automated; he uses radiology as a case where AI increased throughput and demand.",
+    "key_utterance_ids": [
+      193,
+      197,
+      203,
+      209
+    ]
+  },
+  {
+    "topic_id": 9,
+    "title": "Ads Break: DraftKings",
+    "utterance_range": [
+      210,
+      211
+    ],
+    "summary": "Second sponsor and disclaimer segment.",
+    "key_utterance_ids": [
+      210
+    ]
+  },
+  {
+    "topic_id": 10,
+    "title": "Energy Bottlenecks, Moore's Law, and Accelerated Computing",
+    "utterance_range": [
+      212,
+      235
+    ],
+    "summary": "Huang identifies energy as the central bottleneck and argues computation efficiency curves will continue to bend sharply. He frames NVIDIA\u2019s accelerated computing as a force-multiplier beyond classical Moore\u2019s Law.",
+    "key_utterance_ids": [
+      215,
+      217,
+      223,
+      233
+    ]
+  },
+  {
+    "topic_id": 11,
+    "title": "From AlexNet to OpenAI: The DGX Origin Arc",
+    "utterance_range": [
+      236,
+      267
+    ],
+    "summary": "Huang recounts NVIDIA\u2019s reading of the 2012 AlexNet moment, the strategic bet on deep learning, and delivery of an early DGX system to Musk\u2019s then-nonprofit OpenAI team in 2016.",
+    "key_utterance_ids": [
+      243,
+      247,
+      259,
+      263
+    ]
+  },
+  {
+    "topic_id": 12,
+    "title": "NVIDIA's Near-Death Years and the Sega/TSMC Lifelines",
+    "utterance_range": [
+      268,
+      333
+    ],
+    "summary": "This core narrative chronicles NVIDIA\u2019s early existential crises: wrong architecture bets, layoffs, Sega\u2019s pivotal $5M support, process innovation via emulation, and a high-risk tape-out path that eventually transformed the company.",
+    "key_utterance_ids": [
+      271,
+      277,
+      295,
+      303,
+      309,
+      323
+    ]
+  },
+  {
+    "topic_id": 13,
+    "title": "Leadership Method: Vulnerability, Pivoting, and Constant Reassessment",
+    "utterance_range": [
+      334,
+      378
+    ],
+    "summary": "Huang describes leadership as continuous uncertainty management. He argues vulnerability enables better internal feedback and pivots, while his personal routine reflects relentless operational vigilance.",
+    "key_utterance_ids": [
+      341,
+      343,
+      345,
+      355,
+      367,
+      375
+    ]
+  },
+  {
+    "topic_id": 14,
+    "title": "Immigrant Story: Kentucky, Scarcity, and the American Dream",
+    "utterance_range": [
+      379,
+      417
+    ],
+    "summary": "Huang shares his childhood migration story from Taiwan/Thailand to rural Kentucky, family hardship, and long-distance tape-recorded messages with his parents. He frames this as foundational to his values and gratitude.",
+    "key_utterance_ids": [
+      379,
+      385,
+      403,
+      405,
+      411
+    ]
+  },
+  {
+    "topic_id": 15,
+    "title": "The CUDA Bet and Public-Market Pain",
+    "utterance_range": [
+      418,
+      423
+    ],
+    "summary": "Huang recalls adding CUDA despite weak immediate demand and market skepticism, accepting short-term valuation damage for a first-principles bet that later redefined computing.",
+    "key_utterance_ids": [
+      419,
+      423
+    ]
+  },
+  {
+    "topic_id": 16,
+    "title": "Closing Reflections: Rogan's Path and Shared Philosophy of Struggle",
+    "utterance_range": [
+      424,
+      467
+    ],
+    "summary": "Rogan outlines his own iterative path in podcasting; Huang closes by emphasizing that success is not sustained joy but prolonged uncertainty, fear, and effort, with gratitude as the payoff.",
+    "key_utterance_ids": [
+      428,
+      442,
+      457,
+      459,
+      465
+    ]
+  }
+]

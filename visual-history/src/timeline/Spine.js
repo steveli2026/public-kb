@@ -106,8 +106,16 @@ export class Spine {
 
   _storylets(items) {
     const wrap = document.createElement("div");
-    wrap.className = "storylets";
-    for (const item of items) {
+    wrap.className = "storylets-wrap";
+    const grid = document.createElement("div");
+    grid.className = "storylets";
+    wrap.append(grid);
+
+    const SHOW = 6;
+    const visible = items.slice(0, SHOW);
+    const hidden = items.slice(SHOW);
+
+    const makeCard = (item) => {
       const card = document.createElement("article");
       card.className = "storylet";
       const title = document.createElement("h3");
@@ -115,7 +123,21 @@ export class Spine {
       const body = document.createElement("p");
       body.append(linkify(item.body || "", this.db, (id) => this.hooks.openEntity(id)));
       card.append(title, body);
-      wrap.append(card);
+      return card;
+    };
+
+    visible.forEach((it) => grid.append(makeCard(it)));
+
+    if (hidden.length) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "storylets-more";
+      btn.textContent = `⌄ 展开更多 ${hidden.length} 张故事`;
+      btn.addEventListener("click", () => {
+        hidden.forEach((it) => grid.append(makeCard(it)));
+        btn.remove();
+      });
+      wrap.append(btn);
     }
     return wrap;
   }

@@ -87,23 +87,31 @@ export class DetailPanel {
     this.target.append(this._section("生平"));
     this.target.append(this._para(p.bio || "（详情待补充）"));
 
-    const rels = [];
+    // 出向：本人在 relations 里主动提到的他人
+    const outbound = [];
     for (const r of p.relations || []) {
       const o = this.db.person(r.personId);
-      if (o) rels.push({ id: o.id, name: o.name, type: r.type, note: r.note });
+      if (o) outbound.push({ id: o.id, name: o.name, type: r.type, note: r.note });
     }
+    // 入向：他人在 relations 里提到本人（loader 自动注入 _backrefs）
+    const inbound = [];
     for (const r of p._backrefs || []) {
       const o = this.db.person(r.personId);
-      if (o) rels.push({ id: o.id, name: o.name, type: "↩ " + r.type, note: r.note });
+      if (o) inbound.push({ id: o.id, name: o.name, type: r.type, note: r.note });
     }
-    if (rels.length) {
+
+    if (outbound.length) {
       this.target.append(this._section("人物关联"));
-      this.target.append(this._relList(rels));
+      this.target.append(this._relList(outbound));
+    }
+    if (inbound.length) {
+      this.target.append(this._section(`被这些人提到 · ${inbound.length}`));
+      this.target.append(this._relList(inbound));
     }
 
     const evs = [...this.db.events.values()].filter((e) => (e.involvedPersonIds || []).includes(id));
     if (evs.length) {
-      this.target.append(this._section("相关事件"));
+      this.target.append(this._section(`相关事件 · ${evs.length}`));
       this.target.append(this._relList(evs.map((e) => ({ id: e.id, name: e.title, type: fmtYear(e.year) }))));
     }
   }

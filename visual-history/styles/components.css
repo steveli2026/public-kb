@@ -73,6 +73,17 @@
 }
 .storylet .lk { cursor: pointer; color: var(--era-accent); border-bottom: 1px dashed currentColor; }
 .storylet .lk:hover { background: color-mix(in srgb, var(--era-accent) 12%, transparent); }
+.storylets-wrap { margin: var(--space-m) 0 var(--space-l); }
+.storylets-wrap .storylets { margin: 0; }
+.storylets-more {
+  margin-top: .8rem;
+  font: inherit; font-family: var(--font-sans); font-size: var(--step--1);
+  letter-spacing: .15em; color: var(--ink-soft); cursor: pointer;
+  background: transparent; border: var(--rule); border-radius: 999px;
+  padding: .45em 1.1em;
+  transition: background var(--dur-ui), color var(--dur-ui);
+}
+.storylets-more:hover { background: rgba(255,255,255,.6); color: var(--ink); }
 
 .regime-row { display:flex; flex-wrap:wrap; gap:.5rem; margin: var(--space-m) 0; }
 .chip {
@@ -87,9 +98,26 @@
 
 .cols { display:grid; grid-template-columns:1fr 1fr; gap:var(--space-l); margin-top:var(--space-l); }
 @media (max-width:860px){ .cols{ grid-template-columns:1fr; gap:var(--space-m);} }
+.cols > div {
+  /* 列内容超过约 22em 就开始内部滚动；让 era 区高度可控 */
+  max-height: 24em;
+  overflow-y: auto;
+  /* 让自定义滚动条更低调 */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(60,48,30,.25) transparent;
+  /* 给底部一个柔和的渐隐提示可滚动 */
+  mask-image: linear-gradient(to bottom, #000 calc(100% - 1.4em), transparent);
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 1.4em), transparent);
+  padding-right: .3em;
+}
+.cols > div::-webkit-scrollbar { width: 6px; }
+.cols > div::-webkit-scrollbar-thumb { background: rgba(60,48,30,.22); border-radius: 3px; }
 .cols h4 {
   font-family: var(--font-sans); font-size: var(--step--1); letter-spacing:.25em;
   color: var(--ink-faint); border-bottom: var(--rule); padding-bottom:.4em; margin-bottom:.6em;
+  position: sticky; top: 0;
+  background: linear-gradient(to bottom, var(--paper) 80%, transparent);
+  padding-top: .1em; z-index: 1;
 }
 .entry { cursor:pointer; padding:.5em .6em; border-radius:var(--radius); transition: background var(--dur-ui); }
 .entry:hover { background: rgba(255,255,255,.55); }

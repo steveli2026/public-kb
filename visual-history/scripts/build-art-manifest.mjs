@@ -33,6 +33,7 @@ const put = (id, type, prompt, extra = {}) => {
     engine: p.engine || extra.engine || (type === "map" || type === "scene" || type === "hero" ? "openai" : "gemini"),
     versions: p.versions || [],
     selected: p.selected || null,
+    source: p.source || null,
   };
 };
 

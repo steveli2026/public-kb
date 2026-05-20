@@ -7,6 +7,7 @@
     "dev": "node scripts/server.mjs",
     "validate": "node scripts/validate-data.mjs",
     "art:manifest": "node scripts/build-art-manifest.mjs",
-    "art:refs": "node scripts/fetch-refs.mjs"
+    "art:refs": "node scripts/fetch-refs.mjs",
+    "art:wikimedia": "node scripts/fill-wikimedia-art.mjs"
   }
 }

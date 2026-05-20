@@ -138,28 +138,33 @@ function index(arr, key = "id") {
   return m;
 }
 
-// 把 summary/story/bio 中的 [[id]] 解析为可点链接；未知 id 退化为强调文本（宽松，不报错）
+// 把文本中的 [[id]] 或 [[id|显示文字]] 解析为链接：
+// - id 存在：渲染可点链接，文字优先用 |display，其次用 entity 自身 name/title。
+// - id 不存在但有 |display：直接当文字（宽松降级，不再露 id|，适配 agent 偶尔编造的 id）。
+// - id 不存在且无 |display：强调显示 id 本身（概念性引用，如『天命』）。
 export function linkify(text, db, onClick) {
   const frag = document.createDocumentFragment();
   if (!text) return frag;
-  const re = /\[\[([a-zA-Z0-9_-]+)\]\]/g;
+  const re = /\[\[([a-zA-Z0-9_-]+)(?:\|([^\]]+))?\]\]/g;
   let last = 0, m;
   while ((m = re.exec(text))) {
     if (m.index > last) frag.append(document.createTextNode(text.slice(last, m.index)));
-    const id = m[1];
+    const id = m[1], display = m[2];
     const ent = db.entity(id);
     if (ent) {
       const a = document.createElement("span");
       a.className = "lk";
-      a.textContent = ent.name || ent.title || id;
+      a.textContent = display || ent.name || ent.title || id;
       a.tabIndex = 0;
       a.dataset.id = id;
       a.addEventListener("click", () => onClick?.(id));
       a.addEventListener("keydown", (e) => { if (e.key === "Enter") onClick?.(id); });
       frag.append(a);
+    } else if (display) {
+      frag.append(document.createTextNode(display));
     } else {
       const b = document.createElement("strong");
-      b.textContent = id; // 概念性引用（如 天命）— 宽松降级
+      b.textContent = id;
       frag.append(b);
     }
     last = re.lastIndex;

@@ -18,14 +18,41 @@ body {
 .stage {
   display: grid;
   grid-template-columns:
-    clamp(180px, 16vw, 230px)
+    var(--rail-col, clamp(180px, 16vw, 230px))
     minmax(0, 1fr)
-    clamp(300px, 26vw, 400px);
+    var(--right-col, clamp(300px, 26vw, 400px));
   min-height: 100vh;
   background:
     linear-gradient(90deg, color-mix(in srgb, var(--era-accent) 12%, transparent), transparent 18%, transparent 82%, color-mix(in srgb, var(--era-accent) 10%, transparent)),
     radial-gradient(70% 45% at 52% 18%, color-mix(in srgb, var(--era-accent) 18%, transparent), transparent 68%);
-  transition: background 900ms var(--ease);
+  transition: background 900ms var(--ease), grid-template-columns 280ms cubic-bezier(.4, 0, .2, 1);
+}
+
+/* 详尽态：左栏用 store 持久化的宽度（--rail-full-width 由 app.js 注入），右栏收紧 */
+body[data-rail-mode="full"] {
+  --rail-col: var(--rail-full-width, 480px);
+  --right-col: clamp(280px, 22vw, 340px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .stage { transition: background 900ms var(--ease); }
+}
+
+/* 左栏拖拽手柄 */
+.left-rail { position: sticky; }
+.rail-drag-handle {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  width: 6px;
+  cursor: ew-resize;
+  z-index: 5;
+  background: transparent;
+  transition: background 140ms ease;
+}
+.rail-drag-handle:hover,
+.rail-drag-handle.on {
+  background: linear-gradient(90deg, transparent, var(--gold) 50%, transparent);
 }
 
 .left-rail,
@@ -90,11 +117,15 @@ body {
   transition: width 120ms linear;
 }
 
-/* < 1100px：单列堆叠（左栏顶部短缩略图，中叙事，右栏跟随其后） */
+/* < 1100px：单列堆叠（左栏顶部短缩略图，中叙事，右栏跟随其后）。强制简略态。 */
 @media (max-width: 1100px) {
-  .stage { grid-template-columns: 1fr; }
+  .stage { grid-template-columns: 1fr; --rail-col: 1fr; --right-col: auto; }
   .left-rail  { position: sticky; top: 0; height: 32vh; }
   .right-rail { position: relative; height: auto; border-left: 0; border-top: 1px solid rgba(60,48,30,.22); }
   .spine { padding: 0 clamp(1rem, 4vw, 2rem); }
   .era-section { min-height: 80vh; }
+  .rail-drag-handle { display: none; }
+  /* 小屏强制隐藏详尽态 UI（不擦 localStorage） */
+  .detailed-rail { display: none !important; }
+  .minimap { display: flex !important; }
 }

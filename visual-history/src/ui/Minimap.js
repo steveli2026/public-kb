@@ -1,9 +1,11 @@
 // 时间线缩略图（Sublime-style "你在这里"）：垂直列出全部时期，当前高亮，点击跳转。
+// 详尽态时由 RailModeStore 控制隐藏（保留 DOM 以便 setActive 状态不丢）。
 export class Minimap {
   constructor(container, db, hooks) {
     this.db = db; this.container = container; this.hooks = hooks;
     this.rows = new Map();
     this.activeId = null;
+    this.root = null;
   }
 
   render() {
@@ -33,7 +35,12 @@ export class Minimap {
     wrap.append(list);
     this.list = list;
     this.posEl = head.querySelector("#mm-pos");
+    this.root = wrap;
     this.container.append(wrap);
+  }
+
+  setVisible(v) {
+    if (this.root) this.root.style.display = v ? "" : "none";
   }
 
   setActive(eraId) {

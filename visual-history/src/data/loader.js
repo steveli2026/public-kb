@@ -46,6 +46,7 @@ export async function loadAll() {
       if (regimes.has(id)) return "regime";
       return null;
     },
+    hierarchy: () => buildHierarchy(eras, regimes),
   };
 
   const problems = validate(db);
@@ -58,6 +59,77 @@ export async function loadAll() {
   }
   db.problems = problems;
   return db;
+}
+
+/**
+ * 把扁平的 eras 序列展平为 spine 渲染需要的 items：
+ *   { kind: "parent" | "era" | "peer", depth, ... }
+ *
+ * - 同 parentChain 头部相同的连续 era → 共享父级标签行（virtual parent）
+ *   当某层父级开启 → 推一个 { kind:"parent", label, color (从该层首个子 era 推), depth } item
+ *   当父级关闭 → 不显式 pop（按是否相邻判断；如下一行 chain 头不再是该 label 则视为关闭）
+ * - 每个 era 推一个 { kind:"era", era, depth: chain.length }
+ * - 该 era.regimeIds.length >= 2 时，依次推 { kind:"peer", regime, depth+1 }
+ *
+ * 返回扁平数组，由 UI 层（DetailedRail）直接消费。
+ */
+function buildHierarchy(eras, regimes) {
+  const out = [];
+  // 当前开启的父级标签栈（自外向内）。每项 { label, depth, eraColor }
+  const open = [];
+
+  const same = (a, b) => a.length === b.length && a.every((x, i) => x === b[i]);
+
+  eras.forEach((era, i) => {
+    const chain = era.parentChain || []; // 从直接父到最远祖先
+    // 反转为"自外向内"的层级序列（祖先在前、直接父在后）
+    const outerToInner = [...chain].reverse();
+
+    // 关闭：从尾部开始，找到最长的与 open 共同前缀
+    let common = 0;
+    while (
+      common < open.length &&
+      common < outerToInner.length &&
+      open[common].label === outerToInner[common]
+    ) common++;
+    // pop 不再共享的层
+    open.length = common;
+
+    // open 新层
+    for (let d = common; d < outerToInner.length; d++) {
+      const label = outerToInner[d];
+      // 父级颜色：取该层首个子 era 的 color
+      // 找下一个 era（含自己），其 chain reversed[d] == label
+      const colorSource = eras
+        .slice(i)
+        .find((e) => (e.parentChain || []).slice().reverse()[d] === label);
+      out.push({
+        kind: "parent",
+        label,
+        depth: d,
+        eraColor: colorSource?.color || "var(--c-other)",
+      });
+      open.push({ label, depth: d, eraColor: colorSource?.color });
+    }
+
+    // era 本身
+    out.push({ kind: "era", era, depth: outerToInner.length });
+
+    // 并立支线（regimeIds.length >= 2）
+    if ((era.regimeIds || []).length >= 2) {
+      for (const rid of era.regimeIds) {
+        const reg = regimes.get(rid);
+        if (!reg) continue;
+        out.push({
+          kind: "peer",
+          regime: reg,
+          parentEraId: era.id,
+          depth: outerToInner.length + 1,
+        });
+      }
+    }
+  });
+  return out;
 }
 
 function index(arr, key = "id") {

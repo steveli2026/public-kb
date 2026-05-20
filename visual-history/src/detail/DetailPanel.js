@@ -48,6 +48,15 @@ export class DetailPanel {
     return p;
   }
 
+  // 多段：把 detail 按空行切段，每段一个 <p>
+  _multiPara(text) {
+    const frag = document.createDocumentFragment();
+    for (const para of String(text).split(/\n\s*\n/).map(s => s.trim()).filter(Boolean)) {
+      frag.append(this._para(para));
+    }
+    return frag;
+  }
+
   _art(id) {
     const kind = this.db.entityKind(id);
     const aspect = kind === "person" ? "3 / 4" : "3 / 2";
@@ -87,6 +96,11 @@ export class DetailPanel {
     this.target.append(this._section("生平"));
     this.target.append(this._para(p.bio || "（详情待补充）"));
 
+    if (p.detail) {
+      this.target.append(this._section("详细"));
+      this.target.append(this._multiPara(p.detail));
+    }
+
     const rels = [];
     for (const r of p.relations || []) {
       const o = this.db.person(r.personId);
@@ -114,6 +128,12 @@ export class DetailPanel {
     this.target.append(this._art(id));
     this.target.append(this._section("始末"));
     this.target.append(this._para(e.narrative || "（详情待补充）"));
+
+    if (e.detail) {
+      this.target.append(this._section("详细"));
+      this.target.append(this._multiPara(e.detail));
+    }
+
     const ppl = (e.involvedPersonIds || []).map((pid) => this.db.person(pid)).filter(Boolean);
     if (ppl.length) {
       this.target.append(this._section("关涉人物"));

@@ -25,6 +25,7 @@ for (let i = 2; i < process.argv.length; i++) {
 }
 const limit = Number(args.get("limit") || 0);
 const kindFilter = args.get("kind") || "";
+const idFilter = new Set(String(args.get("ids") || "").split(",").map((x) => x.trim()).filter(Boolean));
 
 const rd = async (p) => JSON.parse(await readFile(DATA + p, "utf8"));
 const manifest = JSON.parse(await readFile(MANIFEST, "utf8"));
@@ -39,6 +40,17 @@ const meta = new Map([
   ...events.map((x) => [`event:${x.id}`, { kind: "event", title: x.title, extra: "" }]),
   ...regimes.map((x) => [`regime:${x.id}`, { kind: "regime", title: x.name, extra: "" }]),
 ]);
+
+const CURATED_FILES = {
+  "person:qinshihuang": "File:Qinshihuangdi3.jpg",
+  "person:caocao": "File:Cao Cao scth.jpg",
+  "person:liubei": "File:Liu Bei Portrait 2.jpg",
+  "person:sunquan": "File:Sun Quan Tang.jpg",
+  "person:zhugeliang": "File:明人绘 《诸葛亮像》（南薰殿本）.jpg",
+  "person:yangjian": "File:隋文帝 杨坚.jpg",
+  "person:litaizong": "File:TangTaizongP (cropped).jpg",
+  "person:wuzetian": "File:則天大聖皇帝像圖.jpg",
+};
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 let lastApiAt = 0;
@@ -248,6 +260,10 @@ function variants({ title, extra, kind }) {
 }
 
 async function findImage(info) {
+  if (info.id && CURATED_FILES[info.id]) {
+    const exact = await commonsFile(CURATED_FILES[info.id]);
+    if (exact) return { ...exact, query: CURATED_FILES[info.id], method: "curated-commons-file" };
+  }
   const qs = variants(info);
   for (const q of qs.slice(0, 2)) {
     const exact = await commonsImage(q);
@@ -393,6 +409,7 @@ await mkdir(OUT_DIR, { recursive: true });
 const entries = Object.entries(manifest.slots)
   .filter(([id, slot]) => !hasSelected(slot) && meta.has(id))
   .filter(([id]) => !kindFilter || meta.get(id).kind === kindFilter)
+  .filter(([id]) => !idFilter.size || idFilter.has(id))
   .slice(0, limit || undefined);
 
 let ok = 0;
@@ -400,15 +417,17 @@ let miss = 0;
 let fail = 0;
 let halted = false;
 
-const batch = await batchExact(entries);
-ok += batch.ok;
-fail += batch.fail;
-halted = batch.halted;
+if (!idFilter.size) {
+  const batch = await batchExact(entries);
+  ok += batch.ok;
+  fail += batch.fail;
+  halted = batch.halted;
+}
 
 for (const [id, slot] of entries) {
   if (halted) break;
   if (hasSelected(slot)) continue;
-  const info = meta.get(id);
+  const info = { id, ...meta.get(id) };
   try {
     const hit = await findImage(info);
     if (!hit) {

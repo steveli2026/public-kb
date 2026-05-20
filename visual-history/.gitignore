@@ -2,6 +2,7 @@
 .env
 .env.*
 node_modules/
+.claude/
 vh*.jpeg
 *.log
 .playwright-mcp/

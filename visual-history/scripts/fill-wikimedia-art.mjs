@@ -12,6 +12,8 @@ const DATA = ROOT + "data/";
 const MANIFEST = DATA + "art-manifest.json";
 const OUT_DIR = ROOT + "assets/art/wiki/";
 const SITE_OUT_DIR = "assets/art/wiki/";
+const STATE_DIR = ROOT + ".omx/state/";
+const RATE_STATE = STATE_DIR + "wikimedia-art-fill.json";
 const UA = "visual-history-image-fill/0.1 (Wikimedia Commons attribution helper)";
 const THUMB_WIDTH = "640";
 
@@ -20,12 +22,25 @@ for (let i = 2; i < process.argv.length; i++) {
   const a = process.argv[i];
   if (!a.startsWith("--")) continue;
   const [k, inline] = a.slice(2).split("=");
-  args.set(k, inline ?? process.argv[i + 1]);
-  if (inline == null) i++;
+  if (inline != null) {
+    args.set(k, inline);
+  } else if (process.argv[i + 1] && !process.argv[i + 1].startsWith("--")) {
+    args.set(k, process.argv[i + 1]);
+    i++;
+  } else {
+    args.set(k, true);
+  }
 }
 const limit = Number(args.get("limit") || 0);
 const kindFilter = args.get("kind") || "";
 const idFilter = new Set(String(args.get("ids") || "").split(",").map((x) => x.trim()).filter(Boolean));
+const apiIntervalMs = Number(args.get("api-interval-ms") || 1200);
+const downloadIntervalMs = Number(args.get("download-interval-ms") || 5000);
+const rateRetries = Number(args.get("rate-retries") || 8);
+const maxSleepMs = Number(args.get("max-sleep-ms") || 30 * 60 * 1000);
+const stopOnRateLimit = args.has("stop-on-rate-limit");
+const startAfter = args.get("start-after") || "";
+const retryMisses = args.has("retry-misses");
 
 const rd = async (p) => JSON.parse(await readFile(DATA + p, "utf8"));
 const manifest = JSON.parse(await readFile(MANIFEST, "utf8"));
@@ -41,6 +56,13 @@ const meta = new Map([
   ...regimes.map((x) => [`regime:${x.id}`, { kind: "regime", title: x.name, extra: "" }]),
 ]);
 
+for (const [id, slot] of Object.entries(manifest.slots || {})) {
+  if (meta.has(id)) continue;
+  const kind = id.split(":")[0];
+  const title = (slot.prompt || id).split(/[。；！？\n]/).filter(Boolean)[0] || id;
+  meta.set(id, { kind, title, extra: "" });
+}
+
 const CURATED_FILES = {
   "person:qinshihuang": "File:Qinshihuangdi3.jpg",
   "person:caocao": "File:Cao Cao scth.jpg",
@@ -50,11 +72,39 @@ const CURATED_FILES = {
   "person:yangjian": "File:隋文帝 杨坚.jpg",
   "person:litaizong": "File:TangTaizongP (cropped).jpg",
   "person:wuzetian": "File:則天大聖皇帝像圖.jpg",
+  "person:shang-fuhao": "File:Fu Hao.jpg",
+  "person:dj-xiedaoyun": "File:Xie Daoyun.jpg",
+  "person:sui-xushiji-pre": "File:李勣.png",
+  "person:tang-lishiji": "File:李勣.png",
+  "person:tang-guoziyi": "File:Portraits of Famous Men - Guo Ziyi.jpg",
+  "person:tang-yangaoqing": "File:唐名臣像-12-顔杲卿.jpg",
+  "person:tang-dufu": "File:Dufu.jpg",
+  "person:bs-yangye": "File:繼業夜觀天象（楊家府世代忠勇演義志傳）.jpg",
+  "person:bs-ouyangxiu": "File:OuyangXiuPortrait.jpg",
+  "person:ss-zhangjun": "File:張俊.jpg",
+  "person:ss-xinqiji": "File:The statue of Xin Qiji.JPG",
+  "person:ss-zhangshijie": "File:張世傑-吳郡名賢圖傳贊.jpg",
+  "person:ss-songgongdi": "File:Song Gongdi2.jpg",
+  "person:yuan-guoshoujing": "File:Xingtai Guo Shoujing's Statue.jpg",
+  "person:qing-liangqichao": "File:Liang-Qichao.jpg",
+  "event:muye": "File:Battle of Muye.jpg",
+  "event:changping": "File:Battle of changping,长平之战.svg",
+  "event:guandu": "File:Guanduzhizhan eng.png",
+  "event:chibi": "File:Battle of Red Cliffs 208 extended map-en.svg",
+  "event:feishui": "File:Battle of Fei River.png",
+  "event:qin-julu": "File:Juluzhizhan.png",
+  "event:gaixia": "File:Gaixia Site in Guzhen (9974483164).jpg",
+  "event:shang-jizi-yangkuang": "File:FengShen.jpg",
+  "event:wd2-yelvdeguang-rumian": "File:KhitanAD1000.png",
 };
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-let lastApiAt = 0;
-let lastDownloadAt = 0;
+const defaultThrottle = () => ({
+  api: { lastAt: 0, blockedUntil: 0, strikes: 0 },
+  download: { lastAt: 0, blockedUntil: 0, strikes: 0 },
+  misses: {},
+});
+let throttle = defaultThrottle();
 const clean = (s) => (s || "")
   .replace(/<[^>]+>/g, "")
   .replace(/&nbsp;/g, " ")
@@ -68,15 +118,79 @@ const baseTitle = (title) => title
   .replace(/\s*·\s*/g, " ")
   .trim();
 
+async function loadThrottleState() {
+  try {
+    throttle = { ...defaultThrottle(), ...JSON.parse(await readFile(RATE_STATE, "utf8")) };
+    throttle.api = { ...defaultThrottle().api, ...(throttle.api || {}) };
+    throttle.download = { ...defaultThrottle().download, ...(throttle.download || {}) };
+    throttle.misses = throttle.misses || {};
+  } catch {
+    throttle = defaultThrottle();
+  }
+}
+
+async function saveThrottleState() {
+  await mkdir(STATE_DIR, { recursive: true });
+  await writeFile(RATE_STATE, JSON.stringify({ ...throttle, updatedAt: Date.now() }, null, 2) + "\n");
+}
+
+function fmtMs(ms) {
+  const sec = Math.ceil(ms / 1000);
+  if (sec < 60) return `${sec}s`;
+  const min = Math.floor(sec / 60);
+  const rest = sec % 60;
+  return rest ? `${min}m${rest}s` : `${min}m`;
+}
+
+async function throttleWait(scope, minIntervalMs) {
+  const bucket = throttle[scope];
+  const now = Date.now();
+  const waits = [
+    Math.max(0, bucket.blockedUntil - now),
+    Math.max(0, minIntervalMs - (now - bucket.lastAt)),
+  ];
+  const wait = Math.max(...waits);
+  if (wait) {
+    console.log(`WAIT ${scope}: ${fmtMs(wait)}`);
+    await sleep(wait);
+  }
+  bucket.lastAt = Date.now();
+  await saveThrottleState();
+}
+
+function rateDelayMs(resp, body, scope, attempt) {
+  const retryAfter = Number(resp.headers.get("retry-after") || 0);
+  if (retryAfter > 0) return retryAfter * 1000;
+  const policyLimit = /robot policy|less disruptive|too many requests/i.test(body || "");
+  if (!policyLimit) return 5000 * (attempt + 1);
+  const strikes = (throttle[scope].strikes || 0) + 1;
+  return Math.min(maxSleepMs, 60_000 * (2 ** Math.min(strikes - 1, 5)));
+}
+
+async function handleRateLimit(resp, body, scope, attempt) {
+  if (stopOnRateLimit) throw new Error("WIKIMEDIA_RATE_LIMIT");
+  const delay = rateDelayMs(resp, body, scope, attempt);
+  throttle[scope].strikes = (throttle[scope].strikes || 0) + 1;
+  throttle[scope].blockedUntil = Date.now() + delay;
+  await saveThrottleState();
+  console.log(`WAIT ${scope}: 429 rate limit, sleeping ${fmtMs(delay)} before retry`);
+  await sleep(delay);
+}
+
+async function markRateSuccess(scope) {
+  throttle[scope].strikes = 0;
+  throttle[scope].blockedUntil = 0;
+  throttle[scope].lastAt = Date.now();
+  await saveThrottleState();
+}
+
 async function api(url, params) {
   const u = new URL(url);
   for (const [k, v] of Object.entries({ origin: "*", format: "json", ...params })) {
     if (v != null && v !== "") u.searchParams.set(k, v);
   }
-  for (let attempt = 0; attempt < 4; attempt++) {
-    const wait = Math.max(0, 1200 - (Date.now() - lastApiAt));
-    if (wait) await sleep(wait);
-    lastApiAt = Date.now();
+  for (let attempt = 0; attempt < rateRetries; attempt++) {
+    await throttleWait("api", apiIntervalMs);
     const resp = await fetch(u, {
       headers: {
         "User-Agent": UA,
@@ -86,15 +200,14 @@ async function api(url, params) {
     });
     if (resp.status === 429) {
       const body = await resp.text().catch(() => "");
-      if (/robot policy|less disruptive|too many requests/i.test(body)) throw new Error("WIKIMEDIA_RATE_LIMIT");
-      const retryAfter = Number(resp.headers.get("retry-after") || 0);
-      await sleep((retryAfter ? retryAfter * 1000 : 5000 * (attempt + 1)));
+      await handleRateLimit(resp, body, "api", attempt);
       continue;
     }
     if (!resp.ok) throw new Error(`${resp.status} ${resp.statusText}`);
+    await markRateSuccess("api");
     return resp.json();
   }
-  throw new Error("429 Too Many Requests");
+  throw new Error("WIKIMEDIA_RATE_LIMIT");
 }
 
 async function zhPages(params) {
@@ -297,26 +410,27 @@ function extFrom(mime, url) {
 }
 
 async function download(hit, id) {
-  const wait = Math.max(0, 5000 - (Date.now() - lastDownloadAt));
-  if (wait) await sleep(wait);
-  lastDownloadAt = Date.now();
-  const resp = await fetch(hit.url, {
-    headers: { "User-Agent": UA, "Api-User-Agent": UA },
-    signal: AbortSignal.timeout(30000),
-  });
-  if (!resp.ok) {
-    const body = await resp.text().catch(() => "");
-    if (resp.status === 429 && /robot policy|less disruptive|too many requests/i.test(body)) {
-      throw new Error("WIKIMEDIA_RATE_LIMIT");
+  for (let attempt = 0; attempt < rateRetries; attempt++) {
+    await throttleWait("download", downloadIntervalMs);
+    const resp = await fetch(hit.url, {
+      headers: { "User-Agent": UA, "Api-User-Agent": UA },
+      signal: AbortSignal.timeout(30000),
+    });
+    if (resp.status === 429) {
+      const body = await resp.text().catch(() => "");
+      await handleRateLimit(resp, body, "download", attempt);
+      continue;
     }
-    throw new Error(`${resp.status} ${resp.statusText}`);
+    if (!resp.ok) throw new Error(`${resp.status} ${resp.statusText}`);
+    await markRateSuccess("download");
+    const buf = Buffer.from(await resp.arrayBuffer());
+    if (buf.length < 5000) throw new Error("image too small");
+    const mime = resp.headers.get("content-type")?.split(";")[0] || hit.mime;
+    const file = `${SITE_OUT_DIR}${safeName(id)}.${extFrom(mime, hit.url)}`;
+    await writeFile(ROOT + file, buf);
+    return file;
   }
-  const buf = Buffer.from(await resp.arrayBuffer());
-  if (buf.length < 5000) throw new Error("image too small");
-  const mime = resp.headers.get("content-type")?.split(";")[0] || hit.mime;
-  const file = `${SITE_OUT_DIR}${safeName(id)}.${extFrom(mime, hit.url)}`;
-  await writeFile(ROOT + file, buf);
-  return file;
+  throw new Error("WIKIMEDIA_RATE_LIMIT");
 }
 
 async function saveManifest() {
@@ -344,8 +458,21 @@ async function applyHit(id, slot, hit) {
   }
   slot.selected = file;
   slot.source = source;
+  if (throttle.misses[id]) {
+    delete throttle.misses[id];
+    await saveThrottleState();
+  }
   await saveManifest();
   return file;
+}
+
+async function recordMiss(id, info) {
+  throttle.misses[id] = {
+    title: info.title,
+    kind: info.kind,
+    lastAt: Date.now(),
+  };
+  await saveThrottleState();
 }
 
 async function batchExact(entries) {
@@ -404,12 +531,21 @@ async function batchExact(entries) {
   return { ok, fail, halted };
 }
 
+await loadThrottleState();
 await mkdir(OUT_DIR, { recursive: true });
 
-const entries = Object.entries(manifest.slots)
+const allEntries = Object.entries(manifest.slots);
+const startAfterIndex = startAfter ? allEntries.findIndex(([id]) => id === startAfter) : -1;
+if (startAfter && startAfterIndex === -1) {
+  throw new Error(`Unknown --start-after id: ${startAfter}`);
+}
+
+const entries = allEntries
+  .filter((_, index) => startAfterIndex < 0 || index > startAfterIndex)
   .filter(([id, slot]) => !hasSelected(slot) && meta.has(id))
   .filter(([id]) => !kindFilter || meta.get(id).kind === kindFilter)
   .filter(([id]) => !idFilter.size || idFilter.has(id))
+  .filter(([id]) => retryMisses || idFilter.size || !throttle.misses[id])
   .slice(0, limit || undefined);
 
 let ok = 0;
@@ -433,6 +569,7 @@ for (const [id, slot] of entries) {
     if (!hit) {
       miss++;
       console.log(`MISS ${id} ${info.title}`);
+      await recordMiss(id, info);
       continue;
     }
     const file = await applyHit(id, slot, hit);

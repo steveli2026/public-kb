@@ -7,3 +7,4 @@ vh*.jpeg
 .playwright-mcp/
 .vercel/
 assets/ref/
+.vercel

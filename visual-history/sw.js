@@ -1,4 +1,4 @@
-const ASSET_CACHE = "visual-history-assets-v1";
+const ASSET_CACHE = "visual-history-assets-v2";
 const DATA_CACHE = "visual-history-data-v1";
 const SHELL_CACHE = "visual-history-shell-v1";
 const KNOWN_CACHES = new Set([ASSET_CACHE, DATA_CACHE, SHELL_CACHE]);

@@ -6,10 +6,12 @@ class ArtStore {
   constructor() { this.edit = false; this.m = { slots: {}, styleByType: {} }; }
 
   async init() {
-    try {
-      const h = await fetch("/api/health", { signal: AbortSignal.timeout(1500) });
-      this.edit = h.ok;
-    } catch { this.edit = false; }
+    if (isLocalEditorHost()) {
+      try {
+        const h = await fetch("/api/health", { signal: AbortSignal.timeout(1500) });
+        this.edit = h.ok;
+      } catch { this.edit = false; }
+    }
     try {
       const r = await fetch(this.edit ? "/api/manifest" : MANIFEST_URL, { cache: "no-store" });
       this.m = await r.json();
@@ -42,5 +44,8 @@ class ArtStore {
 }
 function post(obj) {
   return { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(obj) };
+}
+function isLocalEditorHost() {
+  return ["localhost", "127.0.0.1", "::1"].includes(location.hostname);
 }
 export const artStore = new ArtStore();

@@ -25,12 +25,10 @@ export class Spine {
     s.dataset.era = "__hero";
     s.innerHTML = `
       <div class="seal">华夏</div>
-      <h1>中国历史长卷</h1>
-      <p class="lede">三皇五帝 → 一九四九。<br>四千年治乱兴衰，一卷读尽。</p>
+      <h1>青山依旧，几度兴亡</h1>
+      <p class="lede">从三皇五帝到一九四九，<br>王朝更替，山河易色，<br>人物与命运在同一卷历史中相逢。</p>
       <p style="max-width:42ch;color:var(--ink-soft)">
-        左侧随时代更替展开当时的山河图景；右侧以故事串起王朝、人物与事件。
-        点开人物与事件，看他们如何彼此勾连：写下『我花开后百花杀』的黄巢，
-        与亲手葬送大唐的降将朱温，正是其一。</p>
+        向下展开长卷：看天下如何分合，看制度如何生灭，看一个个名字如何改变时代。</p>
       <p class="hint">向下滚动，长卷展开</p>`;
     s.insertBefore(
       ImageSlot("hero", { aspect: "16 / 9", className: "hero-art" }),

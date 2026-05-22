@@ -1,7 +1,7 @@
 {
   "viewBox": "0 0 1536 1024",
   "baseImageId": "_basemap",
-  "_note": "坐标系对齐 AI 生成底图 assets/art/_basemap.png（1536x1024，真实中国地理）。cell 为历史地理大区，叠在底图之上做着色/高亮（mix-blend-mode），快照通过把 cell 指派给政权表现疆域演变。坐标为近似，可用 tools/geo-author.html 在新底图上精修。",
+  "_note": "坐标系对齐 AI 生成底图 assets/art/_basemap.webp（1536x1024，真实中国地理）。cell 为历史地理大区，叠在底图之上做着色/高亮（mix-blend-mode），快照通过把 cell 指派给政权表现疆域演变。坐标为近似，可用 tools/geo-author.html 在新底图上精修。",
   "cells": [
     { "id": "mobei",    "name": "漠北",       "poly": [[470,90],[1080,80],[1140,250],[470,260]] },
     { "id": "monan",    "name": "漠南·河套",   "poly": [[560,260],[1000,255],[1010,400],[600,410]] },

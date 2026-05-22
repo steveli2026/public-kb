@@ -40,7 +40,7 @@ npm run validate     # 数据交叉引用完整性校验
 
 `npm run dev`（= `node scripts/server.mjs`）启动后即「编辑模式」：每个图位旁有
 **Prompt 框 + 垫图开关 + 引擎选择(OpenAI/Gemini) + 一键生成 + 多版本挑选**。
-点「一键生成」由你触发；生成图存 `assets/art/<slot>/vN-*.png`，可生成多次挑一个采用。
+点「一键生成」由你触发；生成图存 `assets/art/<slot>/vN-*.webp`，可生成多次挑一个采用。
 分享出去（静态托管/无本地服务）则自动只读：朋友只看选定图或占位，无编辑器、不暴露密钥。
 
 ```bash

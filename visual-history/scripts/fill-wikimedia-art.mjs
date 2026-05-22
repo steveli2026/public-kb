@@ -6,6 +6,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import { encodeWebp, isRasterMime } from "./imagegen/webp.mjs";
 
 const ROOT = fileURLToPath(new URL("../", import.meta.url));
 const DATA = ROOT + "data/";
@@ -426,8 +427,10 @@ async function download(hit, id) {
     const buf = Buffer.from(await resp.arrayBuffer());
     if (buf.length < 5000) throw new Error("image too small");
     const mime = resp.headers.get("content-type")?.split(";")[0] || hit.mime;
-    const file = `${SITE_OUT_DIR}${safeName(id)}.${extFrom(mime, hit.url)}`;
-    await writeFile(ROOT + file, buf);
+    const encoded = isRasterMime(mime) ? await encodeWebp(buf, mime) : { buffer: buf, mime };
+    const ext = encoded.mime === "image/webp" ? "webp" : extFrom(mime, hit.url);
+    const file = `${SITE_OUT_DIR}${safeName(id)}.${ext}`;
+    await writeFile(ROOT + file, encoded.buffer);
     return file;
   }
   throw new Error("WIKIMEDIA_RATE_LIMIT");
@@ -438,8 +441,9 @@ async function saveManifest() {
 }
 
 async function applyHit(id, slot, hit) {
-  const file = existsSync(ROOT + `${SITE_OUT_DIR}${safeName(id)}.${extFrom(hit.mime, hit.url)}`)
-    ? `${SITE_OUT_DIR}${safeName(id)}.${extFrom(hit.mime, hit.url)}`
+  const existingExt = isRasterMime(hit.mime) ? "webp" : extFrom(hit.mime, hit.url);
+  const file = existsSync(ROOT + `${SITE_OUT_DIR}${safeName(id)}.${existingExt}`)
+    ? `${SITE_OUT_DIR}${safeName(id)}.${existingExt}`
     : await download(hit, id);
   const source = {
     provider: "Wikimedia Commons",

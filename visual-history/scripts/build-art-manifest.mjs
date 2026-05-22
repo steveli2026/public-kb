@@ -38,7 +38,7 @@ const put = (id, type, prompt, extra = {}) => {
 };
 
 put("hero", "hero", "中国历史长卷开篇：黄河长江贯穿的辽阔山河，群山如龙，云气翻涌，朝代如潮起潮落");
-put("map", "map", "中国全图：完整的海岸线、山脉与江河水系", { ref: existsSync(ROOT + "assets/ref/china-relief.jpg") ? "assets/ref/china-relief.jpg" : null });
+put("map", "map", "中国全图：完整的海岸线、山脉与江河水系", { ref: existsSync(ROOT + "assets/ref/china-relief.webp") ? "assets/ref/china-relief.webp" : null });
 
 for (const e of eras)
   put(`era:${e.id}`, "scene", `${e.name}（${e.years}）天下大势。${head(e.summary)}`);
@@ -60,9 +60,9 @@ function migrate(id, file) {
   s.versions.unshift({ file, engine: "legacy", ts: 0 });
   if (!s.selected) s.selected = file;
 }
-migrate("map", "assets/art/_basemap.png");
-migrate("person:huangchao", "assets/art/huangchao.png");
-migrate("person:zhuwen", "assets/art/zhuwen.png");
+migrate("map", "assets/art/_basemap.webp");
+migrate("person:huangchao", "assets/art/huangchao.webp");
+migrate("person:zhuwen", "assets/art/zhuwen.webp");
 
 const out = {
   _note:

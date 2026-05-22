@@ -4,7 +4,7 @@
 //
 // 用法:
 //   node scripts/imagegen/generate.mjs --id huangchao              # 用 art-manifest 的 prompt，简单→Gemini
-//   node scripts/imagegen/generate.mjs --id _basemap --ref assets/ref/wiki.png   # 垫图→gpt-image
+//   node scripts/imagegen/generate.mjs --id _basemap --ref assets/ref/wiki.webp  # 垫图→gpt-image
 //   node scripts/imagegen/generate.mjs --id zhuwen --prompt "..." --engine gemini
 //   node scripts/imagegen/generate.mjs --all                       # 补全 manifest 中所有缺图
 import { readFile, writeFile, mkdir } from "node:fs/promises";
@@ -12,6 +12,7 @@ import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { geminiGenerate } from "./gemini.mjs";
 import { openaiGenerate, openaiEdit } from "./openai.mjs";
+import { encodeWebp, withWebpExtension } from "./webp.mjs";
 
 const ROOT = fileURLToPath(new URL("../../", import.meta.url));
 const MANIFEST = ROOT + "data/art-manifest.json";
@@ -35,8 +36,6 @@ function args() {
 
 const mimeOf = (p) => p.endsWith(".jpg") || p.endsWith(".jpeg") ? "image/jpeg"
   : p.endsWith(".webp") ? "image/webp" : "image/png";
-const extOf = (mime) => mime.includes("jpeg") ? "jpg" : mime.includes("webp") ? "webp" : "png";
-
 async function loadRefs(paths) {
   const out = [];
   for (const p of paths) {
@@ -76,15 +75,18 @@ async function genOne(id, manifest, opt) {
   }
 
   await mkdir(ART_DIR, { recursive: true });
-  const ext = extOf(res.mime);
-  const file = `${id}.${ext}`;
-  await writeFile(opt.out ? (opt.out.startsWith("/") ? opt.out : ROOT + opt.out) : ART_DIR + file, res.buffer);
+  const encoded = await encodeWebp(res.buffer, res.mime);
+  const file = `${id}.webp`;
+  const outPath = opt.out
+    ? (opt.out.startsWith("/") ? opt.out : ROOT + withWebpExtension(opt.out))
+    : ART_DIR + file;
+  await writeFile(outPath, encoded.buffer);
   // 回写 manifest src（相对站点根）
   if (manifest.art?.[id]) {
-    manifest.art[id].src = `assets/art/${file}`;
+    manifest.art[id].src = opt.out ? withWebpExtension(opt.out) : `assets/art/${file}`;
     await writeFile(MANIFEST, JSON.stringify(manifest, null, 2) + "\n");
   }
-  console.error(`  ✓ ${(res.buffer.length / 1024) | 0}KB → assets/art/${file}`);
+  console.error(`  ✓ ${(encoded.buffer.length / 1024) | 0}KB → ${opt.out ? withWebpExtension(opt.out) : `assets/art/${file}`}`);
   return file;
 }
 

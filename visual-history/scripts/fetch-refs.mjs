@@ -3,6 +3,7 @@
 // 用法：node scripts/fetch-refs.mjs
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
+import { encodeWebp } from "./imagegen/webp.mjs";
 
 const ROOT = fileURLToPath(new URL("../", import.meta.url));
 const MANIFEST = ROOT + "data/art-manifest.json";
@@ -52,10 +53,12 @@ for (const [slot, candidates] of Object.entries(CURATED)) {
       const buf = Buffer.from(await resp.arrayBuffer());
       if (buf.length < 20000) continue;
       const safe = slot.replace(/[:]/g, "__");
-      const file = `assets/ref/${safe}.jpg`;
-      await writeFile(ROOT + file, buf);
+      const mime = resp.headers.get("content-type")?.split(";")[0] || "image/jpeg";
+      const encoded = await encodeWebp(buf, mime);
+      const file = `assets/ref/${safe}.webp`;
+      await writeFile(ROOT + file, encoded.buffer);
       m.slots[slot].ref = file;
-      saved = `${c} → ${file} (${(buf.length / 1024) | 0}KB)`;
+      saved = `${c} → ${file} (${(encoded.buffer.length / 1024) | 0}KB)`;
       ok++;
       break;
     } catch { /* try next */ }

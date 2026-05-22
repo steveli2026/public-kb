@@ -11,6 +11,7 @@ import { extname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { geminiGenerate } from "./imagegen/gemini.mjs";
 import { openaiGenerate, openaiEdit } from "./imagegen/openai.mjs";
+import { encodeWebp } from "./imagegen/webp.mjs";
 
 const ROOT = fileURLToPath(new URL("../", import.meta.url));
 const MANIFEST = ROOT + "data/art-manifest.json";
@@ -66,16 +67,16 @@ async function handleGenerate(reqBody) {
   const safe = id.replace(/[:]/g, "__");
   const dir = `assets/art/${safe}`;
   await mkdir(ROOT + dir, { recursive: true });
-  const ext = result.mime.includes("jpeg") ? "jpg" : result.mime.includes("webp") ? "webp" : "png";
+  const encoded = await encodeWebp(result.buffer, result.mime);
   const n = (slot.versions?.length || 0) + 1;
-  const file = `${dir}/v${n}-${Date.now()}.${ext}`;
-  await writeFile(ROOT + file, result.buffer);
+  const file = `${dir}/v${n}-${Date.now()}.webp`;
+  await writeFile(ROOT + file, encoded.buffer);
 
   slot.versions = slot.versions || [];
   slot.versions.push({ file, engine, usedRef: !!ref, ts: Date.now() });
   slot.selected = file;
   await saveManifest(m);
-  return { ok: true, file, versions: slot.versions, selected: slot.selected, kb: (result.buffer.length / 1024) | 0 };
+  return { ok: true, file, versions: slot.versions, selected: slot.selected, kb: (encoded.buffer.length / 1024) | 0 };
 }
 
 createServer(async (req, res) => {

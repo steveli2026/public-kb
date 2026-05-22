@@ -40,6 +40,8 @@ const ERA_THEMES = {
 };
 
 (async function main() {
+  registerServiceWorker();
+
   let db;
   try {
     [db] = await Promise.all([loadAll(), artStore.init()]);
@@ -203,4 +205,16 @@ function applyEraTheme(era) {
   root.style.setProperty("--era-paper-2", paper2);
   root.style.setProperty("--era-edge", edge);
   document.body.dataset.era = era.id;
+}
+
+function registerServiceWorker() {
+  if (!("serviceWorker" in navigator)) return;
+  const isLocalhost = ["localhost", "127.0.0.1", "::1"].includes(location.hostname);
+  if (location.protocol !== "https:" && !isLocalhost) return;
+
+  addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js").catch((err) => {
+      console.warn("Service worker registration failed", err);
+    });
+  });
 }

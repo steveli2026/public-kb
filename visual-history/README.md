@@ -10,6 +10,7 @@ npm run validate     # 数据交叉引用完整性校验
 ```
 
 部署：纯静态，`vercel deploy`（已带 `vercel.json`）或任意静态托管。
+线上环境会注册 `sw.js`：图片、地图与 vendor 资源优先走浏览器本地 Cache Storage；`data/*.json` 走网络优先、离线缓存兜底。
 
 ## 结构
 

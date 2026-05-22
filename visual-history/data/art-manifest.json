@@ -1825,9 +1825,15 @@
             "query": "秦始皇",
             "method": "zh-pageimage"
           }
+        },
+        {
+          "file": "assets/art/person__qinshihuang/v2-1779422770636.png",
+          "engine": "gemini",
+          "usedRef": false,
+          "ts": 1779422770642
         }
       ],
-      "selected": "assets/art/wiki/person__qinshihuang.jpg",
+      "selected": "assets/art/person__qinshihuang/v2-1779422770636.png",
       "source": {
         "provider": "Wikimedia Commons",
         "title": "File:Qinshihuang.jpg",

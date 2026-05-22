@@ -19,9 +19,15 @@
           "engine": "openai",
           "usedRef": false,
           "ts": 1779225530192
+        },
+        {
+          "file": "assets/art/hero/v2-1779427436653.png",
+          "engine": "openai",
+          "usedRef": false,
+          "ts": 1779427436655
         }
       ],
-      "selected": "assets/art/hero/v1-1779225530190.png"
+      "selected": "assets/art/hero/v2-1779427436653.png"
     },
     "map": {
       "type": "map",
@@ -34,9 +40,15 @@
           "file": "assets/art/_basemap.png",
           "engine": "legacy",
           "ts": 0
+        },
+        {
+          "file": "assets/art/map/v2-1779427523957.png",
+          "engine": "openai",
+          "usedRef": false,
+          "ts": 1779427523959
         }
       ],
-      "selected": "assets/art/_basemap.png"
+      "selected": "assets/art/map/v2-1779427523957.png"
     },
     "era:sanhuang": {
       "type": "scene",
